@@ -4,4 +4,4 @@ _By Jachym Tolar_
 ## OVERVIEW
 embed test
 
-[ocr Specification](170844-specification-accredited-a-level-gce-computer-science-h446 (1).pdf)
+[ocr Specification](https://github.com/JachymT/a-level-cs-blog/blob/main/ocr-a-level-specification-h446.pdf)
