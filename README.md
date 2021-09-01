@@ -7,4 +7,4 @@ _Jachym Tolar_
 
 ## CONTENTS
 - Summer 2021
-  - [Work folder 1](https://github.com/JachymT/a-level-cs-blog/blob/main/summer work 2021)
+  - [Work folder 1](https://github.com/JachymT/a-level-cs-blog/tree/main/summer%20work%202021)
