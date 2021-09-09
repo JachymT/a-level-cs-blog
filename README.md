@@ -10,27 +10,32 @@ _Jachym Tolar_
   - 1.1.1 The processor
   - 1.1.2 Types of processor
   - 1.1.3 Input, output and storage
+
 <br>
 - 1.2 Software and software development
   - 1.2.1 Systems software
   - 1.2.2 Applications generation
   - 1.2.3 Software Development
   - 1.2.4 Types of programing languages
+
 <br>
 - 1.3 Exchanging data
   - 1.3.1 Compression, encryption and hashing
   - 1.3.2 Databases
   - 1.3.3 Networks
   - 1.3.4 Web technologies
+
 <br>
 - 1.4 Data types, data structures and algorithms
   - 1.4.1 Data types
   - 1.4.2 Data structures
   - 1.4.3 Boolean Algebra
+
 <br>
 - 1.5 Legal, moral, cultural and ethical issues
   - 1.5.1 Computing related legislation
   - 1.5.2 Moral and ethical issues
+
 <br>
 
 ### Algorithms and programming - Component 2
