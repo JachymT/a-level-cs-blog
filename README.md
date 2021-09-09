@@ -28,8 +28,6 @@ _Jachym Tolar_
   - 1.5.1
   - 1.5.2
 
-<br>
-
 ### Algorithms and programming - Component 2
 - 2.1 Elements of computational thinking
   - 2.1.1
@@ -43,11 +41,7 @@ _Jachym Tolar_
 - 2.3 Algorithms
   - 2.3.1
 
-<br>
-
 ### Programming project - Component 3
-
-<br>
 
 ### Outside of OCR
 - [Summer 2021](https://github.com/JachymT/a-level-cs-blog/tree/main/summer%20work%202021)
