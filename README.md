@@ -11,15 +11,11 @@ _Jachym Tolar_
   - 1.1.2 Types of processor
   - 1.1.3 Input, output and storage
 
-<br>
-
 - 1.2 Software and software development
   - 1.2.1 Systems software
   - 1.2.2 Applications generation
   - 1.2.3 Software Development
   - 1.2.4 Types of programing languages
-
-<br>
 
 - 1.3 Exchanging data
   - 1.3.1 Compression, encryption and hashing
@@ -27,20 +23,14 @@ _Jachym Tolar_
   - 1.3.3 Networks
   - 1.3.4 Web technologies
 
-<br>
-
 - 1.4 Data types, data structures and algorithms
   - 1.4.1 Data types
   - 1.4.2 Data structures
   - 1.4.3 Boolean Algebra
 
-<br>
-
 - 1.5 Legal, moral, cultural and ethical issues
   - 1.5.1 Computing related legislation
   - 1.5.2 Moral and ethical issues
-
-<br>
 
 ### Algorithms and programming - Component 2
 - 2.1 Elements of computational thinking
@@ -50,18 +40,12 @@ _Jachym Tolar_
   - 2.1.4 Thinking logically
   - 2.1.5 Thinking concurrently
 
-<br>
-
 - 2.2 Problem solving and programming
   - 2.2.1 Programming techniques
   - 2.2.2 Computational methods
 
-<br>
-
 - 2.3 Algorithms
   - 2.3.1 Algorithms
-
-<br>
 
 ### Programming project - Component 3
 
