@@ -44,16 +44,24 @@ _Jachym Tolar_
 
 ### Algorithms and programming - Component 2
 - 2.1 Elements of computational thinking
-  - 2.1.1
-  - 2.1.2
-  - 2.1.3
-  - 2.1.4
-  - 2.1.5
+  - 2.1.1 Thinking abstractly
+  - 2.1.2 Thinking ahead
+  - 2.1.3 Thinking procedurally
+  - 2.1.4 Thinking logically
+  - 2.1.5 Thinking concurrently
+
+<br>
+
 - 2.2 Problem solving and programming
-  - 2.2.1
-  - 2.2.2
+  - 2.2.1 Programming techniques
+  - 2.2.2 Computational methods
+
+<br>
+
 - 2.3 Algorithms
-  - 2.3.1
+  - 2.3.1 Algorithms
+
+<br>
 
 ### Programming project - Component 3
 
