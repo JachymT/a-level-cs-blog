@@ -6,7 +6,7 @@ _Jachym Tolar_
 
 
 ## CONTENTS
-- Computer Systems - Component 1
+### Computer Systems - Component 1
   - 1.1 Characteristics of contemporary processors, input, output and storage devices
     - 1.1.1
     - 1.1.2
@@ -30,7 +30,7 @@ _Jachym Tolar_
     - 1.5.2
 
 
-- Algorithms and programming - Component 2
+### Algorithms and programming - Component 2
   - 2.1 Elements of computational thinking
     - 2.1.1
     - 2.1.2
@@ -44,7 +44,7 @@ _Jachym Tolar_
     - 2.3.1
 
 
-- Programming project - Component 3
+### Programming project - Component 3
 
-
+### Outside of OCR
 - [Summer 2021](https://github.com/JachymT/a-level-cs-blog/tree/main/summer%20work%202021)
