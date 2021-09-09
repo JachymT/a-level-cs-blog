@@ -6,5 +6,5 @@ Output device - allows data to be transmitted from a computer system to a user. 
 
 ## Examples
 ### Optical Character Recognition
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/1.png" width="300")
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/1.png" width="300">
 Takes images of shapes on a piece of paper and warps those shapes until OCR recognises that shape as a character on a database. Therefore it can take scanned documents and convert them to editable text files. Since pattern matching is a complicated process, OCR can make mistakes, but it is still faster than typing a document up by hand.
