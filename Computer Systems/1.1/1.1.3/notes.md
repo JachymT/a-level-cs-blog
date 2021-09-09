@@ -31,7 +31,7 @@ A passive technology for tracking an item. Uses tags and readers, the readers se
 
 ## Touch Screens
 There are two main types of touch screens, capacitive and Resistive touch screens
-![video description of differences](https://www.youtube.com/watch?v=0-GQZzz_VTg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0-GQZzz_VTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Capacitive touch screens
 Takes advantage of conductivity of the human body. X and Y of a conductive pen or finger are recorded and send a precise signal. Can also have multiple points of contact, superior to resistive touch screens. Most touch screen phones, ipads and computer screens make use of this method.
