@@ -39,3 +39,15 @@ Takes advantage of conductivity of the human body. X and Y of a conductive pen o
 
 ### Resistive touch screens
 Two sheets of transparent glass, when enough pressure is applied, the x and y coordinate is recorded from a voltage that is created. Less precise than capacitive but can be used with gloves so useful in a manufacturing environment.
+
+## Sensors
+Sensors record data around the environment around them, they are input devices.
+
+### Examples
+- Temeperature sensors
+- Light sensors
+- pH sensors
+- Pressure sensors
+- Proximity / Touch sensors
+- Humidity sensors
+- Colour sensors
