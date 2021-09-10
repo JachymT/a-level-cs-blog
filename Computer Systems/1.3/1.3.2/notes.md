@@ -1,5 +1,7 @@
 # Databases
 ## Keywords
+
+
 **Database** - A table makes a structured and organised database with data
 
 **Information** - data with context
@@ -20,6 +22,5 @@ These are used in table fields and forms.
 
 **Primary key** - unique identifier for each record. For example a student ID
 
-
-
-
+## Flat file database
+a single table within a database
