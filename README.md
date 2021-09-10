@@ -9,7 +9,7 @@ _Jachym Tolar_
 - 1.1 Characteristics of contemporary processors, input, output and storage devices
   - 1.1.1 The processor
   - 1.1.2 Types of processor
-  - [1.1.3 Input, output and storage](https://github.com/JachymT/a-level-cs-blog/tree/main/summer%20work%202021)
+  - [1.1.3 Input, output and storage](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.1/1.1.3)
 
 - 1.2 Software and software development
   - 1.2.1 Systems software
@@ -19,7 +19,7 @@ _Jachym Tolar_
 
 - 1.3 Exchanging data
   - 1.3.1 Compression, encryption and hashing
-  - 1.3.2 Databases
+  - [1.3.2 Databases](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2)
   - 1.3.3 Networks
   - 1.3.4 Web technologies
 
