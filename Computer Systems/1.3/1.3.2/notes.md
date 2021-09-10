@@ -1,6 +1,6 @@
 # Databases
 ## Keywords
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/database.JPG" height="100">
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/database.JPG" height="300">
 
 **Database** - A table makes a structured and organised database with data
 
@@ -20,7 +20,7 @@ For example data types, dropdown lists (combo boxes) or field sizes
 **Input mask** - a string of characters that indicates which inputs are valid - a format they need to follow. 
 These are used in table fields and forms.
 
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/input-mask.JPG" height="200">
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/input-mask.JPG" height="400">
 
 **Primary key** - unique identifier for each record. For example a student ID
 
