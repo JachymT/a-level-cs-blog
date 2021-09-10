@@ -25,4 +25,13 @@ These are used in table fields and forms.
 **Primary key** - unique identifier for each record. For example a student ID
 
 ## Flat file database
-a single table within a database
+A single table within a database
+
+### Issues
+- high chance of data duplication
+- security problems, very vunerable
+- if its breached all data is gone
+- anyone should not be able to see everything in a database
+
+## Query 
+The action of searching a database to retrieve a specific peice of data
