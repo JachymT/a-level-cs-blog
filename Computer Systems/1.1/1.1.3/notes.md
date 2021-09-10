@@ -51,3 +51,4 @@ Sensors record data around the environment around them, they are input devices.
 - Proximity / Touch sensors
 - Humidity sensors
 - Colour sensors
+- Sound sensors
