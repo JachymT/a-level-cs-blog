@@ -41,14 +41,26 @@ Takes advantage of conductivity of the human body. X and Y of a conductive pen o
 Two sheets of transparent glass, when enough pressure is applied, the x and y coordinate is recorded from a voltage that is created. Less precise than capacitive but can be used with gloves so useful in a manufacturing environment.
 
 ## Sensors
-Sensors record data around the environment around them, they are input devices.
+Sensors record data from the physical environment, they are input devices.
+Sensors record analog data, which needs to be converted to digital to be processed by the CPU
 
 ### Examples
-- Temeperature sensors
-- Light sensors
+- Temeperature (infrared) sensors
+- Light(luminence) sensors
 - pH sensors
 - Pressure sensors
-- Proximity / Touch sensors
+- Touch sensors
 - Humidity sensors
 - Colour sensors
 - Sound sensors
+- Proximity sensors
+- Movement sensors
+
+## Actuators
+To iniciate physical movement, often an output as a result of a sensor. So they might pair with a sensor to open an automatic door
+
+### Examples
+- LED 
+
+**Feedback loop**
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/7.png" height="100">
