@@ -64,3 +64,9 @@ To iniciate physical movement, often an output as a result of a sensor. So they 
 
 **Feedback loop**
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/7.png" height="100">
+
+## RAM
+Random access memory - Fast, temporary and non-volite storage, otfen flash memory. Close to the CPU and compunicates back and forth with buses. 
+
+## ROM
+Read only memory - Non volitile memory that stores a small part of the Operating system called the BIOS. It initiazles the system hardware and then boots up the operating system.
