@@ -35,3 +35,4 @@ A single table within a database
 
 ## Query 
 The action of searching a database to retrieve a specific peice of data
+A **complex query** has more than 1 search critera, often checking more than 1 field
