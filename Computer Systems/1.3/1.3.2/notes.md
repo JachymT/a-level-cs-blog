@@ -1,6 +1,6 @@
 # Databases
 ## Keywords
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/database.JPG">
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/database.JPG" height="200">
 
 **Database** - A table makes a structured and organised database with data
 
