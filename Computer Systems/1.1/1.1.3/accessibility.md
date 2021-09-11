@@ -25,4 +25,4 @@ Can be used as input devices instead of a mouse. Usefull for those with limited 
 Can be used as input devices instead of a mouse. Usefull for those with limited movement above the legs. Using one foot as a mouse and one as buttons bound to shortcuts works similarly to a typical keyboard.
 
 ## Predictive text
-Software that predicts the most likly word you will type, so users dont have to type entire words after a few key strokes, which reduces physical effort and increases input speed.
+Software that predicts the most likely word you will type, so users dont have to type entire words after a few key strokes, which reduces physical effort and increases input speed.
