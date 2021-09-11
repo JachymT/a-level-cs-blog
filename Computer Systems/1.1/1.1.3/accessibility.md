@@ -11,7 +11,7 @@ Provides an alternative to typing on a keyboard, and can be used to type or cont
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/acc2.png" height="100">
 
 ## Augmentative and alternative communication
-Using speech synthesisers, these techniques can supliment speaking and writing for those with speach and langauge imparements. External devices can be used to take a range of inputs (gestures, pictures, eye trackers, mice, typing) and use speech generating devices to output text for the user.
+Using speech synthesisers, these techniques can supliment speaking and writing for those with speach and langauge imparements. External devices can be used to take a range of inputs (gestures, pictures, eye trackers, mice, typing) and use speech generating devices to output text for the user. The image below shows an ipad like device many children use, to select what they want to comunicate, through a board of carefully programmed options. Stephen Hawking also used a type of AAC to communicate.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/acc3.png" height="100">
 
