@@ -127,4 +127,15 @@ Work by flowing electricity forcing electrons into a floating gate between two o
  - Costly but getting cheaper
 
 ## Virtual storage
+Storing information remotely so that it can be accessed by any computer with access to the same system, for example over the Internet, or over cloud storage services like google drive and networked storage used in schools.
 
+### How it works
+Virtual storage is often an abstraction of multiple drives acting like one. Information stored in the cloud is actually stored on 100s of hard drives or SSDs formatted to act as a single piece of storage. 
+
+### Positive
+ - Convinient - can be accessed anywhere
+ - Can have unlimited capacity
+
+### Negatives
+ - Limited to a users network access and speed
+ - Often high cost
