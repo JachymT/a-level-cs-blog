@@ -67,10 +67,16 @@ To iniciate physical movement, often an output as a result of a sensor. So they 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/7.png" height="500">
 
 ## RAM
-Random access memory - Fast, temporary and non-volite storage, often flash memory. Close to the CPU and compunicates back and forth with buses. 
+Random access memory - Fast, temporary and volite memory, often flash memory. RAM compunicates back and forth with the CPU by buses, and information stored in RAM is processed. Since its close to the CPU its much faster than accessing secondary storage (hard disk). 
+
+Holds the operting system while the computer is running
 
 
 ## ROM
-Read only memory - Non volitile memory that stores a small part of the Operating system called the BIOS. It initiazles the system hardware and then boots up the operating system.
+Read only memory - Non volitile, read only memory that stores a small part of the Operating system called the BIOS. It initiazles the system hardware and then boots up the operating system, as part of the first thing at happens when you boot up the computer. 
+
+The initial instructions ROM stores are called the **bootstrap** and the software on ROM is called firmware. After this a **power-on self test (POST)** is done. This tells connected components to wake up and tells the CPU that they exist. Now the CPU can move the operating system from the hard drive to RAM.
+
+Some ROMs can be changed for examples cartridges in a DS, but most are soldered on to the motherboard.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/RamRomDifferences.PNG" height="500">
