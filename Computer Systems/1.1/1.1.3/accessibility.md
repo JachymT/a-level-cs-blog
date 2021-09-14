@@ -16,7 +16,7 @@ Using speech synthesisers, these techniques can supliment speaking and writing f
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/acc3.png" height="100">
 
 ## Eye-tracking software
-Follows the movements of the the eye to navigate a computer screen. Through calculations and infrared light reflected of the eye, its position is worked out on the screen.
+Follows the movements of the the eye to navigate a computer screen. Through calculations and infrared light reflected of the eye, its position is worked out on the screen. Useful for those without complex motormovements. However eye trackign software can still be inacurate.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/acc4.png" height="100">
 
