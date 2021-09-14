@@ -4,7 +4,7 @@ Input device - allows data to be entered into a computer system for the CPU to p
 
 Output device - allows data to be transmitted from a computer system to a user. Data is usually formatted for the user to interact with. For example, a speaker, a door opening, a projector.
 
-## Examples
+## Input and output examples
 ### Optical Character Recognition
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/1.png" height="100">
 Takes images of shapes on a piece of paper and warps those shapes until OCR recognises that shape as a character on a database. Therefore it can take scanned documents and convert them to editable text files. Since pattern matching is a complicated process, OCR can make mistakes, but it is still faster than typing a document up by hand.
@@ -67,7 +67,8 @@ To iniciate physical movement, often an output as a result of a sensor. So they 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/7.png" height="400">
 
 ## RAM
-Random access memory - Fast, temporary and non-volite storage, otfen flash memory. Close to the CPU and compunicates back and forth with buses. 
+Random access memory - Fast, temporary and non-volite storage, often flash memory. Close to the CPU and compunicates back and forth with buses. 
+
 
 ## ROM
 Read only memory - Non volitile memory that stores a small part of the Operating system called the BIOS. It initiazles the system hardware and then boots up the operating system.
