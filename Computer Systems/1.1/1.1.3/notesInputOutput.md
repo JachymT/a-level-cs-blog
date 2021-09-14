@@ -1,4 +1,4 @@
-# Input, output and storage
+# Inputs and outputs
 ## Keywords
 Input device - allows data to be entered into a computer system for the CPU to process. This is needed to instruct the CPU to do something. For example a microphone, scanners, pressure sensors.
 
