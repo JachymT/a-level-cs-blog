@@ -1,14 +1,13 @@
 # Storage
 ## RAM
-Random access memory - Fast, temporary and volite memory, often flash memory. RAM compunicates back and forth with the CPU by buses, and information stored in RAM is processed. Since its close to the CPU its much faster than accessing secondary storage (hard disk). 
+Random access memory - Fast, **temporary** and **volite** memory. RAM compunicates back and forth with the CPU by buses, and information stored in RAM is processed by the CPU. Since its close to the CPU its much faster than accessing secondary storage (hard disk). 
 
-The RAM holds the operting system while the computer is running.
-
+The RAM holds the operting system while the computer is running along with other programs.
 
 ## ROM
-Read only memory - Non volitile, read only memory that stores a small part of the Operating system called the POST, bootstrap and BIOS. It initiazles the system hardware and then boots up the operating system, as part of the first thing at happens when you boot up the computer. 
+Read only memory - **Non volitile**, read only memory that stores a small part of the Operating system called the **POST**, **bootstrap** and **BIOS**. It initializes the system hardware and then boots up the operating system, as part of the first thing at happens when you boot up the computer. 
 
-The initial instructions ROM stores are called the **bootstrap** and the software on ROM is called firmware. After this a **power-on self test (POST)** is done. This tells connected components to wake up and tells the CPU that they exist. Now the CPU can move the operating system from the hard drive to RAM.
+The initial instructions ROM stores are called the **bootstrap** and the software on ROM is called **firmware**. After this a **power-on self test (POST)** is done. This tells connected components to wake up and tells the CPU that they exist. Now the CPU can move the operating system from the hard drive to RAM.
 
 Some ROMs can be changed for examples cartridges in a DS, but most are soldered on to the motherboard.
 
@@ -18,7 +17,7 @@ Some ROMs can be changed for examples cartridges in a DS, but most are soldered 
 Optical media includes Compact Disks (CDs), Digital Versitile Disks (DVDs) and Blue-rays. 
 
 ### How they work
-Optical drives work by lazers being shined on the drive and processing the reflection. The surface of a disk has pits and lands which reflect the laser differently and so can store binary data. They are read-only and have to be pressed or burned with data.
+Optical drives work by **lazers** being shined on the drive and the **reflected** or **scattered** light being processed. The surface of a disk has **pits and lands** which reflect the laser differently and so can store binary data. They are read-only and have to be pressed or burned with data.
 
 ### Positives
  - Popular for distributing music and movies, mostly because of thier ease of distribution. 
@@ -73,4 +72,4 @@ Virtual storage is often an abstraction of multiple drives acting like one. Info
  - Limited to a users network access and speed
  - Often high cost
 
-![Storage video by Craig'n'Dave](https://www.youtube.com/watch?v=zzyCGHfuqe8)
+_Images from https://www.youtube.com/watch?v=yhDmlhc_2_M and https://www.youtube.com/watch?v=zzyCGHfuqe8_
