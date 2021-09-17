@@ -73,4 +73,4 @@ Virtual storage is often an abstraction of multiple drives acting like one. Info
  - Limited to a users network access and speed
  - Often high cost
 
-![Storage video by Craig'n'Dave][https://www.youtube.com/watch?v=zzyCGHfuqe8]
+![Storage video by Craig'n'Dave](https://www.youtube.com/watch?v=zzyCGHfuqe8)
