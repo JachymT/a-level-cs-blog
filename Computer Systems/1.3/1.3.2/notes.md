@@ -36,3 +36,10 @@ A single table within a database
 ## Query 
 The action of searching a database to retrieve a specific peice of data
 A **complex query** has more than 1 search critera, often checking more than 1 field
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/query1.JPG" height="400">
+
+## Forms
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Form.JPG" height="400">
+
+## Reports
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Report.JPG" height="400">
