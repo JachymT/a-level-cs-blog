@@ -4,6 +4,8 @@ Random access memory - Fast, **temporary** and **volite** memory. RAM compunicat
 
 The RAM holds the operting system while the computer is running along with other programs.
 
+Similar to flash memrory but has the difference of volility.
+
 ## ROM
 Read only memory - **Non volitile**, read only memory that stores a small part of the Operating system called the **POST**, **bootstrap** and **BIOS**. It initializes the system hardware and then boots up the operating system, as part of the first thing at happens when you boot up the computer. 
 
@@ -28,29 +30,33 @@ Optical drives work by **lazers** being shined on the drive and the **reflected*
  - Slow access times - read from the inside to the outside. 
  - Not durability - prone to scratches.
 
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor1.PNG" height="200">
+
 ## Magnetic storage
 Typical Hard disks and tape use magnetic media.
 
 ### How they work
-Very small magnetic components represent binary data. A drive head phyically moves over a disk.
+Very small magnetic components represent binary data, being in one of two states: **polarised and unpolarised**. A **drive head** phyically moves over a disk, and reads a 1 or a 0 depending on if the magnetic poles in the drive head align or not.
 
 ### Positives
- - Very high capacity. 
+ - Very **high capacity** - between 500GB and 5TB. 
  - Still often used for backups but largely superseded by sold state and cloud storage.
 
 ### Negatives
  - It will eventually fail, low durability.
- - Slow access times because it has moving parts.
+ - Slow access times because it has moving parts, even though the drive head moves very fast
+
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor2.PNG" height="200">
 
 ## Solid state storage
 Typical SSDs use magnetic media. Other examples include USB sticks and flash memory cards (eg. SD cards)
 
 ### How they work
-Work by flowing electricity forcing electrons into a floating gate between two oxide layers. This causes a change of charge in the floating gate, which can be messured as a 1 or 0, in oder to store binary data
+Work by flowing electricity forcing electrons into a floating gate between two oxide layers. This causes a change of charge in the floating gate, which can be messured as a 1 or 0, in oder to store binary data. silicon semiconductors forming the logic gates NAND and NOR
 
 ### Positives
- - Small, lightweight and portable
- - Very quick to access
+ - Small, lightweight and portable - **compact**
+ - Very quick to access - **fast**
  - silent
  - Large capacity
  
@@ -58,18 +64,23 @@ Work by flowing electricity forcing electrons into a floating gate between two o
  - Oxide layers will eventually deteriorate - limited read/writes
  - Costly but getting cheaper
 
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor3.PNG" height="200">
+
 ## Virtual storage
 Storing information remotely so that it can be accessed by any computer with access to the same system, for example over the Internet, or over cloud storage services like google drive and networked storage used in schools.
 
 ### How it works
-Virtual storage is often an abstraction of multiple drives acting like one. Information stored in the cloud is actually stored on 100s of hard drives or SSDs formatted to act as a single piece of storage. 
+Virtual storage is often an abstraction of multiple drives acting like one. Information stored in the cloud is actually stored on 100s of hard drives or SSDs formatted to act as a single piece of storage - in large **data centres** owned by the companies providing the cloud storage.
 
 ### Positive
- - Convinient - can be accessed anywhere
- - Can have unlimited capacity
+ - **Remote** - can be accessed anywhere conviently
+ - Can have **unlimited capacity**
+ - Can easily be shared between devices
 
 ### Negatives
  - Limited to a users network access and speed
  - Often high cost
+
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor4.PNG" height="200">
 
 _Images from https://www.youtube.com/watch?v=yhDmlhc_2_M and https://www.youtube.com/watch?v=zzyCGHfuqe8_
