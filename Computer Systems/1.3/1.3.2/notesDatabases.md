@@ -49,8 +49,8 @@ A database using a structure tuple of tables in an ordered logic. Where links (r
 ### Issues
 - RDMS is needed so the software must be compatible with the relational database
 
-## Entity Rmelationship modeling
-An entity relationship diagram explaing the one to many relationship between the dog owners and their dogs. Ignore the bottom arrow.
+## Entity Relationship modeling
+An entity relationship diagram explaining the one to many relationship between the dog owners and their dogs. Ignore the bottom arrow.
 
 ![image](https://user-images.githubusercontent.com/72783315/133996102-ac8798ef-8335-4721-8618-c00cb8496982.png)
 ![image](https://user-images.githubusercontent.com/72783315/133996616-58693ff7-24e2-4b16-9630-eef59b90461f.png)
