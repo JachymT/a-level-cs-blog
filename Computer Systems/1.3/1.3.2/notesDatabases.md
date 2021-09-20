@@ -41,9 +41,9 @@ Might be sorted by a primary key
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/query1.JPG" height="400">
 
 ## Forms
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Form.JPG" height="400">
-
 A simplified way to access a database entry
+
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Form.JPG" height="400">
 
 ## Reports
 a compact way to print a queury
