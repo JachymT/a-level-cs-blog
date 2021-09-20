@@ -58,18 +58,16 @@ An entity relationship diagram explaining the one to many relationship between t
 *images from http://theteacher.info/index.php/computing-principles-01/1-3-exchanging-data/1-3-2-databases/2167-relational-databases-versus-flat-file-databases*
 
 ## Query 
-The action of searching a database to retrieve a specific peice of data
-A **complex query** has more than 1 search critera, often checking more than 1 field
-Might be sorted by a primary key
+The action of searching a database to retrieve a specific peice of data. A **complex query** has more than 1 search critera, often checking more than 1 field. Might be sorted by a primary key
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/query1.JPG" height="400">
 
 ## Forms
-A simplified way to access a database entry, or add new entries. They make it clear which data is being presented. The image is an example of a form made in Access.
+A simplified way to access a database entry, or add new entries. They make it clear which data is being presented. The image is an example of a form made on the *students database*.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Form.JPG" height="400">
 
 ## Reports
-A compact way to print a query, shows data in an orginsed and presentable way. The image is a report made from the a query from the *Students* database
+A compact way to print a query, shows data in an orginsed and presentable way. The image is a report made from the a query from the *Students* database.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Report.JPG" height="400">
