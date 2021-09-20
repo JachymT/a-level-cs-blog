@@ -28,15 +28,17 @@ These are used in table fields and forms.
 A single table within a database. refered to as a single **relation** in a database
 
 ### Advantages
-- Easier for small data sets
+- Easier for small data sets, because it deals with **one entity**.
+- All records are sotred in one place.
+- Most often no specialist software is needed.
 
 ### Issues
-- high chance of data duplication
-- security problems, very vunerable
-- if its breached all data is gone
+- can ONLY deal with one entity
+- high chance of data duplication - **DATA REDUNDANCY** - for example a teacher would need to add all thier data to all of thier students records
+- this takes up a large amount of memory - inefficient in lots of ways
+- security problems, very **vunerable** 
 - anyone should not be able to see everything in a database
-- takes up a large amount of memory
-- harder to update
+- difficult to update
 
 ## Relational database
 A database using a structure tuple of tables in an ordered logic. Where links (relations) are formed between tables. Generally, each table/relation represents one "entity type" (such as customer or product). The record (rows) represent instances of that type of entity (such as "Lee" or "chair") and the fields (columns) represent values attributed to that instance (such as address or price).
