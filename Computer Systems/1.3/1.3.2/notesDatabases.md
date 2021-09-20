@@ -25,13 +25,36 @@ These are used in table fields and forms.
 **Primary key** - unique identifier for each record. For example a student ID. Each databse will have atleast one column with a primary key.
 
 ## Flat file database
-A single table within a database
+A single table within a database. refered to as a single **relation** in a database
+
+### Advantages
+- Easier for small data sets
 
 ### Issues
 - high chance of data duplication
 - security problems, very vunerable
 - if its breached all data is gone
 - anyone should not be able to see everything in a database
+- takes up a large amount of memory
+- harder to update
+
+## Relational database
+A database using a structure tuple of tables in an ordered logic. Where links (relations) are formed between tables. Generally, each table/relation represents one "entity type" (such as customer or product). The record (rows) represent instances of that type of entity (such as "Lee" or "chair") and the fields (columns) represent values attributed to that instance (such as address or price).
+
+### Advantages
+- Relational database management systems (**RDMS**) are used to maintain the databases. This makes them more manigable.
+
+### Issues
+- RDMS is needed so the software must be compatible with the relational database
+
+
+*database reading http://theteacher.info/index.php/computing-principles-01/1-3-exchanging-data/1-3-2-databases/2167-relational-databases-versus-flat-file-databases*
+
+## Entity Rmelationship modeling
+An entity relationship diagram explaing the one to many relationship between the dog owners and their dogs
+
+![image](https://user-images.githubusercontent.com/72783315/133996102-ac8798ef-8335-4721-8618-c00cb8496982.png)
+
 
 ## Query 
 The action of searching a database to retrieve a specific peice of data
