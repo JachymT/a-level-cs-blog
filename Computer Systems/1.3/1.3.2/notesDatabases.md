@@ -38,7 +38,7 @@ A single table within a database. refered to as a single **relation** in a datab
 - this takes up a large amount of memory - inefficient in lots of ways
 - security problems, very **vunerable** 
 - anyone should not be able to see everything in a database
-- difficult to update
+- difficult to update - for example ammending records if a lets say a class changes classrooms
 
 ## Relational database
 A database using a structure tuple of tables in an ordered logic. Where links (relations) are formed between tables. Generally, each table/relation represents one "entity type" (such as customer or product). The record (rows) represent instances of that type of entity (such as "Lee" or "chair") and the fields (columns) represent values attributed to that instance (such as address or price).
@@ -65,7 +65,7 @@ Might be sorted by a primary key
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/query1.JPG" height="400">
 
 ## Forms
-A simplified way to access a database entry
+A simplified way to access a database entry, or add new entries. They make it clear which data is being presented. The image is an example of a form made in Access.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Form.JPG" height="400">
 
