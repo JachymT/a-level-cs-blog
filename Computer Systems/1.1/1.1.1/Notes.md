@@ -22,7 +22,6 @@ ALU performs operations on data. Including
 Registers are small memory cells that operate at a very high speed. They are used to temporarily store data.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/1.PNG">
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/2.png">
 
 ### Program counter
 PC holds the address of the next instruction to be executed. Could be the address of the next instruction in RAM. At the start of the fetch-decode-execute cycle its copied to the MAR
@@ -40,9 +39,21 @@ CIR holds the current instruction being executed. If an instruction is fetched f
 Holds the data and control information, for example results of calculations from the ALU. Its a general purpose register - there are lots of these in the CPU.
 
 ### Status register 
-Holds the information about the state of the proccessor
+Holds the information about the state of the proccessor.
+
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/2.png">
 
 ## Busses
+Very Thin wires that link the CPU to main memory. They are responsibe for fetching and sending data.
+
+### Address bus
+...
+
+### Data bus
+...
+
+### Control bus
+...
 
 ## Assembly language
 Assembly language is a programming language that used meumonics to comunicate with the CPU. For example if you wanted to load instruction 4 you might write LDA 0100. It is a simplified view of Machine code, which is more understandable for people. An instruction contains an opcode and operand part, which is split in the CIR. 
@@ -54,5 +65,7 @@ The opcode specifies the type of instruction to be executed.
 The operand specifies the data or address to be processed.
 
 ## Machine code instructions
+...
 
 ## relationship between assembly language and machine code
+...
