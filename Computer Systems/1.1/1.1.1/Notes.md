@@ -22,7 +22,7 @@ ALU performs operations on data. Including
 Registers are small memory cells that operate at a very high speed. They are used to temporarily store data.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/1.PNG">
-![image](https://user-images.githubusercontent.com/72783315/134178364-876cc0f6-2734-4402-8b6c-a97b7cb1e5fe.png)
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/2.png">
 
 ### Program counter
 PC holds the address of the next instruction to be executed. Could be the address of the next instruction in RAM. At the start of the fetch-decode-execute cycle its copied to the MAR
