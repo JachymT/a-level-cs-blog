@@ -61,13 +61,17 @@ The 3 main models
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/modeling.JPG">
 *diagram notation*
-*another key point is that primary keys are underlined and foreign keys are stared **
+
+*another key point is that primary keys are underlined and foreign keys are stared* *
 
 An **entity relationship diagram** (ERD) explaining the one to many relationship between the dog owners and their dogs. Ignore the arrow.
 
 ![image](https://user-images.githubusercontent.com/72783315/133996102-ac8798ef-8335-4721-8618-c00cb8496982.png)
 ![image](https://user-images.githubusercontent.com/72783315/133996616-58693ff7-24e2-4b16-9630-eef59b90461f.png)
 
+Foreign keys - 
+
+Link tables - 
 
 *images from http://theteacher.info/index.php/computing-principles-01/1-3-exchanging-data/1-3-2-databases/2167-relational-databases-versus-flat-file-databases*
 
