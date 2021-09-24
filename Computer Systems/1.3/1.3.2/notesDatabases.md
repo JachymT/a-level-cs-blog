@@ -17,11 +17,6 @@ So fields store 1 piece of data for an entity and all of an entities data is sto
 **Validation**  - checks if an input is sensible, valid or in the right format
 For example data types, dropdown lists (combo boxes) or field sizes
 
-**Input mask** - a string of characters that indicates which inputs are valid - a format they need to follow. 
-These are used in table fields and forms.
-
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/input-mask.JPG" height="400">
-
 **Primary key** - unique identifier for each record. For example a student ID. Each databse will have atleast one column with a primary key.
 
 ## Flat file database
@@ -89,3 +84,9 @@ A simplified way to access a database entry, or add new entries. They make it cl
 A compact way to print or **export** a query; shows data in an orginsed and presentable way. The image is a report made from the a query from the *Students* database.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Report.JPG" height="400">
+
+## Input mask
+A string of characters that indicates which inputs are valid - a format they need to follow. 
+These are used in table fields and forms.
+
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/input-mask.JPG" height="400">
