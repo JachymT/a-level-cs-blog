@@ -42,7 +42,7 @@ A single table within a database. refered to as a single **relation** in a datab
 - security problems, very **vunerable** - anyone should not be able to see everything in a database
 
 ## Relational database
-A database using a structured tuple of tables in an ordered logic, where **links** (relations) are formed between tables. Generally, each table/relation represents one "entity type" (such as customers or products). The **records** (rows) represent instances of that type of entity (such as "Lee" or "chair") and the **fields** (columns) represent values attributed to that instance (such as address or price). Relational DBs contains the entity's **attributes and relationships**, look at the entity-relationship model for more information.
+A database using a structured tuple of tables in an ordered logic, where **links** (relations) are formed between tables. Generally, each table/relation represents one "entity type" (such as customers or products). Relational DBs contains the entity's **attributes and relationships**, look at the entity-relationship model for more information.
 
 ### Advantages
 - Can be accessed over a network, and **mulitple people** can access it at once.
@@ -54,8 +54,9 @@ A database using a structured tuple of tables in an ordered logic, where **links
 
 ### Issues
 - Relational database management systems (**RDMS**) are required to maintain the databases. Therefore software must be compatible with the relational database
-- needs advanced knowledge and structuring (eg. **normalisation and entity relational diagrams**)
-- expensive to design, implement and maintain
+- Needs advanced knowledge and structuring (eg. **normalisation and entity relational diagrams**)
+- Expensive to design, implement and maintain
+- Requires training for all users
 
 ## Entity Relationship modeling
 An entity relationship diagram explaining the one to many relationship between the dog owners and their dogs. Ignore the arrow.
