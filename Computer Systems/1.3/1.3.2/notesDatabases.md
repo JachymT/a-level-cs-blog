@@ -45,16 +45,17 @@ A single table within a database. refered to as a single **relation** in a datab
 A database using a structured tuple of tables in an ordered logic, where **links** (relations) are formed between tables. Generally, each table/relation represents one "entity type" (such as customers or products). The **records** (rows) represent instances of that type of entity (such as "Lee" or "chair") and the **fields** (columns) represent values attributed to that instance (such as address or price). Relational DBs contains the entity's **attributes and relationships**, look at the entity-relationship model for more information.
 
 ### Advantages
-- Relational database management systems (**RDMS**) are used to maintain the databases. This makes them more manigable than flat file
-- powerful, efficient and faster than flat file databases
-- searching is faster because of more compex query support using SQL
-- design of indexing makes seaching much faster as well
-- Increased security of data - as user access levels can be changed and set (eg. teachers can only access students data and not other teachers)
-- has **referential integrity** (data intergrity) - when changes are made to a specific field these changes are cascaded to any relation/table that also contain that field value
+- Can be accessed over a network, and **mulitple people** can access it at once.
+- **Powerful**, **efficient** and **faster** than flat file databases
+- Searching is faster because of more compex query support using SQL
+- Design of **indexing** makes seaching much faster as well
+- Increased security of data - as **user access levels** can be changed and set (eg. teachers can only access students data and not other teachers)
+- Has **referential integrity** (data intergrity) - when changes are made to a specific field these changes are cascaded to any relation/table that also contain that field value
 
 ### Issues
-- RDMS is needed so the **software must be compatibl**e with the relational database
-- needs complex knowledge (eg. **normalisation and entity relational diagrams**)
+- Relational database management systems (**RDMS**) are required to maintain the databases. Therefore software must be compatible with the relational database
+- needs advanced knowledge and structuring (eg. **normalisation and entity relational diagrams**)
+- expensive to design, implement and maintain
 
 ## Entity Relationship modeling
 An entity relationship diagram explaining the one to many relationship between the dog owners and their dogs. Ignore the arrow.
