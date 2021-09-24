@@ -72,7 +72,7 @@ The action of searching a database to retrieve a specific peice of data. A **com
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/query1.JPG" height="400">
 
 ## Forms
-A simplified way to access a database entry, or add new entries. They make it clear which data is being presented. The image is an example of a form made on the *students database*.
+A simplified way to access a database entry, or add new entries. They make it clear which data is being presented. The image is an example of a form made on the *Students* database.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Form.JPG" height="400">
 
