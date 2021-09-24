@@ -63,9 +63,8 @@ The 3 main models
 - **One to many** (1:M)
 - **One to One** (1:1)
 - **Many to Many** (M:M) - this one causes problems
--
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/modeling.JPG" height="200">
 
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/modeling.JPG">
 
 An **entity relationship diagram** (ERD) explaining the one to many relationship between the dog owners and their dogs. Ignore the arrow.
 
