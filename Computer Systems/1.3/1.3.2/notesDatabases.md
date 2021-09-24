@@ -53,7 +53,7 @@ A database using a structured tuple of tables in an ordered logic, where **links
 - Can be more complex to understand
 
 ## Entity Relationship modeling
-An entity relationship diagram explaining the one to many relationship between the dog owners and their dogs. Ignore the bottom arrow.
+An entity relationship diagram explaining the one to many relationship between the dog owners and their dogs. Ignore the arrow.
 
 ![image](https://user-images.githubusercontent.com/72783315/133996102-ac8798ef-8335-4721-8618-c00cb8496982.png)
 ![image](https://user-images.githubusercontent.com/72783315/133996616-58693ff7-24e2-4b16-9630-eef59b90461f.png)
