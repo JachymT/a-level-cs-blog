@@ -71,6 +71,6 @@ A simplified way to access a database entry, or add new entries. They make it cl
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Form.JPG" height="400">
 
 ## Reports
-A compact way to print a query, shows data in an orginsed and presentable way. The image is a report made from the a query from the *Students* database.
+A compact way to print or **export** a query; shows data in an orginsed and presentable way. The image is a report made from the a query from the *Students* database.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/Report.JPG" height="400">
