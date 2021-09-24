@@ -59,10 +59,16 @@ A database using a structured tuple of tables in an ordered logic, where **links
 - Requires training for all users
 
 ## Entity Relationship modeling
-An entity relationship diagram explaining the one to many relationship between the dog owners and their dogs. Ignore the arrow.
+The 3 main models
+- **One to many** (1:M)
+- **One to One** (1:1)
+- **Many to Many** (M:M) - this one causes problems
+
+An **entity relationship diagram** (ERD) explaining the one to many relationship between the dog owners and their dogs. Ignore the arrow.
 
 ![image](https://user-images.githubusercontent.com/72783315/133996102-ac8798ef-8335-4721-8618-c00cb8496982.png)
 ![image](https://user-images.githubusercontent.com/72783315/133996616-58693ff7-24e2-4b16-9630-eef59b90461f.png)
+
 
 *images from http://theteacher.info/index.php/computing-principles-01/1-3-exchanging-data/1-3-2-databases/2167-relational-databases-versus-flat-file-databases*
 
