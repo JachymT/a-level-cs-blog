@@ -8,16 +8,18 @@
 
 **Field** - a column in a database
 
-**Entity** - information about something or someone that is being stored
+**Entity** - a catergory of things, people or events of interest about which data is being held. A person is an instance of an entity.
 
 **Record** - a row holds data for the entity
-
-So fields store 1 piece of data for an entity and all of an entities data is stored in 1 row
 
 **Validation**  - checks if an input is sensible, valid or in the right format
 For example data types, dropdown lists (combo boxes) or field sizes
 
 **Primary key** - unique identifier for each record. For example a student ID. Each databse will have atleast one column with a primary key.
+
+**Foreign key** - 
+
+**Link table** - 
 
 ## Flat file database
 A single table within a database. refered to as a single **relation** in a database. Most often used for only 1 entity.
@@ -69,9 +71,6 @@ An **entity relationship diagram** (ERD) explaining the one to many relationship
 ![image](https://user-images.githubusercontent.com/72783315/133996102-ac8798ef-8335-4721-8618-c00cb8496982.png)
 ![image](https://user-images.githubusercontent.com/72783315/133996616-58693ff7-24e2-4b16-9630-eef59b90461f.png)
 
-Foreign keys - 
-
-Link tables - 
 
 *images from http://theteacher.info/index.php/computing-principles-01/1-3-exchanging-data/1-3-2-databases/2167-relational-databases-versus-flat-file-databases*
 
