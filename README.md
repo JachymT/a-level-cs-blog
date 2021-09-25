@@ -51,4 +51,4 @@ _Jachym Tolar_
 
 ### Outside of OCR
 - [Summer 2021](https://github.com/JachymT/a-level-cs-blog/tree/main/summer%20work%202021)
-- [Fruit machine program](https://github.com/JachymT/a-level-cs-blog/tree/main/fruit%20machine%20program%202021)
+- [Fruit machine program](https://github.com/JachymT/a-level-cs-blog/tree/main/Non%20OCR/fruit%20machine%20program)
