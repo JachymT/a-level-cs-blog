@@ -4,7 +4,7 @@
 ## bad implementation of while loop, restructured so it contains an if loop instead so it doesnt loop forever
 ![error 2](https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Non%20OCR/fruit%20machine%20program/testing/error2.png)
 
-## a
+## logical error, testing for 0.2 instead of 20
 ![error 3](https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Non%20OCR/fruit%20machine%20program/testing/error3.png)
 
 ## bug fix, testing by printing function output
