@@ -2,7 +2,7 @@
 ## Keywords
 Input device - allows data to be entered into a computer system for the CPU to process. This is needed to instruct the CPU to do something. For example a microphone, scanners, pressure sensors.
 
-Output device - allows data to be transmitted from a computer system to a user. Data is usually formatted for the user to interact with. For example, a speaker, a door opening, a projector.
+Output device - allows data to be transmitted out from a computer system. Data is usually formatted for the user to interact with. For example, a speaker, a door opening, a projector.
 
 ## Input and output examples
 ### Optical Character Recognition
