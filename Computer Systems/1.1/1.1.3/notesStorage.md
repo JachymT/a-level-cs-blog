@@ -46,7 +46,7 @@ Very small magnetic components represent binary data, being in one of two states
  - It will eventually fail, low durability.
  - Slow access times because it has moving parts, even though the drive head moves very fast
 
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor2.PNG" height="200">
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor2a.PNG" height="200">
 
 ## Solid state storage
 Typical SSDs use magnetic media. Other examples include USB sticks and flash memory cards (eg. SD cards)
