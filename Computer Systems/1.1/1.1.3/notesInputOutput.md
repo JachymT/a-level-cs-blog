@@ -57,10 +57,13 @@ Sensors record analog data, which needs to be converted to digital to be process
 - Movement sensors
 
 ## Actuators
-To iniciate physical movement, often an output as a result of a sensor. So they might pair with a sensor to open an automatic door
+Used to iniciate physical movement, often an output as a result of a sensor. So they might pair with a sensor to open an automatic door. 
 
 ### Examples
-- LED 
+- Electric motors
+- pistons
+- pumps
+- digital camera lenses
 
 **Feedback loop**
 
