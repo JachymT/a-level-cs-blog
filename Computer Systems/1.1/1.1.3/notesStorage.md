@@ -9,7 +9,7 @@ Similar to flash memrory but has the difference of volility.
 ## ROM
 Read only memory - **Non volitile**, read only memory that stores a small part of the Operating system called the **POST**, **bootstrap** and **BIOS**. It initializes the system hardware and then boots up the operating system, as part of the first thing at happens when you boot up the computer. 
 
-The initial instructions ROM stores are called the **bootstrap** and the software on ROM is called **firmware**. After this a **power-on self test (POST)** is done. This tells connected components to wake up and tells the CPU that they exist. Now the CPU can move the operating system from the hard drive to RAM.
+The initial instructions ROM opens are called the **bootstrap**, followed by the software on ROM, called **firmware**. After this a **power-on self test (POST)** is done. This tells connected components to wake up and tells the CPU that they exist. Now the CPU can move the operating system from the hard drive to RAM.
 
 Some ROMs can be changed for examples cartridges in a DS, but most are soldered on to the motherboard.
 
