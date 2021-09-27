@@ -21,7 +21,9 @@ For example data types, dropdown lists (combo boxes) or field sizes
 
 **Foreign key** - When two tables have matching primary keys. A foreign key refers to a primary key in another table
 
-**Link table** - 
+**Link table** - For example instead of table of invoices contain customer info and product info. A database could have a customers as one entity, products as one entity, and invoices (orders) which would link the other two entities.
+
+**non atomic data** - data that can be brocken up into smaller chunks. Each feild should have 1 single peice of data. Atomic data is much easier to search for. 
 
 ## Flat file database
 A single table within a database. refered to as a single **relation** in a database. Most often used for only 1 entity.
