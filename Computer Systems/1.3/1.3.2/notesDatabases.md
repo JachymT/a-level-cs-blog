@@ -23,7 +23,7 @@ For example data types, dropdown lists (combo boxes) or field sizes
 
 **Link table** - For example a table of invoices contains customer info and product info. A relational database could have a customers as one entity, products as one entity, and invoices (orders) which would link the other two entities. The link table uses a foreign key to link to other tables, (as well as having a primary key).
 
-**non atomic data** - data that can be brocken up into smaller chunks. Each feild should have 1 single peice of data. Atomic data is much easier to search for. 
+**Non atomic data** - data that can be brocken up into smaller chunks. Each feild should have 1 single peice of data. Atomic data is much easier to search for. 
 
 ## Flat file database
 A single table within a database. refered to as a single **relation** in a database. Most often used for only 1 entity.
