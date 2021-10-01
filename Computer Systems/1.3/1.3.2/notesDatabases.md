@@ -27,7 +27,7 @@ For example data types, dropdown lists (combo boxes) or field sizes
 
 **Referencial Intergity** - In a database a foreign key can not reference a non-existant primary key. So an order cannot be placed for a customer that has not signed up yet. The foreign key must depend on a primary key. 
 
-**
+**Normalisation** - []
 
 ## Flat file database
 A single table within a database. refered to as a single **relation** in a database. Most often used for only 1 entity.
