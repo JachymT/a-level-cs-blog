@@ -84,6 +84,8 @@ An **entity relationship diagram** (ERD) explaining the one to many relationship
 **Example from the RevisionSub.accdb database**
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/relationships.JPG" height="400">
 
+Foriegn key is the many side of the 1:M link
+
 the costomer ID in the first table is the primary key and its linked to the customer ID in the sencond table, which is the foreign key, and does not have to be unique in that table. The **referential intereity** box is ticked when making these links so that a **foreign keys** depends on a an existant **primary key**.
 
 ## Query 
