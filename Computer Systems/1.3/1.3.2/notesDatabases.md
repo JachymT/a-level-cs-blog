@@ -15,7 +15,7 @@
 **Validation**  - checks if an input is sensible, valid or in the right format
 For example data types, dropdown lists (combo boxes) or field sizes
 
-**Primary key** - unique identifier for each record. For example a student ID. Each databse will have atleast one column with a primary key.
+**Primary key** - unique identifier for each record. For example a student ID. Each databse will have atleast one column with a primary key. A primary key cannot be repeated as another primary key again.
 
 **Composite key** - If two or more fields make a primary key, they are called the composite keys.
 
