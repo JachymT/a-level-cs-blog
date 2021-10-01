@@ -25,6 +25,10 @@ For example data types, dropdown lists (combo boxes) or field sizes
 
 **Non atomic data** - data that can be brocken up into smaller chunks. Each feild should have 1 single peice of data. Atomic data is much easier to search for. 
 
+**Referencial Intergity** - In a database a foreign key can not reference a non-existant primary key. So an order cannot be placed for a customer that has not signed up yet. The foreign key must depend on a primary key. 
+
+![image](https://user-images.githubusercontent.com/72783315/135586850-eb56a714-3697-4adc-9a46-0a31fe4b2a7f.png)
+
 ## Flat file database
 A single table within a database. refered to as a single **relation** in a database. Most often used for only 1 entity.
 
@@ -77,9 +81,10 @@ An **entity relationship diagram** (ERD) explaining the one to many relationship
 
 *images from http://theteacher.info/index.php/computing-principles-01/1-3-exchanging-data/1-3-2-databases/2167-relational-databases-versus-flat-file-databases*
 
-**Example**
+**Example from the RevisionSub.accdb database**
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/relationships.JPG">
-the costomer ID in the first table is the primary key and its linked to the customer ID in the sencond table, which is the foreign key, and does not have to be unique in that table.
+
+the costomer ID in the first table is the primary key and its linked to the customer ID in the sencond table, which is the foreign key, and does not have to be unique in that table. The **referential intereity** box is ticked when making these links so that a **foreign keys** depends on a an existant **primary key**.
 
 ## Query 
 The action of searching a database to retrieve a specific peice of data. A **complex query** has more than 1 search critera, often checking more than 1 field. Might be sorted by a primary key
