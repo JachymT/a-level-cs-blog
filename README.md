@@ -50,5 +50,5 @@ _Jachym Tolar_
 ### Programming project - Component 3
 
 ### Other programming
-- [Summer 2021](https://github.com/JachymT/a-level-cs-blog/tree/main/summer%20work%202021)
-- [OCR challenges](https://github.com/JachymT/a-level-cs-blog/tree/main/Non%20OCR/fruit%20machine%20program)
+- [Summer 2021](https://github.com/JachymT/a-level-cs-blog/tree/main/Code/summer%20work%202021)
+- [OCR challenges](https://github.com/JachymT/a-level-cs-blog/tree/main/Code/OCR%20challenges)
