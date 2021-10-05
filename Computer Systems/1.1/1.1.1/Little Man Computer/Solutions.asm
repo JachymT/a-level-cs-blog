@@ -1,5 +1,5 @@
-//Part 1
-//Task 1
+;Part 1
+;Task 1
 INP
 STA 99
 INP 
@@ -12,7 +12,7 @@ LDA 99
 OUT
 HLT
 
-//Task 2
+;Task 2
 INP
 STA 99
 INP 
@@ -23,7 +23,7 @@ ADD 99
 OUT
 HLT
 
-//Task 3
+;Task 3
 INP
 STR first
 ADD first
@@ -31,7 +31,7 @@ OUT
 HLT
 first DAT
 
-//Task 4
+;Task 4
 INP
 STA first
 INP
@@ -46,8 +46,8 @@ HLT
 First DAT
 Second DAT
 
-//Part 2
-//Task 1
+;Part 2
+;Task 1
 INP 
 STA a
 INP
@@ -62,7 +62,7 @@ OUT
 a DAT
 b DAT
 
-//Task 2
+;Task 2
 INP
 STA a
 INP
@@ -77,7 +77,7 @@ HLT
 a DAT
 b DAT
 
-//Task 3
+;Task 3
 INP 
 STA a
 INP
