@@ -17,9 +17,11 @@ For example data types, dropdown lists (combo boxes) or field sizes
 
 **Primary key** - unique identifier for each record. For example a student ID. Each databse will have atleast one column with a primary key. A primary key cannot be repeated as another primary key again.
 
-**Candidate** - all keys that qualify as primary keys
+**Candidate key** - all keys that qualify as primary keys
 
 **Secondary key** - An alternative key is a key not selected to be a primary key. It can be used to query for data in addition to the primary key. All candidate keys which are not primary become a secondary key.
+
+![image](https://user-images.githubusercontent.com/72783315/136781871-bb0072ac-47b5-4036-ac1b-0a7ee10d7c3d.png)
 
 **Composite key** - If two or more fields make a primary key, they are called the composite keys.
 
