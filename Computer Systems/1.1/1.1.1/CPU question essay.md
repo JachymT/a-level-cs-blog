@@ -13,13 +13,13 @@ This theoretically allows for 2x, 4x or more times as many instructions executed
 Programs designed to do parallel processing benifit greatly from multiple cores.
 
 ## Cache
-Cache is CPU's on board memory, where some. It the **closest and fastest** memory for storing instructions, which are copied over from RAM. Less frequently used instructions in cache are replaced with more commenly fetched ones. The CPU checks for cache before checking RAM.
+Cache is CPU's on board memory, it is Random Access memory but either in or next to the CPU. It the **closest and fastest** memory for storing instructions, which are copied over from RAM. Less frequently used instructions in cache are replaced with more commenly fetched ones. The CPU checks for cache before checking RAM.
 
 ![image](https://user-images.githubusercontent.com/72783315/136964131-995ef064-440c-4701-be76-4a435ec3a677.png)
 
 _[image from developer.arm](https://developer.arm.com/documentation/den0024/a/Caches)_
 
-Faster and more cache increase the CPU's performance since instructions are being storied closer. There are restrictions on Cache usage however and most modern processor have 128KB to 8MB of Cache memory, which is divided into levels. Cache is effient when it is fast to fetch from so a large cache would be detrimental, since the CPU has to check much many more location each time. Levels of Cache help further maximise efficiny, level 1 is closest to the CPU and smallest and fastest (2-64KB), going up to level 3 where they get larger and take longer to fetch from.
+Faster and more cache increases the CPU's performance since instructions are being storied closer. There are restrictions on Cache usage however and most modern processor have 128KB to 8MB of Cache memory, which is divided into levels. Cache is effient when it is fast to fetch from so a large cache would be detrimental, since the CPU has to check much many more locations each time. Levels of Cache help further maximise efficiny, level 1 is closest to the CPU and smallest and fastest (2-64KB), going up to level 3 where they get larger and take longer to fetch from.
 
 Cache is also much more expensive than other memory.
 
