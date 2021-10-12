@@ -25,3 +25,4 @@ Fundementally
 _references_
 - [pmt.physicsandmathstutor.com](https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.1-Characteristics-of-Contemporary-Processors-Input-Output-and-Storage-Devices/Intermediate/1.1.1.%20Structure%20and%20Function%20of%20the%20Processor.pdf)
 - [isaaccomputerscience.org](https://isaaccomputerscience.org/concepts/gcse_sys_cpu_performance?examBoard=all&stage=all&topic=gcse_systems)
+- [wikipedia](https://en.wikipedia.org/wiki/Clock_rate)
