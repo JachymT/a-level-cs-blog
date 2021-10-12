@@ -26,7 +26,7 @@ Cache is also much more expensive than other memory.
 ## Conclusion
 Fundementally a high clock speed in most important in the CPU since the more instructions that can be perfomed per second in a CPU the better it will be at running programs. Clock speed is always benefitial, but cache and cores and much more useful for high end processing like renderign 3d graphics, but might not always be benfitial. However without efficient cache freqeunt instructions will take hundrends of times longer to fetch. More cores can when utilized effceintly can provide many more times the processing power.
 
-### *references*
+### references
 - [pmt.physicsandmathstutor.com](https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.1-Characteristics-of-Contemporary-Processors-Input-Output-and-Storage-Devices/Intermediate/1.1.1.%20Structure%20and%20Function%20of%20the%20Processor.pdf)
 - [isaaccomputerscience.org](https://isaaccomputerscience.org/concepts/gcse_sys_cpu_performance?examBoard=all&stage=all&topic=gcse_systems)
 - [wikipedia](https://en.wikipedia.org/wiki/Clock_rate)
