@@ -12,4 +12,4 @@ Faster and more cache increase the CPU's performance since instructions are bein
 ## Conclusion
 
 _references_
-- (pmt 1.1.1)[https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.1-Characteristics-of-Contemporary-Processors-Input-Output-and-Storage-Devices/Intermediate/1.1.1.%20Structure%20and%20Function%20of%20the%20Processor.pdf]
+- !(pmt 1.1.1)[https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.1-Characteristics-of-Contemporary-Processors-Input-Output-and-Storage-Devices/Intermediate/1.1.1.%20Structure%20and%20Function%20of%20the%20Processor.pdf]
