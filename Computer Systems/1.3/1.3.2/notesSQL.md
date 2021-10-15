@@ -1,5 +1,5 @@
 # Structured Query Language
 
-[sqlzoo.net](https://sqlzoo.net/wiki/SQL_Tutorial)
+### [not particluarly use or comprehensive SQL learning site](https://sqlzoo.net/wiki/SQL_Tutorial)
 
-see sql section of worksheet [needs uploading]
+### [sql worksheet complete with correct awsnsers](https://github.com/JachymT/a-level-cs-blog/blob/main/Computer%20Systems/1.3/1.3.2/Databases%20Worksheet.pdf)
