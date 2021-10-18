@@ -8,6 +8,8 @@
 
 **Field** - a column in a database
 
+**Atribute** - represented by a column eg. Forename, Surname
+
 **Entity** - a catergory of things, people or events of interest about which data is being held. A person is an instance of an entity.
 
 **Record** - a row holds data for the entity
@@ -29,11 +31,11 @@ For example data types, dropdown lists (combo boxes) or field sizes
 
 **Link table** - For example a table of invoices contains customer info and product info. A relational database could have a customers as one entity, products as one entity, and invoices (orders) which would link the other two entities. The link table uses a foreign key to link to other tables, (as well as having a primary key).
 
-**Non atomic data** - data that can be brocken up into smaller chunks. Each feild should have 1 single peice of data. Atomic data is much easier to search for. 
+**Atomic data** - data that can not be broken up into smaller chunks. Each attribute should have 1 single peice of atomic data.
 
 **Referencial Intergity** - In a database a foreign key can not reference a non-existant primary key. So an order cannot be placed for a customer that has not signed up yet. The foreign key must depend on a primary key. 
 
-**Normalisation** - []
+**Normalisation** - 
 
 ## Flat file database
 A single table within a database. refered to as a single **relation** in a database. Most often used for only 1 entity.
@@ -59,7 +61,7 @@ A database using a structured tuple of tables in an ordered logic, where **links
 - Can be accessed over a network, and **mulitple people** can access it at once.
 - **Powerful**, **efficient** and **faster** than flat file databases
 - Searching is faster because of more compex query support using SQL
-- Design of **indexing** makes seaching much faster as well
+- Efficient design of **indexing** makes seaching much faster as well
 - Increased security of data - as **user access levels** can be changed and set (eg. teachers can only access students data and not other teachers)
 - Has **referential integrity** (data intergrity) - when changes are made to a specific field these changes are cascaded to any relation/table that also contain that field value
 
@@ -93,6 +95,25 @@ An **entity relationship diagram** (ERD) explaining the one to many relationship
 Foriegn key is the many side of the 1:M link
 
 the costomer ID in the first table is the primary key and its linked to the customer ID in the sencond table, which is the foreign key, and does not have to be unique in that table. The **referential intereity** box is ticked when making these links so that a **foreign keys** depends on a an existant **primary key**.
+
+## Normalisation
+Normalisation is the process of making the best possible design for a database
+
+Stages
+- **First Normal Form** (1NF)
+  - All atributes must be atomic
+  - There must be no repeating attributes or grouped attributes
+  - (a many to many relationship cannot be in first normal form) unsure
+- **Second Normal Form** (2NF)
+  - Table already be in 1NF
+  - Must contain no partial dependences
+  - Requires a composite key
+- **Third Normal Form** (3NF)
+  - Table already be in 2NF
+  - Must contain no non-key dependences
+  - All attributes are dependent on the key
+
+### 1NF
 
 ## Query 
 The action of searching a database to retrieve a specific peice of data. A **complex query** has more than 1 search critera, often checking more than 1 field. Might be sorted by a primary key
