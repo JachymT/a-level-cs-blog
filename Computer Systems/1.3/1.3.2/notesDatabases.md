@@ -107,7 +107,6 @@ Normalisation is the process of making the best possible design for a database. 
 ### 2NF
 - Table already be in 1NF
 - Must contain no partial dependences
-- Requires a composite key
 
 ### 3NF
 - Table already be in 2NF
