@@ -102,11 +102,11 @@ Normalisation is the process of making the best possible design for a database. 
 ### 1NF
 - All atributes must be atomic
 - There must be no repeating attributes or grouped attributes
-- (a many to many relationship cannot be in first normal form) unsure
 
 ### 2NF
 - Table already be in 1NF
 - Must contain no partial dependences
+- eg. If there is a composite key there could be a partial dependancy on one of them.
 
 ### 3NF
 - Table already be in 2NF
