@@ -111,7 +111,7 @@ Normalisation is the process of making the best possible design for a database. 
 ### 3NF
 - Table already be in 2NF
 - Must contain no non-key dependences
-- All attributes are dependent on the key
+- All attributes are dependent on the primary key
 
 ## Query 
 The action of searching a database to retrieve a specific peice of data. A **complex query** has more than 1 search critera, often checking more than 1 field. Might be sorted by a primary key
