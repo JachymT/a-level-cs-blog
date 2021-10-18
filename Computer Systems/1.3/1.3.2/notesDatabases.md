@@ -97,23 +97,22 @@ Foriegn key is the many side of the 1:M link
 the costomer ID in the first table is the primary key and its linked to the customer ID in the sencond table, which is the foreign key, and does not have to be unique in that table. The **referential intereity** box is ticked when making these links so that a **foreign keys** depends on a an existant **primary key**.
 
 ## Normalisation
-Normalisation is the process of making the best possible design for a database
-
-Stages
-- **First Normal Form** (1NF)
-  - All atributes must be atomic
-  - There must be no repeating attributes or grouped attributes
-  - (a many to many relationship cannot be in first normal form) unsure
-- **Second Normal Form** (2NF)
-  - Table already be in 1NF
-  - Must contain no partial dependences
-  - Requires a composite key
-- **Third Normal Form** (3NF)
-  - Table already be in 2NF
-  - Must contain no non-key dependences
-  - All attributes are dependent on the key
+Normalisation is the process of making the best possible design for a database. There are 3 stages: **First Normal Form** (1NF), **Second Normal Form** (2NF), **Third Normal Form** (3NF)
 
 ### 1NF
+- All atributes must be atomic
+- There must be no repeating attributes or grouped attributes
+- (a many to many relationship cannot be in first normal form) unsure
+
+### 2NF
+- Table already be in 1NF
+- Must contain no partial dependences
+- Requires a composite key
+
+### 3NF
+- Table already be in 2NF
+- Must contain no non-key dependences
+- All attributes are dependent on the key
 
 ## Query 
 The action of searching a database to retrieve a specific peice of data. A **complex query** has more than 1 search critera, often checking more than 1 field. Might be sorted by a primary key
