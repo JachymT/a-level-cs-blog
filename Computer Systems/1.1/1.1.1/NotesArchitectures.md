@@ -12,3 +12,4 @@ both orginiating in the 1940s and outdated, replaced by various contemporary ach
 
 ## Contemporary
 
+![image](https://user-images.githubusercontent.com/72783315/137923987-38212b22-6895-429e-bd55-97ffed12fce0.png)
