@@ -4,7 +4,7 @@ Pipelining is the process of creating a series of accumlated instructions to con
 
 ![https://youtu.be/RuenPZT1PyM](https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/3.PNG)
 
-## Inside the CPUs 
+## Inside the CPU(s)
 Instead of fetching instruction A, the decoding instruction A, then excecuting isnstruction A. With pipeline processing the CPU does not wait for A to be finished executing before moving onto B
 
 ## Advantages
