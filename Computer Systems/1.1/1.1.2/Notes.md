@@ -17,6 +17,13 @@ They still appear in some desktop computers and laptops but utilize RISC practis
 ![image](https://user-images.githubusercontent.com/72783315/137929032-43626ccc-ba85-4076-ae26-34988aba1f5a.png)
 
 ## GPUs
+Graphical processing units are highly specialised to be fast and eficient for certain tasks like rendering graphics. They are made for mass calculations that take full advantage of parallel processing. They became more generic and started being used for modelling and analysis.
+
+### Co-processors
+Any additional processor used for a specialist task, working concurrently with the main CPU. A GPU is an example of a co-processor
+
+### Single Instruction Multiple Data
+SIMD is a design where single instructions operate very quickly on large data sets, so repeating operatings over and over is very efficient.
 
 ## Multicore and Parallel systems
 
