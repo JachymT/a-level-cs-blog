@@ -19,3 +19,10 @@ They still appear in some desktop computers and laptops but utilize RISC practis
 ## GPUs
 
 ## Multicore and Parallel systems
+
+### Chip Multicore processers
+Multicore processors are a single chip with two or more independent processing units(cores)
+Chip Multicore processers are further enhanced by on-chip shared cache and inter-core communication. More cores are faster at proccessing simultanious instructions.
+
+### Parallel processing
+To make use of multiple cores parallel processing systems must be implemented. This splits programs up between CPUs to run them at once and faster.
