@@ -1,8 +1,9 @@
 # Pipelining in a CPU
 
-Pipelining is the process of creating a pipeline or series to continously process instructions in multiple CPU. Instructions are proccessed parallelly and overlapping during execution.
+Pipelining is the process of creating a pipeline or series to continously process instructions across multiple CPUs. Instructions are proccessed parallelly and overlapping during execution.
 
 <src = "https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/3.PNG">
+![image](https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/3.PNG)
 
 ## Inside the CPUs 
 Instead of fetching instruction A, the decoding instruction A, then excecuting isnstruction A
