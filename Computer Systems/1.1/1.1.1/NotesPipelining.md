@@ -7,7 +7,7 @@ Pipelining is the process of creating a series of accumlated instructions to con
 ## Inside the CPUs 
 Instead of fetching instruction A, the decoding instruction A, then excecuting isnstruction A. With pipeline processing the CPU does not wait for A to be finished executing before moving onto B
 
-## advantages
+## Advantages
 - Pipelining increases the overall instruction throughput and the overall speed of the CPU
 - The cycle time for each instruction is reduced, since each part of the CPU is always processing something.
 
