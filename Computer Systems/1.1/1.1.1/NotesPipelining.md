@@ -2,8 +2,7 @@
 
 Pipelining is the process of creating a pipeline or series to continously process instructions across multiple CPUs. Instructions are proccessed parallelly and overlapping during execution.
 
-<src = "https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/3.PNG">
-![image](https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/3.PNG)
+![https://youtu.be/RuenPZT1PyM](https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/3.PNG)
 
 ## Inside the CPUs 
 Instead of fetching instruction A, the decoding instruction A, then excecuting isnstruction A
@@ -17,4 +16,4 @@ Instead of fetching instruction A, the decoding instruction A, then excecuting i
 - Branching in a program 
 - this lead to a proccess called flushing the pipe - where the currect instructions beuing processed in the CPU are abondoned and the process restarts
 
-![image](https://user-images.githubusercontent.com/72783315/137920053-f9b677b1-5020-4ea8-8a37-6a1dc6dc4a99.png)
+![https://youtu.be/RuenPZT1PyM](https://user-images.githubusercontent.com/72783315/137920053-f9b677b1-5020-4ea8-8a37-6a1dc6dc4a99.png)
