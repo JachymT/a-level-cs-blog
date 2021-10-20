@@ -23,6 +23,8 @@ For example data types, dropdown lists (combo boxes) or field sizes
 
 **Secondary key** - An alternative key is a key not selected to be a primary key. It can be used to query for data in addition to the primary key. All candidate keys which are not primary become a secondary key.
 
+**non-prime attribute** - all atributes which are not candidate keys
+
 ![image](https://user-images.githubusercontent.com/72783315/136781871-bb0072ac-47b5-4036-ac1b-0a7ee10d7c3d.png)
 
 **Composite key** - If two or more fields make a primary key, they are called the composite keys.
@@ -34,8 +36,6 @@ For example data types, dropdown lists (combo boxes) or field sizes
 **Atomic data** - data that can not be broken up into smaller chunks. Each attribute should have 1 single peice of atomic data.
 
 **Referencial Intergity** - In a database a foreign key can not reference a non-existant primary key. So an order cannot be placed for a customer that has not signed up yet. The foreign key must depend on a primary key. 
-
-**Normalisation** - 
 
 ## Flat file database
 A single table within a database. refered to as a single **relation** in a database. Most often used for only 1 entity.
