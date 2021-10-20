@@ -105,13 +105,14 @@ Normalisation is the process of making the best possible design for a database. 
 
 ### 2NF
 - Table already be in 1NF
-- Must contain no partial dependences
+- Must contain no partial dependencies
 - eg. If there is a composite key there could be a partial dependancy on one of them.
 
 ### 3NF
 - Table already be in 2NF
-- Must contain no non-key dependences
+- Must contain no non-key dependencies, also know as transitive functional dependencies
 - All attributes are dependent on the primary key
+- eg. if a place is a primary key, then the company that owns it depends on that place, but memebers of the company are transitivy dependent on the company.
 
 ## Query 
 The action of searching a database to retrieve a specific peice of data. A **complex query** has more than 1 search critera, often checking more than 1 field. Might be sorted by a primary key
