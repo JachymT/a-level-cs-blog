@@ -16,6 +16,8 @@ Transactions, whilst in principle indivisible, can be broken down into serveral 
 
 For example accepting a card payment is commen transaction that must be regulated and checked.
 
+INSERT, SELECT, UPDATE, DELETE are all SQL commands that can be used in the context of transactions.
+
 ## ACID
 Properties that garantee intergity and reliablity for all transactions.
 
@@ -42,3 +44,8 @@ This is done by writing all transactions onto non-volitile secondary storage and
 Furthermore once commited to the database the changes stay commited.
 
 ## Record Locking
+Prevents simultaneous access to records in a database to avoid inconsistencies. 
+
+Whilst a transaction by user A is happening on a record, that record is locked and user B has to wait for the tranasction to be finished before they can perform thier transaction
+
+This can lead to deadlocks where both users A and B are waiting for each other to proceed.
