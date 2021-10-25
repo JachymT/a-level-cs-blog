@@ -49,3 +49,5 @@ Prevents simultaneous access to records in a database to avoid inconsistencies.
 Whilst a transaction by user A is happening on a record, that record is locked and user B has to wait for the tranasction to be finished before they can perform thier transaction
 
 This can lead to deadlocks where both users A and B are waiting for each other to proceed.
+
+<img width="1002" alt="https://youtu.be/lhSVTsRLEDM" src="https://user-images.githubusercontent.com/72783315/138735056-7a26536d-d96b-419e-801b-c6ea096a8254.png">
