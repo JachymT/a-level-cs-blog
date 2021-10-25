@@ -51,3 +51,15 @@ Whilst a transaction by user A is happening on a record, that record is locked a
 This can lead to deadlocks where both users A and B are waiting for each other to proceed.
 
 <img width="1002" alt="https://youtu.be/lhSVTsRLEDM" src="https://user-images.githubusercontent.com/72783315/138735056-7a26536d-d96b-419e-801b-c6ea096a8254.png">
+
+## Serialisation
+Ensures transactions do not overlap with each other or effect each other, the following techniques prevent, for example, a record being updated twice simultaniously by different users.
+
+### Timestamp ordering
+Read and write timestamps are saved for objects in a database. There are used to identify if an object has been changed in the time it has been tried to edit. If so updating it is denied.
+
+### Commitment ordering
+Transactions are ordered based on thier dependencies and thier time of creation. This prevents two transactions being lost if they simultaiously try to update a record (prevents deadlocking). One request is blocked based on the commitment order untill the other is completed
+
+## Redundancy
+Intentional data redundancy is created when companies do not want to loose important information and so store the same data across many physical locations. These computer systems then save them money and trouble, since the overall system is not affected if one goes down.
