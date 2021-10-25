@@ -20,10 +20,15 @@ For example accepting a card payment is commen transaction that must be regulate
 Properties that garantee intergity and reliablity for all transactions.
 
 ### Atomicity
+Following the definition of a transaction, a change to a database must be performed completely or not at all. There should be no possibility of a partially performed transaction.
 
 ### Consistency
+Any change in the database must retain the overall state of the database. This means keeping referential integrity and so any validation rules will be upheld.
+
+For example money removed from one account should be added to another so the balance total is maintained.
 
 ### Isolation
+
 
 ### Durability
 Once a change has been successfuly made to a database, it must not be lost. The transactions must remain even under a system failure or power outage.
