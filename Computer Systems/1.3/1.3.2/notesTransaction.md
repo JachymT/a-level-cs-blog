@@ -28,7 +28,11 @@ Any change in the database must retain the overall state of the database. This m
 For example money removed from one account should be added to another so the balance total is maintained.
 
 ### Isolation
+Transactions happening simultaiously must be processsed equivilantly to them being processed one after the other.
 
+This means they are not interrupted and other processes cannot accesss the data concerned at that time - they are in isolation.
+
+A DBMS implements this with **record locking**
 
 ### Durability
 Once a change has been successfuly made to a database, it must not be lost. The transactions must remain even under a system failure or power outage.
@@ -36,3 +40,5 @@ Once a change has been successfuly made to a database, it must not be lost. The 
 This is done by writing all transactions onto non-volitile secondary storage and holding them until the transcation has completed. Only once everything is backed up are the changes finalized.
 
 Furthermore once commited to the database the changes stay commited.
+
+## Record Locking
