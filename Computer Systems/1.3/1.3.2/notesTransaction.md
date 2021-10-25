@@ -1,7 +1,7 @@
 # Transaction Processing
 
 ## EDI
-Electronic Data Interchange is the exchange of business documents between companies to replace post and email.
+Electronic Data Interchange is the exchange of business documents between companies in a standardised format to replace post and email.
 
 ![image](https://user-images.githubusercontent.com/72783315/138685173-a31ca1d1-ac11-48cd-bdfe-717459667d12.png)
 
