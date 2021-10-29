@@ -36,10 +36,11 @@ Optical drives work by **lazers** being shined on the drive and the **reflected*
 Typical Hard disks and tape use magnetic media.
 
 ### How they work
-Very small magnetic components represent binary data, being in one of two states: **polarised and unpolarised**. A **drive head** phyically moves over a disk, and reads a 1 or a 0 depending on if the magnetic poles in the drive head align or not.
+Very small magnetic components represent binary data, being in one of two states: **polarised and unpolarised**. A **drive head** phyically moves over a disk, and reads a 1 or a 0 depending on if the magnetic poles in the drive head align or not. The platters mechanically spin at high speeds and magnetic patterns are read
 
 ### Positives
- - Very **high capacity** - between 500GB and 5TB. 
+ - Very **high capacity** - between 500GB and 5TB.
+ - Cheap
  - Still often used for backups but largely superseded by sold state and cloud storage.
 
 ### Negatives
