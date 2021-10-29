@@ -55,6 +55,9 @@ Sensors record analog data, which needs to be converted to digital to be process
 - Sound sensors
 - Proximity sensors
 - Movement sensors
+- Altimeter - when the wearer is ascending / descending
+- Accelerometer - measure forces on device when it moves
+- Gyroscope - measures if wearer turns
 
 ## Actuators
 Used to iniciate physical movement, often an output as a result of a sensor. So they might pair with a sensor to open an automatic door. 
