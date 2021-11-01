@@ -8,7 +8,7 @@
 
 **Field** - a column in a database
 
-**Atribute** - represented by a column eg. Forename, Surname
+**Attribute** - represented by a column eg. Forename, Surname. An entity is made of of attributes
 
 **Entity** - a catergory of things, people or events of interest about which data is being held. A person is an instance of an entity.
 
@@ -35,7 +35,7 @@ For example data types, dropdown lists (combo boxes) or field sizes
 
 **Atomic data** - data that can not be broken up into smaller chunks. Each attribute should have 1 single peice of atomic data.
 
-**Referencial Intergity** - In a database a foreign key can not reference a non-existant primary key. So an order cannot be placed for a customer that has not signed up yet. The foreign key must depend on a primary key. 
+**Referencial Intergity** - In a database a foreign key can not reference a non-existant primary key. So an order cannot be placed for a customer that has not signed up yet. The foreign key must depend on a primary key.
 
 ## Flat file database
 A single table within a database. refered to as a single **relation** in a database. Most often used for only 1 entity.
