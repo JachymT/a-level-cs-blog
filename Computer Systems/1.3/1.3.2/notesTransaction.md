@@ -63,3 +63,6 @@ Transactions are ordered based on thier dependencies and thier time of creation.
 
 ## Redundancy
 Intentional data redundancy is created when companies do not want to loose important information and so store the same data across many physical locations. These computer systems then save them money and trouble, since the overall system is not affected if one goes down.
+
+## Intergrity
+Large databases can have millions of records and thousands of simultanious users accessing the database with different access right - the database must not become inconsistent or corrupt. Intergrity is the maintainainse of the transactions in the database, for example using a DBMS, and the protocals described above. Referential integrity enforces one change across an entire database, and changes any coresponding details, know as a cascading change. Cascade deletes must be handled carefully, since deleting one record could delete lots in another table unitentionally.
