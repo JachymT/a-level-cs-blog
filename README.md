@@ -8,7 +8,7 @@ _Jachym Tolar_
 ### Computer Systems - Component 1
 - 1.1 Characteristics of contemporary processors, input, output and storage devices
   - [1.1.1 Structure and function of the processor](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.1/1.1.1)
-  - 1.1.2 Types of processor
+  - [1.1.2 Types of processor](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.1/1.1.2)
   - [1.1.3 Input, output and storage](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.1/1.1.3)
 
 - 1.2 Software and software development
