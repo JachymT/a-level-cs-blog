@@ -59,7 +59,7 @@ Ensures transactions do not overlap with each other or effect each other, the fo
 Read and write timestamps are saved for objects in a database. There are used to identify if an object has been changed in the time it has been tried to edit. If so updating it is denied.
 
 ### Commitment ordering
-Transactions are ordered based on thier dependencies and thier time of creation. This prevents two transactions being lost if they simultaiously try to update a record (prevents deadlocking). One request is blocked based on the commitment order untill the other is completed
+Transactions are ordered based on thier dependencies and thier time of creation. This prevents two transactions being lost if they simultaneously try to update a record (prevents deadlocking). One request is blocked based on the commitment order untill the other is completed
 
 ## Redundancy
 Intentional data redundancy is created when companies do not want to loose important information and so store the same data across many physical locations. These computer systems then save them money and trouble, since the overall system is not affected if one goes down.
