@@ -7,7 +7,7 @@
 ## [Transation notes](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2/notesTransaction.md)
 
 ## Practise questions
-[sql](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2/Databases%20Worksheet.pdf)
+[sql](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2/notesSQL.md)
 
 [exam](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2/Databases%20Exam%20Practice%20Q.pdf)
 
