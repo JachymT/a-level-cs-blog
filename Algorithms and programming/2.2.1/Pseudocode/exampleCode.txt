@@ -1,0 +1,17 @@
+//Pseudocode example for a cash machine
+//Note that capital letters for functions are optional
+
+pin = INPUT(“Please enter PIN Number”)
+
+WHILE pin != correctPin
+   pin = INPUT(“Please enter PIN Number”)
+ENDWHILE
+
+amount = INPUT(“Enter amount to take out: ”)
+
+IF amount <= currentBalance THEN
+   DispenseCash(cmount)
+   currentBalance = currentBalance - amount
+ELSE
+   PRINT(“Sorry, insufficient funds”)
+END IF
