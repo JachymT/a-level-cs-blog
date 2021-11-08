@@ -4,7 +4,7 @@
 
 ## [Validation notes](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2/notesValidation.md)
 
-## [Transation notes](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2/notesTransaction.md)
+## [Transaction notes](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2/notesTransaction.md)
 
 ## [SQL notes](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2/notesSQL.md)
 
