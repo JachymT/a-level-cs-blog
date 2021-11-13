@@ -52,3 +52,4 @@ _Jachym Tolar_
 ### Other programming
 - [Summer 2021](https://github.com/JachymT/a-level-cs-blog/tree/main/Code/summer%20work%202021)
 - [OCR challenges](https://github.com/JachymT/a-level-cs-blog/tree/main/Code/OCR%20challenges)
+- [Programming Challenge book](https://github.com/JachymT/a-level-cs-blog/tree/main/Code/challengeBook)
