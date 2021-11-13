@@ -4,12 +4,11 @@
 from datetime import datetime
 
 def main():
-    #input
+    #input formating
     birth = input("Enter your birthday in the form yyyy-mm-dd: ")
     birthdate = datetime.strptime(birth, "%Y-%m-%d")
     
     today = datetime.now()
-    print(today)
 
     age = today - birthdate
 
