@@ -3,7 +3,7 @@
 ## RISC 
 Reduced instruction set computer - aim to use as simple instructions as possible to be executed within a single clock cycle.
 
-The instructions are harder to translate since the compiler is doing more work and making more lines of code. More RAM is needed to store these instructions. However each instruction requires less **hardware**, **processing power**, and **energy**, meaning they executed quickly. In this Architecture more room is left for registers and cache.
+The instructions are harder to translate since the compiler is doing more work and making more lines of code. More RAM is needed to store these instructions. However each instruction requires less **hardware**, **processing power**, and **energy**, meaning they executed quickly. In this architecture, more room is left for registers and cache.
 
 Since instructions are uniform in execution time, pipelinning becomes feesable.
 
