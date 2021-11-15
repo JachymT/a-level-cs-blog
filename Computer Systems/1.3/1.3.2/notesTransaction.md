@@ -9,6 +9,8 @@ Electronic Data Interchange is the exchange of business documents between compan
 
 This electronic data can then be handled and translated into a database
 
+**OR** if doing manual data transfers, **CSV** files can be easliy imported into a database, they are text based comma seperated files.
+
 ## Transactions
 In a database, a single logical opperation perfomed is handed by transaction processing as a transaction
 
