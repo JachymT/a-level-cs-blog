@@ -1,19 +1,19 @@
 # Software methodologies
 There are 5 main approaches when working on a software development project. The lifecycle of software development can be partitioned into phases, which together lead to a well thought out, functional and maintained solution.
 
-## Waterfall Method
+### Waterfall Method
 Involves cascading from one stage in development to another, where each stage is clearly seperated and identifyable. In some cases going back to the previous stage can happen when re-assesing and re-working a project.
 
-## Rapid Application Development
+### Rapid Application Development
 Building prototypes of the software after another untill a final product is reached. This method very effectively utilizes user feedback to iterate improvements and each prototype can be tested heavily and imporovements suggested.
 
-## The Spiral Method
+### The Spiral Method
 A risk driven model or guide to software development which works by adapting and generating a path to solve a project based on its risks. It ussualy starts with determining objectives then identifying and resolving risks, then developing and testing, then planning the next iteration in the spiral.
 
-## Agile methodologies
+### Agile methodologies
 A group of methodologies steming from RAD. They focus of achieving goals with iterative development as to solve the problem of ideas changing during development. These methods are refined by spliting iteration into sprints, which are short periods of time decicating to focusing on one small goal.
 
-## Extreme Programming
+### Extreme Programming
 A framework for producing high quality code and encourage developer statisfaction, in particular: simplicity, communication, feedback, courage and respect. It is an agile framework, so small regular software releases are expected. Team work and equality are valued.
 
 ## Choosing the right methodology 
