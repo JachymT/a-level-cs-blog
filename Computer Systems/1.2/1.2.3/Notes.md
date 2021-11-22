@@ -1,6 +1,8 @@
 # Software methodologies
 There are 5 main approaches when working on a software development project. The lifecycle of software development can be partitioned into phases, which together lead to a well thought out, functional and maintained solution.
 
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/Images/Phases.png" height="200">
+
 ### Waterfall Method
 Involves cascading from one stage in development to another, where each stage is clearly seperated and identifyable. In some cases going back to the previous stage can happen when re-assesing and re-working a project.
 
