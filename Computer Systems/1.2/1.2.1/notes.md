@@ -53,7 +53,7 @@ User management - provides levels of access and a profiles for users on the Netw
 Provides a visual platform for users to interact with. A UI can be as simple or a terminal, but can also be a fully customised screen with pointers, windows, menus and icons. 
 
 ### Networking
-
+Interfacing to other computers with WiFi and cables.
 
 ### Interupts
 
