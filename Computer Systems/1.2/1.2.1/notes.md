@@ -34,15 +34,16 @@ Background and active helper programs that run on the software. Some utilities a
 - system moniter
 
 ### Memory and file management
-Alocates space for programs and makes sure the OS Kernal is loaded - the kernal makes sure memory and file management is executed correctly. Its key process ares
+Alocates space for programs and makes sure the OS Kernal is loaded - the kernal makes sure memory and file management is executed correctly. Its key processes are:
 
-- Segmentation
-- Loading programs into RAM when they are opened
+- Segmentation - spliting up mememory into logical chunks of varying size, used by a program for assigning sections and processes and splitting it up.
+- Paging - spliting up programs into equally sized sections so they can be moved between main memory and RAM.
+- Loading programs these program segments or pages into RAM when they are needed.
 - Assigning virtual memory
 - Moving files to and from secondary storage.
 
 ### Processor management
-Multitasking (insert citation) and control how processor time is divided. Programs need to run in the right order and often simultaneously. It also handles interupts ( insert citation). Other hardware is also manged
+Multitasking (insert citation) and control how processor time is divided. Programs need to run in the right order and often simultaneously. It also handles interupts ( insert citation).
 
 ### Security
 Firewall inplementation - software that stops harmful incoming trafic and scans for outside programs trying to get access to the system.
