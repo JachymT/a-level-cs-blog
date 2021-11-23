@@ -19,6 +19,7 @@ A software designed specificaly for one user, or a company to meet all thier cus
 Includes company web portals, food chain software for thier employees, netflix software for creators.
 
 ## Operating systems
+Operating systems
 
 ### Managing Peripherals
 
@@ -37,6 +38,3 @@ Includes company web portals, food chain software for thier employees, netflix s
 
 ### Userinterface
 
-#### Test
-
-###### Fail
