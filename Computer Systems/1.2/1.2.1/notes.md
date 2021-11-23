@@ -22,7 +22,7 @@ Includes company web portals, food chain software for thier employees, netflix s
 Operating systems perform many different tasks at the base level of the computer and create an API for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions to create a platform between te user and the 
 
 ### Managing Peripherals
-External hardware needs to comunicate with the computer and it cannot do this without a device driver. Inputs and outputs are translated by the driver so that the OS can control it.
+All hardware needs to comunicate with the computer and it cannot do this without a device driver. Inputs and outputs are translated by the driver so that the OS can control it. For example keyboards and mice need to give inputs to the computer and have custom settings to do so.
 
 ### Utility programs
 Background and active helper programs that run on the software. Some utilities are key, and are loaded right away. Examples of Utility programs are:
@@ -42,18 +42,17 @@ Alocates space for programs and makes sure the OS Kernal is loaded - the kernal 
 - Moving files to and from secondary storage.
 
 ### Processor management
-Multitasking (See previous topic) and control how processor time is divided.
+Multitasking (insert citation) and control how processor time is divided. Programs need to run in the right order and often simultaneously. It also handles interupts ( insert citation). Other hardware is also manged
 
 ### Security
-**Firewall**
- - Software that stops harmful incoming trafic and scans for outside programs trying to get access to the system.
-**User management**
- - Provides levels of access and a profiles for users on the Network
+Firewall inplementation - software that stops harmful incoming trafic and scans for outside programs trying to get access to the system.
+User management - provides levels of access and a profiles for users on the Network.
 
 ### User interface
 Provides a visual platform for users to interact with. A UI can be as simple or a terminal, but can also be a fully customised screen with pointers, windows, menus and icons. 
 
-### Networking and Hardware
+### Networking
+
 
 ### Interupts
 
