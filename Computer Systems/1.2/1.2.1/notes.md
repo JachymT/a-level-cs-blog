@@ -19,14 +19,16 @@ A software designed specificaly for one user, or a company to meet all thier cus
 Includes company web portals, food chain software for thier employees, netflix software for creators.
 
 ## Operating systems
-Operating systems
+Operating systems perform many different tasks at the base level of the computer and create an API for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions.
 
 ### Managing Peripherals
+Bases for inputs and outputs
 
 ### Utility programs
 
 ### Memory and file management
 - **Disk Defragmentation**
+- Loading programs into RAM when they are opened
 
 ### Processor management
 - **multitasking**
@@ -36,5 +38,8 @@ Operating systems
 - **Firewall**
 - **User management**
 
-### Userinterface
+### User interface
+
+### Networking and Hardware
+
 
