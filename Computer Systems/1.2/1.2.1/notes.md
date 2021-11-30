@@ -65,15 +65,25 @@ Interfacing to other computers with WiFi and cables.
 
 ### Distributed
 
-### Embedded, 
+### Embedded
 
-### Multi-tasking, 
+### Multi-tasking
+A single user OS that supports several user applications running at once. These are the operating systems that are on most PCs and laptops. They need to be able to swap between programs for the user, by managing multiple cores or asigning time to a single core efficiently.
+
+Examples
+- Windows
+- MacOS
+- Linux
 
 ### Multiuser
+An Os that provides resources for multiple users to access the same system. The use of resources is controlled so that no user is limited by the others.
 
 ### Real-time
-RT operating systems process applications that have critically defined time restraints. It must be fast, responsive, and know how to manage limitations. Responses need to be consistently fast and respond in a garanteed time. Outputs must be completed before the next input. And unexpected events must be passed in parralel and be reacted to quickly.
+Real time OSs process applications that have critically defined time restraints. It must be fast, responsive, and know how to manage limitations. Responses need to be consistently fast and respond in a garanteed time - it is vital that the time for each operation is identical. Outputs must be completed before the next input. And unexpected events must be passed in parralel and be reacted to quickly. From what i understand - real time can be seen as an operating system that syncs up actions to a clock, since the actions it performs rely on the time.
 
 Examples
 - plane autopilet systems
 - self driving cars
+- scientifical instruments
+- industrial systems
+
