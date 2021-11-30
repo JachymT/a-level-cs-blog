@@ -18,7 +18,7 @@ Includes word, powerpoint, firefox.
 A software designed specificaly for one user, or a company to meet all thier custom needs, more expensive than using application software.
 Includes company web portals, food chain software for thier employees, netflix software for creators.
 
-## Operating systems
+## Operating system purposes
 Operating systems perform many different tasks at the base level of the computer and create an API for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions to create a platform between te user and the 
 
 ### Managing Peripherals
@@ -36,11 +36,14 @@ Background and active helper programs that run on the software. Some utilities a
 ### Memory and file management
 Alocates space for programs and makes sure the OS Kernal is loaded - the kernal makes sure memory and file management is executed correctly. Its key processes are:
 
-- Segmentation - spliting up mememory into logical chunks of varying size, used by a program for assigning sections and processes and splitting it up.
-- Paging - spliting up programs into equally sized sections so they can be moved between main memory and RAM.
-- Loading programs these program segments or pages into RAM when they are needed.
-- Assigning virtual memory
+- **Segmentation** - spliting up mememory into logical chunks of varying size, used by a program for assigning sections and processes and splitting it up.
+- **Paging** - spliting up programs into equally sized sections so they can be moved between main memory and RAM.
+- Assigning **virtual memory**
 - Moving files to and from secondary storage.
+- Loading programs these program segments or pages into RAM when they are needed.
+
+### Paging
+
 
 ### Processor management
 Multitasking (insert citation) and control how processor time is divided. Programs need to run in the right order and often simultaneously. It also handles interupts ( insert citation).
@@ -55,6 +58,10 @@ Provides a visual platform for users to interact with. A UI can be as simple or 
 ### Networking
 Interfacing to other computers with WiFi and cables.
 
-### Interupts
+## Interupts
+//////
+
+## Scheduling
+///////
 
 
