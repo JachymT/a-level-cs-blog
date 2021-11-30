@@ -42,9 +42,6 @@ Alocates space for programs and makes sure the OS Kernal is loaded - the kernal 
 - Moving files to and from secondary storage.
 - Loading programs these program segments or pages into RAM when they are needed.
 
-### Paging
-
-
 ### Processor management
 Multitasking (insert citation) and control how processor time is divided. Programs need to run in the right order and often simultaneously. It also handles interupts ( insert citation).
 
@@ -64,4 +61,19 @@ Interfacing to other computers with WiFi and cables.
 ## Scheduling
 ///////
 
+## Types of operating systems
 
+### Distributed
+
+### Embedded, 
+
+### Multi-tasking, 
+
+### Multiuser
+
+### Real-time
+RT operating systems process applications that have critically defined time restraints. It must be fast, responsive, and know how to manage limitations. Responses need to be consistently fast and respond in a garanteed time. Outputs must be completed before the next input. And unexpected events must be passed in parralel and be reacted to quickly.
+
+Examples
+- plane autopilet systems
+- self driving cars
