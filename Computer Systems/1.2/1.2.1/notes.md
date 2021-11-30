@@ -43,7 +43,7 @@ Alocates space for programs and makes sure the OS Kernal is loaded - the kernal 
 - Loading programs these program segments or pages into RAM when they are needed.
 
 ### Processor management
-Multitasking (insert citation) and control how processor time is divided. Programs need to run in the right order and often simultaneously. It also handles interupts ( insert citation).
+Multitasking (insert citation) and control how processor time is divided. Programs need to run in the right order and often simultaneously. It also handles interupts (insert citation).
 
 ### Security
 Firewall inplementation - software that stops harmful incoming trafic and scans for outside programs trying to get access to the system.
