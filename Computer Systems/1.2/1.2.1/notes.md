@@ -46,7 +46,7 @@ Alocates space for programs and makes sure the OS Kernal is loaded - the kernal 
 Paging happens when moving programs into RAM, where RAM does not have an entire free space for the program. To Fit the needed gaps in RAM , RAM Is physically divied into equally sized sections. Programs are divied the same way so they can be moved between main memory and RAM.
 
 ### Segementation
-Segmentation is a variation of Paging, where instead of spliting programs only on size they are split into variable sections.Mememory id divied into logical chunks of varying size.
+Segmentation is a variation of Paging, where instead of spliting programs only on size they are split into variable sections. Memory is divied into logical chunks of varying size and these program sections can be moved in and out of availiable space in RAM.
 
 ![image](https://user-images.githubusercontent.com/72783315/144589033-8dc9abe8-ffc6-4970-89e9-c32bb50594ed.png)
 
