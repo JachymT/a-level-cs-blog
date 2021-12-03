@@ -33,14 +33,27 @@ Background and active helper programs that run on the software. Some utilities a
 - installers
 - system moniter
 
-### Memory and file management
+### **Memory and file management**
 Alocates space for programs and makes sure the OS Kernal is loaded - the kernal makes sure memory and file management is executed correctly. Its key processes are:
 
-- **Segmentation** - spliting up mememory into logical chunks of varying size, used by a program for assigning sections and processes and splitting it up.
-- **Paging** - spliting up programs into equally sized sections so they can be moved between main memory and RAM.
+- **Paging** 
+- **Segmentation**
 - Assigning **virtual memory**
 - Moving files to and from secondary storage.
 - Loading programs these program segments or pages into RAM when they are needed.
+
+### Paging
+Paging happens when moving programs into RAM, where RAM does not have an entire free space for the program. To Fit the needed gaps in RAM , RAM Is physically divied into equally sized sections. Programs are divied the same way so they can be moved between main memory and RAM.
+
+### Segementation
+Segmentation is a variation of Paging, where instead of spliting programs only on size they are split into variable sections.Mememory id divied into logical chunks of varying size.
+
+![image](https://user-images.githubusercontent.com/72783315/144589033-8dc9abe8-ffc6-4970-89e9-c32bb50594ed.png)
+
+modern operating systems use a combination of both. It is important to not that whilst the chunks of programs are individual, they operate as if adjacent and continous.
+
+### Virtual Memory
+When asinged areas of the hard disk act as main memory. When RAM is full, idle or other programs are moved to virtual memory which acts as a slower RAM. Issues arise when programs need to be rapidly movied between RAM and virtual memory, since this is slow.
 
 ### Processor management
 Multitasking (insert citation) and control how processor time is divided. Programs need to run in the right order and often simultaneously. It also handles interupts (insert citation).
@@ -60,6 +73,7 @@ Interfacing to other computers with WiFi and cables. Serves requests and allows 
 
 ## Scheduling
 ///////
+
 
 ## Types of operating systems
 
