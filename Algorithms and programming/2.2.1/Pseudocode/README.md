@@ -2,7 +2,8 @@
 
 [REFER TO THE SPEC](https://github.com/JachymT/a-level-cs-blog/edit/main/Algorithms%20and%20programming/2.2.1/Pseudocode/README.md)
 
-### Iteration worksheet on programing techniques, including trace table examples
+### Worksheet 3 on programing techniques - Iteration
+including trace tables
  
 [worked and marked questions]()
 
