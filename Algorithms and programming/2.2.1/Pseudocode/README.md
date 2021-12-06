@@ -5,6 +5,6 @@
 ### Worksheet 3 on programing techniques - Iteration
 including trace tables
  
-[worked and marked questions]()
+[worked and marked questions](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.2.1/Pseudocode/worksheet.pdf)
 
 [solutions implemented in python]()
