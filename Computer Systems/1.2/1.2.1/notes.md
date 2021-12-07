@@ -50,7 +50,7 @@ Segmentation is a variation of Paging, where instead of spliting programs only o
 
 ![image](https://user-images.githubusercontent.com/72783315/144589033-8dc9abe8-ffc6-4970-89e9-c32bb50594ed.png)
 
-modern operating systems use a combination of both. It is important to not that whilst the chunks of programs are individual, they operate as if adjacent and continous.
+modern operating systems use a combination of both. It is important to note that whilst the chunks of programs are individual, they operate as if adjacent and continous.
 
 ### Virtual Memory
 Assigned areas of the hard disk act as main memory for when RAM is full. Idle or other programs are moved to virtual memory by the OS, and the virtual memory acts as a slower and larger temporary replacement RAM. Issues arise when programs need to be rapidly movied between RAM and virtual memory, since this is slow. Chunks of programs will often be moved into virtual memomry or else others could simply not be run, by segmenting and paging, these sections could be kept track of, and moved as nessesary.
