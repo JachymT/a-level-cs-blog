@@ -71,15 +71,22 @@ Provides a visual platform for users to interact with. A UI can be as simple or 
 Interfacing to other computers with WiFi and cables. Serves requests and allows access to recources such as printers and files.
 
 ## Interupts
-An interupt is a request for processor time. The fetch decode 
+An interupt is a request for processor time. Interupts let the user have better control over the computer, since otherwise they would have to wait for an aplication to finish before registering something like a keybaord input, which needs to be immediate. At the end of every fetch-decode-execute cycle there is another step the CPU taskes, and this is checking for an interupt. 
 
-### Interupt service routine
+![image](https://user-images.githubusercontent.com/72783315/145054323-9fe7e95d-905f-4fd2-b151-6a11c1b279da.png)
+
+Hardware or software sends interupts to the CPU, and in the next CPU cycle, the interupt service routine is called, the interupt is identified and control handed over to the OS so it can be handled. The handling and processing is done by a interupt service routine. The process of dealing with an interupt is called servicing.
+
+![image](https://user-images.githubusercontent.com/72783315/145053299-610f91aa-8828-4922-a87f-9648660c8acc.png)
+
+### Interupt Service Routine
+Each interupt has its own service routine which is executed by the OS. An interupt can also be ignored if the OS chooses to.
 
 ### priorities
 ![image](https://user-images.githubusercontent.com/72783315/145049228-6aecdd6e-697f-460e-876c-7b2f821e530e.png)
 
 ### Stack
-Stores reigisters ina a frame from before an interupt so the porcessor can continue.The stack data structure lets interupts stack ontop of each other, order for the instructions in prioirty is held.
+Stores reigisters in a frame from before an interupt so the porcessor can continue. The stack data structure lets interupts stack ontop of each other, order for the instructions in prioirty is held.
 
 ## Scheduling
 ///////
