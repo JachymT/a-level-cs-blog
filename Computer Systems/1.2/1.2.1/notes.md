@@ -81,7 +81,12 @@ Interfacing to other computers with WiFi and cables. Serves requests and allows 
 ////
 
 ### Embedded
-/////
+Provide a reliable platform for specific, custom applications to run. They are compact and efficient however sacrifice customizability and limit functions that can be performed. There is very little user control, as often only one task is being performed.
+
+Examples
+- Network routers
+- ATMS
+- Navigation Satelites
 
 ### Multi-tasking
 A single user OS that supports several user applications running at once. These are the operating systems that are on most PCs and laptops. They need to be able to swap between programs for the user, by managing multiple cores or asigning time to a single core efficiently.
