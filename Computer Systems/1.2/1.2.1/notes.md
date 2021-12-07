@@ -19,7 +19,9 @@ A software designed specificaly for one user, or a company to meet all thier cus
 Includes company web portals, food chain software for thier employees, netflix software for creators.
 
 ## Operating system purposes
-Operating systems perform many different tasks at the base level of the computer and create an API for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions to create a platform between te user and the 
+Operating systems perform many different tasks at the base level of the computer and create an API for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions to create a platform between te user
+
+![image](https://user-images.githubusercontent.com/72783315/145047208-4101600f-16c0-4078-9535-67651d141153.png)
 
 ### Managing Peripherals
 All hardware needs to comunicate with the computer and it cannot do this without a device driver. Inputs and outputs are translated by the driver so that the OS can control it. For example keyboards and mice need to give inputs to the computer and have custom settings to do so.
@@ -69,11 +71,18 @@ Provides a visual platform for users to interact with. A UI can be as simple or 
 Interfacing to other computers with WiFi and cables. Serves requests and allows access to recources such as printers and files.
 
 ## Interupts
-//////
+An interupt is a request for processor time. The fetch decode 
+
+### Interupt service routine
+
+### priorities
+![image](https://user-images.githubusercontent.com/72783315/145049228-6aecdd6e-697f-460e-876c-7b2f821e530e.png)
+
+### Stack
+Stores reigisters ina a frame from before an interupt so the porcessor can continue.The stack data structure lets interupts stack ontop of each other, order for the instructions in prioirty is held.
 
 ## Scheduling
 ///////
-
 
 ## Types of operating systems
 
