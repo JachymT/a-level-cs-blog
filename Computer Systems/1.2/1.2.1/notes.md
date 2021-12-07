@@ -86,7 +86,8 @@ Each interupt has its own service routine which is executed by the OS. An interu
 ![image](https://user-images.githubusercontent.com/72783315/145049228-6aecdd6e-697f-460e-876c-7b2f821e530e.png)
 
 ### Stack
-Stores reigisters in a frame from before an interupt so the porcessor can continue. The stack data structure lets interupts stack ontop of each other, order for the instructions in prioirty is held.
+After an interupt the CPU needs to go back to executing the program before the interupt. This is done by storing the contents of registers in a stack in RAM.
+Before an interupt is serviced the data is moved to the top of the stack. The stack data structure lets interupts stack ontop of each other, and so order for the instructions to be popped from the stack is maintained.
 
 ## Scheduling
 ///////
