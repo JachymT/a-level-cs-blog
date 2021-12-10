@@ -71,13 +71,6 @@ Each interupt has its own service routine which is executed by the OS. An interu
 After an interupt the CPU needs to go back to executing the program before the interupt. This is done by storing the contents of registers in a stack in RAM.
 Before an interupt is serviced the data is moved to the top of the stack. The stack data structure lets interupts stack ontop of each other, and so order for the instructions to be popped from the stack is maintained.
 
-## Scheduling
-///////
-
-## Types of operating systems
-
-### Distributed
-////
 
 ### Embedded
 Provide a reliable platform for specific, custom applications to run. They are compact and efficient however sacrifice customizability and limit functions that can be performed. There is very little user control, as often only one task is being performed.
