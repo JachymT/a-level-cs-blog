@@ -18,5 +18,6 @@ a **function** diffferenciates from a procedure because it returns a value
 **Advantages of Subroutues**
 - easier to write and understand 
 - easier to debug and test
-- modular
+- modular and decomposition programming - breaking down a problem into smaller problems
 - resusable in the file and across files by importing as a module
+- efficiency
