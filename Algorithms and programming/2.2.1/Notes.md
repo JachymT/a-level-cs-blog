@@ -11,6 +11,8 @@ endprocedure
 name(arguments)
 ```
 
+**parameters** are defined locally in the functio and **arguments** give values to parameters as they are passed in, either by reference or value
+
 a **function** diffferenciates from a procedure because it returns a value
 
 **Advantages of Subroutues**
