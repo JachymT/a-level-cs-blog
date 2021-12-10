@@ -3,11 +3,19 @@ In oder to multitask and execute threads simultaniously, the operating systems n
 
 ## Process states
 - Only one process can be run at a time - assigned the **running** state
-- Processes in the queue are wating for CPU time - assigned the **runnable** state
+- Processes in the queue are wating for CPU time - assigned the **runnable/ready to run** state
 - Processes wating for an I/O to contuinue, such as hard drive access - assigned the **Blocked/Suspended** state
 
-The suspended state is less common and needs to be managed seperatly to not block up the queue
+The suspended state is less common and needs to be managed seperatly to not block up the queue. Processes will wait in the blocked queue untill there is an interupt which it can use. It can then be moved straight into the ready to run queue.
 
 ![image](https://user-images.githubusercontent.com/72783315/145560818-29f9b4dc-f81b-47a1-8da3-6459630d8b19.png)
 
-## 
+### Runnable state
+It is up to the scheduler with the use of an scheduling algorithm to decide on which programs to place where in the queue. Any programs in the state are already loaded into main memory.
+
+### Running state
+Whislt running, a program can do several things to exit the running state
+ - Complete the task and close.
+ - Be interupted by the scheduler. This is not the same as an interupt, this is the OS telling the program to stop using the CPU and be placed back into the runnable queue. This could also be the program running out of its alocated time
+ - Become blocked and move out of the CPU to avoid wasting time
+ - Give up CPU time volunterily
