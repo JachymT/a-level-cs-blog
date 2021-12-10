@@ -11,11 +11,10 @@ endprocedure
 name(arguments)
 ```
 
-a **function** diffferenciated from a procedure because it returns a value
+a **function** diffferenciates from a procedure because it returns a value
 
 **Advantages of Subroutues**
 - easier to write and understand 
 - easier to debug and test
 - modular
-- resusable i the file and across files by modules
-- programs 
+- resusable in the file and across files by importing as a module
