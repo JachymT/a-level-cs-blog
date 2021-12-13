@@ -1,4 +1,4 @@
-#Programming techniques T3 - 3
+# Programming techniques T3 - 3
 # 03/12/2021
 import time
 import random
