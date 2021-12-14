@@ -23,18 +23,21 @@ Whislt running, a program can do several things to exit the running state
 ## Scheduling algorithms
 Programs need to recieve a **fair** amount of processor time, processes aren't **starved** and processes aren't **deadlocked** by eaiting for each other to release recources.The OS is responsible for using a scheduling algorithm decide where in the running state queue programs are placed.
 
-Scheduling algorithms can be pre-emptive - where a 
-
-### Round Robin
-Each program is given a time slice slice (quantum
+Scheduling algorithms can be pre-emptive - where jobs can be actively cut off from their processing time by the operating system.
 
 ### First come first serve
-The queue simply works in a linear order
+Jobs are added to the end of the queue and executed in order of arival, from the front of the queue. 
 
-### Multilevel feedback queues
+Generally inefficient for using recources, but easy to implement.
+
+### Round Robin
+Each program is given a time slice (quantum) of processor time. After the time slice the program is moved back to the end of the queue.
+
+This method spreads out processing time and gives all processes fair amount of time. Innefficient for long programs
 
 ### Shortest job first
-The shortest programs are scheduled first. They are evaluated based on thier length
+Programs are evaluated based on thier length and the shortest ones are scheduled first
 
 ### Shortest remaining time
-Like shor
+
+### Multilevel feedback queues
