@@ -19,3 +19,22 @@ Whislt running, a program can do several things to exit the running state
  - Be interupted by the scheduler. This is not the same as an interupt, this is the OS telling the program to stop using the CPU and be placed back into the runnable queue. This could also be the program running out of its alocated time
  - Become blocked and move out of the CPU to avoid wasting time
  - Give up CPU time volunterily
+
+## Scheduling algorithms
+Programs need to recieve a **fair** amount of processor time, processes aren't **starved** and processes aren't **deadlocked** by eaiting for each other to release recources.The OS is responsible for using a scheduling algorithm decide where in the running state queue programs are placed.
+
+Scheduling algorithms can be pre-emptive - where a 
+
+### Round Robin
+Each program is given a time slice slice (quantum
+
+### First come first serve
+The queue simply works in a linear order
+
+### Multilevel feedback queues
+
+### Shortest job first
+The shortest programs are scheduled first. They are evaluated based on thier length
+
+### Shortest remaining time
+Like shor
