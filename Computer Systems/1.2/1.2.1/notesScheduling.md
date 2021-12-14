@@ -36,7 +36,7 @@ Each program is given a time slice (quantum) of processor time. After the time s
 This method spreads out processing time and gives all processes fair amount of time. Innefficient for long programs
 
 ### Shortest job first
-Programs are evaluated based on thier length and the shortest ones are scheduled first
+Programs are evaluated based on thier length and the shortest ones are scheduled at the front of the queue.
 
 ### Shortest remaining time
 
