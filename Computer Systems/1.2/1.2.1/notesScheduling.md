@@ -21,23 +21,32 @@ Whislt running, a program can do several things to exit the running state
  - Give up CPU time volunterily
 
 ## Scheduling algorithms
-Programs need to recieve a **fair** amount of processor time, processes aren't **starved** and processes aren't **deadlocked** by eaiting for each other to release recources.The OS is responsible for using a scheduling algorithm decide where in the running state queue programs are placed.
+Programs need to recieve a **fair** amount of processor time, processes aren't **starved** (by not getting any processor time) and processes aren't **deadlocked** (by waiting for each other to release recources). The OS is responsible for using a scheduling algorithm decide where in the running state queue programs are placed. Algorithms become more complex when factoring in multiple cores
 
 Scheduling algorithms can be pre-emptive - where jobs can be actively cut off from their processing time by the operating system.
 
 ### First come first serve
-Jobs are added to the end of the queue and executed in order of arival, from the front of the queue. 
+Jobs are added to the end of the queue and executed in order of arival, from the front of the queue. The order is strict and the programs may have to wait a long time.
 
 Generally inefficient for using recources, but easy to implement.
 
 ### Round Robin
-Each program is given a time slice (quantum) of processor time. After the time slice the program is moved back to the end of the queue.
+Each program is given a time slice (**quantum**) of processor time. After the time slice the program is moved back to the end of the queue.
 
-This method spreads out processing time and gives all processes fair amount of time. Innefficient for long programs
+This method spreads out processing time and gives all processes fair amount of time. Innefficient for long programs.
 
 ### Shortest job first
-Programs are evaluated based on thier length and the shortest ones are scheduled at the front of the queue.
+Programs are evaluated based on thier length and the shortest ones are scheduled at the front of the queue. And executed in oder from shortest to longest.
 
 ### Shortest remaining time
+Works exactly like Shortest job first, other than that this algorithm is pre-emptive. When a process is suspended in the CPU and returns to the queue, its remaining time is evaluated and its placed in its respective place in the queue.
+
+This reduces risk of starvation because once longer programs get processor time, they increase their priority and wont get stuck at the back of the queue. 
+Pre-empting programs is common so this algorithm is advantagous to shortest job first.
+
+The downside is that sequencing the queue often is an expensive calculation.
 
 ### Multilevel feedback queues
+By creating multiples queues with levels of priority, for example 0 being high, 1 being medium and 2 being low, the scheduler can move jobs up and down levels based on a set of rules. Processes are typically added in a FCFS fashion into the highest priority queue and then moved down or up, but not jumping postions in queue.
+
+<img width="874" alt="Scheduling algs" src="https://user-images.githubusercontent.com/72783315/146681676-341a08b7-5caa-4d09-bda6-69cdab17fd1d.png">
