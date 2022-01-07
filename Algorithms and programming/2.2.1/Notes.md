@@ -31,9 +31,17 @@ def factorial(n):
     return 1
   else:
     prev = factorial(n-1)
-    result = n * prev
-    return result
+    fact = n * prev
+    return fact
 ```
 
 ## Iteration
 A block of code is executed a certain number of times or while a condition is met. Iteration uses FOR, WHILE or REPEAT UNTIL loops. It often replaces recursion, for some solutions its can be more optimal and intuitive.
+
+```
+def factorial(n):
+  result = 1
+  for i in range(1, n + 1):
+    result = fact * i
+  return fact
+```
