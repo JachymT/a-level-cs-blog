@@ -36,6 +36,15 @@ Segmentation is a variation of Paging, where instead of spliting programs only o
 
 modern operating systems use a combination of both. It is important to note that whilst the chunks of programs are individual, they operate as if adjacent and continous.
 
+**Exam style Question**
+**Discuss the differences between paging and segmentation in terms of their efficient use of memory (7 marks)**
+
+Paging uses memory by slicing programs into equally sized data blocks whilst Segmentation uses memory by slicing programs up into logically divided blocks, differing in size. The OS moves these in and out of RAM, in order to manage memory. 
+
+Paging has frames that are designed to fit parts of memory, and since they are smaller they are often more efficient and dont waste as much RAM as segmented programs. They dont have to be together since they are read by an index, but this can decrease efficiency.
+
+Since segmentation pages are often bigger, there is less space for them in RAM, making memory management less efficiently. Segmentation allows for logical reading of code and can execute entire procedures at once potentially, which can increase efficiency.
+
 ### Virtual Memory
 Assigned areas of the hard disk act as main memory for when RAM is full. Idle or other programs are moved to virtual memory by the OS, and the virtual memory acts as a slower and larger temporary replacement RAM. Issues arise when programs need to be rapidly movied between RAM and virtual memory, since this is slow. Chunks of programs will often be moved into virtual memomry or else others could simply not be run, by segmenting and paging, these sections could be kept track of, and moved as nessesary.
 
@@ -77,6 +86,7 @@ Before an interupt is serviced the data is moved to the top of the stack. The st
 ////
 
 ### Batch
+////
 
 ### Embedded
 Provide a reliable platform for specific, custom applications to run. They are compact and efficient however sacrifice customizability and limit functions that can be performed. There is very little user control, as often only one task is being performed.
