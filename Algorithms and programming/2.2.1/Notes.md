@@ -23,9 +23,9 @@ a **function** differenciates from a procedure because it returns a value
 - efficiency
 
 ## Recursion
-Subroutines that reference themselves. These have the potential to loop infinitly until a astopping condition is met. 
+Subroutines that reference themselves. These have the potential to loop infinitly until a a stopping condition is met (base case). Ontop of this stacks are placed in memory containing variable 
 
-```
+```py
 def factorial(n):
   if n == 0:
     return 1
@@ -38,10 +38,12 @@ def factorial(n):
 ## Iteration
 A block of code is executed a certain number of times or while a condition is met. Iteration uses FOR, WHILE or REPEAT UNTIL loops. It often replaces recursion, for some solutions its can be more optimal and intuitive.
 
-```
+```py
 def factorial(n):
   result = 1
   for i in range(1, n + 1):
     result = fact * i
   return fact
 ```
+
+
