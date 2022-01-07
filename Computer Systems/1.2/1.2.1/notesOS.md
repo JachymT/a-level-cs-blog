@@ -105,7 +105,11 @@ Examples
 - Linux
 
 ### Multiuser
-An OS that provides resources for multiple users to access the same system. The use of resources is controlled so that no user is limited by the others.
+An OS that provides resources for multiple users to access the same system sp that more than one user can use an OS at the same time. The OS manages the users permissions and settings for each login. The network responds to lots of users on lots of computers.
+
+Examples
+- School
+- Work
 
 ### Real-time
 Real time OSs process applications that have critically defined time restraints. It must be fast, responsive, and know how to manage limitations. Responses need to be consistently fast and respond in a garanteed time - it is vital that the time for each operation is identical. Outputs must be completed before the next input. And unexpected events must be passed in parralel and be reacted to quickly. From what i understand - real time can be seen as an operating system that syncs up actions to a clock, since the actions it performs rely on the time.
