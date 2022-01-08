@@ -81,20 +81,26 @@ After an interupt the CPU needs to go back to executing the program before the i
 Before an interupt is serviced the data is moved to the top of the stack. The stack data structure lets interupts stack ontop of each other, and so order for the instructions to be popped from the stack is maintained.
 
 ## Types of operating systems
+These types are not mutually exclusive.
 
 ### Distributed
-////
+Combines processing power of multiple computers across a network. The OS coordinates many computer processors to complete a task together. The OS works across all of these deivces
 
-### Batch
-////
+Examples
+- Online shopping sites - different servers for different tasks, even though for the user they are happening on the same computer
+- 
+
 
 ### Embedded
-Provide a reliable platform for specific, custom applications to run. They are compact and efficient however sacrifice customizability and limit functions that can be performed. There is very little user control, as often only one task is being performed.
+Provide a reliable platform for specific, custom applications to run. They are compact and efficient because they run on dedicated hardware, making them use very little memory. They sacrifice customizability and limit functions that can be performed. There is very little user control, as often only one task set is being performed.
 
 Examples
 - Network routers
 - ATMS
 - Navigation Satelites
+- TVs
+- Car engine management system
+- Other consumer aplications
 
 ### Multi-tasking
 A single user OS that supports several user applications running at once. These are the operating systems that are on most PCs and laptops. They need to be able to swap between programs for the user, by managing multiple cores or asigning time to a single core efficiently.
@@ -104,18 +110,19 @@ Examples
 - MacOS
 - Linux
 
-### Multiuser
+### Multi-user
 An OS that provides resources for multiple users to access the same system sp that more than one user can use an OS at the same time. The OS manages the users permissions and settings for each login. The network responds to lots of users across lots of computers.
 
 Examples
-- School?
-- Work?
+- Windows
+- MacOS
+- Used in a School or work setting
 
 ### Real-time
 Real time OSs process applications that have critically defined time restraints. It must be fast, responsive, and know how to manage limitations. Responses need to be consistently fast and respond in a garanteed time - it is vital that the time for each operation is identical. Outputs must be completed before the next input. And unexpected events must be passed in parralel and be reacted to quickly. From what i understand - real time can be seen as an operating system that syncs up actions to a clock, since the actions it performs rely on the time.
 
 Examples
-- plane autopilet systems
-- self driving cars
-- scientifical instruments
-- industrial systems
+- Plane autopilet systems
+- Self driving cars
+- Scientifical instruments
+- Industrial systems
