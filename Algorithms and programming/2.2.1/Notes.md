@@ -27,10 +27,10 @@ Subroutines that reference (call) themselves. These have the potential to loop i
 
 ```py
 def factorial(n):
-  if n == 0:
-    return 1
+  if n == 0: 
+    return 1                             #base call
   else:
-    prev = factorial(n-1)
+    prev = factorial(n-1)                #recursive call            
     fact = n * prev
     return fact
 ```
