@@ -66,7 +66,7 @@ In an operating system, the lowest layer of the architecture is the kernel, betw
 
 Its job is to deal with the core instructions and system resources, dealing with memory management, disk storage, peripherals and low level networking.
 
-<img src="(https://user-images.githubusercontent.com/72783315/149502919-f0b06151-9c4a-4104-a7a5-af757dbbe9f8.png" width= "800">
+<img src="https://user-images.githubusercontent.com/72783315/149502919-f0b06151-9c4a-4104-a7a5-af757dbbe9f8.png" width= "800">
 
 ## Interupts
 An interupt is a request for processor time. Interupts let the user have better control over the computer, since otherwise they would have to wait for an aplication to finish before registering something like a keybaord input, which needs to be immediate. At the end of every fetch-decode-execute cycle there is another step the CPU taskes, and this is checking for an interupt. 
