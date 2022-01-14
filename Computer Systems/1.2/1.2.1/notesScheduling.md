@@ -25,6 +25,8 @@ Programs need to recieve a **fair** amount of processor time, processes aren't *
 
 Scheduling algorithms can be **pre-emptive** - where jobs can be actively cut off from their processing time by the operating system.
 
+It is not possible to rank these algorithms, they can be favoured in different situations and make trade offs between, least wait time, maximum throughput and maximum fairness.
+
 ### First come first serve
 Jobs are added to the end of the queue and executed in order of arival, from the front of the queue. The order is strict and the programs may have to wait a long time.
 
@@ -33,16 +35,16 @@ Generally inefficient for using recources, but easy to implement.
 ### Round Robin
 Each program is given a time slice (**quantum**) of processor time. After the time slice the program is moved back to the end of the queue.
 
-This method spreads out processing time and gives all processes fair amount of time. Innefficient for long programs.
+This method spreads out processing time and gives all processes fair amount of time. Innefficient for long programs and generally
 
 ### Shortest job first
-Programs are evaluated based on thier length and the shortest ones are scheduled at the front of the queue. And executed in oder from shortest to longest.
+Programs are evaluated based on thier length and the shortest ones are scheduled at the front of the queue and executed in oder from shortest to longest. Relies on the CPU knowing how long an algorithm will take, which it can only predict
 
 ### Shortest remaining time
 Works exactly like Shortest job first, other than that this algorithm is pre-emptive. When a process is suspended in the CPU and returns to the queue, its remaining time is evaluated and its placed in its respective place in the queue.
 
 This reduces risk of starvation because once longer programs get processor time, they increase their priority and wont get stuck at the back of the queue. 
-Pre-empting programs is common so this algorithm is advantagous to shortest job first.
+Pre-empting programs are common, so this algorithm is advantagous to shortest job first.
 
 The downside is that sequencing the queue often is an expensive calculation.
 
