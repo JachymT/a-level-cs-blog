@@ -30,8 +30,7 @@ def factorial(n):
   if n == 0: 
     return 1                             #base call
   else:
-    prev = factorial(n-1)                #recursive call            
-    fact = n * prev
+    fact = n * factorial(n-1)            #recursive call            
     return fact
 ```
 
