@@ -88,8 +88,7 @@ Combines processing power of multiple computers across a network. The OS coordin
 
 Examples
 - Online shopping sites - different servers for different tasks, even though for the user they are happening on the same computer
-- 
-
+- school and work computers
 
 ### Embedded
 Provide a reliable platform for specific, custom applications to run. They are compact and efficient because they run on dedicated hardware, making them use very little memory. They sacrifice customizability and limit functions that can be performed. There is very little user control, as often only one task set is being performed.
