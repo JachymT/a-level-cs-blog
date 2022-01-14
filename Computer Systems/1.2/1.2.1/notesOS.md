@@ -61,6 +61,11 @@ Provides a visual platform for users to interact with. A UI can be as simple or 
 ### Networking
 Interfacing to other computers with WiFi and cables. Serves requests and allows access to recources such as printers and files.
 
+## The Kernel
+In an operating system, the lowest layer of the architecture is the kernel, between the CPU/ Memory and the applications. It links the applications and the data processing done by hardware.
+
+Its job is to deal with the core instructions and system resources, dealing with memory management, disk storage, peripherals and low level networking.
+
 ## Interupts
 An interupt is a request for processor time. Interupts let the user have better control over the computer, since otherwise they would have to wait for an aplication to finish before registering something like a keybaord input, which needs to be immediate. At the end of every fetch-decode-execute cycle there is another step the CPU taskes, and this is checking for an interupt. 
 
