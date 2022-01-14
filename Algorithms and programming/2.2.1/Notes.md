@@ -46,4 +46,4 @@ def factorial(n):
   return fact
 ```
 
-
+NOTE: you can practive converting iterative algorithms to recusrsive ones.
