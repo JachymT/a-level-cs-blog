@@ -81,6 +81,7 @@ Hardware or software sends interupts to the CPU, and in the next CPU cycle, the 
 Each interupt has its own service routine which is executed by the OS. An interupt can also be ignored if the OS chooses to.
 
 ### priorities
+If many interupts happen at once
 ![image](https://user-images.githubusercontent.com/72783315/145049228-6aecdd6e-697f-460e-876c-7b2f821e530e.png)
 
 ### Stack
