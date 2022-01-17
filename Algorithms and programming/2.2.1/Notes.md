@@ -59,3 +59,12 @@ def f(n):
 ```
 
 NOTE: you can practive converting iterative algorithms to recusrsive ones.
+
+## Variable scope
+The scope of a varaible refers to its regeion of accessability.
+
+**Differences between Local and Global**
+Local variables are easier to debug than golbal varaibles due to them being contained to a shorter section of code.
+
+![image](https://user-images.githubusercontent.com/72783315/149768085-f22d77bb-d805-4ee4-a060-4a6df581afd8.png)
+
