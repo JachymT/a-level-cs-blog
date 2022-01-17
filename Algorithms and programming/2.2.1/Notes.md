@@ -50,7 +50,7 @@ def factorial(n):
     result = fact * i
   return fact
   
-def f(n):
+def fib(n):
     a, b = 1, 1
     for i in range(0, n):
         a = b
