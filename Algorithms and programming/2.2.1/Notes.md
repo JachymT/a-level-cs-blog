@@ -1,5 +1,12 @@
 # Programming techniques
 
+## Programming constructs to change control flow
+Sequencing - code is executed line by line in order
+
+Branching - a block of code is run if a condition is met
+
+Iteration - a block of code is run a certain number of times or untill a condition is met
+
 ## Subroutines
 Subroutines (procudures and functions) are blocks of code (modules) that carry out a a set of named instructions. They are definded in psydocode code with: 
 
@@ -17,10 +24,11 @@ a **function** differenciates from a procedure because it returns a value
 
 **Advantages of Subroutues**
 - easier to write and understand 
-- easier to debug and test
-- modular and decomposition programming - breaking down a problem into smaller problems
+- easier to debug, test and maintain
 - resusable in the file and across files by importing as a module
 - efficiency
+
+**modular** and decomposition programming is breaking down a complex problem into smaller more managable, self-contained problem (modules
 
 ## Recursion
 Subroutines that reference (call) themselves. These have the potential to loop infinitly until a a stopping condition is met (the **base case**). Then the function starts to unwind, from stacks are placed in memory containing variables with data in sequence of recursion. If the recursion doesnt have a base case, a **stack overflow** error occurs.
