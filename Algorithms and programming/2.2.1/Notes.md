@@ -1,7 +1,7 @@
 # Programming techniques
 
 ## Subroutines
-Subroutines (procudures and functions) are blocks of code that carry out a a set of named instructions. They are definded in psydocode code with: 
+Subroutines (procudures and functions) are blocks of code (modules) that carry out a a set of named instructions. They are definded in psydocode code with: 
 
 ```
 procedure name(parameters)
