@@ -28,7 +28,7 @@ a **function** differenciates from a procedure because it returns a value
 - resusable in the file and across files by importing as a module
 - efficiency
 
-**modular** and decomposition programming is breaking down a complex problem into smaller more managable, self-contained problems (modules).
+**modular** and decomposition programming is breaking down a complex problem into smaller more managable, self-contained problems (modules). The top-down approach seperates a program into further sub-problems untill each task is a single unit.
 
 ## Recursion
 Subroutines that reference (call) themselves. These have the potential to loop infinitly until a a stopping condition is met (the **base case**). Then the function starts to unwind, from stacks are placed in memory containing variables with data in sequence of recursion. If the recursion doesnt have a base case, a **stack overflow** error occurs.
