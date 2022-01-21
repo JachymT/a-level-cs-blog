@@ -3,7 +3,7 @@
 ## Programming constructs
 Sequencing - code is executed line by line in order
 
-Branching - a block of code is run if a condition is met
+Branching - a block of code is run if a condition is met, an algorithm makes a choice
 
 Iteration - a block of code is run a certain number of times or untill a condition is met
 
@@ -28,7 +28,7 @@ a **function** differenciates from a procedure because it returns a value
 - resusable in the file and across files by importing as a module
 - efficiency
 
-**modular** and decomposition programming is breaking down a complex problem into smaller more managable, self-contained problem (modules
+**modular** and decomposition programming is breaking down a complex problem into smaller more managable, self-contained problems (modules).
 
 ## Recursion
 Subroutines that reference (call) themselves. These have the potential to loop infinitly until a a stopping condition is met (the **base case**). Then the function starts to unwind, from stacks are placed in memory containing variables with data in sequence of recursion. If the recursion doesnt have a base case, a **stack overflow** error occurs.
