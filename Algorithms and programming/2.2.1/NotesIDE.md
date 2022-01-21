@@ -1,5 +1,5 @@
 # Intergrated Development Environment
-Text editors with tool to assist development of code.
+Text editors with tools to assist development of code.
 
 ## Debugging tools
 - Error highlighting
@@ -16,3 +16,5 @@ Text editors with tool to assist development of code.
 ## Running code
 - Includes a relevant translator or compiler
 - Inbuilt terminal
+
+![image](https://user-images.githubusercontent.com/72783315/150486138-f41a9845-3af8-442a-b159-a4fecc40bb00.png)
