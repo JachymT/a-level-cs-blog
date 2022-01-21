@@ -3,14 +3,15 @@ Text editors with tools to assist development of code.
 
 ## Debugging tools
 - Error highlighting
-- trace variables (variable watch) see thier value change
-- Stepping observe each line of code executing one at a time
+- Trace variables (variable watch) see thier value change
+- Stepping to observe each line of code executing one at a time
 - Set breakpoints
-- testing code without having to fully compile everytime
+- Testing code without having to fully compile everytime
 
 ## Code editing
 - Autocompleting code
-- indenting and commenting
+- Indenting
+- Commenting
 - Syntaxt highlighting
 
 ## Running code
