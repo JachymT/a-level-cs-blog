@@ -74,7 +74,7 @@ The scope of a varaible refers to its regeion of accessability.
 **Differences between Local and Global**
 - Local variables are easier to debug than golbal varaibles due to them being contained to a shorter section of code
 - Local varaibles are much more secure, unexpected changes to the varaibles wont occur to them outside of thier function
-- Global variables make it harder to integrate procedures
+- Global variables make it harder to integrate modules
 - Global variables increase the complexity of a program
 - Global variable names may clash and cause conflicts, local variables can have the same name in different functions
 
