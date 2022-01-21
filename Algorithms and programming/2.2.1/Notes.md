@@ -1,6 +1,6 @@
 # Programming techniques
 
-## Programming constructs to change control flow
+## Programming constructs
 Sequencing - code is executed line by line in order
 
 Branching - a block of code is run if a condition is met
