@@ -1,22 +1,27 @@
 # Mortgage calculator
 
-InterestRate = 3/100
-MonthsInYear = 12
-interval = 1         #12 = monethly; 1 = yearly
+def fixedInterest(principle, years, interestRate):
+    amount = principle/(years*12)
+    amount = amount + (interestRate*amount)
+    return amount
 
+def compoundInterest(p, t, r, n=12):
+    amount = p * (r / n) * (1 + (r / n))**(n*t)
+    amount = amount / ((1 + r / n)**(n*t) - 1)
+    return amount
 
 def main():
-    total = int(input("How much money do you want? £: "))
+    principle = int(input("How much money do you want? £: "))
     years = int(input("How much time do you have? years: "))
-    charge = total/(years*interval)
-    charge = charge + (InterestRate*charge)
-    
-    monthly = 0
-    if interval == 1:
-        monthly = charge/12
-    else:
-        monthly = charge
+    rate = float(input("How much interest do you want? %:"))
+    interestRate = rate/100
+    fixedORcomp = input("Fixed or Compound Interest? f/c: ")
 
+    if fixedORcomp == "f":
+        monthly = fixedInterest(principle, years, interestRate)
+    else:
+        monthly = compoundInterest(principle, years, interestRate)
+  
     yearly = monthly*12
     payment = yearly*years
     
