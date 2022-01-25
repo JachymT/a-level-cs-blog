@@ -22,5 +22,6 @@
    e. 11001110 = CE
    
 **Explain why the hexadecmial number system is used**
+
 It is simpler representation of binary, so binary can be processsed easier with noting all the digits.
 It converts easier to binary than denary does, since 4 binary digits compile to one hex digit.
