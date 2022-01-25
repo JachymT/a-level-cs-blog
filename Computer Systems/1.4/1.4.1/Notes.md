@@ -9,12 +9,12 @@
    d. 10000001 + 110000 = 10110000
    e. 10110101 + 110011 = 11101000
    
-denary sum to binary
 2. a. 151 - 108 = 101011
    b. 127 - 56 = 1000111
    c. 241 - 153 = 1011000
    d. 143 - 120 = 10111
    e. 224 - 184 = 101000
+(denary sums to binary)
 
 3. 64 bits = 2^64 possible values = 1.8446744e+19 = 18446744073709551616
 
@@ -24,12 +24,12 @@ denary sum to binary
    d. 11110111 = F7
    e. 11001110 = CE
    
-denary sum to hex
 5. a. 52 - 19 = 21
    b. 66 - 35 = 1F
    c. 71 - 50 = 15
    d. 164 - 88 = 4C
    e. 187 - 66 = 79
+(denary sum to hex)
    
 **Explain why the hexadecmial number system is used**
 
