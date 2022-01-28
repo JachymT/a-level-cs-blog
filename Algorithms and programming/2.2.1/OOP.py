@@ -7,9 +7,9 @@
 # Creating instances of a class can be done to create as many objects as needed - instantiation
 
 # creating a class
-# diffenrence between public and private atributes
-# private attributes are onyl know by themselves, and cannot be accesed directly outside the class
-# in python however, private attributes are indicated by an _ 
+# difference between public and private atributes
+# private attributes are only know by themselves, and cannot be accesed directly outside the class, they can only be accessed within the class
+# in python, private attributes are indicated by an underscore prefix
 # This is just a practise and not a solution, _ is an indicator to the program since python cannot implement private attributes
 
 # Encapsulation
