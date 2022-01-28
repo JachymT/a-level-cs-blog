@@ -21,6 +21,10 @@
 # Interface - controlling an object in a predefined way
 # Methods allow for interaction with the object
 
+# Inheritance 
+# allows to build on pre-existing work, which is advantageous 
+# A child class inherics functionality and characteristics from a parent
+
 class Crop:
     # Docstring
     """Generic food crop""" 
