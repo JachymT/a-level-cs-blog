@@ -1,23 +1,6 @@
-# creating a class
-# diffenrence between public and private atributes
-# private attributes are onyl know by themselves, and cannot be accesed directly outside the class, only from within it
-# in python however, private attributes are indicated by an _ 
-# This is just a practise and not a solution, _ is an indicator to the program since python cannot implement private attributes
-
-# Encapsulation
-# Hides the details of implementation from the user
-# So the user doesnt need to know how the program works
-# They can control the program via a user **interface**
-# They cant access anything that is locked
-
-# Interface - controlling an object in a predefined way
-# Methods allow for interaction with the object
-
-# Inheritance allows to build on pre-existing work, which is advantageous 
-# A child class inherics functionality and characteristics from a parent
-
 import random
 
+#creating the class
 class Crop:
     # Docstring
     """Food Crop Class""" 
