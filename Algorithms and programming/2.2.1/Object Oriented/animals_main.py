@@ -1,11 +1,10 @@
-# management progrom inherits from the two specific crops
-# which inherit from the generic crop
-from wheat import *
-from potato import *
+# clone of crops_main
+from cow import *
+from sheep import *
 
 def display_menu():
-    print("\nWhich crop would you like to create")
-    print("1. Potato\n2. Wheat")
+    print("\nWhich animal would you like to create")
+    print("1. Cow\n2. Sheep")
 
     validOption = False
     while not validOption:
@@ -20,17 +19,17 @@ def display_menu():
 
     return choice
 
-def create_crop():
+def create_animal():
     choice = display_menu()
     if choice == 1:
-        newCrop = Potato()
+        newAnimal = Cow()
     elif choice == 2:
-        newCrop = Wheat()
-    return newCrop
+        newAnimal = Sheep()
+    return newAnimal
 
 def main():
-    newCrop = create_crop()
-    manage_crop(newCrop)
+    newAnimal = create_animal()
+    manage_animal(newAnimal)
 
 if __name__ == "__main__":
     main()
