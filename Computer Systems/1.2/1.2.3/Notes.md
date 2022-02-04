@@ -20,11 +20,15 @@ Disadvantages
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method2.png" height="500">
 
 ### Rapid Application Development
-Building prototypes of the software after another untill a final product is reached. This method very effectively utilizes user feedback to iterate improvements and each prototype can be tested heavily and imporovements suggested.
+Building prototypes of the software after another untill a final product is reached. This method very effectively utilizes user feedback to iterate improvements and each prototype can be tested heavily and imporovements suggested. It is an agile software development methodology that focuses on on going projects and user feedback. The method is moldable and easily changeable
 
 Advantages
 - accelerates the entire software development process
 - active user participation in the development process
+
+Dissadvantages
+- less apilcable and managable with a large scale team, since its so quickly changing
+- requires lots of communicataion
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method3.png" height="500">
 
