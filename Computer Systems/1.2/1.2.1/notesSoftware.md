@@ -17,3 +17,5 @@ Includes word, powerpoint, firefox.
 ### Custom (bespoke) software
 A software designed specificaly for one user, or a company to meet all thier custom needs, more expensive than using application software.
 Includes company web portals, food chain software for thier employees, netflix software for creators.
+
+# Virtual Machines
