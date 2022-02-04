@@ -1,7 +1,7 @@
 # Operating Systems
 
 ## Operating system purposes
-Operating systems perform many different tasks at the base level of the computer and create an API for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions to create a platform between te user
+Operating systems perform many different tasks at the base level of the computer and create an API for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions to create a platform between the user
 
 ![image](https://user-images.githubusercontent.com/72783315/145047208-4101600f-16c0-4078-9535-67651d141153.png)
 
