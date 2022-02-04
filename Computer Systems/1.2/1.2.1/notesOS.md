@@ -8,6 +8,8 @@ Operating systems perform many different tasks at the base level of the computer
 ### Managing Peripherals
 All hardware needs to comunicate with the computer and it cannot do this without a device driver. Inputs and outputs are translated by the driver so that the OS can process requests from the device. For example keyboards and mice need to give inputs to the computer and have custom settings to do so.
 
+The peripheral management software calls a device driver, which manages the specific device.
+
 ### Utility programs
 Background and active helper programs that run on the software. Some utilities are key, and are loaded right away. Examples of Utility programs are:
 - Disk Defragmentation
