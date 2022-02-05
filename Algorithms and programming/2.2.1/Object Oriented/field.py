@@ -136,22 +136,51 @@ def select_animal(listLen):
     return choice - 1
 
 def remove_field_crop(field):
-    display_crops(field._crops)
-    selected = select_crop(len(field._crop))
-    return field.remove_crop(selected)
+    if len(field._crops) > 0:
+        display_crops(field._crops)
+        selected = select_crop(len(field._crops))
+        return field.remove_crop(selected)
+    else:
+        print("no crops in field")
+        return "not"
 
 def remove_field_animal(field):
-    display_animals(field._animals)
-    selected = select_animals(len(field._animals))
-    return field.remove_animal(selected)
+    if len(field._animals) > 0:
+        display_animals(field._animals)
+        selected = select_animal(len(field._animals))
+        return field.remove_animal(selected)
+    else:
+        print("no animals in field")
+        return "not"
 
 def add_field_crop(field):
     choice = display_crop_menu()
     if choice == 1:
-        if field.plant_crop(Potato()):
+        if field.add_crop(Potato()):
             print("\ncrop planted")
         else:
-            pass
+            print("\ncrop failed to plant - field is full")
+            
+    if choice == 2:
+        if field.add_crop(Wheat()):
+            print("\ncrop planted")
+        else:
+            print("\ncrop failed to plant - field is full")
+
+def add_field_animal(field):
+    choice = display_animal_menu()
+    if choice == 1:
+        if field.add_animal(Sheep()):
+            print("\nanimal aquired")
+        else:
+            print("\nanimal failed to be aquired - field is full")
+            
+    if choice == 2:
+        if field.add_animal(Cow()):
+            print("\nanimal aquired")
+        else:
+            print("\nanimal failed to be aquired - field is full")
+
 
 def auto_grow(field,days):
     for day in range(days):
@@ -161,11 +190,15 @@ def auto_grow(field,days):
         field.grow_field(food,light,water)
 
 def manual_grow(field):
+    print("Enter a light value between 1-10 for the whole field")
     light = get_menu_choice(0, 10)
+    print("Enter a water value between 1-10 for the whole field")
     water = get_menu_choice(0, 10)
+    print("Enter a food value between 1-100 for the animals")
     food = get_menu_choice(0, 100)
 
-    field.grow_field(food,light,water)
+    for i in range(10):
+        field.grow_field(food,light,water)
 
 def display_crop_menu():
     print("Which type of crop would you like to add")
@@ -179,16 +212,17 @@ def display_animal_menu():
 
 def display_main():
     print("\n1. Plant a crop\n2. Harvest a crop")
-    print("3. Add an animal\n4. Remove an animal")
-    print("5. Grow field manually\n6. Grow field automatically")
-    print("7. Report field status\n0.Exit Program")
-    return get_menu_choice(0, 7)
+    print("\n3. Add an animal\n4. Remove an animal")
+    print("\n5. Grow field manually (10 days)\n6. Grow field automatically (30 days)")
+    print("\n7. Report field status\n8. Report field needs")
+    print("\n0. Exit Program")
+    return get_menu_choice(0, 8)
 
 def get_menu_choice(lower, upper):
     validOption = False
     while not validOption:
         try:
-            choice = int(input("> "))
+            choice = int(input("\n> "))
             if lower <= choice <= upper:
                 validOption = True
             else:
@@ -197,28 +231,39 @@ def get_menu_choice(lower, upper):
              print("Invalid value entered, please enter again")
 
     return choice
+
+def manage_field(field):
+    print("Welcome to the field management program")
+    end = False
+    while not end:
+        menu = display_main()
+        if menu == 1:
+            add_field_crop(field)
+        elif menu == 2:
+            removed = remove_field_crop(field)
+            print("Crop {0} removed".format(removed))
+        elif menu == 3:
+            add_field_animal(field)
+        elif menu == 4:
+            removed = remove_field_animal(field)
+            print("Animal {0} removed".format(removed))
+        elif menu == 5:
+            manual_grow(field)
+        elif menu == 6:
+            auto_grow(field,30)
+        elif menu == 7:
+            print(field.report_contents())
+        elif menu == 8:
+            needs = field.report_needs()
+            for key, value in needs.items():
+                print(key, " : ", value)
+        elif menu == 0:
+            end = True
+    print("\nSee you next time")
         
 def main():
-    newField = Field(5,5)
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_animal(Sheep())
-    newField.add_crop(Potato())
-    newField.add_crop(Wheat())
-    for i in range(10):
-        newField.grow_field(100,10,6)
-        report = newField.report_contents()
-        print(report["animals"])
-        print(report["crops"])
+    field1 = Field(3,12)
+    manage_field(field1)
 
 if __name__ == "__main__":
     main()
