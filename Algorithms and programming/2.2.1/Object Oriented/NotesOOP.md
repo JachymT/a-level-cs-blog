@@ -25,7 +25,7 @@ Hides the details of implementation from the user, so the user doesnt need to kn
 Allows to build on pre-existing work, which is advantageous. A child class inherits functionality and characteristics from a parent
 
 ## Polymorphism
-In a child class, amending methods from the parent class with overrides them and lets the program use the same names for similar methods, even though they are different. This is called polymorphism, and is done by adding a method in a child class with the same name as the method in the parent class. 
+In a child class, amending methods from the parent class overrides them and lets the program use the same names for similar methods, even though they are different. This is called polymorphism, and is done by adding a method in a child class with the same name as the method in the parent class. 
 
 ## OOP demonstrated
 Following OOP python tutorial: http://pythonschool.net/oop
