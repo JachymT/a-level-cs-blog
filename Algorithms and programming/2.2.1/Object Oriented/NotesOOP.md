@@ -24,6 +24,10 @@ Hides the details of implementation from the user, so the user doesnt need to kn
 ## Inheritance
 Allows to build on pre-existing work, which is advantageous. A child class inherits functionality and characteristics from a parent
 
+![image](https://user-images.githubusercontent.com/72783315/152790421-bb0a1e28-1c74-4bc0-8233-7e8fe767d85b.png)
+
+Inheritance diagrams use arrow heads to point up to the parent classes
+
 ## Polymorphism
 In a child class, amending methods from the parent class overrides them and lets the program use the same names for similar methods, even though they are different. This is called polymorphism, and is done by adding a method in a child class with the same name as the method in the parent class. 
 
