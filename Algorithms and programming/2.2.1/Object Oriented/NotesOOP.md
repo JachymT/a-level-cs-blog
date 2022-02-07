@@ -24,7 +24,7 @@ Hides the details of implementation from the user, so the user doesnt need to kn
 ## Inheritance
 Allows to build on pre-existing work, which is advantageous. A child class inherits functionality and characteristics from a parent
 
-![image](https://user-images.githubusercontent.com/72783315/152790421-bb0a1e28-1c74-4bc0-8233-7e8fe767d85b.png)
+![image](https://user-images.githubusercontent.com/72783315/152790871-5843f096-a881-40f2-9594-1b5fd9d08ecb.png)
 
 Inheritance diagrams use arrow heads to point up to the parent classes
 
