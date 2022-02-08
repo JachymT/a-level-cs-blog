@@ -44,7 +44,7 @@ Programs are evaluated based on thier length and the shortest ones are scheduled
 Works exactly like Shortest job first, other than that this algorithm is pre-emptive. When a process is suspended in the CPU and returns to the queue, its remaining time is evaluated and its placed in its respective place in the queue.
 
 This reduces risk of starvation because once longer programs get processor time, they increase their priority and wont get stuck at the back of the queue. 
-Pre-empting programs are common, so this algorithm is advantagous to shortest job first.
+Pre-empting programs is common, so this algorithm is advantagous to shortest job first.
 
 The downside is that sequencing the queue often is an expensive calculation.
 
