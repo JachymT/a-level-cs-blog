@@ -85,6 +85,8 @@ class Field:
             if food >= needs["food need"]:
                 food -= needs["food need"]
                 feed = needs["food need"]
+            else: 
+                feed = 0
 
             # effecitvely useless, but distributes the extra food uneavenly
             if extraFood > 0:
