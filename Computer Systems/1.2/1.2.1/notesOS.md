@@ -26,7 +26,7 @@ Alocates space for programs and makes sure the OS Kernal is loaded - the kernal 
 - **Segmentation**
 - Assigning **virtual memory**
 - Moving files to and from secondary storage.
-- Loading programs these program segments or pages into RAM when they are needed.
+- Loading programs as segments or pages into RAM when they are needed.
 
 ### Paging
 Paging happens when moving programs into RAM, where RAM does not have an entire free space for the program. To Fit the needed gaps in RAM , RAM Is physically divied into equally sized sections. Programs are divied the same way so they can be moved between main memory and RAM.
