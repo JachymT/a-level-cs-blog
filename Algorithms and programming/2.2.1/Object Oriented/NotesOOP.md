@@ -22,7 +22,7 @@ Hides the details of implementation from the user, so the user doesnt need to kn
 **Interface** - controlling an object in a predefined way.
 
 ## Inheritance
-Allows to build on pre-existing work, which is advantageous. A child class inherits functionality and characteristics from a parent
+Allows to build on pre-existing work, which is advantageous. A child class inherits functionality and characteristics from a parent, including attributes and methods.
 
 ![image](https://user-images.githubusercontent.com/72783315/152790871-5843f096-a881-40f2-9594-1b5fd9d08ecb.png)
 
