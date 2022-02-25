@@ -36,4 +36,4 @@ Litterally, polymorphism is occurring in many different forms.
 ## OOP demonstrated
 Following OOP python tutorial: http://pythonschool.net/oop
 
-[parent class](https://github.com/JachymT/a-level-cs-blog/edit/main/Algorithms%20and%20programming/2.2.1/Object%20Oriented/crop.py)
+[run this file](https://github.com/JachymT/a-level-cs-blog/edit/main/Algorithms%20and%20programming/2.2.1/Object%20Oriented/crop.py)
