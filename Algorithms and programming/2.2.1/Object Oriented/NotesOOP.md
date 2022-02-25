@@ -2,7 +2,7 @@
 Object Oriented Programming is a programming aproach that more closely models the real world. The fundemental concept of OOP is using objects to solve problems and carry out computations. 
 
 ## Attributes
-Attributes model characeristics of an object like we would use variables or data structures in structured programming
+Attributes model characteristics of an object like we would use variables or data structures in structured programming. They are peices of data that describe each instance of a class. They are varaibles inside a class.
 
 ### Public and private
 private attributes are only know by themselves, and cannot be accesed directly outside the class, they can only be accessed within the class. in python, private attributes are indicated by an underscore prefix. This is just a practise and not a solution, _ is an indicator to the program since python cannot implement private attributes.
