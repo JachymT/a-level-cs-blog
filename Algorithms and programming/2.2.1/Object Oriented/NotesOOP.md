@@ -19,12 +19,12 @@ Classes defines a template for these attributes and methods. These templates are
 Creating instances of a class can be done to create as many objects as needed
 
 ## Encapsulation
-Hides the details of implementation from the user, so the user doesnt need to know how the program works. They can control the program via a user **interface**, they cant access anything that is locked
+Hides the details of implementation from the user, so the user doesnt need to know how the program works. They can control the program via a user **interface**, they cant access anything that is locked or **private**. Allows for **data integrity** and **security**. Prevents the accidental change of variables.
 
 **Interface** - controlling an object in a predefined way.
 
 ## Inheritance
-Allows to build on pre-existing work, which is advantageous. A child class inherits functionality and characteristics from a parent, including attributes and methods.
+Allows to build on pre-existing work, which is advantageous. A child class inherits and reuseses functionality and characteristics from a parent class, including attributes and methods. A child class can have additional methods and attributes
 
 ![image](https://user-images.githubusercontent.com/72783315/152790871-5843f096-a881-40f2-9594-1b5fd9d08ecb.png)
 
@@ -32,6 +32,8 @@ Inheritance diagrams use arrow heads to point up to the parent classes
 
 ## Polymorphism
 In a child class, amending methods from the parent class overrides them and lets the program use the same names for similar methods, even though they are different. This is called polymorphism, and is done by adding a method in a child class with the same name as the method in the parent class. 
+
+It is the ability to process objects differently depending on thier class or data type.
 
 Litterally, polymorphism is occurring in many different forms.
 
