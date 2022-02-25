@@ -15,6 +15,8 @@ Classes defines a template for these attributes and methods. These templates are
 
 ### Class diagrams
 
+![image](https://user-images.githubusercontent.com/72783315/155695435-937a0bed-ad0e-4394-8b94-3c6e67551e10.png)
+
 [good video, details not specific to course](https://www.youtube.com/watch?v=UI6lqHOVHic)
 
 ## Instantiation
