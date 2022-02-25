@@ -15,6 +15,8 @@ Classes defines a template for these attributes and methods. These templates are
 
 ### Class diagrams
 
+[good video, details not specific to course](https://www.youtube.com/watch?v=UI6lqHOVHic)
+
 ## Instantiation
 Creating instances of a class can be done to create as many objects as needed
 
