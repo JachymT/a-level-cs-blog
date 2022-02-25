@@ -1,5 +1,5 @@
 # Object Oriented Programming
-Object Oriented Programming is a programming aproach that more closely models the real world. The fundemental concept of OOP is using objects to solve problems and carry out computations. 
+Object Oriented Programming is a programming aproach that more closely models the real world. The fundemental concept of OOP is using objects to solve problems and carry out computations, by manipulating the objects and modelling data (relationships between objects).
 
 ## Attributes
 Attributes model characteristics of an object like we would use variables or data structures in structured programming. They are peices of data that describe each instance of a class. They are varaibles inside a class.
@@ -11,7 +11,9 @@ private attributes are only know by themselves, and cannot be accesed directly o
 Methods model behaviours of an object like we would use functions for in structured programming. Methods allow for interaction with the object.  Methods can also be public or private
 
 ## Classes
-Classes defines a blueprint for these attributes and methods. 
+Classes defines a template for these attributes and methods. These templates are reuseable. 
+
+### Class diagrams
 
 ## Instantiation
 Creating instances of a class can be done to create as many objects as needed
