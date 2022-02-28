@@ -11,7 +11,7 @@ private attributes are only know by themselves, and cannot be accesed directly o
 Methods model behaviours of an object like we would use functions for in structured programming. Methods allow for interaction with the object.  Methods can also be public or private
 
 ## Classes
-Classes defines a template for these attributes and methods. These templates are reuseable. 
+Classes defines a template for these attributes and methods. These templates are reuseable. Can have the constructor in methods as well.
 
 ### Class diagrams
 
