@@ -13,6 +13,15 @@ Methods model behaviours of an object like we would use functions for in structu
 ## Classes
 Classes defines a template for these attributes and methods. These templates are reuseable. Can have the constructor in methods as well.
 
+### Class constructors
+
+![image](https://user-images.githubusercontent.com/72783315/155983507-6a5bb37f-5548-4653-8867-82818da76c15.png)
+
+Self is passed into each method - it acts as a location in reference to itself. So that variables are accessed from the class itself.
+Double or singe underscores can be used in python.
+
+Child classes can't inherit private attributes from parent class.
+
 ### Class diagrams
 
 ![image](https://user-images.githubusercontent.com/72783315/155695435-937a0bed-ad0e-4394-8b94-3c6e67551e10.png)
