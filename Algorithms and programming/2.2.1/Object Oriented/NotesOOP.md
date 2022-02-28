@@ -20,7 +20,7 @@ Classes defines a template for these attributes and methods. These templates are
 Self is passed into each method - it acts as a location in reference to itself. So that variables are accessed from the class itself.
 Double or singe underscores can be used in python.
 
-Child classes can't inherit private attributes from parent class.
+Child classes (ussually, kinda idk) can't inherit private attributes from parent class.
 
 ### Class diagrams
 
