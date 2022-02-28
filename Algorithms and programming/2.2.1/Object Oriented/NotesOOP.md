@@ -31,6 +31,8 @@ Child classes can't inherit private attributes from parent class.
 ## Instantiation
 Creating instances of a class can be done to create as many objects as needed
 
+![image](https://user-images.githubusercontent.com/72783315/155984540-da38a184-e17c-47f2-9dfa-d53eae2ea65d.png)
+
 ## Encapsulation
 Hides the details of implementation from the user, so the user doesnt need to know how the program works. They can control the program via a user **interface**, they cant access anything that is locked or **private**. Allows for **data integrity** and **security**. Prevents the accidental change of variables.
 
