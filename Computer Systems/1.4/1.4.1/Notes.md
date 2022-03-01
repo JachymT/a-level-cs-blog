@@ -1,8 +1,14 @@
 # Binary
 
+## Twos compliment
+
+### advantages
+can be used in calculatiosn
+
 ## Workings from Positive Binary and Hexadecimal Integers - Workbook.docx
 *page 12*
 
+```
 1. a. 1100 + 101010 = 110110
    b. 100000 + 10010 = 110010
    c. 1100110 + 10101 = 1111011
@@ -30,6 +36,7 @@
    d. 164 - 88 = 4C
    e. 187 - 66 = 79
 (denary sum to hex)
+```
    
 **Explain why the hexadecmial number system is used**
 
