@@ -1,9 +1,17 @@
 # Binary
 
-## Twos compliment
+## Sign and magnitude
 
-### advantages
-can be used in calculatiosn
+## Twos Compliment
+
+**advantages**
+
+can be used in calculations. Most useful way to store negative numbers and it is used in 
+
+## Fixed point
+
+## Floating point
+Exponent moves decimal to the right if positive and left if negative.
 
 ## Workings from Positive Binary and Hexadecimal Integers - Workbook.docx
 *page 12*
