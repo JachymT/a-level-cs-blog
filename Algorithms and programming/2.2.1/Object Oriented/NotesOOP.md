@@ -39,7 +39,7 @@ Hides the details of implementation from the user, so the user doesnt need to kn
 **Interface** - controlling an object in a predefined way.
 
 ## Inheritance
-Allows to build on pre-existing work, which is advantageous. A child class inherits and reuseses functionality and characteristics from a parent class, including attributes and methods. A child class can have additional methods and attributes
+Allows to build on pre-existing work, which is advantageous. A child class inherits and reuseses functionality and characteristics from a parent class, including attributes and methods. A child class can have additional methods and attributes.
 
 ![image](https://user-images.githubusercontent.com/72783315/152790871-5843f096-a881-40f2-9594-1b5fd9d08ecb.png)
 
@@ -53,14 +53,32 @@ It is the ability to process objects differently depending on thier class or dat
 Litterally, polymorphism is occurring in many different forms.
 
 ## OOP in Python
-Following OOP python tutorial: http://pythonschool.net/oop
+Following OOP python tutorial: http://pythonschool.net/oop 
 
-[field class run this](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.2.1/Object%20Oriented/field.py)
+[to make this field class](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.2.1/Object%20Oriented/field.py)
+
+**Notes**
 
 ```py
-from pprint import pprint                   # module for printing variables from class objects neatly
+# For a child class
+def __init__(self,param1, param2)
+  super().__init__(param1, param2)      # Super refers to the parent class through a temporary object, this is the constructor for inheritance
+```
+
+```py
+# The below is useless
+from pprint import pprint                   # Module for printing variables from class objects neatly
 pprint(vars(object_instance))
 ```
 
 ## OOP psudeocode 
-varaibles and procedures / function must be preceded with `private` or `public`. Constructors are given the name `new`. Self is never used in psudeocode
+varaibles and procedures / function must be preceded with `private` or `public`. Constructors are given the name `new` and should be public. Self is never used in psudeocode.
+
+![image](https://user-images.githubusercontent.com/72783315/156732133-97c9b422-4f54-4d66-abf5-1b604e5dfa93.png)
+
+![image](https://user-images.githubusercontent.com/72783315/156732730-28c5afa4-4462-47f2-8fb1-480ef38dced3.png)
+
+![image](https://user-images.githubusercontent.com/72783315/156732767-275f7d9f-a8ba-4e04-9306-3e8300787cf5.png)
+
+
+
