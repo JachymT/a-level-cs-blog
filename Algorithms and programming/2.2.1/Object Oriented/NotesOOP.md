@@ -62,11 +62,12 @@ Following OOP python tutorial: http://pythonschool.net/oop
 ```py
 # For a child class
 def __init__(self,param1, param2)
-  super().__init__(param1, param2)      # Super refers to the parent class through a temporary object, this is the constructor for inheritance
+  super().__init__(param1, param2)      # Super refers to the parent class through a temporary object
+                                        # this is how the constructor works for inheritance
 ```
 
 ```py
-# The below is useless
+# The below is useless and you'll never need it
 from pprint import pprint                   # Module for printing variables from class objects neatly
 pprint(vars(object_instance))
 ```
