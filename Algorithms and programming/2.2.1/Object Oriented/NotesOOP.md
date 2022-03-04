@@ -63,4 +63,4 @@ pprint(vars(object_instance))
 ```
 
 ## OOP psudeocode 
-
+varaibles and procedures / function must be preceded with `private` or `public`. Constructors are given the name `new`. Self is never used in psudeocode
