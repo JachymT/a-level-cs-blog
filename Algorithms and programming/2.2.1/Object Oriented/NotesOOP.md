@@ -58,9 +58,9 @@ Following OOP python tutorial: http://pythonschool.net/oop
 [field class run this](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.2.1/Object%20Oriented/field.py)
 
 ```py
-from pprint import pprint     # printing variables from class objects
+from pprint import pprint                   # module for printing variables from class objects neatly
 pprint(vars(object_instance))
 ```
 
 ## OOP psudeocode 
-a
+
