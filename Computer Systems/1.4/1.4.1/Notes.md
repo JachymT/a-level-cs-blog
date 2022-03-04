@@ -1,17 +1,24 @@
 # Binary
 
-## Sign and magnitude
+## Storing negatives in binary
 
-## Twos Compliment
+### Sign and magnitude
+Most Significant Bit (MSB is the left most bit) determines if the number is positive or negative, **1 signed negative, 0 signed positive**
 
-**advantages**
+### Twos Compliment
+Most Significant Bit is negative whatever it would ussually be. This way we have to flip all digits from left to right untill you reach the last 1 and you keep it and the numbers after the same. 
 
-can be used in calculations. Most useful way to store negative numbers and it is used in 
+Can be used in calculations as opposed tp sigh and magnitude. Standarised way to store negative numbers.
 
-## Fixed point
+## Storing Floats/ Real numbers in binary
 
-## Floating point
-Exponent moves decimal to the right if positive and left if negative.
+### Fixed point
+Floating point without the exponent, useless in real life but in an exam they will tell you where the decimal is
+
+### Floating point
+Exponent moves decimal to the right if positive and left if negative, starting from after the first digit in the mantissa.
+
+**mantissa x 2 ^ exponent**
 
 ## Workings from Positive Binary and Hexadecimal Integers - Workbook.docx
 *page 12*
