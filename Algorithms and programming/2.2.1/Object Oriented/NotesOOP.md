@@ -61,3 +61,6 @@ Following OOP python tutorial: http://pythonschool.net/oop
 from pprint import pprint     # printing variables from class objects
 pprint(vars(object_instance))
 '
+
+## OOP psudeocode 
+a
