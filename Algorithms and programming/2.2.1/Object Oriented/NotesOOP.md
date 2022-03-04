@@ -77,7 +77,11 @@ varaibles and procedures / function must be preceded with `private` or `public`.
 
 ![image](https://user-images.githubusercontent.com/72783315/156732133-97c9b422-4f54-4d66-abf5-1b604e5dfa93.png)
 
+**Inheritance**
+
 ![image](https://user-images.githubusercontent.com/72783315/156732730-28c5afa4-4462-47f2-8fb1-480ef38dced3.png)
+
+**Constructors**
 
 ![image](https://user-images.githubusercontent.com/72783315/156732767-275f7d9f-a8ba-4e04-9306-3e8300787cf5.png)
 
