@@ -22,7 +22,7 @@ name(arguments)
 
 a **function** differenciates from a procedure because it returns a value
 
-**Advantages of Subroutues**
+**Advantages of Subroutines**
 - easier to write and understand 
 - easier to debug, test and maintain
 - resusable in the file and across files by importing as a module
