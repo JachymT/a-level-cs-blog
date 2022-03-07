@@ -75,15 +75,33 @@ pprint(vars(object_instance))
 ## OOP psudeocode 
 varaibles and procedures / function must be preceded with `private` or `public`. Constructors are given the name `new` and should be public. Self is never used in psudeocode.
 
-![image](https://user-images.githubusercontent.com/72783315/156732133-97c9b422-4f54-4d66-abf5-1b604e5dfa93.png)
+```py
+class Pet
+  private name
+  public procedure new(givenName)
+    name = givenName
+  endprocedure
+endclass
+```
 
 **Inheritance**
 
-![image](https://user-images.githubusercontent.com/72783315/156732730-28c5afa4-4462-47f2-8fb1-480ef38dced3.png)
+Use `inherits` key word when declaring class and class `super.new()` in the constructor
 
-**Constructors**
+```py
+class Dog inherits Pet
+  private breed
+  public procedure new(givenName, givenBreed)
+    super.new(givenName)
+    breed = givenBreed
+  endprocedure
+endclass
+```
 
-![image](https://user-images.githubusercontent.com/72783315/156732767-275f7d9f-a8ba-4e04-9306-3e8300787cf5.png)
+**Instantiating**
 
+Use `new` key word on its own to instanciate a class object
 
-
+```py
+myDog = new Dog("Cramberry", "Hampter")
+```
