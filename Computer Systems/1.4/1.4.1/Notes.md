@@ -20,6 +20,15 @@ Exponent moves decimal to the right if positive and left if negative, starting f
 
 **mantissa x 2 ^ exponent**
 
+## Normalisation
+Maximising the precision of a number when storing it in a given number of bits. Denary numbers to normalised floating point binary numbers can be done in the following way
+
+![image](https://user-images.githubusercontent.com/72783315/157253704-b0537772-56ba-4de6-90bb-0f921a1babe7.png)
+
+`011101 011`
+
+for a positive number the mantissa will always start with 01, and for a negative 11
+
 ## Workings from Positive Binary and Hexadecimal Integers - Workbook.docx
 *page 12*
 
