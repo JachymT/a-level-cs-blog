@@ -27,7 +27,7 @@ Maximising the precision of a number when storing it in a given number of bits. 
 
 `011101 011`
 
-for a positive number the mantissa will always start with 01, and for a negative 11
+for a positive number the mantissa will always start with 01, and for a negative 10
 
 ## Workings from Positive Binary and Hexadecimal Integers - Workbook.docx
 *page 12*
