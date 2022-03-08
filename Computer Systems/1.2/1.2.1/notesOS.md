@@ -19,14 +19,17 @@ Background and active helper programs that run on the software. Some utilities a
 - installers
 - system moniter
 
-### **Memory and file management**
-Alocates space for programs and makes sure the OS Kernal is loaded - the kernal makes sure memory and file management is executed correctly. Its key processes are:
+### **Memory management**
+Alocates space for programs and makes sure the OS Kernal is loaded - the kernal makes sure memory and file management is executed correctly. key memory management processes are:
 
-- **Paging** 
-- **Segmentation**
-- Assigning **virtual memory**
-- Moving files to and from secondary storage.
-- Loading programs as segments or pages into RAM when they are needed.
+- Allocating **memory** loading programs between RAM and secondary storage
+  - paging
+  - segmentation
+  - virtual memory - In order to allow for programs larger than RAM to run
+- determine how much memory to allocate to each process that is running and reserve that space
+- controlling memory use. swapping between processes and their memory space in order to provide memory access as required.
+- map the logical address space to the physical address space
+- protect programs
 
 ### Paging
 Paging happens when moving programs into RAM, where RAM does not have an entire free space for the program. To Fit the needed gaps in RAM , RAM Is physically divied into equally sized sections. Programs are divied the same way so they can be moved between main memory and RAM.
