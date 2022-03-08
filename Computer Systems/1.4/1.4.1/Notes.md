@@ -27,9 +27,9 @@ Maximising the precision of a number when storing it in a given number of bits. 
 
 `011101 011`
 
-for a positive number the mantissa will always start with 01, and for a negative 10
+for a positive number the mantissa **always starts with 01, and for a negative 10**. All leading 0s or 1s should be removed
 
-Normalising binary floating points happens by moving the mantissa left or right and then changing the exponent acordingly
+Normalising binary floating points happens by moving the mantissa left or right and then changing the exponent acordingly. Moving decimal 3 **left increases** exponent by 3. moving decimal 3 **right decreases** exponent by 3.
 
 ## Workings from Positive Binary and Hexadecimal Integers - Workbook.docx
 *page 12*
