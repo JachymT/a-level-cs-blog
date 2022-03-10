@@ -24,7 +24,7 @@ _Jachym Tolar_
   - 1.3.4 Web technologies
 
 - 1.4 Data types, data structures and algorithms
-  - 1.4.1 Data types
+  - [1.4.1 Data types](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.4/1.4.1)
   - 1.4.2 Data structures
   - 1.4.3 Boolean Algebra
 
