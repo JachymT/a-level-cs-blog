@@ -34,9 +34,11 @@ Creating instances of a class can be done to create as many objects as needed
 ![image](https://user-images.githubusercontent.com/72783315/155984540-da38a184-e17c-47f2-9dfa-d53eae2ea65d.png)
 
 ## Encapsulation
-Hides the details of implementation from the user, so the user doesnt need to know how the program works. They can control the program via a user **interface**, they cant access anything that is locked or **private**. Allows for **data integrity** and **security**. Prevents the accidental change of variables.
+Hides the details of implementation from the user, so the user doesnt need to know how the program works. Encapsulation is the binding of attributes and methods so that data is **protected**. It means that everything should be contained inside the class and is not accessed directly.
 
-**Interface** - controlling an object in a predefined way.
+**Private** variables are an example of encapsulation, Allows for **data integrity** and security as it **prevents the accidental change** of variables and **data validation** can be implemented on any parameters entered. 
+
+Encapsulation is achieved using **getter and setter methods**.
 
 ## Inheritance
 Allows to build on pre-existing work, which is advantageous. A child class inherits and reuseses functionality and characteristics from a parent class, including attributes and methods. A child class can have additional methods and attributes.
