@@ -31,6 +31,13 @@ for a positive number the mantissa **always starts with 01, and for a negative 1
 
 Normalising binary floating points happens by moving the mantissa left or right and then changing the exponent acordingly. Moving decimal 3 **left increases** exponent by 3. moving decimal 3 **right decreases** exponent by 3.
 
+## Adding floating points
+1. Make any negative numbers into twos compliment form
+2. Make all numbers into thier fixed point form
+3. align the decimals ontop of each other and add as ussual, backfilling with 1s if negative and 0s if positive
+4. For the last sum ignore the overflow digit, as it will carry on forever, also use intuition to determine if result will be positive or negative
+5. Normalise the result: move decdimal point after front 1 or 0 and set exponent
+
 ## Workings from Positive Binary and Hexadecimal Integers - Workbook.docx
 *page 12*
 
