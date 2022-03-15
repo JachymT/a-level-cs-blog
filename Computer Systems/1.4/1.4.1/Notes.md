@@ -35,7 +35,7 @@ Normalising binary floating points happens by moving the mantissa left or right 
 1. Make any negative numbers into twos compliment form
 2. Make all numbers into thier fixed point form
 3. align the decimals ontop of each other and add as ussual, backfilling with 1s if negative and 0s if positive
-4. For the last sum ignore the overflow digit, as it will carry on forever, also use intuition to determine if result will be positive or negative
+4. For the last sum ignore the overflow digit, as it will carry on forever, also you can use intuition to determine if result will be positive or negative
 5. Normalise the result: move decdimal point after front 1 or 0 and set exponent
 
 ## Workings from Positive Binary and Hexadecimal Integers - Workbook.docx
@@ -75,3 +75,29 @@ Normalising binary floating points happens by moving the mantissa left or right 
 
 It is simpler representation of binary, so binary can be processsed easier without noting all the digits.
 It converts easier to binary than denary does, since 4 binary digits compile to one hex digit.
+
+## Workings from Datatype practise Exam questions pdf
+
+```
+1. a. 0100.11 = 4.75
+   b. -5.25 = - 0101.01 
+      = 1010.11
+      moving decimal 3 left, exponent = 011
+      1010 011
+   c. 0101 1110 = 5e
+   d. 87 = 64 32 16 8 4 2 1
+            1  0  1 1 0 0 1
+      -87 = 10100111
+   e.  01001001
+      +11010001
+      ---------
+       00011010
+      ---------
+      11     1
+   f. 9B = 9x16 + 11x1 = 144 + 11 = 155
+   
+2. a. twos complement supports additions and subtractions, sign and magnitude cannot be used for calculations
+   b.
+```
+      
+      
