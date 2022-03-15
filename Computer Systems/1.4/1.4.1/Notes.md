@@ -96,8 +96,8 @@ It converts easier to binary than denary does, since 4 binary digits compile to 
       11     1
    f. 9B = 9x16 + 11x1 = 144 + 11 = 155
    
-2. a. twos complement supports additions and subtractions, sign and magnitude cannot be used for calculations
-   b.
+3. a. i. -89 = 128 64 32 16 8 4 2 1
+               - 0  1  0  1 1 0 0 1
+             = 10100111
+      ii.
 ```
-      
-      
