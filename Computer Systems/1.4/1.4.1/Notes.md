@@ -114,5 +114,7 @@ It converts easier to binary than denary does, since 4 binary digits compile to 
    b. -128 64 32 16 8 4 2 1
          1  0  0  0 1 0 0 1
          
-5. a. 
+5. a. 0111 001
+   b. exponent = -1
+      0.011 = 3/8
 ```
