@@ -6,7 +6,7 @@
 Most Significant Bit (MSB is the left most bit) determines if the number is positive or negative, **1 signed negative, 0 signed positive**
 
 ### Twos Compliment
-Most Significant Bit is negative whatever it would ussually be. This way we have to flip all digits from left to right untill you reach the last 1 and you keep it and the numbers after the same. 
+Most Significant Bit is negative whatever it would ussually be. Flip all digits from left to right untill you reach the Least Significant 1 and you keep it and the numbers after the same to change the sign
 
 Can be used in calculations as opposed tp sigh and magnitude. Standarised way to store negative numbers.
 
