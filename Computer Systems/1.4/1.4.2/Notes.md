@@ -1,7 +1,7 @@
 # Data structures
 
 ## Arrays
-An array in an **ordered**, **static**, **finite set** of elements of a **single type**. Arrays are always **zero indexed** and values in adjacent memory locations
+An array in an **ordered**, **static**, **finite set** of elements of a **single type**. Arrays are always **zero indexed** and elements in contiguous (adjacent) memory locations.
 
 ### One dimensional arrays
 1D arrays are linnear arrays, are defined as follows:
@@ -33,6 +33,16 @@ print(arr[1][0][1])
 ```
 
 ## Lists
+A list is an **ordered**,  **dynamic**, set of elements which can **occur more than once**, and be of **more than one data type**. List elements are stored in **non-contiguous** memory locations. They are like 1D arrays in that they are **zero indexed** and are accessed in the same way.
+
+They can be manipulated using various functions for example in psuedocode:
+```py
+list = [2, 3, 6, 4, 9, 9, 3]
+list.length()                       //returns list length
+list.pop(3)                         //removes 4th item in list
+list.remove(9)                      //removes the first instance of the parameter
+list.append(14)                     //removes the first instance of the parameter
+```
 
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time
