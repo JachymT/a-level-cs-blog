@@ -25,7 +25,7 @@ _Jachym Tolar_
 
 - 1.4 Data types, data structures and algorithms
   - [1.4.1 Data types](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.4/1.4.1)
-  - 1.4.2 Data structures
+  - [1.4.2 Data structures](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.4/1.4.2)
   - 1.4.3 Boolean Algebra
 
 - 1.5 Legal, moral, cultural and ethical issues
