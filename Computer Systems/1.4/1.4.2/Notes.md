@@ -46,6 +46,7 @@ list.append(14)                     //appends the parameter to the end of the li
 
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time
+
 **dynamic data structures** - size is not limited and can be changed during run time
 
 Dynamic offers the most efficient use of memory, and the most felxibility, However it can overflow if memory runs out. Dynamic is also harder to program as size and location needs to be kept track off.
