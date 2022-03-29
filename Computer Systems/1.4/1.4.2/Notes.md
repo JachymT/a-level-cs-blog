@@ -41,7 +41,7 @@ list = [2, 3, 6, 4, 9, 9, 3]
 list.length()                       //returns list length
 list.pop(3)                         //removes 4th item in list
 list.remove(9)                      //removes the first instance of the parameter
-list.append(14)                     //removes the first instance of the parameter
+list.append(14)                     //appends the parameter to the end of the list
 ```
 
 ## Properties
