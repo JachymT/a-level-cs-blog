@@ -1,7 +1,7 @@
 # Data structures
 
 ## Arrays
-An array in an **ordered**, **static**, **finite set** of elements of a **single type**. Arrays are always **zero indexed** and elements in contiguous (adjacent) memory locations.
+An array in an **ordered**, **static**, of elements of a **single type**.
 
 ### One dimensional arrays
 1D arrays are linnear arrays, are defined as follows:
@@ -33,7 +33,7 @@ print(arr[1][0][1])
 ```
 
 ## Lists
-A list is an **ordered**,  **dynamic**, set of elements which can **occur more than once**, and be of **more than one data type**. List elements are stored in **non-contiguous** memory locations. They are like 1D arrays in that they are **zero indexed** and are accessed in the same way.
+A list is an **dynamic**, set of elements which can **occur more than once**, and be of **more than one data type**. They are like 1D arrays in that they are **zero indexed** and are accessed in the same way.
 
 They can be manipulated using various functions for example in psuedocode:
 ```py
@@ -44,13 +44,20 @@ list.remove(9)                      //removes the first instance of the paramete
 list.append(14)                     //appends the parameter to the end of the list
 ```
 
-## Properties
-**Static data structures** - size of the data structure is set cannot be changed during run time
+## Tuples
+A tuples are immutable 
 
-**dynamic data structures** - size is not limited and can be changed during run time
+## Properties
+**Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
+
+**dynamic data structures** - size is not limited and can be changed during run time. Elements are stored in **non-contiguous** memory locations
 
 Dynamic offers the most efficient use of memory, and the most felxibility, However it can overflow if memory runs out. Dynamic is also harder to program as size and location needs to be kept track off.
 
 **Mutable** - data inside the structure can be changed during run time
 
 **Immutable** - data inside the structure cannot be changed during run time
+
+**ordered** - can be accessed using indexing, can be assumed to be **zero indexed**
+
+**finite set** - memory can overflow (citation needed)
