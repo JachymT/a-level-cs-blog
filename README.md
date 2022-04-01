@@ -21,7 +21,7 @@ _Jachym Tolar_
   - 1.3.1 Compression, encryption and hashing
   - [1.3.2 Databases](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2)
   - 1.3.3 Networks
-  - 1.3.4 Web technologies
+  - [1.3.4 Web technologies](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.4)
 
 - 1.4 Data types, data structures and algorithms
   - [1.4.1 Data types](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.4/1.4.1)
