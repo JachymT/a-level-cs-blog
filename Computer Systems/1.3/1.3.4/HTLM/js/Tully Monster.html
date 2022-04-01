@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Tully Monster</title>
+	<style>
+		body {
+			font-family: "sans-serif";
+		}
+		.image {
+			-webkit-animation:spin 4s linear infinite;
+			-moz-animation:spin 4s linear infinite;
+			animation:spin 4s linear infinite;
+		}
+		@-moz-keyframes spin { 
+			100% { -moz-transform: rotate(360deg); } 
+		}
+		@-webkit-keyframes spin { 
+			100% { -webkit-transform: rotate(360deg); } 
+		}
+		@keyframes spin { 
+			100% { 
+				-webkit-transform: rotate(360deg); 
+				transform:rotate(360deg); 
+			} 
+		}
+	</style>
+</head>
+<body>
+
+	<h1>The Tully Monster</h1>
+
+	<p id="monster" >The Tully Monster is a fossilised creature believed to have lived 300 million years ago. It was discovered by and named after Francis Tully in 1958.</p>
+
+	<img class = image src="TullyMonster.webp" width="500px">
+
+	<form name="q1">
+		<p id="box">Question - How long was the Tully Monster?</p> 
+		<button type="button" onclick="document.getElementById('box').innerHTML = 'The Tully Monster grew to 35cm long'">Show answer</button>
+	</form>	
+	
+	<form name="q2">
+		<p id="box2">Click below to find out where it lived</p>
+		<button type="button" onclick="document.getElementById('box2').innerHTML = 'It lived in the tropical estuaries of Illinois, USA'">Show answer</button>
+	</form>
+		
+	<form name="q3">
+		<button type="button" onclick="validate()">check ans</button>
+	</form>
+	
+	<form name="q4">
+		<p id = "box4">
+			<input type="text" name="b">
+		</p>
+		<button type="button" onclick="validate()">check ans</button>
+	</form>
+	
+	<script>
+		function validate(){
+			var x = document.forms["q3"]["answer"].value;
+			if (x == 'egf'){
+				document.getElementById("box3").style.background-color="green";
+			}
+		}
+		
+		function showHide() {
+			var x = document.getElementById("monster");
+			if(x.style.display == 'block')
+				  x.style.display = 'none';
+			   else
+			x.style.display = 'block';
+		}
+	</script>
+
+</body>
+</html>
