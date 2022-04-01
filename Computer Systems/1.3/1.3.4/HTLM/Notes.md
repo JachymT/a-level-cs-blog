@@ -63,12 +63,11 @@ identifiers (id) are linked with `#id`
 
 The following properties can come up
 
-```
-background-color
+```css
+background-color      // named colors and hex colors
 border-color
 border-style
 border-width
-color with named and hex colours
 font-family
 font-size
 height
