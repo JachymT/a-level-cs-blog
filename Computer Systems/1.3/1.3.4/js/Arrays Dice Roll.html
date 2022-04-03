@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Roll the dice</title>
+		<style>
+			body, input { font-family: Arial, Helvetica, "sans-serif"; font-size: 15px; }
+			body { text-align:center; }
+		</style>
+</head>
+
+<body>
+	<h1>Dice Roll</h1>
+
+	<form>
+		<div id="diceImage"> </div> <!-- Empty div to contain random dice image -->
+		<button type="button" onClick="rollDice();">Roll the dice</button>
+	</form>
+
+	<script>
+		function rollDice(){
+			var dice = ["Roll1.jpg","Roll2.jpg","Roll3.jpg","Roll4.jpg","Roll5.jpg","Roll6.jpg"];
+			var roll = Math.ceil(Math.random() * dice.length);
+			roll--; // Javascript indexes start at 0 - the count is 6 items, so subtract 1 to get item in range 0-5
+			document.getElementById("diceImage").innerHTML="<img src='"+dice[roll]+"'>";
+		}
+		rollDice();
+	</script>
+
+</body>
+</html>
