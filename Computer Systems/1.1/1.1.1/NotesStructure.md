@@ -44,7 +44,7 @@ Holds the information about the state of the proccessor.
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/2.png">
 
 ## Busses
-Very Thin wires that link the CPU and its components to main memory via parallel wires. They are responsibe for fetching and sending data.
+Very Thin wires that link the CPU and its components to main memory via parallel wires. They are responsibe for fetching and sending data. Use the the word **carries**
 
 ### Address bus
 Unidirecional -> bus that carries the addresses of the data that is being read or writen to main memory.
@@ -53,7 +53,7 @@ Unidirecional -> bus that carries the addresses of the data that is being read o
 Omnidirectional <-> bus that carries instructions and data to and from main memory. This is the data that the CPU has or will process.
 
 ### Control bus
-Omnidirectional <-> bus that carries control signals and commands to the CPU and other components of the computer such as a device requesting bus access. 
+Omnidirectional <-> bus that carries control signals and commands from the CU to registers in the CPU, for example a signal that a program is requesting bus access. 
 
 ## Assembly language
 Assembly language is a programming language that used meumonics to comunicate with the CPU. For example if you wanted to load instruction 4 you might write LDA 0100. It is a simplified view of Machine code, which is more understandable for people. An instruction contains an opcode and operand part, which is split in the CIR. 
