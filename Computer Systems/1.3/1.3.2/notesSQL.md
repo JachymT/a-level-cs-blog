@@ -2,6 +2,25 @@
 
 ## SQL from the Spec
 
+`SELECT` - list of fields to be displayed
+
+`FROM` list the table or tables the data will come from
+
+`WHERE`list of search criteria
+
+`JOIN … ON`
+
+`LIKE`
+
+`DELETE`
+
+`INSERT`
+
+`DROP`
+
+`JOIN`
+
+`(WILDCARDS)` - `*`, `%`
 
 ### [not particluarly useful or comprehensive SQL learning site](https://sqlzoo.net/wiki/SQL_Tutorial)
 
