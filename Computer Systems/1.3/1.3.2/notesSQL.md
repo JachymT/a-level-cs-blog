@@ -4,23 +4,25 @@
 
 `SELECT` - list of fields to be displayed
 
-`FROM` list the table or tables the data will come from
+`FROM` - list the table or tables the data will come from
 
-`WHERE`list of search criteria
+`JOIN … ON` - links fields in relational databases
 
-`JOIN … ON`
+`WHERE` - list of search criteria
 
-`LIKE`
+`AND` - add aditional search criteria
+
+`LIKE` - after a where, for queries `IN` - after a where, for queries
+
+`(WILDCARDS)` - `* %` replace any amount of characters when querying,  `_ ?`replace a single character when querying
+
+`ODER BY` - select a field to oder by, defualt is `ASC` but `DESC` can be specified after
 
 `DELETE`
 
 `INSERT`
 
 `DROP`
-
-`JOIN`
-
-`(WILDCARDS)` - `*`, `%`
 
 ### [not particluarly useful or comprehensive SQL learning site](https://sqlzoo.net/wiki/SQL_Tutorial)
 
