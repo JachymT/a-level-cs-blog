@@ -114,6 +114,10 @@ Normalisation is the process of making the best possible design for a database. 
 - All attributes are dependent on the primary key
 - eg. if a place is a primary key, then the company that owns it depends on that place, but memebers of the company are transitivy dependent on the company.
 
+### Resolving a M:M relationship,
+
+![image](https://user-images.githubusercontent.com/72783315/164320251-53c1def8-6625-4932-b223-eb839490c5c0.png)
+
 ## Query 
 The action of searching a database to retrieve a specific peice of data. A **complex query** has more than 1 search critera, often checking more than 1 field. Might be sorted by a primary key
 
