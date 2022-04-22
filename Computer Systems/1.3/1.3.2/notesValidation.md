@@ -1,5 +1,5 @@
 # Input Validation
-Validation is the process of checking that data entered by a user is in the right format in order to confirm that it is sensible, acceptable and meaningful.
+Validation is the process of checking that data entered by a user is in the right format in order to confirm that it is sensible, acceptable and meaningful. Validation serves to inform the user if information is not entered correctly.
 
 Different validation checks include:
 
