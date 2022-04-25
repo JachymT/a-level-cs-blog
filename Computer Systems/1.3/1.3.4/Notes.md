@@ -23,9 +23,9 @@ Used to order pages by usefulness, relevance and authority, based on the pageran
 
 **outbound links** - links on a page pointing to external pages :point_left: :point_right:
 
-Start by assuming the rank of each page is 1 and then iterate untill they sum to the total number of pages. Use the algorithm for all pages to page n.
+Start by assuming the rank of each page is 1 and then iterate untill they sum to the total number of pages. Use the algorithm for all pages to page n. In reality this can be thousands of iterations. 
 
-No one actaully knows how this algorithm works by the looks of it so dont bother.
+During an iteration dont change the inputs for each page rank, eg iteration 1: A=1, B=1, C=1...
 
 ### factors that can affect web page rank
 - domain name
