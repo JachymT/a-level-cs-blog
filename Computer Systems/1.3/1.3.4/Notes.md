@@ -19,14 +19,19 @@ Used to order pages by usefulness, relevance and authority
 - **d** is the damping factor (start by assuming that it is 0.85). The dampening factor is how likely a user is to stop following hyperlinks, or that a website may be accessed directly by url, or how long it will take to get to that webpage.
 - **C(Ti)** is the number of outbound links on page Ti
 
-Start by assuming the rank of each page is one and then iterate untill they sum to 
+**inbound links** - external links pointing to a page :point_right: :point_left:
 
-**inbound links** - external links pointing to a page
+**outbound links** - links on a page pointing to external pages :point_left: :point_right:
 
-**outbound links** - links on a page pointing to external pages
+Start by assuming the rank of each page is 1 and then iterate untill they sum to 
 
 ### factors that can affect web page rank
 - domain name
-- quality of inbound links, number of inbound links, domain age, key words, magnitude of updates, keyword density
+- quality of inbound links
+- umber of inbound links
+- domain age
+- key words
+- magnitude of updates
+- keyword density
 
 ## Server and client side processing
