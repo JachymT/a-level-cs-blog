@@ -37,7 +37,7 @@ A list is an **dynamic**, set of elements which can **occur more than once**, an
 
 They can be manipulated using various functions for example in psuedocode:
 ```py
-list = [2, 3, 6, 4, 9, 9, 3]
+list = [2, 3, 6, 4, 9, 9, 'h', 'i']
 list.length()                       //returns list length
 list.pop(3)                         //removes 4th item in list
 list.remove(9)                      //removes the first instance of the parameter
