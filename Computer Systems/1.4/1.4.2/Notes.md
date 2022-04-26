@@ -52,14 +52,27 @@ tuple = (1, 2, "Python", function(), (12, 0))
 ```
 
 ## Stacks
-stacks handle linnear lists of data. It uses a last in first out structure. They are used to reverse an action.
+stacks handle linnear lists of data. They use a **last in first out** data structure. They are used to reverse an action. They are typically implemented using pointers.
+
+Adding data to a stack **pushing**
+
+taking data off the stack is called **popping**
+
+![image](https://user-images.githubusercontent.com/72783315/165316053-bf793785-f08b-41be-9c91-d8bb3a36eb1c.png)
+
+## Queues
+Queues also handle linear lists of data. They use a **first in first out** (FIFO) data structure. They are implemented using 2 pointers, one to the end and one to the start.
+
+![image](https://user-images.githubusercontent.com/72783315/165319077-af1b6c8e-645c-465d-a84b-fe2619c2c026.png)
+
+
 
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
 
 **dynamic data structures** - size is not limited and can be changed during run time. Elements are stored in **non-contiguous** memory locations
 
-Dynamic offers the most efficient use of memory, and the most felxibility, However it can overflow if memory runs out. Dynamic is also harder to program as size and location needs to be kept track off.
+Dynamic offers the most efficient use of memory, and the most flexibility, However it can overflow if memory runs out. Dynamic is also harder to program as size and location needs to be kept track off.
 
 **Mutable** - data inside the structure can be changed during run time
 
