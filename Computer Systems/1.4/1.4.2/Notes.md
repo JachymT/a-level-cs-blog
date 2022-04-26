@@ -47,6 +47,10 @@ list.append(14)                     //appends the parameter to the end of the li
 ## Tuples
 Tuples, like lists, are **dynamic** and can contain **more than one data type** but they are **immutable**. They are accessed in the same way and are used for lists that shouldn't be changed.
 
+```py
+tuples = (1, 2, "Python", function(), (12, 0))
+```
+
 ## Stacks
 stacks handle linnear lists of data. It uses a last in first out structure. They are used to reverse an action.
 
