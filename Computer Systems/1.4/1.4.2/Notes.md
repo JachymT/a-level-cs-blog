@@ -58,13 +58,12 @@ Adding data to a stack **pushing**
 
 taking data off the stack is called **popping**
 
-![image](https://user-images.githubusercontent.com/72783315/165316053-bf793785-f08b-41be-9c91-d8bb3a36eb1c.png)
+![image](https://user-images.githubusercontent.com/72783315/165319688-20432aa0-0e4a-412c-802e-776d04c9449e.png)
 
 ## Queues
 Queues also handle linear lists of data. They use a **first in first out** (FIFO) data structure. They are implemented using 2 pointers, one to the end and one to the start.
 
 ![image](https://user-images.githubusercontent.com/72783315/165319077-af1b6c8e-645c-465d-a84b-fe2619c2c026.png)
-
 
 
 ## Properties
