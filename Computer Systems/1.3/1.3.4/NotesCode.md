@@ -16,7 +16,7 @@ Section from the spec below. HTML is the script web pages are written in,
 
 `<img src="">` including the src (image file source), alt, height and width attributes.
 
-`<a href="">` including the href (link destination) attribute. To create a hyperlink
+`<a href="">` including the href (link destination) attribute. Creates a hyperlink
 
 `<div id="box">` divides a page with the id given
 
