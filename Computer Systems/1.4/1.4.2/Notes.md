@@ -52,16 +52,18 @@ tuple = (1, 2, "Python", function(), (12, 0))
 ```
 
 ## Stacks
-stacks handle linnear lists of data. They use a **last in first out** data structure. They are used to reverse an action. They are typically implemented using pointers.
+stacks handle linnear lists of data. They use a **last in first out** data structure. They are used to reverse an action - tracking user inputs, used in iteration - like pathfinding algorithms. They are implemented using pointers, which point to the top of the stack.
 
-Adding data to a stack **pushing**
+Adding data to a stack **pushing**. If the stack if full a stack **overflow** error is given.
 
-taking data off the stack is called **popping**
+taking data off the stack is called **popping**. If the stack is empty a stack **underflow** error is given.
+
+Viewing the top of the stack is called **peeking**.
 
 ![image](https://user-images.githubusercontent.com/72783315/165319688-20432aa0-0e4a-412c-802e-776d04c9449e.png)
 
 ## Queues
-Queues also handle linear lists of data. They use a **first in first out** (FIFO) data structure. They are implemented using 2 pointers, one to the end and one to the start. Queues can also be circular, and so the pointers can both loop around.
+Queues also handle linear lists of data. They use a **first in first out** (FIFO) data structure. They are implemented using 2 pointers, one to the end (**tail pointer**) and one to the start (**head pointer**). Queues can also be circular, and so the pointers can both loop around. The same commands for stacks can be applied for queues. Priority queues allow for jumping to the front of the queue.
 
 ![image](https://user-images.githubusercontent.com/72783315/165319077-af1b6c8e-645c-465d-a84b-fe2619c2c026.png)
 
