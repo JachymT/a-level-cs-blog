@@ -23,7 +23,7 @@ The processing that happen on the users local device. Most webpages use some cli
 ![image](https://user-images.githubusercontent.com/72783315/165909418-2f4db4a5-9be1-4095-bd23-36e0700c098c.png)
 
 ## Server-side processing
-The processing that happen on a server. Databases are servers that can be accessed by backend scripts such as PHP, SQL, ASP.net and Python. Server side scripts are processed entirely on the server and cannot be viewed by the client
+The processing that happen on a server. Databases are servers that can be accessed by backend scripts such as PHP, SQL, ASP.net and Python. Server side scripts are processed entirely on the server and cannot be viewed by the client.
 
 **Advantages**
 - can perform large calculations
