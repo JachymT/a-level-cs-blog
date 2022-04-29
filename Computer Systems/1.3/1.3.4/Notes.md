@@ -1,5 +1,39 @@
 # Web Technologies
 
+## Client-server architecture
+
+![image](https://user-images.githubusercontent.com/72783315/165905951-aefd0e4d-af1b-4906-82eb-0c08619118f7.png)
+
+Most services on the internet use this model. Providers of resources are designated as **servers** and make responses to requests made by **clients**. Resources may be web pages, files, emails and other communications. A server or client is not determined by hardware as most devices can be both, such as a laptop running a FTP and a web server. 
+
+A web server is always listening and anticipating requests, without it the resources for the website cannot be accessed.
+
+A web browser is a client service, that makes reqeuests to the right server in a format that matches, and then waits for a response.
+
+## Client side processing
+The processing that happen on the users local device. Most webpages use some client side processing. Client side scripting can be done with javascript and those Scripts are interpreted in the browser. Cookies are an example of client side data. Using an old version of a browser can let malicious websites use vunerabilites.
+
+**Advantages**
+- Immediate response
+- Quick execution
+- Reduced load on the server
+- Used for validating forms
+- Used for controlling the look of a website and creating interative, personalised features.
+
+![image](https://user-images.githubusercontent.com/72783315/165909418-2f4db4a5-9be1-4095-bd23-36e0700c098c.png)
+
+## Server-side processing
+The processing that happen on a server. Databases are servers that can be accessed by backend scripts such as PHP, SQL, ASP.net and Python. Server side scripts are processed entirely on the server and cannot be viewed by the client
+
+**Advantages**
+- can perform large calculations
+- not browser dependent
+- theremore more secure
+
+![image](https://user-images.githubusercontent.com/72783315/165909571-ea8631f6-b7ba-4d19-944f-dc6b06edfac8.png)
+
+(notes from isaac)[https://isaaccomputerscience.org/concepts/net_internet_client_server_model?examBoard=all&stage=all]
+
 ## Search Engine Indexing
 When using a search engine, information is retrieved from the search engines index. Allows for fast and relevant information access.
 
@@ -35,5 +69,3 @@ During an iteration dont change the inputs for each page rank, eg iteration 1: A
 - key words
 - magnitude of updates
 - keyword density
-
-## Server and client side processing
