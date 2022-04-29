@@ -32,7 +32,7 @@ The processing that happen on a server. Databases are servers that can be access
 
 ![image](https://user-images.githubusercontent.com/72783315/165909571-ea8631f6-b7ba-4d19-944f-dc6b06edfac8.png)
 
-(notes from isaac)[https://isaaccomputerscience.org/concepts/net_internet_client_server_model?examBoard=all&stage=all]
+[notes from isaac](https://isaaccomputerscience.org/concepts/net_internet_client_server_model?examBoard=all&stage=all)
 
 ## Search Engine Indexing
 When using a search engine, information is retrieved from the search engines index. Allows for fast and relevant information access.
@@ -44,7 +44,7 @@ crawls through all webpages on the WWW using **hyperlinks** to go to an subseque
 They are keywords relating to the content. Exist in the header tag and are not vissible to the user. Improve the chances of discovery and help the webcrawler decide on the category of the page.
 
 ## Page Rank Algorithm
-Used to order pages by usefulness, relevance and authority, based on the pagerank of pages linking to it
+Used to order pages by usefulness, relevance and authority, based on the pagerank of pages linking to it.
 
 ![image](https://user-images.githubusercontent.com/72783315/165080503-b9be8d08-ed2f-4364-abfd-d1c424935e79.png)
 
