@@ -14,7 +14,7 @@ Section from the spec below. HTML is the script web pages are written in,
 
 `<h1>` `<h2>` `<h3>` headings in decending size
 
-`<img src="">` including the src (image file source), alt, height and width attributes.
+`<img src="">` including the src (image file source), alt, height and width attributes. Does not need a closing tag
 
 `<a href="">` including the href (link destination) attribute. Creates a hyperlink
 
