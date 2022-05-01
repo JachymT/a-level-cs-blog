@@ -72,6 +72,7 @@ border-style
 border-width
 font-family
 font-size
+color
 height
 width
 ```
