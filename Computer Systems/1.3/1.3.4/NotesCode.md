@@ -41,9 +41,9 @@
 **Not in the spec:**
 
 ```html
-<b>Bold text</b>
-<i>Italic text </i>
-<u>Underlined text</u>
+<b> Bold text </b>        <!-- These can be inside <p> tags -->
+<i> Italic text </i>
+<u> Underlined text </u>
 ```
 
 ## CSS
