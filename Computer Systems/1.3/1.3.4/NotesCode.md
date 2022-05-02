@@ -90,7 +90,7 @@ width
 ```
 
 ## JavaScript 
-Section from the spec below. JS is a scripting language which primarily exists to add interactivity to websites. It is interpreted and not compiled. Can be used to validate client input data. The advantage is that servers don't have to validte the data, it can all be done within the webpage, easing the load on servers.
+Section from the spec below. JS is a scripting language which primarily exists to add interactivity to websites, by embeding it into HTLM. It is interpreted and not compiled. Can be used to validate client input data. The advantage is that servers don't have to validte the data, it can all be done within the webpage, easing the load on servers.
 
 JavaScript can be used to retrieve inputs. You do not have to know about this, any other JS will be explained in the question
 
