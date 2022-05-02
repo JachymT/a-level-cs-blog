@@ -30,20 +30,20 @@
 
 ```html
 <ul>
-  <li> text </li> <!-- Unordred list -->
+  <li> text </li> <!-- Unordred list item -->
 </ul>
 
 <ol>
-  <li> text </li> <!-- Ordered list -->
+  <li> text </li> <!-- Ordered list item -->
 </ol>
 ```
 
 **Not in the spec:**
 
 ```html
-<b>I'm a content</b> <!-- Bold -->
-<i>I'm a content</i> <!-- Italics -->
-<u>I'm a content</u> <!-- Underlined -->
+<b>Bold text</b>
+<i>Italic text </i>
+<u>Underlined text</u>
 ```
 
 ## CSS
