@@ -26,11 +26,15 @@
 
 `<p> </p>` text goes in here 
 
-`<li> ` defines a list
+```html
+<ul>
+  <li> text </li> <!-- Unordred list -->
+</ul>
 
-`<ol>` add ordered elements to a list
-
-`<ul>` add bulleted elemets to a list
+<ol>
+  <li> text </li> <!-- Ordered list -->
+</ol>
+```
 
 `<script> </script>` javascript goes in here 
 
