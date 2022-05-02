@@ -26,6 +26,8 @@
 
 `<p> </p>` text goes in here 
 
+`<script> </script>` javascript goes in here 
+
 ```html
 <ul>
   <li> text </li> <!-- Unordred list -->
@@ -35,8 +37,6 @@
   <li> text </li> <!-- Ordered list -->
 </ol>
 ```
-
-`<script> </script>` javascript goes in here 
 
 **Not in the spec:**
 
