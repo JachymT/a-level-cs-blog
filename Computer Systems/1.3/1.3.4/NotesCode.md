@@ -1,6 +1,6 @@
 # HTML
 ## HTML 
-Section from the spec below. HTML is the script web pages are written in, 
+**Section from the spec below**. HTML is the script web pages are written in:
 
 `<html>` first line after <!DOCTYPE html>, interprets code as HTML
 
@@ -24,15 +24,23 @@ Section from the spec below. HTML is the script web pages are written in,
 
 `<input>` where the input is a textbox (i.e. has the attribute type=”text” and another attribute name to identify it) or a submit button (i.e. has the attribute type=”submit”)
 
-`<p>` text goes in here
+`<p> </p>` text goes in here 
 
-`<li>` defines a list
+`<li> ` defines a list
 
-`<ol>` ordered elements of a list are added with this
+`<ol>` add ordered elements to a list
 
-`<ul>` bulleted elemets of a list are added with
+`<ul>` add bulleted elemets to a list
 
-`<script>` javascript goes in here
+`<script> </script>` javascript goes in here 
+
+**Not in the spec:**
+
+```html
+<b>I'm a content</b> <!-- Bold -->
+<i>I'm a content</i> <!-- Italics -->
+<u>I'm a content</u> <!-- Underlined -->
+```
 
 ## CSS
 section from the spec below. Cascading style sheets are used to describe the style of a webpage. Remeber semi-colons after each element.
