@@ -67,7 +67,6 @@ Queues also handle linear lists of data. They use a **first in first out** (FIFO
 
 ![image](https://user-images.githubusercontent.com/72783315/165319077-af1b6c8e-645c-465d-a84b-fe2619c2c026.png)
 
-
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
 
