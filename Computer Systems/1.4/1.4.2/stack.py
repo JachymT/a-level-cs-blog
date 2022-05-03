@@ -1,4 +1,6 @@
 # Stack implementation in python, not practical, purly theoretical
+# This code SUCKS
+# pointer can be above or on top item but in this case its above 
 stack = []
 pointer = -1
 CAPACITY = 5
