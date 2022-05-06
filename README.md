@@ -55,5 +55,5 @@ _Jachym Tolar_
 - [Programming Challenge book](https://github.com/JachymT/a-level-cs-blog/tree/main/Code/challengeBook)
 
 ### Exam Questions
-[a-level-study.co.uk](https://a-level-study.co.uk/computer-science/a-level-computer-science-past-papers/)
-[physicsandmathstutor.com](https://www.physicsandmathstutor.com/computer-science-revision/a-level-ocr/)
+- [a-level-study.co.uk](https://a-level-study.co.uk/computer-science/a-level-computer-science-past-papers/)
+- [physicsandmathstutor.com](https://www.physicsandmathstutor.com/computer-science-revision/a-level-ocr/)
