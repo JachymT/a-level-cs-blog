@@ -67,6 +67,39 @@ Queues also handle linear lists of data. They use a **first in first out** (FIFO
 
 ![image](https://user-images.githubusercontent.com/72783315/165319077-af1b6c8e-645c-465d-a84b-fe2619c2c026.png)
 
+## Linked Lists
+Linked lists are a **dynamic**, powerful and flexible data sctructures that are used as the foundation to implemenating other data sctructures. They consist of **nodes**, each of which contains **data** and a **pointer**, which points to the next node, and a **head pointer** which points to the first node. A **double linked list** points to the next and previous nodes and a **circular linked list** points from the first to the last node.
+
+They are useful when you need to insert items in to the middle of a list and you dont know how many items long the list will be. other advantages
+
+They can be applied to the operating system process scheduler, blocked state queue, image players, music players and webbrowsers.
+
+### Operations
+Must be able to:
+- Add a node
+- Delete a node
+- Move to next node
+- Move to prev node
+- Search the list 
+
+### C++ implemenation
+https://www.codesdope.com/blog/article/c-linked-lists-in-c-singly-linked-list/#:~:text=The%20implementation%20of%20a%20linked,which%20are%20connected%20in%20nature
+
+Object oriented implementation is optimal as objects use any available memory and don't need to be adjacent.
+
+```cpp
+class Node
+  {
+  public:
+    Node( string dataInput, Node* next=NULL);
+    void setData( string dataValue);
+    void setNext( Node* nextNode );
+  private:
+    string data;
+    Node* next;
+  };
+```
+
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
 
