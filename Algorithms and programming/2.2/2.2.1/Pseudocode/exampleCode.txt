@@ -1,0 +1,24 @@
+//Pseudocode example for a cash machine
+//Note that capital letters for functions are optional
+
+function dispenseCash(amount)
+   for i = 0 to 2
+      PRINT("Money")
+   next i
+   return TRUE
+ endfunction
+
+pin = INPUT(“Please enter PIN Number”)
+
+WHILE pin != correctPin
+   pin = INPUT(“Please enter PIN Number”)
+ENDWHILE
+
+amount = INPUT(“Enter amount to take out: ”)
+
+IF amount <= currentBalance THEN
+   dispenseCash(amount)
+   currentBalance = currentBalance - amount
+ELSE
+   PRINT(“Sorry, insufficient funds”)
+END IF
