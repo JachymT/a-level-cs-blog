@@ -72,7 +72,7 @@ Linked lists are a **dynamic**, powerful and flexible data sctructures that are 
 
 They are useful when you need to insert items in to the middle of a list and you dont know how many items long the list will be. They can be applied to the operating system process scheduler, **blocked state queue**, image players, music players and webbrowsers.
 
-The dissadvantages of linked lists: **traversing a linked list is very difficult**, they don't provide random access so to find an element you need to traverse all the nodes before it which is time consuming. Additionaly they require more memory than arrays as they need to store a pointer and data attached to a node.
+The dissadvantages of linked lists: **traversing a linked list is very difficult**, they don't provide random access so to find an element you need to traverse all the nodes before it which is time consuming. Additionaly they **require more memory** than arrays as they need to store a pointer and data attached to a node.
 
 ### Operations
 Must be able to:
