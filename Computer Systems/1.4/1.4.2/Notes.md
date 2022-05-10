@@ -78,8 +78,8 @@ The dissadvantages of linked lists: **traversing a linked list is very difficult
 
 ### Operations
 Must be able to:
-- Add a node
-- Delete a node
+- Add a node - add the end of the list, and then re-arrange pointers
+- Delete a node - keep the list the same, re-arrange pointers
 - Move to next node
 - Move to prev node
 - Search the list 
