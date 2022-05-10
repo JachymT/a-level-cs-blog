@@ -74,6 +74,8 @@ They are useful when you need to insert items in to the middle of a list and you
 
 The dissadvantages of linked lists: **traversing a linked list is very difficult**, they don't provide random access so to find an element you need to traverse all the nodes before it which is time consuming. Additionaly they **require more memory** than arrays as they need to store a pointer and data attached to a node.
 
+![image](https://user-images.githubusercontent.com/72783315/167635691-63f6e5ab-fbaf-4733-893e-3a3a171d1465.png)
+
 ### Operations
 Must be able to:
 - Add a node
