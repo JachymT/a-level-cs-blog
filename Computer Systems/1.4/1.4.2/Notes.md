@@ -83,7 +83,7 @@ Must be able to:
 - Search the list 
 
 ### C++ implemenation
-https://www.codesdope.com/blog/article/c-linked-lists-in-c-singly-linked-list/#:~:text=The%20implementation%20of%20a%20linked,which%20are%20connected%20in%20nature
+[linked lists implemenation explained](https://www.codesdope.com/blog/article/c-linked-lists-in-c-singly-linked-list/#:~:text=The%20implementation%20of%20a%20linked,which%20are%20connected%20in%20nature)
 
 Object oriented implementation is optimal as objects use any available memory and don't need to be adjacent.
 
