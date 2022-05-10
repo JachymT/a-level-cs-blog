@@ -70,9 +70,9 @@ Queues also handle linear lists of data. They use a **first in first out** (FIFO
 ## Linked Lists
 Linked lists are a **dynamic**, powerful and flexible data sctructures that are used as the foundation to implemenating other data sctructures. They consist of **nodes**, each of which contains **data** and a **pointer**, which points to the next node, and a **head pointer** which points to the first node. A **double linked list** points to the next and previous nodes and a **circular linked list** points from the first to the last node.
 
-They are useful when you need to insert items in to the middle of a list and you dont know how many items long the list will be. other advantages
+They are useful when you need to insert items in to the middle of a list and you dont know how many items long the list will be. They can be applied to the operating system process scheduler, **blocked state queue**, image players, music players and webbrowsers.
 
-They can be applied to the operating system process scheduler, blocked state queue, image players, music players and webbrowsers.
+The dissadvantages of linked lists: **traversing a linked list is very difficult**, they don't provide random access so to find an element you need to traverse all the nodes before it which is time consuming. Additionaly they require more memory than arrays as they need to store a pointer and data attached to a node.
 
 ### Operations
 Must be able to:
