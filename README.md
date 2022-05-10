@@ -34,14 +34,14 @@ _Jachym Tolar_
 
 ### Algorithms and programming - Component 2
 - 2.1 Elements of computational thinking
-  - 2.1.1 Thinking abstractly
+  - [2.1.1 Thinking abstractly](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.1/2.1.1)
   - 2.1.2 Thinking ahead
   - 2.1.3 Thinking procedurally
   - 2.1.4 Thinking logically
   - 2.1.5 Thinking concurrently
 
 - 2.2 Problem solving and programming
-  - [2.2.1 Programming techniques](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.2.1)
+  - [2.2.1 Programming techniques](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.2/2.2.1)
   - 2.2.2 Computational methods
 
 - 2.3 Algorithms
