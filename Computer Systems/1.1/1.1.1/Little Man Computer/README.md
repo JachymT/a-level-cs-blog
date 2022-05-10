@@ -1,4 +1,4 @@
-**Solutions files contains assembly code to run on the [Little Man Cimputer](http://peterhigginson.co.uk/LMC/)**
+**Solutions files contains assembly code to run on the [Little Man Computer](http://peterhigginson.co.uk/LMC/)**
 
 **task files contain the tasks**
 
