@@ -12,7 +12,7 @@ Inputs and outputs for a function need to be planned, and the format that they w
 For example if performing a linnear or binnary search, the list should be in an indexed or ordered format. This also includes specifying variable type.
 
 ### Advantages
-- Making program components reusable by good documentation. Libraries can be imported whenever
+- Making program components reusable by good documentation. Libraries can be imported whenever and save time, costs, resources, as long as they are compatable. They  provide abstraction and are pre-built and often well tested.
 - Cutting out unnecessary checks - eg checking before calling the subroutine
 - Making programs easier to debug and maintain
 
@@ -27,8 +27,10 @@ Caching in computer architecture is an implemention of thinking ahead. This is w
 
 ### Advantages
 - increased speeds
-- no need to request data again
-- eg. reading a file once in a program instea of multiple times
+- reduces bandwidth and server load
 
 ### Disadvantages
 - inconsistencies can occur if origional data is updated.
+
+## Pre-fetching
+As an extention of caching, requesting data before it is needed. Algorithms need to be designed to predict when data will need to be cached, or you could do this yourself, manually in a program. eg. reading a file once in a program instea of multiple times
