@@ -102,6 +102,43 @@ class Node
   };
 ```
 
+## Trees
+![image](https://user-images.githubusercontent.com/72783315/168257022-a7303f2f-d6ae-4ea0-a485-ffc20c3cf228.png)
+![image](https://user-images.githubusercontent.com/72783315/168257817-6b046204-4b0c-4bfc-925b-b98f7e3f45c4.png)
+
+Starts with a **root node**, and has nodes coming off it with **branches**
+
+Used for **path finding algorithms** and **file systems**.
+
+### Binary trees
+Special case of a tree, where it can only have 2 child nodes. This is the most commen way to use trees and the only way you need to know for the exam. They are much easier to search through and use a **left pointer and a right pointer**, which can be implemented using a 2D array.
+
+Used in:
+- binnry search
+- database applictions
+- wireless networking
+- OS scheduling
+- compression algorithms
+
+If using a binnary tree to sort data, compare each item to the node, and then go left if < and right if >, then add it to the end
+
+### Operations
+- Add a node - If using a binnary tree to sort data, compare each item to the node, and then go left if < and right if >, then add it to the end.
+- Remove a node - Delete the node and then re-arrange all the items below to follow the same rules as the origional tree
+- binary search 
+- bredth-first search - 
+- pre-order traversing
+- post-order traversing
+- in-order traversing
+
+### Pre-order traversing 
+
+### Post-order traversing
+
+### in-order traversing
+
+### Implementation
+
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
 
