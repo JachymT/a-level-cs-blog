@@ -22,4 +22,4 @@ For non-experts to use and interact with a model and for efficient design during
 - Flowcharts are an example of abstracted program code. 
 - Variables are abstracted away by using names for memeory loactions. 
 - Object-oriented programming abstracts real world entities and thier functionality and characteristics
-- Networking and the TCP/IP model. They are mde simpler to understand and seperated and provide a clear path for information to travel. The protocols mean each layer can be hidden from the others.
+- Networking and the TCP/IP model. They are made simpler to understand and seperated and provide a clear path for information to travel. The protocols mean each layer can be hidden from the others.
