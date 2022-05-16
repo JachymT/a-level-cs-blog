@@ -4,7 +4,7 @@ Abstraction means removing detail to simplify something complex, untill only nec
 ## The nature of Abstraction
 Abstraction is both a problem solving aproach and a computational technique.
 
-It is the process of removing unnecessary details so that what you are left with are key features of a model, only showing those details which are relevant to understanding how to use and interact with the model.
+It is the process of removing unnecessary details so that what you are left with are key features of a model, only showing those details which are relevant to understanding how to use and interact with the model. Significant details help solve the problem that the model
 
 ### Types of abstraction
 - Representational abstraction - simplifying a problem down to what you need
