@@ -8,7 +8,7 @@ It is the process of removing unnecessary details so that what you are left with
 
 ### Types of abstraction
 - Representational abstraction - simplifying a problem down to what you need
-- Abstraction by generalisation - grouping together similarities to categorise a problem, this is useful for finding pre-existing solutions
+- Abstraction by generalisation - grouping together similarities to categorise a problem, this is useful for finding creating solutions that solve many problems. Generalised solutions to previos solution can then be re-used.
 - Data abstraction - details about how data is being stored are hidden, used in data structures like stacks and queues.
 
 ### Levels of Abstraction
