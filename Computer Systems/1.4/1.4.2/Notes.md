@@ -155,6 +155,40 @@ Method: Just write out the list in the correct order. Don't try and traverse.
 ### Implementation
 Recursive implementation in python, 
 
+tree = [["D",1,2],["B",3,4],["F",5,6],["A",-1,-1],["C",-1,-1],["E",-1,-1],["G",-1,-1]]
+
+# based on this diagram
+# https://docs.google.com/presentation/d/15A0dcshrpe4W0u5S5GXy0jdCh4Wfke7JzcND1K9_z1w/edit#slide=id.p58
+http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
+http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
+http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
+http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
+http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
+http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
+
+def preorder(p):
+    if p != -1:
+        #Visit the node pointed to by p
+        print(tree[p][0])
+
+        #recursion for the left then right sides
+        preorder(tree[p][1])
+        preorder(tree[p][2])
+
+preorder(0)
+print("\n\n\n")
+
+def postorder(p):
+    if p != -1:
+        #recursion for the left then right sides
+        postorder(tree[p][1])
+        postorder(tree[p][2])
+
+        #Visit the node pointed to by p
+        print(tree[p][0])
+
+postorder(0)
+
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
 
