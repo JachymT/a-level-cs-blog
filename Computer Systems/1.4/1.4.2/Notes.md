@@ -131,13 +131,29 @@ If using a binnary tree to sort data, compare each item to the node, and then go
 - post-order traversing
 - in-order traversing
 
-### Pre-order traversing 
+https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm
+
+### Pre-order traversing (Depth first)
+Start at the **root** node, Traverse the **left** sub-tree, Traverse the **right** sub-tree
+
+![image](https://user-images.githubusercontent.com/72783315/168823124-18340a32-8b4a-466d-843b-2cbee3cf28a1.png)
+
+Method: Draw an arrow around the tree and follow it, writing any node it passes.
 
 ### Post-order traversing
+Traverse the **left** sub-tree, Traverse the **right** sub-tree, Visit the **root** node
+
+![image](https://user-images.githubusercontent.com/72783315/168833206-b5665720-c050-4267-adfa-dd80fbee3164.png)
+
+Method: Draw an arrow around and follow it BACKWARDS, writing any node it passes in reverse order. So going round backwards and writing the list backwards
 
 ### in-order traversing
+Traverse the **left** sub-tree, Visit the **root** node, Traverse the **right** sub-tree
+
+Method: Just write out the list in the correct order. Don't try and traverse.
 
 ### Implementation
+Recursive implementation in python, 
 
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
