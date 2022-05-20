@@ -153,22 +153,13 @@ Traverse the **left** sub-tree, Visit the **root** node, Traverse the **right** 
 Method: Just write out the list in the correct order. Don't try and traverse.
 
 ### Implementation
-Recursive implementation in python
+[Recursive implementation in python](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.4/1.4.2)
 
-Based on this ![image](https://user-images.githubusercontent.com/72783315/169520322-225dd11c-87df-47ba-b29e-f48cf5f3c625.png)
+Based on this tree
 
-Read This for psuedocode http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
+![image](https://user-images.githubusercontent.com/72783315/169520322-225dd11c-87df-47ba-b29e-f48cf5f3c625.png)
 
-
-
-# based on this diagram
-# https://docs.google.com/presentation/d/15A0dcshrpe4W0u5S5GXy0jdCh4Wfke7JzcND1K9_z1w/edit#slide=id.p58
-http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
-http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
-http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
-http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
-http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
-http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
+[Read This for psuedocode](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html)
 
 ## Properties
 **Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
