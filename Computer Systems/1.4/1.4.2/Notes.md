@@ -155,27 +155,11 @@ Method: Just write out the list in the correct order. Don't try and traverse.
 ### Implementation
 Recursive implementation in python
 
-```
-tree = [["D",1,2],["B",3,4],["F",5,6],["A",-1,-1],["C",-1,-1],["E",-1,-1],["G",-1,-1]]
+Based on this ![image](https://user-images.githubusercontent.com/72783315/169520322-225dd11c-87df-47ba-b29e-f48cf5f3c625.png)
 
-def preorder(pointer):
-    if pointer != -1:
-        print(tree[pointer][0])                 #Visit the node pointed to by p
-        preorder(tree[pointer][1])              #recursion for the left then right sides
-        preorder(tree[pointer][2])
-
-def postorder(pointer):
-    if pointer != -1:
-        postorder(tree[pointer][1])             #recursion for the left then right sides
-        postorder(tree[pointer][2])
-        print(tree[pointer][0])                 #Visit the node pointed to by p
-        
-def 
+Read This for psuedocode http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html
 
 
-preorder(0)
-postorder(0)
-inorder(0)
 
 # based on this diagram
 # https://docs.google.com/presentation/d/15A0dcshrpe4W0u5S5GXy0jdCh4Wfke7JzcND1K9_z1w/edit#slide=id.p58
