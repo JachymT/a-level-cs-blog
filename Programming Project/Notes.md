@@ -19,3 +19,5 @@ use seperate files for static (modules in python, ) and dymanic classes
 delta time is used to syncronise time
 
 use debug console to print button presses and scene switching
+
+
