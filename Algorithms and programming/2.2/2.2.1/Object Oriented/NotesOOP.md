@@ -1,6 +1,11 @@
 # Object Oriented Programming
 Object Oriented Programming is a programming aproach that more closely models the real world, compared to procedural language. The fundemental concept of OOP is using objects to solve problems and carry out computations, by manipulating the objects and modelling data (relationships between objects).
 
+## Comparing OOP and procedural programming paradigms in development
+
+**OOP**
+- 
+
 ## Attributes
 Attributes model characteristics of an object like we would use variables or data structures in structured programming. They are peices of data that describe each instance of a class. Simply, they are vars in a class
 
