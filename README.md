@@ -57,3 +57,8 @@ _Jachym Tolar_
 ### Exam Questions
 - [a-level-study.co.uk](https://a-level-study.co.uk/computer-science/a-level-computer-science-past-papers/)
 - [physicsandmathstutor.com](https://www.physicsandmathstutor.com/computer-science-revision/a-level-ocr/)
+
+## Exam tips
+- A01 - 
+- A02
+- A03
