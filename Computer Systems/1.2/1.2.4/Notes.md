@@ -1,6 +1,14 @@
 #  Types of Programming Languages
+Languages are classified into programming paradigms based on how they aproach problem solving.
+
+Imperitive - Programmer instructs the machine on exactly what actions to perform
+
+Declerative - Programmer declares the desired result and not the instructions on how to get to it. The language decides how to reach the outcome and how abstracted the process is.
+
+![image](https://user-images.githubusercontent.com/72783315/170046543-a1b5265b-4337-46d0-b20c-918090fc1de3.png)
 
 ## Procedural
+Procedural langauges are common and apply to a wide range of problems. Easy to **implement** and **interpret**. Sequences of instructions are executed line by line. The key features of **structured procedural programming** are: sequence, selection, iteration and recursion.
 
 ## Object Oriented
 
