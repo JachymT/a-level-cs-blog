@@ -15,9 +15,9 @@ Procedural langauges are common and apply to a wide range of problems. Easy to *
 ### Comparing OOP and procedural programming paradigms in development
 
 ## Assembly language
-Assembly language is a programming language that used meumonics to comunicate with the CPU. For example if you wanted to load instruction 4 you might write LDA 0100. It is a simplified view of Machine code, which is more understandable for people. An instruction contains an opcode and operand part, which is split in the CIR. 
+Assembly language is a programming language that used meumonics to comunicate with the CPU. For example if you wanted to load instruction 4 you might write LDA 0100. It is a simplified view of Machine code, which is more understandable for people. An instruction contains an opcode and operand part, which is split in the CIR. Below is the little man instruction set which needs to be learnt.
 
-![image](https://user-images.githubusercontent.com/72783315/134294302-d090fc27-01a9-49d5-b2ce-8327e0010369.png)
+![image](https://user-images.githubusercontent.com/72783315/170047720-a22f78c6-39f5-4e51-800b-cdfd69f6706f.png)
 
 ## Machine code instructions
 Binary instructions that are specific to each type of CPU. Programs need to be translated into machine code before the CPU can read them.
