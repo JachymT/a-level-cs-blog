@@ -15,11 +15,19 @@ Procedural langauges are common and apply to a wide range of problems. Easy to *
 
 ### Comparing OOP and procedural programming paradigms in development
 
-Advantages of OOP
--
+**Advantages of OOP**
+- For games and simulations - where objects frequently interact with each other
+- More closely models the real world. Eg a farms attributes and behaviours 
+- Classes can be re-used and extended with child classes. Advantageous if you have pre-written classes to use. Encourages code integrity.
+- Highly modular (encourages splitting functionality into smaller, compatable and individual pieces)
+- Therefore easy to maintain
+- Provides data protection from encapsulation. Prevents careless and harful access to private variables
 
-Advantages of Procedural
--
+https://isaaccomputerscience.org/concepts/prog_oop_why?examBoard=ocr&stage=a_level&topic=object_oriented_programming
+
+**Advantages of Procedural**
+- OPP can result in complex systems, procedural is better for simpler programs.
+- 44
 
 ### Functional
 Use the concept of calling functions multiple times, and only using functions to get an output from an input. Mostly used to handle giant data sets. An example is Haskell.
