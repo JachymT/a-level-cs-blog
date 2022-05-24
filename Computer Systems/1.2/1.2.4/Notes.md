@@ -1,8 +1,10 @@
 #  Types of Programming Languages
 
-# Procedural
+## Procedural
 
-# Object Oriented
+## Object Oriented
+
+### Comparing OOP and procedural programming paradigms in development
 
 ## Assembly language
 Assembly language is a programming language that used meumonics to comunicate with the CPU. For example if you wanted to load instruction 4 you might write LDA 0100. It is a simplified view of Machine code, which is more understandable for people. An instruction contains an opcode and operand part, which is split in the CIR. 
