@@ -15,6 +15,12 @@ Procedural langauges are common and apply to a wide range of problems. Easy to *
 
 ### Comparing OOP and procedural programming paradigms in development
 
+## Function
+Use the concept of calling functions multiple times, and only using functions to get an output from an input. Mostly used to handle giant data sets. An example is Haskell.
+
+## Logic
+Use queries to solve problems after defining a set of rules. An example is Prolog.
+
 ## Assembly language
 Assembly language is a programming language that uses meumonics to comunicate with the CPU. It is a low level language that can be converted into machine code 
 
