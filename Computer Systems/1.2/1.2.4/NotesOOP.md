@@ -114,4 +114,4 @@ myDog = new Dog("Cramberry", "Hampter")
 
 ## Practise papers
 
-[Mrs Azizi on 23/05, completed in class and marked by teacher](https://classroom.google.com/c/Mzg4MTUwMjc3MTA5/a/NTIxMjA1NTA4NzQ5/details)
+[Mrs Azizi on 23/05, completed in class kept by teacher](https://classroom.google.com/c/Mzg4MTUwMjc3MTA5/a/NTIxMjA1NTA4NzQ5/details)
