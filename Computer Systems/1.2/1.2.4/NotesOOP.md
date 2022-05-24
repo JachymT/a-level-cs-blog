@@ -59,9 +59,7 @@ It is the ability to process objects differently depending on thier class or dat
 Litterally, polymorphism is occurring in many different forms.
 
 ## OOP in Python
-Following OOP python tutorial: http://pythonschool.net/oop 
-
-[to make this field class](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.2.1/Object%20Oriented/field.py)
+[farm sim project](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.2.1/Object%20Oriented/README.md)
 
 **Notes**
 
