@@ -3,8 +3,7 @@ Object Oriented Programming is a programming aproach that more closely models th
 
 ## Comparing OOP and procedural programming paradigms in development
 
-**OOP**
-- 
+link
 
 ## Attributes
 Attributes model characteristics of an object like we would use variables or data structures in structured programming. They are peices of data that describe each instance of a class. Simply, they are vars in a class
