@@ -27,8 +27,9 @@ The processing that happen on a server. Databases are servers that can be access
 
 **Advantages**
 - can perform large calculations
-- not browser dependent
-- theremore more secure
+- not browser dependent - or client dependent
+- source code is not visible 
+- more secure (from above)
 
 ![image](https://user-images.githubusercontent.com/72783315/165909571-ea8631f6-b7ba-4d19-944f-dc6b06edfac8.png)
 
@@ -38,7 +39,7 @@ The processing that happen on a server. Databases are servers that can be access
 When using a search engine, information is retrieved from the search engines index. Allows for fast and relevant information access.
 
 ### Web crawlers
-crawls through all webpages on the WWW using **hyperlinks** to go to an subsequent web pages Data like metadata, contents, and the url is saved to a huge index of webpages. 
+crawls through all webpages on the WWW using **hyperlinks** to go to an subsequent web pages. Data like metadata, contents, and the url is saved to a huge index of webpages. Keywords are indexed for the page entry, alongside the keywords position in the page.
 
 ### Metatags
 They are keywords relating to the content. Exist in the header tag and are not vissible to the user. Improve the chances of discovery and help the webcrawler decide on the category of the page.
