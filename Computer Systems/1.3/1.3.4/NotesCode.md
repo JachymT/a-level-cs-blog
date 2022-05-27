@@ -53,8 +53,7 @@ inline css:  `<h1 style= "font-size: 18px;">`
 
 disadvantages:
 - slower access time as css needs to be reloaded for each page
-- 7
-- 7
+- css needs to be rewritten for each web page
 
 external css (linked css file):
 
@@ -63,10 +62,11 @@ h1{
   font-size: 18px;
 }
 ```
+
 advantages:
-- easier to maintain and add new content
-- 7
-- 7
+- easier to maintain and add new content - css will follow he same rules
+- css links to every page and so gives a consistent look
+- only a single change needs to be made to change the font on all webpages 
 
 **Classes** are linked with `.class`
 
