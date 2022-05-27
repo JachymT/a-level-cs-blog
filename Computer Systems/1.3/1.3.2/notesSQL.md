@@ -26,15 +26,16 @@
 
 `DROP`
 
-`#dd/mm/yyyy#` - format for querying dates
+`#dd/mm/yyyy` - format for querying dates
 
 ## Writing
 
 ```
-SELECT field1, field2
-FROM database
-WHERE field1 BETWEEN #dd/mm/yyyy# AND #dd/mm/yyyy#
-ODER BY field1
+SELECT date, type
+FROM tblPlanted
+WHERE date BETWEEN (#dd/mm/yyyy AND #dd/mm/yyyy)
+AND type IN ("Pine","Spruce")
+ODER BY date
 ```
 
 ### [not particluarly useful or comprehensive SQL learning site](https://sqlzoo.net/wiki/SQL_Tutorial)
