@@ -12,7 +12,9 @@
 
 `AND` - add aditional search criteria
 
-`LIKE` - after a where, for queries `IN` - after a where, for queries
+`LIKE` - after a where, for queries 
+
+`IN` - after a where, for queries
 
 `(WILDCARDS)` - `* %` replace any amount of characters when querying,  `_ ?`replace a single character when querying
 
