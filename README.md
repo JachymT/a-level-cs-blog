@@ -2,8 +2,8 @@
 _Jachym Tolar_
 
 ## OVERVIEW
-[OCR Specification](https://github.com/JachymT/a-level-cs-blog/blob/main/ocr-a-level-specification-h446.pdf)
-[OCR Content Clarification]()
+- [OCR Specification](https://github.com/JachymT/a-level-cs-blog/blob/main/ocr-a-level-specification-h446.pdf)
+- [OCR Content Clarification](https://github.com/JachymT/a-level-cs-blog/blob/main/ocr-subject-content-clarification.pdf)
 
 ## CONTENTS
 ### Computer Systems - Component 1
