@@ -51,13 +51,22 @@ section from the spec below. Cascading style sheets are used to describe the sty
 
 inline css:  `<h1 style= "font-size: 18px;">`
 
-external css (can also be in the style tag in the HTML file):
+disadvantages:
+- slower access time as css needs to be reloaded for each page
+- 7
+- 7
+
+external css (linked css file):
 
 ```css
 h1{
   font-size: 18px;
 }
 ```
+advantages:
+- easier to maintain and add new content
+- 7
+- 7
 
 **Classes** are linked with `.class`
 
