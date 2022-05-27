@@ -49,13 +49,15 @@
 ## CSS
 section from the spec below. Cascading style sheets are used to describe the style of a webpage. Remeber semi-colons after each element.
 
-inline css:  `<h1 style= "font-size: 18px;">`
+### inline css
+
+`<h1 style= "font-size: 18px;">`
 
 disadvantages:
 - slower access time as css needs to be reloaded for each page
 - css needs to be rewritten for each web page
 
-external css (linked css file):
+### external css (linked css file)
 
 ```css
 h1{
@@ -68,9 +70,8 @@ advantages:
 - css links to every page and so gives a consistent look
 - only a single change needs to be made to change the font on all webpages 
 
-**Classes** are linked with `.class`
-
-Classes can be linked to **multiple elements**
+### Classes
+Linked with `.class` , Classes can be linked to **multiple elements**
 
 ```css
 .infoBox{
@@ -78,9 +79,8 @@ Classes can be linked to **multiple elements**
 }
 ```
 
-**Identifiers** (id) are linked with `#id`
-
-Identifiers can only be linked to a **single element** and so are unique
+### Identifiers (id)
+Linked with `#id` , Identifiers can only be linked to a **single element**
 
 ```css
 #menu{
@@ -88,7 +88,7 @@ Identifiers can only be linked to a **single element** and so are unique
 }
 ```
 
-The following properties can come up
+### The following properties can come up
 
 ```css
 background-color      /* named colors and hex colors */
