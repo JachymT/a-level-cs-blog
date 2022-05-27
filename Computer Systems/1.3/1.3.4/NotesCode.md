@@ -59,7 +59,9 @@ h1{
 }
 ```
 
-Classes are linked with `.class`
+**Classes** are linked with `.class`
+
+Classes can be linked to **multiple elements**
 
 ```css
 .infoBox{
@@ -67,7 +69,9 @@ Classes are linked with `.class`
 }
 ```
 
-identifiers (id) are linked with `#id`
+**Identifiers** (id) are linked with `#id`
+
+Identifiers can only be linked to a **single element** and so are unique
 
 ```css
 #menu{
@@ -82,7 +86,7 @@ background-color      /* named colors and hex colors */
 border-color
 border-style
 border-width
-font-family
+font-family           /* references fonts */
 font-size
 color
 height
