@@ -2,9 +2,10 @@
 ## HTML 
 **Section from the spec below**. HTML is the script web pages are written in:
 
-`<html>` first line after <!DOCTYPE html>, interprets code as HTML
-
-`<link href="stylesheet.css" rel="stylesheet" type="text/css"` to link to a CSS file
+to link to a CSS file
+```html
+<link href="stylesheet.css" rel="stylesheet" type="text/css"
+``` 
 
 `<head>` websites properties and browser tab area
 
@@ -73,6 +74,10 @@ advantages:
 ### Classes
 Linked with `.class` , Classes can be linked to **multiple elements**
 
+```html
+<div class="infoBox">
+```
+
 ```css
 .infoBox{
   background-color: green;
@@ -81,6 +86,10 @@ Linked with `.class` , Classes can be linked to **multiple elements**
 
 ### Identifiers (id)
 Linked with `#id` , Identifiers can only be linked to a **single element**
+
+```html
+<div id="menu">
+```
 
 ```css
 #menu{
