@@ -120,8 +120,8 @@ JavaScript can be used to retrieve inputs. You do not have to know about this, a
 
 Changing the attributes of a HTML element:
 ```js
-chosenElement = document.getElementById(“example”);
-chosenElement.innerHTML = “Hello World”;
+chosenElement = document.getElementById("menuText");
+chosenElement.innerHTML = "Hello World";
 ```
 
 Writing directly to the document (overwriting the old document):
