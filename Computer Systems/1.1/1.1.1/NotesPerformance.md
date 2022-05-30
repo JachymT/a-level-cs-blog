@@ -2,6 +2,8 @@
 
 *16 mark essay awnser to a CPU performace question*
 
+*In the exam be specific and relate to the question senario*
+
 ## Clock speed
 Clock speed or rate is the frequency at which the CPU clock can generate pulses. These pulses are electrical signals that synchronize operations inside the CPU. With each tick another cycle passes, so the more ticks per second the more instructions perfomed per second, so programs are run faster.
 
