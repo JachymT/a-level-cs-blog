@@ -21,7 +21,7 @@ Cache is CPU's on board memory, it is Random Access memory but either in or next
 
 _[image from developer.arm](https://developer.arm.com/documentation/den0024/a/Caches)_
 
-Faster and more cache increases the CPU's performance since instructions are being storied closer. There are restrictions on Cache usage however and most modern processor have 128KB to 8MB of Cache memory, which is divided into levels. Cache is effient when it is fast to fetch from so large cache would be detrimental, since the CPU has to check many more locations each time. Levels of Cache help further maximise efficiency, level 1 is closest to the CPU and smallest and fastest (2-64KB), going up to level 3 where they get larger and take longer to fetch from.
+Faster and more cache increases the CPU's performance since instructions are being storied closer and RAM is accessed less frequently. There are restrictions on Cache usage however and most modern processor have 128KB to 8MB of Cache memory, which is divided into levels. Cache is effient when it is fast to fetch from so large cache would be detrimental, since the CPU has to check many more locations each time. Levels of Cache help further maximise efficiency, level 1 is closest to the CPU and smallest and fastest (2-64KB), going up to level 3 where they get larger and take longer to fetch from.
 
 Cache is also much more expensive than other memory.
 
