@@ -22,7 +22,7 @@ Background and active helper programs that run on the software. Some utilities a
 ### **Memory management**
 Alocates space for programs and makes sure the OS Kernal is loaded - the kernal makes sure memory and file management is executed correctly. key memory management processes are:
 
-- Allocating **memory** loading programs between RAM and secondary storage
+- Allocating memory - loading programs between RAM and secondary storage
   - paging
   - segmentation
   - virtual memory - In order to allow for programs larger than RAM to run
