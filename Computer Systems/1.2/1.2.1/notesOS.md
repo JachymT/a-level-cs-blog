@@ -46,7 +46,7 @@ modern operating systems use a combination of both. It is important to note that
 
 Paging uses memory by slicing programs into equally sized data blocks whilst Segmentation uses memory by slicing programs up into logically divided blocks, differing in size. The OS moves these in and out of RAM, in order to manage memory. 
 
-Paging has frames that are designed to fit parts of memory, and since they are smaller they are often more efficient and dont waste as much RAM as segmented programs. They dont have to be together since they are read by an index, but this can decrease efficiency.
+Paging has frames that are designed to fit parts of memory, and since they are smaller they are often more efficient and dont waste as much RAM as segmented programs. They dont have to be together since they are read by an page index, but this can decrease efficiency.
 
 Since segmentation pages are often bigger, there is less space for them in RAM, making memory management less efficiently. Segmentation allows for logical reading of code and can execute entire procedures at once potentially, which can increase efficiency.
 
