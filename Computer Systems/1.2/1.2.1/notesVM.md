@@ -16,3 +16,4 @@ Languages like Java use intermediate VMs between the system and the source code.
 
 The same code can be run on any hardware device as long as it supports the virtual machine, making it highly portable
 
+<img width="992" alt="Screenshot 2022-05-31 at 12 00 51" src="https://user-images.githubusercontent.com/72783315/171158867-a9776a77-76c0-491a-9d6b-0bef1a53a232.png">
