@@ -125,7 +125,7 @@ Examples
 - Linux
 
 ### Multi-user
-An OS that provides resources for multiple users to access the same system sp that more than one user can use an OS at the same time. The OS manages the users permissions and settings for each login. The network responds to lots of users across lots of computers.
+An OS that provides resources for multiple users to access the same system so that more than one user can use an OS at the same time. The OS manages the users permissions and settings for each login. The network responds to lots of users across lots of computers.
 
 Examples
 - Windows
