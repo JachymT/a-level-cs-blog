@@ -48,7 +48,7 @@ Paging is when memory is partitioned into **equally sized**, **fixed**, **physic
 A program is divided into pages in **logical addresss space**. When a page is loaded into **physical memory** (RAM), it is placed into a page-sized slot called a **page frame**. Pages are mapped onto page frames by a **page table**. This allows pages to be stored in physical memory in a non-contiguous manner, and moved in whenever there is free space in RAM.
 
 ### Segementation
-Segmentation is a variation of Paging, where instead of partitionin programs only on size they are split into variable sections. Memory is divied into logical chunks of varying size and these program sections can be moved in and out of availiable space in RAM.
+Segmentation is a variation of Paging, where instead of partitioning programs only on size they are split into variable sections. Memory is divied into logical chunks of varying size and these program sections can be moved in and out of availiable space in RAM.
 
 ![image](https://user-images.githubusercontent.com/72783315/144589033-8dc9abe8-ffc6-4970-89e9-c32bb50594ed.png)
 
