@@ -1,9 +1,13 @@
 # Operating Systems
 
 ## Operating system purposes
-Operating systems perform many different tasks at the base level of the computer and create an layer for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions to create a platform between the user
+Operating systems perform many different tasks at the base level of the computer and create an layer for software to be developed on. Without them there is no access to the computer's recoures and nothing to manage them. They serve the following functions to create a platform between the user.
 
 ![image](https://user-images.githubusercontent.com/72783315/145047208-4101600f-16c0-4078-9535-67651d141153.png)
+
+Operating systems are an example of systems software
+
+![image](https://user-images.githubusercontent.com/72783315/171154482-c03a085c-de13-4325-afba-ca7628ef2440.png)
 
 ### Managing Peripherals
 All hardware needs to comunicate with the computer and it cannot do this without a device driver. Inputs and outputs are translated by the driver so that the OS can process requests from the device. For example keyboards and mice need to give inputs to the computer and have custom settings to do so.
