@@ -32,7 +32,9 @@ Alocates space for programs and makes sure the OS Kernal is loaded - the kernal 
 - protect programs
 
 ### Paging
-Paging happens when moving programs into RAM, where RAM does not have an entire free space for the program. To Fit the needed gaps in RAM , RAM Is physically divied into equally sized sections. Programs are divied the same way so they can be moved between main memory and RAM.
+Paging happens when moving programs into RAM, where RAM does not have an entire free space for the program. To Fit the needed gaps in RAM , RAM Is physically divied into equally sized sections. Programs are divied the same way so they can be moved between main memory and RAM. 
+
+A program is divided into pages in **logical addresss space**. When a page is loaded into **physical memory** (RAM), it is placed into a page-sized slot called a **page frame**. Pages are mapped onto page frames by a **page table**. This allows pages to be stored in physical memory in a non-contiguous manner, and moved in whenever there is free space in RAM.
 
 ### Segementation
 Segmentation is a variation of Paging, where instead of spliting programs only on size they are split into variable sections. Memory is divied into logical chunks of varying size and these program sections can be moved in and out of availiable space in RAM.
