@@ -9,6 +9,7 @@ A VM can replicate any hardware so that software can run on it, without knowing 
 - Supporting older, incompatable software 
 - Creating a controlled environment for analysing potential malware
 - **Virtual servers** - running multiple servers on a single peice of hardware. Eg a company that provides email and web servers. The load can be managed by the hardware sesrvers at will, if a server goes down the virtual servers can move to a different physical server.
+- Development environments - testing programs for different platforms without having to use seperate devices. Saves time and money.
 
 ## Intermediate code
 Languages like Java use intermediate VMs between the system and the source code. Code is compiled into **intermediate code or bytecode** and then a VM runs the code on the computer and translates it into machine code.
