@@ -33,7 +33,14 @@ Alocates space for programs and makes sure the OS Kernal is loaded - the kernal 
 - determine how much memory to allocate to each process that is running and reserve that space
 - controlling memory use. swapping between processes and their memory space in order to provide memory access as required.
 - map the logical address space to the physical address space
-- protect programs
+- protect programs and data (from accessing memory where its not suppsed to)
+
+Memory management is useful for
+- Organising main memory
+- Running programs larger than memory
+- Converting logical addresses to physical ones
+- Sharing memory
+- Protects programs from each other
 
 ### Paging
 Paging is when memory is partitioned into **equally sized**, **fixed**, **physical** chuncks know as pages. Programs are also split up into the same sized pages. These can then be swapped between main memory and virtual the hard disk and allocated into RAM in any order.
