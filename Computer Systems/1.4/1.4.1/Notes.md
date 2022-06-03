@@ -1,5 +1,5 @@
 # Character sets
-Character sets are codes which can be recognised by the computer and are used to represent text / characters.**Character codes** are **unique bit-patterns**. A character set is simply a standardized set of bit patterns.
+Character sets are codes which can be recognised by the computer and are used to represent text / symbols / digits.**Character codes** are **unique bit-patterns**. A character set is simply a standardized set of bit patterns.
 
 ### ASCII 
 ASCII uses 7 bits to represent numbers and symbols, and precedes Unicode.
