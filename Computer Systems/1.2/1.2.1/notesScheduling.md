@@ -21,7 +21,7 @@ Whislt running, a program can do several things to exit the running state
  - Give up CPU time volunterily
 
 ## Scheduling algorithms
-Programs need to recieve a **fair** amount of processor time, processes aren't **starved** (by not getting any processor time) and processes aren't **deadlocked** (by waiting for each other to release recources). The OS is responsible for using a scheduling algorithm to decide where in the running state queue programs are placed. Algorithms become more complex when factoring in multiple cores
+The scheduler ensures processess recieve a **fair** amount of processor time, processes aren't **starved** (by not getting any processor time) and processes aren't **deadlocked** (by waiting for each other to release recources). The OS is responsible for using a scheduling algorithm to decide where in the running state queue programs are placed. Algorithms become more complex when factoring in multiple cores
 
 Scheduling algorithms can be **pre-emptive** - where jobs can be actively cut off from their processing time by the operating system.
 
