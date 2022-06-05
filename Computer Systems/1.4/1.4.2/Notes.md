@@ -4,22 +4,26 @@
 An array in an **ordered**, **static**, of elements of a **single type**.
 
 ### One dimensional arrays
-1D arrays are linnear arrays, are defined as follows (in pseudocode):
+1D arrays are linnear arrays, are defined as follows (in pseudocode) (yes its ugly and but important to distinguish between lists):
 
 ```py
 array numbers[4]
-numbers = [12, 9, 5, 27]
+numbers[2] = 19
+numbers[3] = 5
 print(numbers[3])
 
 >> 5
 ```
 
 ### Multi dimensional arrays
-2D arrays are indexed in python as `arr[1][2]` or in psuedo code `arr[1,2]`
+2D arrays are indexed in python as `numbers[1][2]` or in psuedo code `numbers[1,2]`
 
 ```py
-arr = [[6, 8, 1], [4, 98, 31], [45, 7, 7]]
-print(arr[1][0])
+array numbers[3,3]
+numbers[1,0] = 4
+print(numbers[1,0])
+
+// numbers = [[6, 8, 1], [4, 98, 31], [45, 7, 7]] not sure if this is allowed, just use a list
 
 >> 4
 ```
@@ -27,8 +31,11 @@ print(arr[1][0])
 3D arrays can be visualised as multi-page spreadsheets and can bethought of as multiple 2D arrays, in psuedo code arr[1,2,3]
 
 ```py
-arr = [[[6, 8,], [4, 98,]], [[45, 7,],[0, 5]]]
-print(arr[1][0][1])
+array numbers[2,2,2]
+numbers[1,0,1] = 4
+print(numbers[1][0][1])
+
+// numbers = [[[6, 8,], [4, 98,]], [[45, 7,],[0, 5]]]
 
 >> 7
 ```
@@ -43,6 +50,8 @@ list.length()                       //returns list length
 list.pop(3)                         //removes 4th item in list
 list.remove(9)                      //removes the first instance of the parameter
 list.append(14)                     //appends the parameter to the end of the list
+
+// dont access like an array 
 ```
 
 ## Tuples
