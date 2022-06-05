@@ -4,11 +4,12 @@
 An array in an **ordered**, **static**, of elements of a **single type**.
 
 ### One dimensional arrays
-1D arrays are linnear arrays, are defined as follows:
+1D arrays are linnear arrays, are defined as follows (in pseudocode):
 
 ```py
-arr = [12, 9, 5, 27]
-print(arr[3])
+array numbers[4]
+numbers = [12, 9, 5, 27]
+print(numbers[3])
 
 >> 5
 ```
