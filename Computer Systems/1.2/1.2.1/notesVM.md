@@ -7,7 +7,7 @@ A VM can replicate any hardware so that software can run on it, without knowing 
 ## Examples
 - Running alternative operating systems
 - Supporting older, incompatable software 
-- Creating a controlled environment for analysing potential malware
+- Creating a controlled environment for analysing potential malware - know as a sandbox
 - **Virtual servers** - running multiple servers on a single peice of hardware. Eg a company that provides email and web servers. The load can be managed by the hardware sesrvers at will, if a server goes down the virtual servers can move to a different physical server.
 - Development environments - testing programs for different platforms without having to use seperate devices. Saves time and money.
 
