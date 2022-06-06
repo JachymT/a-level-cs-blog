@@ -4,7 +4,7 @@
 An array in an **ordered**, **static**, of elements of a **single type**.
 
 ### One dimensional arrays
-1D arrays are linnear arrays, are defined as follows (in pseudocode) (yes its ugly and but important to distinguish between lists):
+1D arrays are linnear arrays, are defined as follows (in pseudocode):
 
 ```py
 array numbers[4]
