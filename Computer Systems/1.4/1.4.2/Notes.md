@@ -162,6 +162,13 @@ Traverse the **left** sub-tree, Visit the **root** node, Traverse the **right** 
 
 Method: Just write out the list in the correct order. Don't try and traverse.
 
+Note: there are better ways to do traversal, learn the dot method.
+
+### Bredth first traversal
+Make notes: 
+
+https://isaaccomputerscience.org/concepts/dsa_pathfinding_dfs_bfs?examBoard=all&stage=all
+
 ### Implementation
 [Recursive implementation in python](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.4/1.4.2)
 
