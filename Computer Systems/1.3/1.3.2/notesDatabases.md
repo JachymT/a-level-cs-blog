@@ -82,12 +82,9 @@ The 3 main models
 *diagram notation*
 *another key point is that primary keys are underlined and foreign keys are stared* *
 
-An **entity relationship diagram** (ERD) explaining the one to many relationship between the dog owners and their dogs. Ignore the arrow.
+An **entity relationship diagram** should have the table name and links, you do not need to identify the primary key, just draw a box.
 
-![image](https://user-images.githubusercontent.com/72783315/133996102-ac8798ef-8335-4721-8618-c00cb8496982.png)
-![image](https://user-images.githubusercontent.com/72783315/133996616-58693ff7-24e2-4b16-9630-eef59b90461f.png)
-
-*images from http://theteacher.info/index.php/computing-principles-01/1-3-exchanging-data/1-3-2-databases/2167-relational-databases-versus-flat-file-databases*
+<img width="383" alt="ER diagrams drawio" src="https://user-images.githubusercontent.com/72783315/172887767-bceb3ccd-4feb-405d-ad77-ccf9921de9b0.png">
 
 **Example from the RevisionSub.accdb database**
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.3/1.3.2/images/relationships.JPG" height="400">
