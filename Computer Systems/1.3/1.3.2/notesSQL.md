@@ -20,13 +20,19 @@
 
 `ODER BY` - select a field to oder by, defualt is `ASC` but `DESC` can be specified after
 
-`DELETE`
+`DELETE FROM Table` Deletes records specified by WHERE statement, or deletes all records
 
-`INSERT`
+```
+INSERT INTO Table
+Values(field1, filed2 ...)
+```
+Inserts a new row into a table. 
 
 `DROP`
 
 `#dd/mm/yyyy` - format for querying dates
+
+As a genral rule use '' for strings and nothing for numbers 
 
 ## Writing
 
