@@ -94,7 +94,7 @@ An **entity relationship diagram** (ERD) explaining the one to many relationship
 
 Foriegn key is the many side of the 1:M link
 
-the costomer ID in the first table is the primary key and its linked to the customer ID in the sencond table, which is the foreign key, and does not have to be unique in that table. The **referential intereity** box is ticked when making these links so that a **foreign keys** depends on a an existant **primary key**.
+the customer ID in the first table is the primary key and its linked to the customer ID in the sencond table, which is the foreign key, and does not have to be unique in that table. The **referential intereity** box is ticked when making these links so that a **foreign keys** depends on a an existant **primary key**.
 
 ## Normalisation
 Normalisation is the process of making the best possible design for a database. There are 3 stages: **First Normal Form** (1NF), **Second Normal Form** (2NF), **Third Normal Form** (3NF)
