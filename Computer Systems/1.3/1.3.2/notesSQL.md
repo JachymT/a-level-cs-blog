@@ -6,7 +6,7 @@
 
 `JOIN Table1 ON Table1.primary key = Table2.foreign key` - links fields in relational databases
 
-<img width="500" alt="craigndave SQL" src="https://user-images.githubusercontent.com/72783315/172877002-01e00dee-6648-4298-a52a-4472acb467a6.png">
+<img width="720" alt="craigndave SQL" src="https://user-images.githubusercontent.com/72783315/172877603-924631e4-cccd-4ce7-a6b0-78af3ce11a14.png">
 
 `WHERE` - list of search criteria
 
