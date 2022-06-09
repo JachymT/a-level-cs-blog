@@ -28,7 +28,7 @@ Values(field1, filed2 ...)
 ```
 Inserts a new row into a table.
 
-`DROP`
+`DROP TABLE Table` Deletes the whole table and anything 
 
 `#dd/mm/yyyy` - format for querying dates
 
