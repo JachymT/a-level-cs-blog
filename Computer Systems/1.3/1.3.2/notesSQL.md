@@ -26,13 +26,13 @@
 INSERT INTO Table
 Values(field1, filed2 ...)
 ```
-Inserts a new row into a table. 
+Inserts a new row into a table.
 
 `DROP`
 
 `#dd/mm/yyyy` - format for querying dates
 
-As a genral rule use '' for strings and nothing for numbers 
+As a genral rule use '' for strings and nothing for numbers and dates
 
 ## Writing
 
@@ -40,7 +40,7 @@ As a genral rule use '' for strings and nothing for numbers
 SELECT date, type
 FROM tblPlanted
 WHERE date BETWEEN (#dd/mm/yyyy AND #dd/mm/yyyy)
-AND type IN ("Pine","Spruce")
+AND type IN ('Pine','Spruce')
 ODER BY date
 ```
 
