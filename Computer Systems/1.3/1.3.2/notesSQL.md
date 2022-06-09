@@ -2,11 +2,11 @@
 
 ## SQL from the Spec
 
-`SELECT` - list of fields to be displayed
+`SELECT fields FROM Table` - fields to be displayed from Table
 
-`FROM` - list the table or tables the data will come from
+`JOIN Table1 ON Table1.primary key = Table2.foreign key` - links fields in relational databases
 
-`JOIN … ON` - links fields in relational databases
+<img width="500" alt="craigndave SQL" src="https://user-images.githubusercontent.com/72783315/172877002-01e00dee-6648-4298-a52a-4472acb467a6.png">
 
 `WHERE` - list of search criteria
 
