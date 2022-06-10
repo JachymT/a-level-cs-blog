@@ -55,8 +55,8 @@ A block of code is executed a certain number of times or while a condition is me
 def factorial(n):
   result = 1
   for i in range(1, n + 1):
-    result = fact * i
-  return fact
+    result = result * i
+  return result
   
 def fib(n):
     a, b = 1, 1
