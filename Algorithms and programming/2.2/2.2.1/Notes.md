@@ -10,15 +10,19 @@ Iteration - a block of code is run a certain number of times or untill a conditi
 ## Subroutines
 Subroutines (procudures and functions) are blocks of code (modules) that carry out a a set of named instructions. They are definded in psydocode code with: 
 
-```
-procedure name(parameters)
+```py
+procedure name1(parameters)
   //code sequence
 endprocedure
 
-name(arguments)
-```
+name1(arguments)
 
-**parameters** are defined locally in the function and **arguments** give values to parameters as they are passed in, either by reference or value
+function name2(parameters)
+  //code sequence
+endfunction
+
+name2(arguments)
+```
 
 a **function** differenciates from a procedure because it returns a value
 
@@ -29,6 +33,10 @@ a **function** differenciates from a procedure because it returns a value
 - efficiency
 
 **modular** and decomposition programming is breaking down a complex problem into smaller more managable, self-contained problems (modules). The top-down approach seperates a program into further sub-problems untill each task is a single unit.
+
+### Passing parrameters
+
+**parameters** are defined locally in the function and **arguments** give values to parameters as they are passed in, either by reference or value
 
 ## Recursion
 Subroutines that reference (call) themselves. These have the potential to loop infinitly until a a stopping condition is met (the **base case**). Then the function starts to unwind, from stacks are placed in memory containing variables with data in sequence of recursion. If the recursion doesnt have a base case, a **stack overflow** error occurs.
