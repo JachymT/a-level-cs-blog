@@ -34,7 +34,7 @@ a **function** differenciates from a procedure because it returns a value
 
 **modular** and decomposition programming is breaking down a complex problem into smaller more managable, self-contained problems (modules). The top-down approach seperates a program into further sub-problems untill each task is a single unit.
 
-### Passing parrameters
+## Passing parrameters
 
 **parameters** are defined locally in the function and **arguments** give values to parameters as they are passed in, either by reference or value
 
