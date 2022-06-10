@@ -59,11 +59,13 @@ def factorial(n):
   return result
   
 def fib(n):
-    a, b = 1, 1
+    a, b = 0, 1
+    c = 0
     for i in range(0, n):
+        c = a + b
         a = b
-        b = a + b
-    return a
+        b = c
+    return c
 ```
 
 NOTE: you can practive converting iterative algorithms to recusrsive ones.
