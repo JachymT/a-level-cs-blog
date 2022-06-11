@@ -38,6 +38,22 @@ a **function** differenciates from a procedure because it returns a value
 
 **parameters** are defined locally in the function and **arguments** give values to parameters as they are passed in, either by reference or value
 
+```py
+function main(var:BYVAL)
+  var += 1
+endfunction
+```
+
+When passing **by value**, the variable is essentially duplicated. The variable inside the function is a copy, held at a new memory location, and the old variable is unchanged. This creates a local scope variable and is same as defining the variable inside the function.
+
+```py
+function main(var:n:BYREF)
+  var += 1
+endfunction
+```
+
+When passing **by referance**, a pointer is created to access the origional variable from inside the function, by holding the memory location of the argument. This extends the scope of the variable and changing the parameter affects the variable passed.  
+
 ## Recursion
 Subroutines that reference (call) themselves. These have the potential to loop infinitly until a a stopping condition is met (the **base case**). Then the function starts to unwind, from stacks are placed in memory containing variables with data in sequence of recursion. If the recursion doesnt have a base case, a **stack overflow** error occurs.
 
