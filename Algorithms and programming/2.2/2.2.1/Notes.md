@@ -47,7 +47,7 @@ endfunction
 When passing **by value**, the variable is essentially duplicated. The variable inside the function is a copy, held at a new memory location, and the old variable is unchanged. This creates a local scope variable and is same as defining the variable inside the function.
 
 ```py
-function main(var:n:BYREF)
+function main(var:BYREF)
   var += 1
 endfunction
 ```
