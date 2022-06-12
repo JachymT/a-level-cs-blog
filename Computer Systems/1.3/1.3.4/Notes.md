@@ -11,7 +11,7 @@ A web server is always listening and anticipating requests, without it the resou
 A web browser is a client service, that makes reqeuests to the right server in a format that matches, and then waits for a response.
 
 ## Client side processing
-The processing that happen on the users local device. Most webpages use some client side processing. Client side scripting can be done with javascript and those Scripts are interpreted in the browser. Cookies are an example of client side data. Using an old version of a browser can let malicious websites use vunerabilites.
+The processing that happens on the users local device. Most webpages use some client side processing. Client side scripting can be done with javascript and those Scripts are interpreted in the browser. Cookies are an example of client side data. Using an old version of a browser can let malicious websites use vunerabilites.
 
 **Advantages**
 - Immediate response
