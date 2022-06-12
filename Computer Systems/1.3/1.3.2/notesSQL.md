@@ -22,11 +22,9 @@
 
 `DELETE FROM Table` Deletes records specified by WHERE statement, or deletes all records
 
-```
-INSERT INTO Table
-Values(field1, filed2 ...)
-```
-Inserts a new row into a table.
+`INSERT INTO Table`
+
+`Values(field1, filed2 ...)` Inserts a new row into a table.
 
 `DROP TABLE Table` Deletes the whole table and anything in it
 
