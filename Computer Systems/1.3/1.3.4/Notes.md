@@ -65,7 +65,7 @@ During an iteration dont change the inputs for each page rank, eg iteration 1: A
 ### factors that can affect web page rank
 - domain name
 - quality of inbound links
-- umber of inbound links
+- number of inbound links
 - domain age
 - key words
 - magnitude of updates
