@@ -22,12 +22,16 @@ Procedural langauges are common and apply to a wide range of problems. Easy to *
 - Highly modular (encourages splitting functionality into smaller, compatable and individual pieces)
 - Therefore easy to maintain
 - Provides data protection from encapsulation. Prevents careless and harful access to private variables
+- Therefore more data integrity than Procedural
 
 https://isaaccomputerscience.org/concepts/prog_oop_why?examBoard=ocr&stage=a_level&topic=object_oriented_programming
 
 **Advantages of Procedural**
 - OPP can result in complex systems, procedural is better for simpler programs.
-- 44
+- Libraries of subroutines can be imported, so code is re-useable
+- Program flow and self documantation is better
+- Subroutines can share data and manipulate it repeatedly
+- top-down problem-solving aproach
 
 ### Functional
 Use the concept of calling functions multiple times, and only using functions to get an output from an input. Mostly used to handle giant data sets. An example is Haskell.
