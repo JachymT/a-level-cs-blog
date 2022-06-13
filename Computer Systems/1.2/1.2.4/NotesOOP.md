@@ -50,9 +50,9 @@ Inheritance diagrams use arrow heads to point up to the parent classes
 ## Polymorphism
 In a child class, amending methods from the parent class overrides them and lets the program use the same names for similar methods, even though they are different. This is called polymorphism, and is done by adding a method in a child class with the same name as the method in the parent class. 
 
-It is the ability to process objects differently depending on thier class or data type.
+It is the ability to process objects differently depending on thier class or data type, so that methods with the same name can act differently
 
-Litterally, polymorphism is occurring in many different forms.
+Litterally, polymorphism means occurring in many different forms. 
 
 ## OOP in Python
 [farm sim project](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.2/2.2.1/Object%20Oriented/README.md)
