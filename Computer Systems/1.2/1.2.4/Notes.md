@@ -31,7 +31,7 @@ https://isaaccomputerscience.org/concepts/prog_oop_why?examBoard=ocr&stage=a_lev
 - Libraries of subroutines can be imported, so code is re-useable
 - Program flow and self documantation is better
 - Subroutines can share data and manipulate it repeatedly
-- top-down problem-solving aproach
+- top-down problem-solving aproach - often decompositional
 
 ### Functional
 Use the concept of calling functions multiple times, and only using functions to get an output from an input. Mostly used to handle giant data sets. An example is Haskell.
