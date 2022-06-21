@@ -2,7 +2,7 @@
 Thinking procedurally makes writing programs easier by problem decomposition making it easier to design and partition. A large and complex problem is broken down in smaller, underlying subproblems that need to be solved.
 
 ## Top-down design
-Known as **stepwise refinement**, tasks are split into smaller tasks, in a modular structure. Higher up levels provide an overview while lower down levels specify details about the program. Ideally each subroutine at the bottom (the lowest level componenets) are self-contained and independent. Finnally all components are combined into one solution, by turning each task into a function with its own parameters
+Known as **stepwise refinement**, tasks are split into smaller tasks, in a modular structure. Higher up levels provide an overview while lower down levels specify details about the program. Ideally each subroutine at the bottom (the lowest level componenets)(in the diagram level 2 is the lowest idk why) are self-contained and independent. Finnally all components are combined into one solution, by turning each task into a function with its own parameters
 
 ![image](https://user-images.githubusercontent.com/72783315/174592312-e71823d8-dbf8-4fb4-b04f-fd4bc881c718.png)
 
