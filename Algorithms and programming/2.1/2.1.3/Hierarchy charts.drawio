@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T20:15:12.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="ddh5misszIrJAOYkSejN" version="19.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-21T20:17:04.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="DIlRGopkVpMsWjto73Dl" version="19.0.3" type="github" pages="2">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1113" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -213,7 +213,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g72KdCJ_HcEn71HY_5JC" name="Page-2">
-    <mxGraphModel dx="1049" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-541" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,7 +240,7 @@
         </mxCell>
         <mxCell id="d90yPBZ4SZs-xgIhAt26-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" edge="1" parent="1" target="d90yPBZ4SZs-xgIhAt26-2">
           <mxGeometry x="1350" y="114.5" width="100" height="100" as="geometry">
-            <mxPoint x="2098" y="370" as="sourcePoint" />
+            <mxPoint x="2070" y="375" as="sourcePoint" />
             <mxPoint x="1450" y="114.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1918" y="374.5" />
@@ -256,8 +256,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d90yPBZ4SZs-xgIhAt26-8" value="&lt;span id=&quot;docs-internal-guid-120bae5a-7fff-3cc1-e373-b1d5db235957&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;Worksheet 3 Thinking procedurally&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span id=&quot;docs-internal-guid-120bae5a-7fff-3cc1-e373-b1d5db235957&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;hierarchy chart&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1968" y="150" width="200" height="30" as="geometry" />
+        <mxCell id="d90yPBZ4SZs-xgIhAt26-8" value="&lt;span id=&quot;docs-internal-guid-120bae5a-7fff-3cc1-e373-b1d5db235957&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;Worksheet 3 Thinking procedurally&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span id=&quot;docs-internal-guid-120bae5a-7fff-3cc1-e373-b1d5db235957&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;hierarchy chart&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="250.5" width="200" height="54.5" as="geometry" />
         </mxCell>
         <mxCell id="d90yPBZ4SZs-xgIhAt26-36" value="Promt for numbers" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1748" y="574.5" width="200" height="60" as="geometry" />
@@ -294,6 +294,15 @@
               <mxPoint x="1658" y="544.5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Qw30tmw5TnXOB0psi43f-1" value="Level 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="250.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw30tmw5TnXOB0psi43f-2" value="Level 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="419.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw30tmw5TnXOB0psi43f-3" value="Level 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="589.5" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
