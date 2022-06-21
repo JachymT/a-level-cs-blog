@@ -11,6 +11,7 @@ Known as **stepwise refinement**, tasks are split into smaller tasks, in a modul
 - Makes it easier to identify a solution to the problem
 - Existing modules or libraries can be used to reduce complexity
 - Saves time and money as modules can be repeated
+- Increases maintainability and readability
 
 ## Disadvantages
 - Need to consider how modules interact with each other
