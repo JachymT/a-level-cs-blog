@@ -6,6 +6,8 @@ Known as **stepwise refinement**, tasks are split into smaller tasks, in a modul
 
 ![image](https://user-images.githubusercontent.com/72783315/174592312-e71823d8-dbf8-4fb4-b04f-fd4bc881c718.png)
 
+Read from left to write no matter what, dont take into account levels.
+
 ## Advantages
 - Independent modules can be tested seperately - easier to find errors and debug
 - Makes it easier to identify a solution to the problem
