@@ -7,11 +7,12 @@ Known as **stepwise refinement**, tasks are split into smaller tasks, in a modul
 ![image](https://user-images.githubusercontent.com/72783315/174592312-e71823d8-dbf8-4fb4-b04f-fd4bc881c718.png)
 
 ## Advantages
-- Independent modules can be tested seperately
+- Independent modules can be tested seperately - easier to find errors and debug
 - Makes it easier to identify a solution to the problem
 - Existing modules or libraries can be used to reduce complexity
 - Saves time and money as modules can be repeated
-- Increases maintainability and readability
+- Increases maintainability - new modules can be added easily
+- Increases readability - easier to follow
 - Modules can be shared between team members
 
 ## Disadvantages
