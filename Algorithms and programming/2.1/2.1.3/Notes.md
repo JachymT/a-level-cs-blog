@@ -14,6 +14,7 @@ Known as **stepwise refinement**, tasks are split into smaller tasks, in a modul
 - Increases maintainability - new modules can be added easily
 - Increases readability - easier to follow
 - Modules can be shared between team members
+- reliable
 
 ## Disadvantages
 - Need to consider how modules interact with each other
