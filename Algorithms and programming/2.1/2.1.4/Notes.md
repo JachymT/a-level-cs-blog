@@ -1,2 +1,2 @@
-# Thinking
+# Thinking logically
 
