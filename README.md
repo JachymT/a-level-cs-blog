@@ -39,7 +39,7 @@ _Jachym Tolar_
   - [2.1.2 Thinking ahead](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.1/2.1.2)
   - [2.1.3 Thinking procedurally](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.1/2.1.3)
   - [2.1.4 Thinking logically](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.1/2.1.4)
-  - 2.1.5 Thinking concurrently
+  - [2.1.5 Thinking concurrently](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.1/2.1.5)
 
 - 2.2 Problem solving and programming
   - [2.2.1 Programming techniques](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.2/2.2.1)
