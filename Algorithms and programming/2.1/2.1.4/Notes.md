@@ -1,5 +1,5 @@
 # Thinking logically
-Thinking Logically is important for planning the outputs of decisions of a program - an evaluation of data to give a conclusion. For e
+Thinking Logically is planning for the outputs of decisions of a program - an evaluation of data to give a conclusion.
 
 ## Parts of thinking logically
 - Decision making in problem solving 
