@@ -43,7 +43,7 @@ _Jachym Tolar_
 
 - 2.2 Problem solving and programming
   - [2.2.1 Programming techniques](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.2/2.2.1)
-  - 2.2.2 Computational methods
+  - [2.2.2 Computational methods](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.2/2.2.2)
 
 - 2.3 Algorithms
   - 2.3.1 Algorithms
