@@ -5,3 +5,4 @@ Visualistation can be any process that represents data or a problem, often in an
 
 Examples
 - https://visme.co/blog/best-data-visualizations/
+- https://www.101computing.net/data-visualisation-algorithms/
