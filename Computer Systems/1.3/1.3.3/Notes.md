@@ -15,6 +15,9 @@ Allows Wi-Fi devices to connect to a wired network.
 ### Switch
 Directs the flow of data in a Network, the centre of a network, and sends data to the individual devices.
 
+### Cables
+Fibre optic, Copper coaxel, 
+
 ### Network diagram
 ![image](https://user-images.githubusercontent.com/72783315/192541532-dc4173b3-ba3f-4954-8711-1ffe1a66f768.png)
 
