@@ -1,5 +1,24 @@
 # Networks
 
+## Hardware
+Home networks ussually just put all of these into one device. Also A hub is just a faster switch. Fibreoptics / other cables exist
+
+### Network Interface Card
+Usually built into the motherboard, the NIC is needed for connecting to a network. Assigns a unique MAC address to the device
+
+### Router
+Allows for connection to other networks (the internet). Checks and moves packets
+
+### Wireless Access Point
+Allows Wi-Fi devices to connect to a wired network.
+
+### Switch
+Directs the flow of data in a Network, the centre of a network, and sends data to the individual devices.
+
+### Network diagram
+![image](https://user-images.githubusercontent.com/72783315/192541532-dc4173b3-ba3f-4954-8711-1ffe1a66f768.png)
+
+
 ## Client-server
 A network where terminals (clients) connect to a central server. The server typically has lots of recourses and processing power. Clients inciates communication with the server and the server waits for client requests.
 
