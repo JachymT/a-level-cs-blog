@@ -1,4 +1,21 @@
 # Networks
+A network is any connection between two or more computers, and allows them to send data back and forth.
+
+A LAN is over a small geographical area and a WAN is over a large geographical area or multiple locations.
+
+## Topologies
+**Physical topologies** - How the wires are connected
+
+**Logical topologies** - How the data flows
+
+### Bus Topology
+Bus topology is litterally just a straight line. One cable, called the **backbone**, connects all the devices together.
+
+### Star Topology
+
+### Mesh Topology
+
+![image](https://user-images.githubusercontent.com/72783315/192552505-90d7a198-3280-4b83-b9fd-d1e2ea40bf0e.png)
 
 ## Hardware
 Home networks ussually just put all of these into one device. Also A hub is just a faster switch. Fibreoptics / other cables exist
