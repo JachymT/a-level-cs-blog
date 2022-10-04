@@ -3,19 +3,47 @@ A network is any connection between two or more computers, and allows them to se
 
 A LAN is over a small geographical area and a WAN is over a large geographical area or multiple locations.
 
+![image](https://user-images.githubusercontent.com/72783315/193845345-f70bb52b-1c47-42d2-a7d6-9eb61db1d43d.png)
+
 ## Topologies
 **Physical topologies** - How the wires are connected
 
 **Logical topologies** - How the data flows
 
+![image](https://user-images.githubusercontent.com/72783315/192552505-90d7a198-3280-4b83-b9fd-d1e2ea40bf0e.png)
+
 ### Bus Topology
 Bus topology is litterally just a straight line. One cable, called the **backbone**, connects all the devices together.
+
+**Advantages**
+-
 
 ### Star Topology
 
 ### Mesh Topology
 
-![image](https://user-images.githubusercontent.com/72783315/192552505-90d7a198-3280-4b83-b9fd-d1e2ea40bf0e.png)
+## The internet structure 
+The internet is a network of networks allows for global communication between any connected devices.
+
+### Protocols
+A protocol is a set of rules for procesing data, standardized across the internet to allow for communication.
+- HTTP / HTTPS - For web page requests
+- TCP (Transmission Control Protocol) - error checks transmitions
+- IP (Internet Protocol) - routes packets over WAN
+- FTP (File Transmission Protocol) - Transmission of files over networks
+- POP3 / IMAP / SMTP - For transfering emails between clients and servers
+
+### TCP/IP Stack
+Set of 4 network layers working together, in the following oder (top to bottom)
+
+Application Layer - specifies what protocols needs to be used by the application (e.g a browser using HTTPS)
+
+Transport Layer - establishes an end to end connection and splits data into packets, labled with the port number used and the packet number. The transport layer requests any packtets that get lost.
+
+Network (internet) layer - Adds the source and destination IP addresss for each packet. The router operates on this layer using the IP protocol to route packets
+
+Link Layer - connects devices through network hardware and data links. Connects to the destination MAC.
+
 
 ## Hardware
 Home networks ussually just put all of these into one device. Also A hub is just a faster switch. Fibreoptics / other cables exist
