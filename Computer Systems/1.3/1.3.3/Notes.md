@@ -5,8 +5,6 @@ A LAN is over a small geographical area. A LAN requires infastructure to be buil
 
 WAN is over a large geographical area or multiple locations. Infastructure is used from telecommunications companies (collective ownership), over telephone wires / satelites / chunky fibre optic cables.
 
-![image](https://user-images.githubusercontent.com/72783315/193845345-f70bb52b-1c47-42d2-a7d6-9eb61db1d43d.png)
-
 ## Topologies
 **Physical topologies** - How the wires are connected
 
