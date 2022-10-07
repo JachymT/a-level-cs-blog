@@ -32,4 +32,6 @@ Multicore processors are a single chip with two or more independent processing u
 Chip Multicore processers are further enhanced by on-chip shared cache and inter-core communication. More cores are faster at proccessing simultanious instructions.
 
 ### Parallel processing
-To make use of multiple cores parallel processing systems must be implemented. This splits programs up between CPUs to run them at once and faster.
+To make use of multiple cores parallel processing systems must be implemented. This splits programs up between CPUs to run them at once and faster. This is done by threading and loggically spliting programs between CPUs
+
+
