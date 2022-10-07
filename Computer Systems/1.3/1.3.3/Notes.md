@@ -1,7 +1,9 @@
 # Networks
-A network is any connection between two or more computers, and allows them to send data back and forth.
+A network is any connection between two or more computers, and allows them to send data back and forth. Networks in a company allow for shared peripherals, files and backup resources.
 
-A LAN is over a small geographical area and a WAN is over a large geographical area or multiple locations.
+A LAN is over a small geographical area. A LAN requires infastructure to be built, either with wi-fi or copper / fibre optic cables.
+
+WAN is over a large geographical area or multiple locations. Infastructure is used from telecommunications companies (collective ownership), over telephone wires / satelites / chunky fibre optic cables.
 
 ![image](https://user-images.githubusercontent.com/72783315/193845345-f70bb52b-1c47-42d2-a7d6-9eb61db1d43d.png)
 
