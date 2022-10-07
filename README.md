@@ -58,7 +58,7 @@ _Jachym Tolar_
 ### Exam Questions
 - [a-level-study.co.uk](https://a-level-study.co.uk/computer-science/a-level-computer-science-past-papers/)
 - [physicsandmathstutor.com](https://www.physicsandmathstutor.com/computer-science-revision/a-level-ocr/)
-- [smartrevise.online(]https://smartrevise.online/student/revise/33)
+- [smartrevise.online](https://smartrevise.online/student/revise/33)
 
 ## Exam tips
 - AO1 - Demonstrate **knowledge** and understanding of the principles and concepts of computer science
