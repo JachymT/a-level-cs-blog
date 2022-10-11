@@ -5,6 +5,8 @@ A LAN is over a small geographical area. A LAN requires infastructure to be buil
 
 WAN is over a large geographical area or multiple locations. Infastructure is used from telecommunications companies (collective ownership), over telephone wires / satelites / chunky fibre optic cables.
 
+![image](https://user-images.githubusercontent.com/72783315/195105764-dd6b8ffe-cfd5-4531-a56e-ed263db88396.png)
+
 ## Topologies
 **Physical topologies** - How the wires are connected
 
@@ -44,6 +46,9 @@ Network (internet) layer - Adds the source and destination IP addresss for each 
 
 Link Layer - connects devices through network hardware and data links. Connects to the destination MAC.
 
+A typical TCP/IP packet would contain:
+
+![image](https://user-images.githubusercontent.com/72783315/195106282-db91910e-dda6-413a-b8d3-fd2da0fafeec.png)
 
 ## Hardware
 Home networks ussually just put all of these into one device. Also A hub is just a faster switch. Fibreoptics / other cables exist
