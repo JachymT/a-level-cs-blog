@@ -112,11 +112,11 @@ A more secure version of this is called **statefull inspection**, this just keep
 ### Proxy
 Proxies act as an intermediary server between the client and the firewall, and sends out data on thier behalf.
 
-The advantages of a proxy:
-- **provides anonymity** because the client IP address cannot be directly seen
-- **speeds up access** because it keeps a cache of frequently visited web pages
-- **reduces web trafic** because it keeps a cache of frequently visited web pages
-- **adds web filtering** because administrators for a network can add filters to prevent viewing sensitive content
+They provide additional security by:
+- **providing anonymity** because the client IP address cannot be directly seen
+- **speeding up access** because it keeps a cache of frequently visited web pages
+- **reducing web trafic** because it keeps a cache of frequently visited web pages
+- **adding web filtering** because administrators for a network can add filters to prevent viewing sensitive content
 
 ### Encryption
 Makes sure data sent is unreadable if intercepted. Encrypted and decrypted using keys and is using symmetrical or asymmetrical. Wireless security encrypts using either WEP, WPA, or WPA2.
