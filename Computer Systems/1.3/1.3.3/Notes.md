@@ -49,25 +49,12 @@ Link Layer - connects devices through network hardware and data links. Connects 
 ### Packet data
 Packets are segments of data. They contain various information:
 
-ender and recipient IP addresses
-The sender and the recipient’s IP addresses act like a postcode,
-allowing the packet to be delivered to the correct destination and
-enabling the recipient device to trace where the packet came from.
-○ Protocol being used
-The protocol allows the recipient computer to understand how to
-interpret the packet.
-○ Order of the packets
-Upon arriving at the recipient device, packets are reconstructed in the
-appropriate order as specified in the header.
-○ Time To Live / Hop Limit
-The Time To Live (TTL), tells the packet when to expire so that it does
-not travel forever.
-● Payload
-○ Raw data to be transmitted
-● Trailer
-○ Checksum, or cyclic redundancy check
-The trailer contains a code used to detect whether any errors have
-occurred during transmission. 
+- Sender and recipient IP addresses - to deliver correctly and trace where it came from
+- Protocol being used 
+- Order of the packets
+- Time To Live / Hop Limit - when it expires
+- Actual data to be transmitted 
+- Checksum - check for errors
 
 A TCP/IP packet could contain:
 
@@ -145,5 +132,9 @@ They provide additional security by:
 Makes sure data sent is unreadable if intercepted. Encrypted and decrypted using keys and is using symmetrical or asymmetrical. Wireless security encrypts using either WEP, WPA, or WPA2.
 
 ### Malicous software
+Worms are stand alone and self replicating. Viruses infect other programs or data files with the users help.
 
+### Prevention
+Update patches to the operating system and application programs reduce vulnerabilities in the system. 
 
+Update anti-malware (“anti-virus”) software can prevent the spread of infection
