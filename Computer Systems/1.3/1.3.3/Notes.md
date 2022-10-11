@@ -46,6 +46,29 @@ Network (internet) layer - Adds the source and destination IP addresss for each 
 
 Link Layer - connects devices through network hardware and data links. Connects to the destination MAC.
 
+### Packet data
+Packets are segments of data. They contain various information:
+
+ender and recipient IP addresses
+The sender and the recipient’s IP addresses act like a postcode,
+allowing the packet to be delivered to the correct destination and
+enabling the recipient device to trace where the packet came from.
+○ Protocol being used
+The protocol allows the recipient computer to understand how to
+interpret the packet.
+○ Order of the packets
+Upon arriving at the recipient device, packets are reconstructed in the
+appropriate order as specified in the header.
+○ Time To Live / Hop Limit
+The Time To Live (TTL), tells the packet when to expire so that it does
+not travel forever.
+● Payload
+○ Raw data to be transmitted
+● Trailer
+○ Checksum, or cyclic redundancy check
+The trailer contains a code used to detect whether any errors have
+occurred during transmission. 
+
 A TCP/IP packet could contain:
 
 ![image](https://user-images.githubusercontent.com/72783315/195106282-db91910e-dda6-413a-b8d3-fd2da0fafeec.png)
@@ -120,4 +143,7 @@ They provide additional security by:
 
 ### Encryption
 Makes sure data sent is unreadable if intercepted. Encrypted and decrypted using keys and is using symmetrical or asymmetrical. Wireless security encrypts using either WEP, WPA, or WPA2.
+
+### Malicous software
+
 
