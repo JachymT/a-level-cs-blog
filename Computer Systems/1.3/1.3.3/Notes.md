@@ -46,7 +46,7 @@ Network (internet) layer - Adds the source and destination IP addresss for each 
 
 Link Layer - connects devices through network hardware and data links. Connects to the destination MAC.
 
-A typical TCP/IP packet would contain:
+A TCP/IP packet could contain:
 
 ![image](https://user-images.githubusercontent.com/72783315/195106282-db91910e-dda6-413a-b8d3-fd2da0fafeec.png)
 
