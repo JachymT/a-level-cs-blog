@@ -24,7 +24,7 @@ Provides a cheaper and easier method of testing, since it can be done before the
 Examples: Stress testing can be done to test ‘erroneous’ scenarios of the program.
 
 ## Heuristics
-Heuristics is finding a solution that is good enough when an optimal solution is unknown or impossible. Using approximate solutions to problems that aren't computational (infinite time solutions), to get as close as possible to an efficient solution.
+Heuristics is finding a solution that is good enough when an optimal solution is unknown or impossible. Using approximate solutions to problems that aren't computational (infinite time solutions), to get as close as possible to an efficient solution. Heuristics can be done with modelling.
 
 Example: Travelling Salesman Problem as well as the A* algorithm.
 
