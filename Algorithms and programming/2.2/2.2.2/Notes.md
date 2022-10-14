@@ -37,3 +37,8 @@ Examples are: Neural networks, statistics and data science.
 Pipelinig Breaks down a process into a series of subtasks. Output of one task feeds into the input of another task. Subtasks are dependent on each other, which can be a disadavantage.This allows multi core processors to use parallel processing.
 
 Examples are: Blocked, running and waiting states in a processor queue.
+
+## Backtracking
+Backtracking is used to move between options in a problem, going down decision routes. It works by backtracking if you reach a dead end to the last decision made. Uses recursive methods, and will methodically find all valid  / invalid options. Recursion, however, is slow for large problems.
+
+Examples: Recursive algorithms (eg. going through a maze, finding shortest paths, or the best option in a chess game). Also depth first traversal
