@@ -21,7 +21,7 @@ Performance modelling (testing) evaluating if a program's performance and uses t
 
 Provides a cheaper and easier method of testing, since it can be done before the final system is fully implemented (but also its done on the final test). 
 
-Stress testing can be done to test ‘erroneous’ scenarios of the program.
+Examples: Stress testing can be done to test ‘erroneous’ scenarios of the program.
 
 ## Heuristics
 Heuristics is finding a solution that is good enough when an optimal solution is unknown or impossible. Using approximate solutions to problems that aren't computational (infinite time solutions).Not useful for problems solvable with typical methods.
