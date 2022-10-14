@@ -24,10 +24,9 @@ Provides a cheaper and easier method of testing, since it can be done before the
 Stress testing can be done to test ‘erroneous’ scenarios of the program.
 
 ## Heuristics
-Finding a solution that is good enough when an optimal solution is. 
-Can find approximate solutions to problems that don't aren't computational (infinite time solutions).
-Not useful for problems solvable with typical methods
-Travelling Salesman Problem as well as the A* algorithm.
+Heuristics is finding a solution that is good enough when an optimal solution is unknown or impossible. Using approximate solutions to problems that aren't computational (infinite time solutions).Not useful for problems solvable with typical methods.
+
+Example: Travelling Salesman Problem as well as the A* algorithm.
 
 ## Data Mining
 Data mining is used for identifying patterns in large sets of data. Reveals underlying trends and relationships. Mining large data sets is costly on resources and processing power.
