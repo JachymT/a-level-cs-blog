@@ -113,9 +113,9 @@ A network where computers are connected together and can act as both servers and
 ## Security
 
 ### Firewalls
-Firewalls sits between a trusted and untrusted network, and prevent unauthorised access. A firewall limits access to the netwrok based on certain rules. 
+Firewalls sits between a trusted and untrusted network, and prevent unauthorised access. A firewall limits access to the netwrok based on certain rules. TLDR: Malicious packets trying to access forbidden ports are rejected. 
 
-These rules are called **packet filters** (or Access Control Lists), and the process is called **static filtering**. Traffic is controlled by loking at the packet headers - IP address, destination IP address, port number and protocol used. If the port is closed anyway, or the firewall decided to not let the packet through, then the packet is either silently dropped, or rejected and a notification is sent back to the sender.
+These rules are called **packet filters** (or Access Control Lists), and the process is called **static filtering**. Traffic is controlled by loking at the packet headers - IP address, destination IP address, port number and protocol used. If the port is closed anyway, or the firewall decided to not let the packet through, then the packet is either silently dropped, or rejected and a notification is sent back to the sender. 
 
 A more secure version of this is called **statefull inspection**, this just keeps track of all connections established, and checks what the packets contain.
 
