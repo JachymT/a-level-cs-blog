@@ -81,7 +81,6 @@ Fibre optic, Copper coaxel,
 ### Network diagram
 ![image](https://user-images.githubusercontent.com/72783315/192541532-dc4173b3-ba3f-4954-8711-1ffe1a66f768.png)
 
-
 ## Client-server
 A network where terminals (clients) connect to a central server. The server typically has lots of recourses and processing power. Clients inciates communication with the server and the server waits for client requests.
 
@@ -109,6 +108,10 @@ A network where computers are connected together and can act as both servers and
 - imposible to trace the origins of files
 - poor security
 - hard to locate resources
+
+Uses of each architecture
+
+![image](https://user-images.githubusercontent.com/72783315/196441612-385bab50-92bb-4a87-9f90-e95c8e4579c7.png)
 
 ## Security
 
