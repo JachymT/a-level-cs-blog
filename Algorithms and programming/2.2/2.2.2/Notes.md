@@ -34,7 +34,7 @@ Data mining is used for identifying patterns in large sets of data. Reveals unde
 Examples are: Neural networks, statistics and data science.
 
 ## Pipelining
-Pipelinig Breaks down a process into a series of subtasks. Output of one task feeds into the input of another task. Subtasks are dependent on each other, which can be a disadavantage.This allows multi core processors to use parallel processing.
+Pipelinig Breaks down a process into a series of subtasks. Output of one task feeds into the input of another task. Subtasks are dependent on each other, which can be a disadavantage. Pipelining also happens in multi core processors when using parallel processing (kind of idk).
 
 Examples are: Blocked, running and waiting states in a processor queue.
 
