@@ -46,6 +46,8 @@ Network (internet) layer - Adds the source and destination IP addresss for each 
 
 Link Layer - connects devices through network hardware and data links. Connects to the destination MAC.
 
+![image](https://user-images.githubusercontent.com/72783315/196445137-b1aba957-4267-4493-b6d1-1ba2d6d27225.png)
+
 ### Packet data
 Packets are segments of data. They contain various information:
 
