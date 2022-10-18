@@ -127,6 +127,7 @@ They provide additional security by:
 - **speeding up access** because it keeps a cache of frequently visited web pages
 - **reducing web trafic** because it keeps a cache of frequently visited web pages
 - **adding web filtering** because administrators for a network can add filters to prevent viewing sensitive content
+- **keeps user logs** 
 
 ### Encryption
 Makes sure data sent is unreadable if intercepted. Encrypted and decrypted using keys and is using symmetrical or asymmetrical. Wireless security encrypts using either WEP, WPA, or WPA2.
@@ -135,9 +136,13 @@ Makes sure data sent is unreadable if intercepted. Encrypted and decrypted using
 Authentication in a network is basically user access levels. Require a username and password to log on, with multiple redentials (normal, admin). Done through the use of Smart cards and biometrics (fingerprints).
 
 ### Malicous software
-Worms are stand alone and self replicating. Viruses infect other programs or data files with the users help.
+Worms are stand alone and self replicating. 
+
+Viruses infect other programs or data files with the users help.
 
 ### Prevention
-Update patches to the operating system and application programs reduce vulnerabilities in the system. 
-
-Update anti-malware (“anti-virus”) software can prevent the spread of infection
+- 4 things above
+- Updating the operating system and application programs reduce vulnerabilities in the system. 
+- Updating / Installing anti-malware (“anti-virus”) software
+- Have unique, complex passwords
+- Don't click on phishing links
