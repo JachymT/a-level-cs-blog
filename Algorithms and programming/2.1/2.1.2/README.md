@@ -1,7 +1,7 @@
 # Thinking Ahead
-Thinking ahead in terms of computational thinking is the process of thorough planning of your code to ensure an efficient outcome and where possible using caching/pre-fetching.
+Thinking ahead is the process of thorough planning of your code to ensure a correct and efficient outcome and where possible using caching/pre-fetching.
 
-Programs should be correct and efficient
+Involves identifying preconditions, inputs and outputs.
 
 ## Inputs and Outputs
 Inputs and outputs for a function need to be planned, and the format that they will be input and output needs to be specified, eg an array of integers.
