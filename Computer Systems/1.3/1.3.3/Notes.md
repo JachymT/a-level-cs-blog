@@ -8,21 +8,49 @@ WAN is over a large geographical area or multiple locations. Infastructure is us
 ![image](https://user-images.githubusercontent.com/72783315/195105764-dd6b8ffe-cfd5-4531-a56e-ed263db88396.png)
 
 ## Topologies
-**Physical topologies** - How the wires are connected
+**Physical topologies** - How the wires are connected. Devices attached can be called nodes, terminals, station or whatever you want, no one cares.
 
 **Logical topologies** - How the data flows
 
 ![image](https://user-images.githubusercontent.com/72783315/192552505-90d7a198-3280-4b83-b9fd-d1e2ea40bf0e.png)
 
 ### Bus Topology
-Bus topology is litterally just a straight line. One cable, called the **backbone**, connects all the devices together.
+Bus topology is litterally just a straight line. One cable, called the **backbone**, connects all the devices together. 
 
 **Advantages**
--
+- cheap
+- no extra hardware required
+
+**Disadvantages**
+- If backbone cable fails, the entire network fails
+- As traffic increases, performance decreases
+- All computers can see the data transmission
 
 ### Star Topology
+Connect to central node (often a switch). MAC addresses identify each device.
+
+**Advantages**
+- If one cable fails, only that single node is affected
+- better performance and data transmission than bus topology
+- Easy to add new nodes
+- No data collisions
+
+**Disadvantages**
+- Relies on a central switch
+- cabling and switch are expensive
 
 ### Mesh Topology
+All nodes connected. Wifi is a mesh.
+
+**Advantages**
+- If using a wireless network, there is no cabling cost
+- The more nodes the more reliable (which is how wifi works)
+- Fastest 
+
+**Disadvantages**
+- If using a wireless network, devices must have wireless capability
+- If using a wired network, lots of cables needed, which is expensive
+- Maintaining the network is difficult
 
 ## The internet structure 
 The internet is a network of networks allows for global communication between any connected devices.
@@ -92,7 +120,7 @@ A network where terminals (clients) connect to a central server. The server typi
 - data and recoures can be shared between clients
 
 **Disadvantages**
-- single point of failure 0 if the server fails then the terminals fail
+- single point of failure, if the server fails then the terminals fail
 - expensive to set up
 - proffesionals required to maintain the server
 
