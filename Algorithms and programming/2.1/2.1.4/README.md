@@ -1,5 +1,5 @@
 # Thinking logically
-Thinking Logically is planning for the outputs of decisions of a program - an evaluation of data to give a conclusion.
+Thinking logically is the skill of identifying the points at which a decision is needed. Evaluating data to see where decisions affect the outputs.
 
 ## Parts of thinking logically
 - Decision making in problem solving 
