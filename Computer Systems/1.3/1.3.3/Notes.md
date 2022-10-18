@@ -90,6 +90,12 @@ A TCP/IP packet could contain:
 
 ![image](https://user-images.githubusercontent.com/72783315/195106282-db91910e-dda6-413a-b8d3-fd2da0fafeec.png)
 
+### Packet switching
+
+!!!
+
+!!!!!!
+
 ## Hardware
 Home networks ussually just put all of these into one device. Also A hub is just a faster switch. Fibreoptics / other cables exist
 
