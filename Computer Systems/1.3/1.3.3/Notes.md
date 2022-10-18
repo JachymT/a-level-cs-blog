@@ -84,7 +84,7 @@ Fibre optic, Copper coaxel,
 ![image](https://user-images.githubusercontent.com/72783315/192541532-dc4173b3-ba3f-4954-8711-1ffe1a66f768.png)
 
 ## Client-server
-A network where terminals (clients) connect to a central server. The server typically has lots of recourses and processing power. Clients inciates communication with the server and the server waits for client requests.
+A network where terminals (clients) connect to a central server. The server typically has lots of recourses and processing power. Clients inciates communication with the server and the server waits for client requests. Uses dedicated servers
 
 **Advantages**
 - Secure - data is stored in one location
