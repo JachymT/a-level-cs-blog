@@ -21,7 +21,9 @@ Performance modelling (testing) evaluates a model's performance and uses that kn
 
 Provides a cheaper and easier method of testing, since it can be done before the final system is fully implemented (or using a scaled down or hypothetical version of the system). This means the results can also be monitered more closely, rather than testing thousands of connections at once. Image a plane.
 
-Examples: Stress testing can be done to test ‘erroneous’ scenarios of the program.
+Stress testing can be done to test ‘erroneous’ scenarios of the program.
+
+The aim is to know how well the full implementation of the solution will work before release.
 
 ## Heuristics
 Heuristics is finding a solution that is good enough when an optimal solution is unknown or impossible. Using approximate solutions to problems that aren't computational (infinite time solutions), to get as close as possible to an efficient solution. Heuristics can be done with modelling.
