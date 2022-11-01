@@ -46,7 +46,7 @@ This is done by writing all transactions onto non-volitile secondary storage and
 Furthermore once commited to the database the changes stay commited.
 
 ## Record Locking
-Prevents simultaneous access to records in a database to avoid inconsistencies. 
+Prevents simultaneous access to records in a database to avoid inconsistencies. Record locking maintains data integrity, since changes are not overwritten.
 
 Whilst a transaction by user A is happening on a record, that record is locked and user B has to wait for the tranasction to be finished before they can perform thier transaction
 
