@@ -96,7 +96,7 @@ A TCP/IP packet could contain:
 ![image](https://user-images.githubusercontent.com/72783315/195106282-db91910e-dda6-413a-b8d3-fd2da0fafeec.png)
 
 ### Packet switching
-Data is sent over networks in small chunks called data packets / ip packets. Packets are treated individualy and can travel across any route. Routers are responsible for finding the best route for the packets. For example if a router fails the packts just go around it. At the destination the packets are assembled and any missing packets are requested. 
+Data is sent over networks in small chunks called data packets / ip packets. Packets are treated individualy and can travel across any route. Routers are responsible for directing packets along the best route. For example if a router fails the packts just go around it. At the destination the packets are assembled and any missing packets are requested. 
 
 The header of the packet contains information that the routers need for packet switching (see above).
 
