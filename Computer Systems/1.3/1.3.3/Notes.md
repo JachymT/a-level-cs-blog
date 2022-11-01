@@ -52,7 +52,7 @@ All nodes connected. Wifi is a mesh.
 - If using a wired network, lots of cables needed, which is expensive
 - Maintaining the network is difficult
 
-## The internet structure 
+## Internet structure 
 The internet is a network of networks allows for global communication between any connected devices.
 
 ### Protocols
