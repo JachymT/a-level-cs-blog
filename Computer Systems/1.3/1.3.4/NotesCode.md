@@ -1,4 +1,4 @@
-# HTML
+# Code in Spec
 ## HTML 
 **Section from the spec below**. HTML is the script web pages are written in:
 
