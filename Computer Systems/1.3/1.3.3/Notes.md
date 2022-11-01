@@ -88,7 +88,7 @@ Packets are segments of data. They contain various information:
 - Time To Live / Hop Limit - when it expires
 
 **Main body + tail**
-- Actual data to be transmitted 
+- Actual data to be transmitted (packets are equally sized ussually idk)
 - Checksum - check for errors
 
 A TCP/IP packet could contain:
