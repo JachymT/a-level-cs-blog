@@ -79,10 +79,15 @@ Link Layer - connects devices through network hardware and data links. Connects 
 ### Packet data
 Packets are segments of data. They contain various information:
 
-- Sender and recipient IP addresses - to deliver correctly and trace where it came from
+**Header**
+- Sender IP addresses - to deliver correctly 
+- Recipient IP addresses - to trace where it came from
 - Protocol being used 
 - Order of the packets
+- Total number of packets in the file
 - Time To Live / Hop Limit - when it expires
+
+**Main body + tail**
 - Actual data to be transmitted 
 - Checksum - check for errors
 
@@ -91,10 +96,9 @@ A TCP/IP packet could contain:
 ![image](https://user-images.githubusercontent.com/72783315/195106282-db91910e-dda6-413a-b8d3-fd2da0fafeec.png)
 
 ### Packet switching
+Data is sent over networks in small chunks called data packets / ip packets. Packets are treated individualy and can travel across any route. Routers are responsible for finding the best route for the packets. For example if a router fails the packts just go around it. At the destination the packets are assembled and any missing packets are requested. Network traffic causes latency - packets build up in the routers memory and take longer to arrive.
 
-!!!
-
-!!!!!!
+The header of the packet contains information that the routers need for packet switching (see above).
 
 ## Hardware
 Home networks ussually just put all of these into one device. Also A hub is just a faster switch. Fibreoptics / other cables exist
