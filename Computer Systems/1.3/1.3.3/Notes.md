@@ -109,7 +109,7 @@ Allows for connection to other networks (the internet). Checks and moves packets
 Allows Wi-Fi devices to connect to a wired network.
 
 ### Switch
-Directs the flow of data in a Network, the centre of a network, and sends data to the individual devices.
+Connects devices together Directs the flow of data in a Network, the centre of a network, and sends data to the individual devices.
 
 ### Cables
 Fibre optic, Copper coaxel, 
