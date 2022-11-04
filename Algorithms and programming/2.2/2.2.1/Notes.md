@@ -108,3 +108,5 @@ The scope of a varaible refers to its regeion of accessability.
 
 ![image](https://user-images.githubusercontent.com/72783315/149768085-f22d77bb-d805-4ee4-a060-4a6df581afd8.png)
 
+## Identifiers
+An identifier is the name of a variable, objects, function or any other entity in a program.
