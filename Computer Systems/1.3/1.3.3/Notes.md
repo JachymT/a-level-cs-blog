@@ -110,7 +110,12 @@ Home networks ussually just put all of these into one device. Also A hub is just
 Usually built into the motherboard, the NIC is needed for connecting to a network. Assigns a unique MAC address to the device
 
 ### Router
-Allows for connection to other networks (the internet). Checks and moves packets
+Allows for connection to other networks (the internet). Checks, sends and recieves packets.
+
+### Gateway
+A gateway is the same as router, except it sends and recieves data between unfamilar / different types of networks. Unlike routers they can also operate at any layer of the TCP/IP stack and use any protocol. A gateway can also translate between protocols and so it is used to make sure that networksthat have thier own protocols in place can communicate with the Internet.
+
+Gateways can also be used as proxy servers or firewalls.
 
 ### Wireless Access Point
 Allows Wi-Fi devices to connect to a wired network.
@@ -119,7 +124,10 @@ Allows Wi-Fi devices to connect to a wired network.
 Connects devices together Directs the flow of data in a Network, the centre of a network, and sends data to the individual devices.
 
 ### Cables
-Fibre optic, Copper coaxel, 
+Fibre optic, Copper coaxel (cheaper, slower)
+
+### Bridge
+Larger networks can be broken down into smaller networks and these are connected together using a Bridge. This can improve performance as each section has its own bandwidth. Usefull for splitting up / joing together a school network. Works at the data link layer.
 
 ### Network diagram
 <img src="https://user-images.githubusercontent.com/72783315/192541532-dc4173b3-ba3f-4954-8711-1ffe1a66f768.png" height="350">
