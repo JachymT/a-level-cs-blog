@@ -10,8 +10,12 @@ Declerative - Programmer declares the desired result and not the instructions on
 ### Procedural
 Procedural langauges are common and apply to a wide range of problems. Easy to **implement** and **interpret**. Sequences of instructions are executed line by line. The key features of **structured procedural programming** are: sequence, selection, iteration and recursion.
 
+Examples: Pascal and C
+
 ### Object Oriented
 [https://github.com/JachymT/a-level-cs-blog/edit/main/Computer%20Systems/1.2/1.2.4/NotesOOP.md](https://github.com/JachymT/a-level-cs-blog/blob/main/Computer%20Systems/1.2/1.2.4/NotesOOP.md)
+
+Examples: C++ and Java
 
 ### Comparing OOP and procedural programming paradigms in development
 
