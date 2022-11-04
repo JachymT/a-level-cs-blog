@@ -60,3 +60,12 @@ The opcode specifies the type of instruction to be executed.
 
 ### Operands
 The operand specifies the data or address to be processed.
+
+## Types of compilers
+
+### compiled
+
+### Interpreted 
+
+### Intermediate code
+
