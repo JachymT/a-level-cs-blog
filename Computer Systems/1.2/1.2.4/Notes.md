@@ -63,11 +63,12 @@ The operand specifies the data or address to be processed.
 
 ## Types of translators
 
-### Compiled
-C++ is an example of a compiled language.
+### Compilers
+C++ is an example of a compiled language. Compilers produce executable code that cannot easily be read back into the origional - if the executable is shared, the source code is protected.
 
+Code cannot be compiled if there is an error which is a disadvantage for large programs.
 
-### Interpreted
+### Interpreters
 JavaScript is an example of an interpreted lanauge.
 
 ### Intermediate code
