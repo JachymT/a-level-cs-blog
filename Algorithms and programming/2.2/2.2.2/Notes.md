@@ -17,11 +17,11 @@ Examples
 
 
 ## Performance modelling
-Performance modelling (testing) evaluates a model's performance and uses that knowledge to improve it. It does this by approxmiating using aproximations and simulations. Mathematical tests, rather than in feild test, reduce costs, time and safety risks.
+Performance modelling / testing evaluates a system's behaviour and uses that knowledge to improve it. It does this by approxmiating using aproximations and simulations. Mathematical tests, rather than in feild test, reduce costs, time and safety risks.
 
 Provides a cheaper and easier method of testing, since it can be done before the final system is fully implemented (or using a scaled down or hypothetical version of the system). This means the results can also be monitered more closely, rather than testing thousands of connections at once. Image a plane.
 
-Stress testing can be done to test ‘erroneous’ scenarios of the program.
+Stress testing can be done to test ‘erroneous’ scenarios of the program. Robustness can be tested by simulating high levels of stress (e.g lots of users logging into a website at once)
 
 The aim is to know how well the full implementation of the solution will work before release.
 
