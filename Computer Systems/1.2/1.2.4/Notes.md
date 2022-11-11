@@ -63,9 +63,13 @@ The operand specifies the data or address to be processed.
 
 ## Types of compilers
 
-### compiled
+### Compiled
+C++ is an example of a compiled language.
 
-### Interpreted 
+
+### Interpreted
+JavaScript is an example of an interpreted lanauge.
 
 ### Intermediate code
+Java is an example of a language compiled to intermediate code and executed on a virtual machine.
 
