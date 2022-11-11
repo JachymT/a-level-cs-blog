@@ -71,5 +71,5 @@ C++ is an example of a compiled language.
 JavaScript is an example of an interpreted lanauge.
 
 ### Intermediate code
-Java is an example of a language compiled to intermediate code and executed on a virtual machine.
+Java is an example of a language compiled to intermediate code and executed on a virtual machine. This means it can be used on any device with a Java Virtual Machine. 
 
