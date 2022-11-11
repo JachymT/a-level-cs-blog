@@ -61,7 +61,7 @@ The opcode specifies the type of instruction to be executed.
 ### Operands
 The operand specifies the data or address to be processed.
 
-## Types of compilers
+## Types of translators
 
 ### Compiled
 C++ is an example of a compiled language.
@@ -71,5 +71,7 @@ C++ is an example of a compiled language.
 JavaScript is an example of an interpreted lanauge.
 
 ### Intermediate code
-Java is an example of a language compiled to intermediate code and executed on a virtual machine. This means it can be used on any device with a Java Virtual Machine. 
+Java is an example of a language compiled to intermediate code and executed on a virtual machine. This means it can be used on any device with a Java Virtual Machine.
+
+https://github.com/JachymT/a-level-cs-blog/blob/main/Computer%20Systems/1.2/1.2.1/notesVM.md
 
