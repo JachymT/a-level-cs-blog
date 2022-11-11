@@ -14,6 +14,8 @@ A VM can replicate any hardware so that software can run on it, without knowing 
 ## Intermediate code
 Languages like Java use intermediate VMs between the system and the source code. Code is compiled into **intermediate code or bytecode** and then a VM runs the code on the computer and translates it into machine code.
 
-The same code can be run on any hardware device as long as it supports the virtual machine, making it highly portable
+The same code can be run on any hardware device as long as it supports the virtual machine, making it highly portable, and useful for testing on different hardware.
+
+Can be slower than running straight up compiled code.
 
 <img width="992" alt="Screenshot 2022-05-31 at 12 00 51" src="https://user-images.githubusercontent.com/72783315/171158867-a9776a77-76c0-491a-9d6b-0bef1a53a232.png">
