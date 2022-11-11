@@ -9,6 +9,7 @@ Parallel processing is slightly different. Parallel is ACTUALLY simultaneous.
 
 ![image](https://user-images.githubusercontent.com/72783315/201315693-93b8b33f-fde7-45d2-95b3-4597528baafb.png)
 
+![image](https://user-images.githubusercontent.com/72783315/201322025-6a06569e-d814-42eb-8626-6d9fe3998607.png)
 
 ### Advantages
 - Multiple cores working on multiple tasks at once improves overall performance.
