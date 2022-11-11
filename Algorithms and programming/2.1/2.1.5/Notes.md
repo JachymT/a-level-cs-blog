@@ -3,7 +3,7 @@
 
 Multitasking is a systems when the illusion is given to simultaneously execute multiple tasks at once by swithcing porcesess in and out the processor. Concurrent processing can be multitasking on multi core systems. This is used when multiple applications are running, or two things need to be reacted to at once. Similar to what the OS does.
 
-Parallel processing is slightly more specific use of concurent processing.
+Parallel processing is slightly different. Parallel is ACTUALLY simultaneous.
 
 ![image](https://user-images.githubusercontent.com/72783315/201316379-b430fd19-eb62-432e-bb59-76a6ce3853fe.png)
 
