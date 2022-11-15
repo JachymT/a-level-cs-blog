@@ -13,7 +13,7 @@
 
 - 1.2 Systems and software development
   - [1.2.1 Systems software](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.2/1.2.1)
-  - 1.2.2 Applications generation
+  - [1.2.2 Applications generation](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.2/1.2.2)
   - [1.2.3 Software Development](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.2/1.2.3)
   - [1.2.4 Types of programing languages](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.2/1.2.4)
 
