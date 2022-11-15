@@ -1,6 +1,9 @@
 # Application Generation
 
 ## Translators
+Source code needs to be translated to object code (machine code)
+
+![image](https://user-images.githubusercontent.com/72783315/201951276-340b3416-b2e1-4125-a1de-852e85606222.png)
 
 ### Compilers
 C++ is an example of a compiled language. Compilers produce executable code that cannot easily be read back into the origional - if the executable is shared, the source code is protected. Different verions of the executable need to be made for different architectures, however this only requires different compilers and so is not too difficult. 
