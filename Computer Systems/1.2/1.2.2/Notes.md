@@ -6,7 +6,7 @@ high level source code needs to be translated to low level object code (machine 
 ![image](https://user-images.githubusercontent.com/72783315/201951276-340b3416-b2e1-4125-a1de-852e85606222.png)
 
 ### Compilers
-C++ is an example of a compiled language. Source code is translated all at once.
+C++ is an example of a compiled language. Source code is translated into an executable all at once, for a specific architecture.
 
 **Advantages**
 - Executable can be run instantly - code does not have to be re-translated
@@ -19,7 +19,7 @@ C++ is an example of a compiled language. Source code is translated all at once.
 - Different verions of the executable need to be made for different architectures, however this only requires different compilers and so is not too difficult.
 
 ### Interpreters
-JavaScript is an example of an interpreted lanauge. Code is translated line by line. 
+JavaScript is an example of an interpreted lanauge. Code is translated and executed line by line.
 
 **Advantages**
 - Code can be run on any architecture
@@ -35,4 +35,7 @@ Java is an example of a language compiled to intermediate code and executed on a
 **Advantages**
 - Intermediate code is often simply a better way to interpret code.
 
-### Loaders
+### Assemblers
+Translates a program written in assembly language into machine code.
+
+### Test
