@@ -46,6 +46,8 @@ Java is an example of a language compiled to intermediate code and executed on a
 
 **Advantages**
 - Intermediate code is often simply a better way to interpret code.
+- Advantages of compiling (effieicent code and fast speeds)
+- Advantages of interpreting (can be done on any machine)
 
 ##  Distribution
 Will be suitable for different things. Also closed source is inherently bad.
