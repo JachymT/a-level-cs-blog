@@ -24,6 +24,7 @@ C++ is an example of a compiled language. Source code is translated into an exec
 - Executable can be run instantly - code does not have to be re-translated
 - Executables are better optimised - runs faster
 - Compilers produce executable code that cannot easily be read back into the origional - if the executable is shared, the source code is protected
+- Therefore best for selling software
 
 **Disadvantages**
 - Code cannot be compiled if there is an error which make debugging slow for large programs
@@ -36,6 +37,7 @@ JavaScript is an example of an interpreted lanauge. Code is translated and execu
 **Advantages**
 - Code can be run on any architecture
 - Becuase code is also error checked line by line, errors are shown as they occur and the program will stop at any error so its easy to tell which line it came from. This makes them useful for debugging.
+- software can still be shared over a browser - JS is not completly useless.
 
 **Disadavntages**
 - Execution is far slower than with translators. 
