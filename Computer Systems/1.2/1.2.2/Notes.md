@@ -34,3 +34,5 @@ Java is an example of a language compiled to intermediate code and executed on a
 
 **Advantages**
 - Intermediate code is often simply a better way to interpret code.
+
+### Loaders
