@@ -46,7 +46,7 @@ Use the concept of calling functions multiple times, and only using functions to
 Use queries to solve problems after defining a set of rules. An example is Prolog.
 
 ## Assembly language
-Assembly language is a programming language that uses meumonics to comunicate with the CPU, and so has to be specific to the CPU. It is a low level language that can be converted into machine code with an assembler. 
+Assembly language is a programming language that uses meumonics to comunicate with the CPU, and so has to be specific to the CPU. It is a low level language that can be converted into machine code with an assembler. Useful for writing real time embedded systems.
 
 [Little Man Computer instructions and code](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.1/1.1.1/Little%20Man%20Computer)
 
