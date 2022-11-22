@@ -17,6 +17,10 @@ high level source code needs to be translated to low level object code (machine 
 
 **Loader** - Before a program can be executed, the loader needs to prepare the machine code, so that it can be loaded into main memory.
 
+### he oder of translation
+
+![image](https://user-images.githubusercontent.com/72783315/203333009-50b3d3eb-e8f7-436c-9530-5dd174028a1e.png)
+
 ### Compilers
 C++ is an example of a compiled language. Source code is translated into an executable all at once, for a specific architecture.
 
