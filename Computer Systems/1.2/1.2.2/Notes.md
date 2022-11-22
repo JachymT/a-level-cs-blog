@@ -3,9 +3,9 @@
 ## Translators
 high level source code needs to be translated to low level object code (machine code). 
 
-![image](https://user-images.githubusercontent.com/72783315/201951276-340b3416-b2e1-4125-a1de-852e85606222.png)
+<img src="https://user-images.githubusercontent.com/72783315/201951276-340b3416-b2e1-4125-a1de-852e85606222.png" height="300">
 
-![image](https://user-images.githubusercontent.com/72783315/202662440-29edb18e-df09-408a-adb7-473497a71739.png)
+<img src="https://user-images.githubusercontent.com/72783315/202662440-29edb18e-df09-408a-adb7-473497a71739.png" height="300">
 
 **Assemblers** - Translates a program written in assembly language into machine code.
 
