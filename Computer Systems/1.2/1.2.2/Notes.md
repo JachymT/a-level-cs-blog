@@ -21,7 +21,7 @@ high level source code needs to be translated to low level object code (machine 
 4 main stages for going though the diagram above.
 
 ### Lexican analysis
-Passes over comments, whitespaces and formats code into individual words (lexemes). Then each lexeme is matching to token classes, e.g. DIV is an operator. The lexemes are stored as these tokens in the format:
+Done by the lexer. Passes over comments, whitespaces and formats code into individual words (lexemes). Then each lexeme is matching to token classes, e.g. DIV is an operator. The lexemes are stored as these tokens in the format:
 
 **[tokenclass:token]**
 
