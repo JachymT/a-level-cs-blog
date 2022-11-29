@@ -28,9 +28,9 @@ Done by the lexer. Passes over comments, whitespaces and formats code into indiv
 So the source code, which contained lexemes, is now a series of tokens which can be put into a symbol table, which just indexes all the tokens. End output is a token stream.
 
 ### Syntax analysis
-Creates an abstract syntax tree / parse tree from the token stream. Matches tokens against set rules of the language, e.g. identifier must be followed by a varaible name - int score. Detects any syntacs errors by doing this.
+Creates an abstract syntax tree / parse tree from the token stream. Matches tokens against set rules of the language, e.g. identifier must be followed by a varaible name - int score. Detects any syntaxs errors - tockens that break the format. Logical errors are also detected (e.g unreferenced var).
 
-These trees are then used to update the symbol table if needed.
+These trees are then used to update the symbol table with more info about identifiers. 
 
 ### Code generation
 Abstract tree code -> object code. Object code can then be linked (see above).
