@@ -1,6 +1,6 @@
 # A Level Computer Science Notes
 
-## Spec
+## OVERVIEW
 - [OCR Specification](https://github.com/JachymT/a-level-cs-blog/blob/main/ocr-a-level-specification-h446.pdf)
 - [OCR Content Clarification](https://github.com/JachymT/a-level-cs-blog/blob/main/ocr-subject-content-clarification.pdf)
 
