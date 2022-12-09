@@ -1,6 +1,6 @@
 # A Level Computer Science Notes
 
-## OVERVIEW
+## Spec
 - [OCR Specification](https://github.com/JachymT/a-level-cs-blog/blob/main/ocr-a-level-specification-h446.pdf)
 - [OCR Content Clarification](https://github.com/JachymT/a-level-cs-blog/blob/main/ocr-subject-content-clarification.pdf)
 
@@ -59,7 +59,7 @@
 - [physicsandmathstutor.com](https://www.physicsandmathstutor.com/computer-science-revision/a-level-ocr/)
 - [smartrevise.online](https://smartrevise.online/student/revise/33)
 
-## Exam notes
+### Exam notes
 - AO1 - Demonstrate **knowledge** and understanding of the principles and concepts of computer science
 - AO2 - **Apply** knowledge to analyse problems in computational terms
 - AO3 - **Evaluate** computer systemsm, making judgements and presenting conclusions
