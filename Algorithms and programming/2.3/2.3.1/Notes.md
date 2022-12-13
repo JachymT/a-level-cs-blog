@@ -4,7 +4,7 @@
 Find a specified element form a data structure.
 
 ### Linnear Search
-Searches every index of the list sequencially, comparing the desired item to every item in the list, starting with the first, and moving on untill the item is found or the end of the list is reached.
+Searches every index of the list sequencially, comparing the desired item to every element in the list, starting with the first, and moving on untill the item is found or the end of the list is reached.
 - List does not need to be sorted
 - O(n) time complexity - inefficient
 - easy to implement
