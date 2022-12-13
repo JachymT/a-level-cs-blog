@@ -45,7 +45,7 @@
   - [2.2.2 Computational methods](https://github.com/JachymT/a-level-cs-blog/tree/main/Algorithms%20and%20programming/2.2/2.2.2)
 
 - 2.3 Algorithms
-  - 2.3.1 Algorithms
+  - [2.3.1 Algorithms](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.3/2.3.1)
 
 ### Programming project - Component 3
 
