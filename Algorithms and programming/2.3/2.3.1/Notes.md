@@ -9,9 +9,18 @@ Searches every index of the list sequencially, comparing the desired item to eve
 - O(n) time complexity - inefficient
 - easy to implement
 
-''' py
+```py
 list = [5, 17, 31, 4, 21, 18]
-'''
+find = 21
+
+for i=0 to list.length-1 
+  if list[i] == 21 then
+    return i // item found at list index i
+  endif
+next i
+
+// item not found in list
+```
 
 ### Binary Search
 Splits a list by the middle element untill the item is found
