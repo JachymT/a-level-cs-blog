@@ -14,7 +14,7 @@ list = [5, 17, 31, 4, 21, 18]
 find = 21
 
 for i=0 to list.length-1 
-  if list[i] == 21 then
+  if list[i] == find then
     return i // item found at list index i
   endif
 next i
