@@ -15,16 +15,17 @@ find = 21
 
 for i=0 to list.length-1 
   if list[i] == find then
-    return i // item found at list index i
+    return i #item found at list index i
   endif
 next i
 
-// item not found in list
+#item not found in list
 ```
 
 ### Binary Search
-Splits a list by the middle element untill the item is found
+Splits a list by the middle element. Compares the desired item to the midpoint. If it is the correct value, then the seach is completed. Otherwise, check if its less than or greater than the value, and discard the half of the list that isn't needed. From here repeat with the smaller list, untill the middle value is the desired item.
 - List needs to be sorted 
+- Divide and conquer approach - list is split and then values are compared
 - O(log n) time complexity
 
 // python implmentation
