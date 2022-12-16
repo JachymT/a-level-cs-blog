@@ -1,4 +1,4 @@
-#Algorithms
+# Algorithms
 
 ## Searching algorithms
 Find a specified element form a data structure.
@@ -53,3 +53,16 @@ endwhile
 
 #item not found
 ```
+
+## Sorting algorithms
+Useful for different senarios so learn to compare
+
+https://www.toptal.com/developers/sorting-algorithms
+
+### Bubble Sort
+
+### Insertion Sort
+
+### Merge Sort
+
+### Quick Sort
