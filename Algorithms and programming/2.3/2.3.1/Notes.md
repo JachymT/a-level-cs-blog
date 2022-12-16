@@ -97,7 +97,7 @@ Merge sort works by spliting a list into two smaller lists recursively untill th
 - Recursive
 - Efficient O(n logn)
 
-Eg. 
+Eg. Don't ask about how they merge
 ```py
      8, 2, 4, 1        # split
    8, 2     4, 1
