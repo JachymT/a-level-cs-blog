@@ -81,23 +81,30 @@ Insertion sort considers sorted and unsorted parts of the list. Moving through t
 - Efficient for small lists, and nearly sorted lists
 - O(n^2) time complexity - still just as slow as bubble sort for large lists
 
-```py
-A = [13,4,0,2,16,7]
+eg. The start of the list is sorted, up to the number of passes that have happened.
 
-for i = 1 to A.length - 1:
-  elem = A[i]
-  j = i - 1
-  
-  while j > 0 and A[j] > elem:
-    A[j+1] = A[j]
-    j = j - 1
-  endwhile
-  
-  A[j+1] = elem
-  
-next i
+```py
+13, 4, 0, 2, 16, 7   # 13 is sorted, 0 passes
+4, 13, 0, 2, 16, 7   # 4, 13 are sorted, 1 pass
+4, 0, 13, 2, 15, 7
+0, 4, 13, 2, 15, 7   #0, 4, 13 are sorted, 2 passes
+...
 ```
 
 ### Merge Sort
+Merge sort works by spliting a list into two smaller lists recursively untill the list have a length of 1. These sublists then considered sorted, and can be merged with adjacent sorted sublists. Lists are merged in a way to keep them sorted. The final remaining list is sorted and fully merged.
+- Divide and Conquer
+- Recursive
+- Efficient O(n logn)
+
+Eg. 
+```py
+     8, 2, 4, 1        # split
+   8, 2     4, 1
+  8    2   4    1
+   
+   2, 8     1, 4       # merge
+     1, 2, 4, 8
+```
 
 ### Quick Sort
