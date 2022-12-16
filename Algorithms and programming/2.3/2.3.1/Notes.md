@@ -60,8 +60,43 @@ Useful for different senarios so learn to compare
 https://www.toptal.com/developers/sorting-algorithms
 
 ### Bubble Sort
+Bubble sort has muliple passes through a list. Makes comparisions between all pairs of items and swaps them if not in order. This ends up with the largest item moving to the with each pass. The last pass happens when no swaps re made and the list is sorted.
+- O(n^2) time complexity
+- very slow
+
+```py
+A = [13,4,0,2,16,7]
+
+for i = 0 to A.length - 1
+  for j = 0 to A.length - 2
+      if A[j] > A[j+1] then
+         swap A[j] and A[j+1]
+      endif
+  next j
+next i
+```
 
 ### Insertion Sort
+Insertion sort considers sorted and unsorted parts of the list. Moving through the list, each time another element is individually added to the sorted list. One element is sorted at a time basically.
+- Efficient for small lists, and nearly sorted lists
+- O(n^2) time complexity - still just as slow as bubble sort for large lists
+
+```py
+A = [13,4,0,2,16,7]
+
+for i = 1 to A.length - 1:
+  elem = A[i]
+  j = i - 1
+  
+  while j > 0 and A[j] > elem:
+    A[j+1] = A[j]
+    j = j - 1
+  endwhile
+  
+  A[j+1] = elem
+  
+next i
+```
 
 ### Merge Sort
 
