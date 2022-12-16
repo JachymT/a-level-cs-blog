@@ -60,9 +60,9 @@ Useful for different senarios so learn to compare
 https://www.toptal.com/developers/sorting-algorithms
 
 ### Bubble Sort
-Bubble sort has muliple passes through a list. Makes comparisions between all pairs of items and swaps them if not in order. This ends up with the largest item moving to the with each pass. The last pass happens when no swaps re made and the list is sorted.
+Bubble sort has muliple passes through a list. Makes comparisions between all pairs of items and swaps them if not in order. This ends up with the largest item moving to the with each pass. Bubble sort terminates with one final pass where no swaps are necessary.
 - O(n^2) time complexity
-- very slow
+- Slowest sort
 
 ```py
 A = [13,4,0,2,16,7]
@@ -81,7 +81,7 @@ Insertion sort considers sorted and unsorted parts of the list. Moving through t
 - Efficient for small lists, and nearly sorted lists
 - O(n^2) time complexity - still just as slow as bubble sort for large lists
 
-eg. The start of the list is sorted, up to the number of passes that have happened.
+eg. The start of the list is sorted, up to the number of passes that have happened. The nth item is compared to every item to the left of it.
 
 ```py
 13, 4, 0, 2, 16, 7   # 13 is sorted, 0 passes
@@ -97,7 +97,7 @@ Merge sort works by spliting a list into two smaller lists recursively untill th
 - Recursive
 - Efficient O(n logn)
 
-Eg. Don't ask about how they merge
+Eg. Recursion happens in the split step
 ```py
      8, 2, 4, 1        # split
    8, 2     4, 1
@@ -108,3 +108,12 @@ Eg. Don't ask about how they merge
 ```
 
 ### Quick Sort
+Quick sort starts by choosing a central pivot element in the list. Then elements are placed either side of the pivot, and are sorted in relation to that pivot. This is recursively repeated with new pivots. Untill there are no more elements that could become the pivot, because only elements that havn't been pivots before can become pivots, and only elements thats have elements that have not become pivots next to them.
+- recursive
+- O(n^2) worst case time complexity
+- Usually O(n logn) time complexity of optimised
+
+eg. pivot chosen randomly
+```py
+16, 8, 5, 22, 7, pivot = 5
+```
