@@ -110,7 +110,7 @@ Home networks ussually just put all of these into one device. Also A hub is just
 Usually built into the motherboard, the NIC is needed for connecting to a network. Assigns a unique MAC address to the device
 
 ### Router
-Allows for connection to other networks (the internet). Checks, sends and recieves packets.
+Allows for connection to other networks (the internet). Checks, sends and recieves packets. directs traffic.
 
 ### Gateway
 A gateway is the same as router, except it sends and recieves data between unfamilar / different types of networks. Unlike routers they can also operate at any layer of the TCP/IP stack and use any protocol. A gateway can also translate between protocols and so it is used to make sure that networksthat have thier own protocols in place can communicate with the Internet.
