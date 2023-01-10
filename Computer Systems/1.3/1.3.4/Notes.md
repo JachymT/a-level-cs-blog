@@ -62,7 +62,7 @@ Start by assuming the rank of each page is 1 and then iterate untill they sum to
 
 During an iteration dont change the inputs for each page rank, eg iteration 1: A=1, B=1, C=1...
 
-### factors that can affect web page rank
+### factors that can affect search results not web page rank!!! Page rank is jsut the algorithm above, pages are ordered with other algorithms / factors
 - domain name
 - quality of inbound links
 - number of inbound links
