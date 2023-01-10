@@ -73,7 +73,9 @@ Viewing the top of the stack is called **peeking**.
 ![image](https://user-images.githubusercontent.com/72783315/165319688-20432aa0-0e4a-412c-802e-776d04c9449e.png)
 
 ## Queues
-Queues also handle linear lists of data. They use a **first in first out** (FIFO) data structure. They are implemented using 2 pointers, one to the end (**tail pointer**) and one to the start (**head pointer**). Queues can also be circular, and so the pointers can both loop around. The same commands for stacks can be applied for queues. Priority queues allow for jumping to the front of the queue.
+Queues also handle linear lists of data. They use a **first in first out** (FIFO) data structure. They are implemented using 2 pointers, one to the end (**tail pointer**) and one to the start (**head pointer**). Can be of fixed or dynamic length. Queues can also be circular, and so the pointers can both loop around. The same commands for stacks can be applied for queues. 
+
+Priority queues allow for jumping to the front of the queue, giving all data a priority before enqueuing and then comparing priorities.
 
 ![image](https://user-images.githubusercontent.com/72783315/165319077-af1b6c8e-645c-465d-a84b-fe2619c2c026.png)
 
