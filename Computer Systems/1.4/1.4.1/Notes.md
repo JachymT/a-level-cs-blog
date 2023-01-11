@@ -25,7 +25,7 @@ Can be used in calculations as opposed tp sigh and magnitude. Standarised way to
 Floating point without the exponent, useless in real life but in an exam they will tell you where the decimal is
 
 ### Floating point
-Exponent moves decimal to the right if positive and left if negative, starting from after the first digit in the mantissa.
+Exponent moves decimal to the right if positive and left if negative, starting from **after** the first digit in the mantissa. ( think of it as a literal exponent )
 
 **mantissa x 2 ^ exponent**
 
