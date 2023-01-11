@@ -15,7 +15,7 @@ Solves the problem of limited characters with ASCII, by using as many as 32bits 
 Most Significant Bit (MSB is the left most bit) determines if the number is positive or negative, **1 signed negative, 0 signed positive**
 
 ### Twos Compliment
-Most Significant Bit is negative whatever it would ussually be. Flip all digits from left to right untill you reach the Least Significant 1 and you keep it and the numbers after the same to change the sign
+Most Significant Bit is negative whatever it would ussually be. Flip all digits from left to right untill you reach the Least Significant 1 and keep it and the numbers after the same to change the sign. Basically flip everything left of the lowest 1 to swap sign.
 
 Can be used in calculations as opposed tp sigh and magnitude. Standarised way to store negative numbers.
 
