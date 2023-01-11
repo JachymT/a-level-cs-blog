@@ -4,7 +4,7 @@
 
 to link to a CSS file
 ```html
-<link href="stylesheet.css" rel="stylesheet" type="text/css"
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
 ``` 
 
 `<head>` websites properties and browser tab area
