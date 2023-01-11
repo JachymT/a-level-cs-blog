@@ -1,6 +1,6 @@
 # Pipelining in a CPU
 
-Pipelining is the process of creating a series of accumlated instructions to continously process instructions across multiple CPUs. Instructions are proccessed parallelly and are overlapping during execution. The **latency**, time taken for a single instruction to be proccessed, remains the same.
+Pipelining is the process of creating a series of accumlated instructions to continously process instructions across one or multiple CPUs. Instructions are proccessed parallelly and are overlapping during execution. The **latency**, time taken for a single instruction to be proccessed, remains the same.
 
 ![https://youtu.be/RuenPZT1PyM](https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.1/images/3.PNG)
 
