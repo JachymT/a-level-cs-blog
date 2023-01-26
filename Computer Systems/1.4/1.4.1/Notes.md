@@ -50,14 +50,14 @@ Normalising binary floating points happens by moving the mantissa left or right 
 5. Normalise the result: move decdimal point after front 1 or 0 and set exponent
 
 ## Bitwise manipulations
-Shifts can be logical or arithmetic. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fll with 1s if needed. Arithmetic are the ideal versions of logical shifts, but logical shifts are simpler
+Shifts can be logical or arithmetic or circular. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fll with 1s if needed. Arithmetic preserve the sign bit! Circular use a carry bit and loop the number round. Since you dont loose information from doing a shift with a carry bit, you can keep shifting forever cyclically.
 
-Carry bits can also be used to store overflow bits. Used to check for the MSB or LSB. Since you dont loose information from doing a shift with a barry bit, you can keep shifting forever cyclically.
+Carry bits store the overflow bits, but arn't always used. Used to check for the MSB or LSB. 
 
 Left shifts multiply the number by powers of 2. Right shift divide the number by powers of 2 and truncate the answer.
 
 ## Bitwise Masks
-Masks use boolean logic on binnary numbers. Imagine truth tables going across the whole number. 
+Masks use boolean logic on binnary numbers. Imagine truth tables going across the whole number. They are used in networking to selects parks of the IP address that are needed for comparisons.
 
 XOR is EXCLUSIVE OR, normal OR is inclusive. Only one can be true.
 
@@ -65,6 +65,6 @@ XOR is EXCLUSIVE OR, normal OR is inclusive. Only one can be true.
 
 An XOR bitwise mask flips the bits where its 1.
 
-An AND bitwise mask wipes (turns to 0s) the bits where its 0.
+An AND bitwise mask clears (turns to 0s) the bits where its 0.
 
 An OR bitwise mask fills (turns to 1s) the bits where its 1.
