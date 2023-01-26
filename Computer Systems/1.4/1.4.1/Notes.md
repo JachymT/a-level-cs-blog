@@ -62,3 +62,9 @@ Masks use boolean logic on binnary numbers. Imagine truth tables going across th
 XOR is EXCLUSIVE OR, normal OR is inclusive. Only one can be true.
 
 ![image](https://user-images.githubusercontent.com/72783315/214966375-7404645b-a8b3-4684-bd8f-53cc51d50e3d.png)
+
+An XOR bitwise mask flips the bits where its 1.
+
+An AND bitwise mask wipes (turns to 0s) the bits where its 0.
+
+An OR bitwise mask fills (turns to 1s) the bits where its 1.
