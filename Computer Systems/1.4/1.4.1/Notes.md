@@ -49,3 +49,18 @@ Normalising binary floating points happens by moving the mantissa left or right 
 4. For the last sum ignore the overflow digit, as it will carry on forever, also you can use intuition to determine if result will be positive or negative
 5. Normalise the result: move decdimal point after front 1 or 0 and set exponent
 
+## Bitwise manipulations
+Shifts can be logical or arithmetic. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fll with 1s if needed. Arithmetic are the ideal versions of logical shifts, but logical shifts are simpler
+
+Carry bits can also be used to store overflow bits. Used to check for the MSB or LSB. Since you dont loose information from doing a shift with a barry bit, you can keep shifting forever cyclically.
+
+Left shifts multiply the number by powers of 2. Right shift divide the number by powers of 2 and truncate the answer.
+
+## Bitwise Masks
+Masks use boolean logic on binnary numbers. Imagine truth tables going across the whole number. 
+
+XOR is EXCLUSIVE OR, normal OR is inclusive. Only one can be true.
+
+![image](https://user-images.githubusercontent.com/72783315/214966375-7404645b-a8b3-4684-bd8f-53cc51d50e3d.png)
+
+
