@@ -52,7 +52,7 @@ Normalising binary floating points happens by moving the mantissa left or right 
 ## Bitwise manipulations
 Shifts can be logical or arithmetic or circular. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fll with 1s if needed. Arithmetic preserve the sign bit! Circular use a carry bit and loop the number round. Since you dont loose information from doing a shift with a carry bit, you can keep shifting forever cyclically.
 
-Carry bits store the overflow bits, but arn't always used. Used to check for the MSB or LSB. 
+The Carry bit stores the overflow bit. Can be used to check for the MSB or LSB. 
 
 Left shifts multiply the number by powers of 2. Right shift divide the number by powers of 2 and truncate the answer.
 
