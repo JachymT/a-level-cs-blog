@@ -50,7 +50,7 @@ Normalising binary floating points happens by moving the mantissa left or right 
 5. Normalise the result: move decdimal point after front 1 or 0 and set exponent
 
 ## Bitwise manipulations
-Shifts can be logical or arithmetic or circular. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fll with 1s if needed. Arithmetic preserve the sign bit! Circular use a carry bit and loop the number round. Since you dont loose information from doing a shift with a carry bit, you can keep shifting forever cyclically. Shifts are performed one after each other not all at once when shifting mroe than once.
+Shifts can be logical or arithmetic or circular. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fill with 1s if needed. Arithmetic preserve the sign bit! Circular use a carry bit and loop the number round. Since you dont loose information from doing a shift with a carry bit, you can keep shifting forever cyclically. Shifts are performed one after each other not all at once when shifting mroe than once.
 
 The Carry bit stores the overflow bit. Can be used to check for the MSB or LSB. 
 
