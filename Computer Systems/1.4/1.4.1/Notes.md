@@ -5,7 +5,7 @@ Character sets are codes which can be recognised by the computer and are used to
 ASCII uses 7 bits to represent numbers and symbols, and precedes Unicode.
 
 ### Unicode
-Solves the problem of limited characters with ASCII, by using as many as 32bits (it uses a varying number of bits). The first 7 bits represent the same characters as ASCII and so it is backwards compatable. It alows for global communication.
+Solves the problem of limited characters with ASCII, by using as many as 32bits (it uses a varying number of bits). The first 7 bits represent the same characters as ASCII and so it is backwards compatable. It allows for global communication.
 
 # Binary
 
@@ -24,7 +24,7 @@ Can be used in calculations as opposed to sign and magnitude. Standarised way to
 ## Storing Floats/ Real numbers in binary
 
 ### Fixed point
-Floating point without the exponent, useless in real life but in an exam they will tell you where the decimal is
+Floating point without the exponent, useless in real life but in an exam they will tell you where the decimal is.
 
 ### Floating point
 Exponent moves decimal to the right if positive and left if negative, starting from **after** the first digit in the mantissa. ( think of it as a literal exponent )
@@ -32,7 +32,7 @@ Exponent moves decimal to the right if positive and left if negative, starting f
 **mantissa x 2 ^ exponent**
 
 ## Normalisation
-Maximising the precision of a number when storing it in a given number of bits. Denary numbers to normalised floating point binary numbers can be done in the following way
+Maximising the precision of a number when storing it in a given number of bits. Denary numbers to normalised floating point binary numbers can be done in the following way.
 
 ![image](https://user-images.githubusercontent.com/72783315/157253704-b0537772-56ba-4de6-90bb-0f921a1babe7.png)
 
@@ -50,7 +50,7 @@ Normalising binary floating points happens by moving the mantissa left or right 
 5. Normalise the result: move decdimal point after front 1 or 0 and set exponent
 
 ## Bitwise manipulations
-Shifts can be logical or arithmetic or circular. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fill with 1s if needed. Arithmetic preserve the sign bit! Circular use a carry bit and loop the number round. Since you dont loose information from doing a shift with a carry bit, you can keep shifting forever cyclically. Shifts are performed one after each other not all at once when shifting mroe than once.
+Shifts can be logical or arithmetic or circular. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fill with 1s if needed. Arithmetic preserve the sign bit! Circular use a carry bit and loop the number round. Since you dont loose information from doing a shift with a carry bit, you can keep shifting forever cyclically. Shifts are performed one after each other not all at once when shifting more than once.
 
 The Carry bit stores the overflow bit. Can be used to check for the MSB or LSB. 
 
