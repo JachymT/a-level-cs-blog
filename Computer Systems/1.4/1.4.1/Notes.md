@@ -19,7 +19,7 @@ No one cares :/
 ### Twos Compliment
 Most Significant Bit is negative whatever it would ussually be. Flip all digits from left to right untill you reach the Least Significant 1 and keep it and the numbers after the same to change the sign. Basically flip everything left of the lowest 1 to swap sign.
 
-Can be used in calculations as opposed tp sigh and magnitude. Standarised way to store negative numbers.
+Can be used in calculations as opposed to sign and magnitude. Standarised way to store negative numbers.
 
 ## Storing Floats/ Real numbers in binary
 
