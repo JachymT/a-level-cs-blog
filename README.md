@@ -48,6 +48,7 @@
   - [2.3.1 Algorithms](https://github.com/JachymT/a-level-cs-blog/blob/main/Algorithms%20and%20programming/2.3/2.3.1)
 
 ### Programming project - Component 3
+- [Rhythm game project](https://github.com/JachymT/RhythmGame)
 
 ### Other programming
 - [Summer 2021](https://github.com/JachymT/a-level-cs-blog/tree/main/Code/summer%20work%202021)
