@@ -87,3 +87,5 @@ Index determined by a base address with an ofset added to it.
 - Locating data from arrays or chunks of data in memory
 - Fast and very useful
 - Only base address need to be changed and indexes stay the same when the program is re-located
+
+Relative addressing is the same as indexed, expect the offest is relative to ther current address, held in the program counter. E.g jpm +5
