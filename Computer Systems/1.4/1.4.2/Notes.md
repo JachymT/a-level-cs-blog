@@ -23,7 +23,7 @@ array numbers[3,3]
 numbers[1,0] = 4
 print(numbers[1,0])
 
-// numbers = [[6, 8, 1], [4, 98, 31], [45, 7, 7]] not sure if this is allowed, just use a list
+# numbers = [[6, 8, 1], [4, 98, 31], [45, 7, 7]] not sure if this is allowed, just use a list
 
 >> 4
 ```
