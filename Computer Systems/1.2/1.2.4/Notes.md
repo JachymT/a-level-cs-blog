@@ -60,3 +60,13 @@ The opcode specifies the type of instruction to be executed.
 
 ### Operands
 The operand specifies the data or address to be processed.
+
+## Modes of Memory Addressing
+
+### Immediate
+
+### Direct
+
+### Indirect
+
+### Indexed
