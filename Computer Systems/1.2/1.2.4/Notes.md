@@ -62,11 +62,16 @@ The opcode specifies the type of instruction to be executed.
 The operand specifies the data or address to be processed.
 
 ## Modes of Memory Addressing
+Memory addressing is used to get data from the CPU or RAM. Used explicitly in low level languages. They descripe how the operand is used.
 
 ### Immediate
+Nothing is fetched in immediate addressing. Fastest method of adressing, The data is given directly in the instruction. Useful for constants
 
 ### Direct
+Uses locations in memory for the oppcode. Needs to know where the memory is stored, if the data is moved around in memory it cant be used. Also a fast method. 
 
 ### Indirect
+Uses an intermediate vector table
 
 ### Indexed
+Index determined by a base address with an ofset added to it. Usefuly for locating data from arrays
