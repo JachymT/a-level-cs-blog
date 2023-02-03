@@ -65,13 +65,25 @@ The operand specifies the data or address to be processed.
 Memory addressing is used to get data from the CPU or RAM. Used explicitly in low level languages. They descripe how the operand is used.
 
 ### Immediate
-Nothing is fetched in immediate addressing. Fastest method of adressing, The data is given directly in the instruction. Useful for constants
+Nothing is fetched in immediate addressing, data is given directly in the instruction. 
+
+- Fastest method of adressing 
+- Useful for constants
 
 ### Direct
-Uses locations in memory for the oppcode. Needs to know where the memory is stored, if the data is moved around in memory it cant be used. Also a fast method. 
+Uses the locations in memory for the operand. Needs to know where the data is stored. LMC uses direct adressing
+
+- Also a fast method of adressing
+- Can't be used if data is being moved around in memory
 
 ### Indirect
-Uses an intermediate vector table
+Uses an intermediate vector table. Address points to a location which holds the actual address.
+
+- Used for accessing code in external libraries
 
 ### Indexed
-Index determined by a base address with an ofset added to it. Usefuly for locating data from arrays
+Index determined by a base address with an ofset added to it. 
+
+- Locating data from arrays or chunks of data in memory
+- Fast and very useful
+- Only base address need to be changed and indexes stay the same when the program is re-located
