@@ -44,7 +44,7 @@ numbers = [[[6, 8,], [4, 98,]], [[45, 7,],[0, 5]]]
 A list is an **dynamic**, set of elements which can **occur more than once**, and be of **more than one data type**. They are like 1D arrays in that they are **zero indexed** and are accessed in the same way.
 
 They can be manipulated using various functions for example in psuedocode:
-```py
+```c#
 list = [2, 3, 6, 4, 9, 9, "h", "i"]
 list.length()                       //returns list length
 list.pop(3)                         //removes 4th item in list
