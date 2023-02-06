@@ -127,7 +127,7 @@ Special case of a tree, where it can only have 2 child nodes. This is the most c
 
 A **binnary search tree** is an ordered binnary tree. An in order traversal gives the nodes in ascending order, and a reverse order traversal gives descending values. If using a binnary tree to sort data, compare the item to each node, and then go left if < and right if >, then add it to the end.
 
-![binnary search tree](https://user-images.githubusercontent.com/72783315/216963747-96eeeeee-2521-4645-958b-c6d1e29083fb.png)
+![binnary search tree](https://user-images.githubusercontent.com/72783315/216965893-072c4c5d-c139-457a-94ba-c59d7f2e8ae6.png)
 
 Used in:
 - binnary searches
