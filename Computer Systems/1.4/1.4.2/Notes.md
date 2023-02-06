@@ -50,8 +50,6 @@ list.length()                       //returns list length
 list.pop(3)                         //removes 4th item in list
 list.remove(9)                      //removes the first instance of the parameter
 list.append(14)                     //appends the parameter to the end of the list
-
-// dont access like an array ?
 ```
 
 ## Tuples
