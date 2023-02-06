@@ -145,21 +145,21 @@ Used in:
 https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm
 
 ### Pre-order traversing (Depth first)
-Visits a node before exploring its subtrees (traverses going down). Start at the **root** node, Traverse the **left** sub-tree, Traverse the **right** sub-tree ↓ ← →
+Visits a node before exploring its subtrees (traverses going down). Start at the **root** node, traverse the **left** sub-tree, traverse the **right** sub-tree ↓ ← →
 
 ![image](https://user-images.githubusercontent.com/72783315/168823124-18340a32-8b4a-466d-843b-2cbee3cf28a1.png)
 
 Method: Draw an arrow around the tree and follow it, writing any node it passes.
 
 ### Post-order traversing
-Traverse the **left** sub-tree, Traverse the **right** sub-tree, Visit the **root** node ↓ ← →
+Node is visited after both of its subtrees. Traverse the **left** sub-tree, traverse the **right** sub-tree, visit the **root** node ← → ↓
 
 ![image](https://user-images.githubusercontent.com/72783315/168833206-b5665720-c050-4267-adfa-dd80fbee3164.png)
 
 Method: Draw an arrow around and follow it BACKWARDS, writing any node it passes in reverse order. So going round backwards and writing the list backwards
 
 ### in-order traversing
-Nodes are visited between the subtrees. Gives ordered data if the tree is ordered with the lowest values as the root. Traverse the **left** sub-tree, Visit the **root** node, Traverse the **right** sub-tree ← ↓ →
+Nodes are visited between the subtrees. Gives ordered data if the tree is ordered with the lowest values as the root. Traverse the **left** sub-tree, visit the **root** node, traverse the **right** sub-tree ← ↓ →
 
 Method: Just write out the list in the correct order. Don't try to traverse.
 
