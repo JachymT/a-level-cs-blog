@@ -125,46 +125,45 @@ Used for **path finding algorithms** and **file systems**.
 ### Binary trees
 Special case of a tree, where it can only have 2 child nodes. This is the most commen way to use trees and the only way you need to know for the exam. They are much easier to search through and use a **left pointer and a right pointer**, which can be implemented using a 2D array.
 
+A **binnary search tree** is an ordered binnary tree. An in order traversal gives the nodes in ascending order, and a reverse order traversal gives descending values. If using a binnary tree to sort data, compare the item to each node, and then go left if < and right if >, then add it to the end.
+
+![binnary search tree](https://user-images.githubusercontent.com/72783315/216963747-96eeeeee-2521-4645-958b-c6d1e29083fb.png)
+
 Used in:
-- binnry search
+- binnary searches
 - database applictions
 - wireless networking
 - OS scheduling
 - compression algorithms
 
-If using a binnary tree to sort data, compare each item to the node, and then go left if < and right if >, then add it to the end
-
 ### Operations
 - Add a node - If using a binnary tree to sort data, compare each item to the node, and then go left if < and right if >, then add it to the end.
 - Remove a node - Delete the node and then re-arrange all the items below to follow the same rules as the origional tree
-- binary search 
-- bredth-first search - 
+- bredth-first search 
 - pre-order traversing
 - post-order traversing
-- in-order traversing
+- in-order traversing 
 
 https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm
 
 ### Pre-order traversing (Depth first)
-Start at the **root** node, Traverse the **left** sub-tree, Traverse the **right** sub-tree
+Visits a node before exploring its subtrees (traverses going down). Start at the **root** node, Traverse the **left** sub-tree, Traverse the **right** sub-tree ↓ ← →
 
 ![image](https://user-images.githubusercontent.com/72783315/168823124-18340a32-8b4a-466d-843b-2cbee3cf28a1.png)
 
 Method: Draw an arrow around the tree and follow it, writing any node it passes.
 
 ### Post-order traversing
-Traverse the **left** sub-tree, Traverse the **right** sub-tree, Visit the **root** node
+Traverse the **left** sub-tree, Traverse the **right** sub-tree, Visit the **root** node ↓ ← →
 
 ![image](https://user-images.githubusercontent.com/72783315/168833206-b5665720-c050-4267-adfa-dd80fbee3164.png)
 
 Method: Draw an arrow around and follow it BACKWARDS, writing any node it passes in reverse order. So going round backwards and writing the list backwards
 
 ### in-order traversing
-Traverse the **left** sub-tree, Visit the **root** node, Traverse the **right** sub-tree
+Nodes are visited between the subtrees. Gives ordered data if the tree is ordered with the lowest values as the root. Traverse the **left** sub-tree, Visit the **root** node, Traverse the **right** sub-tree ← ↓ →
 
-Method: Just write out the list in the correct order. Don't try and traverse.
-
-Note: there are better ways to do traversal, learn the dot method.
+Method: Just write out the list in the correct order. Don't try to traverse.
 
 ### Bredth first traversal
 Make notes: 
