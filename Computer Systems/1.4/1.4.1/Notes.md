@@ -49,7 +49,13 @@ Normalising binary floating points happens by moving the mantissa left or right 
 2. Make all numbers into thier fixed point form
 3. align the decimals ontop of each other and add as ussual, backfilling with 1s if negative and 0s if positive
 4. For the last sum ignore the overflow digit, as it will carry on forever, also you can use intuition to determine if result will be positive or negative
-5. Normalise the result: move decdimal point after front 1 or 0 and set exponent
+5. Normalise the result: move decimal point after front 1 or 0 and set exponent
+
+## Subtracting floating points
+1. Make any negative numbers into twos compliment form
+2. Just carry digits like with a normal subraction lol
+   Or make one of them negative and add
+3. Normalise the result
 
 ## Bitwise manipulations
 Shifts can be logical or arithmetic or circular. Logical shifts fill empty space with 0s. Arithmetic shifts care about twos compliment numbers and fill with 1s if needed. Arithmetic preserve the sign bit! Circular use a carry bit and loop the number round. Since you dont loose information from doing a shift with a carry bit, you can keep shifting forever cyclically. Shifts are performed one after each other not all at once when shifting more than once.
