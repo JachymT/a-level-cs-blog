@@ -21,6 +21,8 @@ Most Significant Bit is negative whatever it would ussually be. Flip all digits 
 
 Can be used in calculations as opposed to sign and magnitude. Standarised way to store negative numbers.
 
+EXPONENT DOES NOT HAVE TO BE NORMALISED. You can't normalise -2 with 3 bits because theres no where to move them.
+
 ## Storing Floats/ Real numbers in binary
 
 ### Fixed point
