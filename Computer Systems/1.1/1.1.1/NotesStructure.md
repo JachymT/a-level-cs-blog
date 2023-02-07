@@ -40,7 +40,7 @@ MDR is a temporary data store. It holds data that has been fetched from memory, 
 CIR holds the current instruction being executed. If an instruction is fetched from the MDR it will be moved to the CIR. The instructions need to be decoded since they are made up of binary opcodes and operands
 
 ### Accumulator
-Holds the data and control information, for example results of calculations from the ALU. Its a general purpose register - there are lots of these in the CPU, and the more there are the faster  Alternative uses are as a buffer or for temporary storage.
+General purpose register. Holds data from memory, results of calculations from the ALU and input and outputs.
 
 ### Status register 
 Holds the information about the state of the proccessor.
