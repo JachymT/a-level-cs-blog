@@ -2,7 +2,10 @@
 
 ## SQL from the Spec
 
-`SELECT fields FROM Table` - fields to be displayed from Table
+fields to be displayed from Table
+```SQL
+SELECT fields FROM Table
+```
 
 links fields in relational databases
 ```SQL
@@ -12,9 +15,10 @@ ON
 Table1.PrimaryKey = Table2.ForeignKey
 ```
 
-<img width="720" alt="craigndave SQL" src="https://user-images.githubusercontent.com/72783315/172877603-924631e4-cccd-4ce7-a6b0-78af3ce11a14.png">
-
-`WHERE` - list of search criteria
+followed by search criteria
+```SQL
+WHERE field = false
+```
 
 `AND` - add aditional search criteria
 
@@ -40,7 +44,7 @@ As a genral rule use '' for strings and nothing for numbers and dates
 
 ## Writing
 
-```
+```SQL
 SELECT date, type
 FROM tblPlanted
 WHERE date BETWEEN (#dd/mm/yyyy AND #dd/mm/yyyy)
