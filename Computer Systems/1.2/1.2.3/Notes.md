@@ -25,6 +25,7 @@ Building prototypes of the software after another untill a final product is reac
 Advantages
 - accelerates the entire software development process
 - active user participation in the development process
+- good for interactive systems
 
 Dissadvantages
 - less apilcable and managable with a large scale team, since its so quickly changing
