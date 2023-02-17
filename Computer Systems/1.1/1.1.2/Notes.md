@@ -1,18 +1,21 @@
 # Types of Processors
 
 ## RISC 
-Reduced instruction set computer - aim to use as simple instructions as possible to be executed within a single clock cycle.
+Reduced instruction set computer - aim to use as simple instructions to process a higher number of instructions per second.
 
-The instructions are harder to translate since the compiler is doing more work and making more lines of code. More RAM is needed to store these instructions. However each instruction requires less **hardware**, **processing power**, and **energy**, meaning they are executed quickly. In this architecture, more room is left for registers and cache.
+Programs are harder to translate since the compiler is producing more lines of code. More RAM is needed to store these instructions. They use a fixed format for instructions and limited modes of addressing.
 
-Since instructions are uniform in execution time, pipelinning becomes feesable.
+However each instruction requires less **processing power** and complicated **hardware**. In RISC proccessors more room is left for registers and cache. Since instructions are uniform in execution time, pipelinning becomes feesable.
 
-90% of proccessors work off of RISC
+RISC is used in portable and small proccessors. E.G ARM
 
 ## CISC
-Complex instructuion set computer - aims to complete a task in as few instructions as a possible, making use of very complex instructions. The instructions are easy to translate from a high level language to assembly, but take more clock cycles to execute.
 
-They still appear in some desktop computers and laptops but utilize RISC practises and microcodes, since RISC proccesors are more benefical.
+Complex instructuion set computer - aims to complete a task in as few instructions as a possible, making use of very complex instructions. 
+
+The instructions are easy to translate from a high level language to assembly, but take more clock cycles to execute. CISC Requires less instruction cycles to get the same result as RISC. They  have variable instruction lengths and multiple address modes for instructions.
+
+Used in security systems and automation. Eg. Intel x86 and AMD. Utilize RISC practises and microcodes.
 
 ![image](https://user-images.githubusercontent.com/72783315/137929032-43626ccc-ba85-4076-ae26-34988aba1f5a.png)
 
