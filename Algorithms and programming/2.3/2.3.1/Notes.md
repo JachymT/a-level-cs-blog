@@ -1,5 +1,17 @@
 # Algorithms
 
+## Big O notation
+Big O notation refers to the time complexity of an algorithm, messuring how many lines of code are roughly executed as a the size of data scales. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A n^2 algorithm can be eqully fast compared to a log n algorithm for 10 items.
+
+- O(1) - linnear time; constant
+- O(log n) - logarithmic time; changes at a slowing rate
+- O(n) - linnear time; changes proportionally 
+- O(n^2) - polynomial time; proportional to the square, has a nested loop
+- O(2^n) - exponential time; amount of time doubles as n increased, slower than polynomial
+
+## Designing algorithms
+Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes
+
 ## Searching algorithms
 Find a specified element form a data structure.
 
@@ -111,7 +123,7 @@ Eg. Recursion happens in the split step
 Quick sort starts by choosing a central pivot element in the list. Then elements are placed either side of the pivot, and are sorted in relation to that pivot. This is recursively repeated with new pivots. Untill there are no more elements that could become the pivot, because only elements that havn't been pivots before can become pivots, and only elements thats have elements that have not become pivots next to them.
 - recursive
 - O(n^2) worst case time complexity
-- Usually O(n logn) time complexity of optimised
+- Usually O(n log n) time complexity of optimised
 
 eg. pivot chosen randomly
 ```py
