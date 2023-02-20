@@ -8,7 +8,7 @@ Big O notation refers to the time complexity of an algorithm, messuring how many
 - O(n) - linnear time; changes proportionally 
 - O(n^2) - polynomial time; proportional to the square, has a nested loop
 - O(2^n) - exponential time; amount of time doubles as n increased, slower than polynomial
-- O(n!) - factorial time; just don't; traveling salesman brute force solution.
+- O(n!) - factorial time; just don't, traveling salesman brute force solution.
 
 To find the big O notation of an algorithm, check the time complexity of each loop and take the highest one.
 
