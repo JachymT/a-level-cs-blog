@@ -114,6 +114,8 @@ class Node
   };
 ```
 
+Prodecural implementation would just be using a 2D array passed to and from functions.
+
 ## Graphs
 
 ### Directed graphs
