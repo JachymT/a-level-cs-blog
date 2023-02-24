@@ -114,6 +114,12 @@ class Node
   };
 ```
 
+## Graphs
+
+### Directed graphs
+
+#### Undirected graphs
+
 ## Trees
 ![image](https://user-images.githubusercontent.com/72783315/168257022-a7303f2f-d6ae-4ea0-a485-ffc20c3cf228.png)
 ![image](https://user-images.githubusercontent.com/72783315/168257817-6b046204-4b0c-4bfc-925b-b98f7e3f45c4.png)
