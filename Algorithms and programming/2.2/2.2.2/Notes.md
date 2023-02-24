@@ -23,7 +23,7 @@ Provides a cheaper and easier method of testing, since it can be done before the
 
 Stress testing can be done to test ‘erroneous’ scenarios of the program. Robustness can be tested by simulating high levels of stress (e.g lots of users logging into a website at once)
 
-The aim is to know how well the full implementation of the solution will work before release.
+The aim is to know how well the full implementation of the solution will work before release. Tests can be used to vary variables and see how the system scales.
 
 ## Heuristics
 Heuristics is finding a solution that is good enough when an optimal solution is unknown or impossible. Using approximate solutions to problems that aren't computational (infinite time solutions), to get as close as possible to an efficient solution. Heuristics can be done with modelling.
