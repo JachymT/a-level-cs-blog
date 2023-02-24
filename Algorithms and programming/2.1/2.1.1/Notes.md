@@ -17,8 +17,10 @@ Problems often make use of levels of abstraction. This just means that the user 
 ## The need for abstraction
 For non-experts to use and interact with a model and for efficient design during software development. Consider who's going to use it and how.
 
+When designing a solution, abstraction reduces memory and storage need, and simplifes the problem, leading to less time needed for development.
+
 ### Examples of abstraction
-- For example a flight simulation game, only uses variables that are needed for the plane to fly and doesnt use variables that affect how the plane works, such as its colour and capacity, or the exact layour of buttons. 
+- For example a flight simulation game, only uses variables that are needed for the plane to fly and doesnt use variables that affect how the plane works, such as its colour and capacity, or the exact layour of buttons. Simplification of plane controls and removal of visual elements.
 - Flowcharts are an example of abstracted program code. 
 - Variables are abstracted away by using names for memeory loactions. 
 - Object-oriented programming abstracts real world entities and thier functionality and characteristics
