@@ -1,9 +1,9 @@
 # Data structures
 
 ## Arrays
-An array in an **ordered**, **static**, of elements of a **single type**.
+An array in an **ordered**, **static**, of elements of a **single type**. They allow for indexing and using values under a single identifier.
 
-You do not need to use an equals sign for declaring arrays
+You do not need to use an equals sign for declaring arrays in pseudocode. The identifiers are baked in.
 
 ### One dimensional arrays
 1D arrays are linnear arrays, are defined as follows (in pseudocode):
