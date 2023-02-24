@@ -1,8 +1,11 @@
 # Boolean Algebra
 
+![image](https://user-images.githubusercontent.com/72783315/221139813-cfad7c45-3936-4a72-b768-f18b533540a6.png)
+
+![image](https://user-images.githubusercontent.com/72783315/221140764-a802ac9e-f70d-49ea-8810-21bb95094554.png)
+
 ## Karnaugh maps
 
-### Symbols
 ∧ AND
 
 ∨ OR
