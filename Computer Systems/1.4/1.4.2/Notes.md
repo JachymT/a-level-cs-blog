@@ -3,11 +3,13 @@
 ## Arrays
 An array in an **ordered**, **static**, of elements of a **single type**.
 
+You do not need to use an equals sign for declaring arrays
+
 ### One dimensional arrays
 1D arrays are linnear arrays, are defined as follows (in pseudocode):
 
 ```py
-array numbers[4]
+nummbera = array numbers[4]
 numbers[2] = 19
 numbers[3] = 5
 print(numbers[3])
