@@ -101,10 +101,13 @@ The scope of a varaible refers to its regeion of accessability.
 - Local variables are easier to debug than golbal varaibles due to them being contained to a shorter section of code
 - Local varaibles are much more secure, unexpected changes to the varaibles wont occur to them outside of thier function
 - Local variables with the same names as global variables take precedence over them.
+- Global variables can be seen anywhere in the program
+
 - Global variables make it harder to integrate modules
 - Global variables increase the complexity of a program
 - Global variable names may clash and cause conflicts, local variables can have the same name in different functions
-- Global variables can be seen anywhere in the program
+- Global variables can have unwanted effects outside of the functions they are used
+- Global variables use more memory (they stay in memory untill the program terminates)
 
 ![image](https://user-images.githubusercontent.com/72783315/149768085-f22d77bb-d805-4ee4-a060-4a6df581afd8.png)
 
