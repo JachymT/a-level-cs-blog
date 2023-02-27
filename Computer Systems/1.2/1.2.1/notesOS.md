@@ -64,7 +64,7 @@ Paging has frames that are designed to fit parts of memory, and since they are s
 Since segmentation pages are often bigger, there is less space for them in RAM, making memory management less efficiently. Segmentation allows for logical reading of code and can execute entire procedures at once potentially, which can increase efficiency.
 
 ### Virtual Memory
-Assigned areas of the hard disk act as main memory for when RAM is full. Idle programs are moved to virtual memory by the OS, and the virtual memory acts as a slower and larger temporary RAM. For programs to be actively run, they need to be moved back into RAM. Issues arise when programs need to be rapidly movied between RAM and virtual memory, since this is slow. Chunks of programs will often be moved into virtual memomry by segmenting and paging, these sections can be kept track of, and moved as nessesary.
+Assigned areas of the hard disk act as main memory for when RAM is full. Idle programs are moved to virtual memory by the OS, and the virtual memory acts as a slower and larger temporary RAM. For programs to be actively run, they need to be moved back into RAM. Issues arise when programs need to be rapidly movied between RAM and virtual memory, since access to the hard drive is slower than RAM. Chunks of programs will often be moved into virtual memomry by segmenting and paging, these sections can be kept track of, and moved as nessesary.
 
 ### Processor management
 **Multitasking** and controling how processor time is divided. Programs need to run in the right order and often simultaneously, or give the illusion of running simultaneously. The OS also handles [interupts](https://github.com/JachymT/a-level-cs-blog/blob/main/Computer%20Systems/1.2/1.2.1/notesOS.md#interupts).
