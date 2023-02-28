@@ -10,6 +10,8 @@
 
 ∨ OR
 
+⊻ XOR
+
 ¬ NOT
 
 () do operations inside brackets first. order of operations normally is to do the operatiosn around ORs first. Put brackets around anything which isnt a OR, basically just do ANDs first and it works.
