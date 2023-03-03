@@ -18,7 +18,7 @@ Adders can be concatenated to get multiple additions
 
 ### Flip Flops
 
-A clocked D latch (D type flip flop) controls a single bit. They make up memory, such as registers and RAM.
+A clocked D latch (D type flip flop) controls the state of a single bit. They make up memory, such as registers and RAM.
 
 <img width="200" alt="3" src="https://user-images.githubusercontent.com/72783315/222006322-a60c231e-3fbb-4401-8ee5-e4571c514f71.png">
 
