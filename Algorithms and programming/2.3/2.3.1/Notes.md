@@ -101,6 +101,8 @@ next i
 Insertion sort considers sorted and unsorted parts of the list. Moving through the list, each time another element is individually added to the sorted list. One element is sorted at a time basically.
 - Efficient for small lists, and nearly sorted lists
 - O(n^2) time complexity - still just as slow as bubble sort for large lists
+- takes very little storage / overhead
+- Insertion sort is an **adaptive** algorithm, its time complexity is O(n) when a list is nearly sorted
 
 ie. The start of the list is sorted, up to the number of passes that have happened. The nth item is compared to every item to the left of it.
 
@@ -112,8 +114,6 @@ ie. The start of the list is sorted, up to the number of passes that have happen
 0, 4, 13, 2, 15, 7   #0, 4, 13 are sorted, 2 passes
 ...
 ```
-
-INSERTION IS MORE EFFICIENT THAN BUBBLE FOR NEARLY SORTED LISTS BUT BUBBLE IS BETTER FOR SMALLER LISTS
 
 ### Merge Sort
 Merge sort works by spliting a list into two smaller lists recursively untill the list have a length of 1. These sublists then considered sorted, and can be merged with adjacent sorted sublists. Lists are merged in a way to keep them sorted. The final remaining list is sorted and fully merged.
