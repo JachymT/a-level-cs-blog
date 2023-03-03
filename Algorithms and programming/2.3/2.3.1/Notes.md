@@ -113,6 +113,8 @@ ie. The start of the list is sorted, up to the number of passes that have happen
 ...
 ```
 
+INSERTION IS MORE EFFICIENT THAN BUBBLE FOR NEARLY SORTED LISTS BUT BUBBLE IS BETTER FOR SMALLER LISTS
+
 ### Merge Sort
 Merge sort works by spliting a list into two smaller lists recursively untill the list have a length of 1. These sublists then considered sorted, and can be merged with adjacent sorted sublists. Lists are merged in a way to keep them sorted. The final remaining list is sorted and fully merged.
 - Divide and Conquer
