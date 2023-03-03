@@ -13,7 +13,11 @@ Big O notation refers to the time complexity of an algorithm, messuring how many
 To find the big O notation of an algorithm, check the time complexity of each loop and take the highest one.
 
 ## Designing algorithms
-Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes
+Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes.
+
+**Tractable algorithms** - have a feesable solution with predicatable efficiency; can be messured with time and space complexity.
+
+**Intractable algorithms** -  not solveable in a reasonable amount of time. Can be approximated with heuristics.
 
 ## Searching algorithms
 Find a specified element form a data structure.
