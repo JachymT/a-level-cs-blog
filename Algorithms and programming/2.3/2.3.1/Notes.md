@@ -3,7 +3,7 @@
 ## Big O notation
 Big O notation refers to the time complexity of an algorithm, messuring how many lines of code are roughly executed as a the size of data scales - it aproximates growth. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A n^2 algorithm can be equally fast compared to a log n algorithm for 5 items. 
 
-Big O notation can refer to best case, worse case or the average case. Average time is most commonly used.
+Big O notation can refer to best case, worse case or the average case. Average time or worst case senario is most commonly used.
 
 - O(1) - linnear time; constant
 - O(log n) - logarithmic time; changes at a slowing rate
