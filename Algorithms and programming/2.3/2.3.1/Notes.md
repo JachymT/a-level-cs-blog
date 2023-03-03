@@ -102,7 +102,7 @@ Insertion sort considers sorted and unsorted parts of the list. Moving through t
 - Efficient for small lists, and nearly sorted lists
 - O(n^2) time complexity - still just as slow as bubble sort for large lists
 
-eg. The start of the list is sorted, up to the number of passes that have happened. The nth item is compared to every item to the left of it.
+ie. The start of the list is sorted, up to the number of passes that have happened. The nth item is compared to every item to the left of it.
 
 ```py
 13, 4, 0, 2, 16, 7   # 13 is sorted, 0 passes
@@ -118,7 +118,7 @@ Merge sort works by spliting a list into two smaller lists recursively untill th
 - Recursive
 - Efficient O(n logn)
 
-Eg. Recursion happens in the split step
+*Recursion happens in the split step*
 ```py
      8, 2, 4, 1        # split
    8, 2     4, 1
@@ -134,7 +134,7 @@ Quick sort starts by choosing a central pivot element in the list. Then elements
 - O(n^2) worst case time complexity
 - Usually O(n log n) time complexity of optimised
 
-eg. pivot chosen randomly
+*pivot chosen randomly*
 ```py
 16, 8, 5, 22, 7, pivot = 5
 ```
