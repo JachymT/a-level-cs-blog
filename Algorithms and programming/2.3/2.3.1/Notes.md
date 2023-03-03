@@ -107,7 +107,8 @@ ie. The start of the list is sorted, up to the number of passes that have happen
 ```py
 13, 4, 0, 2, 16, 7   # 13 is sorted, 0 passes
 4, 13, 0, 2, 16, 7   # 4, 13 are sorted, 1 pass
-4, 0, 13, 2, 15, 7
+4, 13, 13, 2, 15, 7  # list is moved over to the write and then correct element is inserted at the end
+4, 4, 13, 2, 15, 7   # list is moved over to the write and then correct element is inserted at the end
 0, 4, 13, 2, 15, 7   #0, 4, 13 are sorted, 2 passes
 ...
 ```
