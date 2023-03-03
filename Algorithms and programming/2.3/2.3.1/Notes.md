@@ -81,7 +81,7 @@ Useful for different senarios so learn to compare
 https://www.toptal.com/developers/sorting-algorithms
 
 ### Bubble Sort
-Bubble sort has muliple passes through a list. Makes comparisions between all pairs of items and swaps them if not in order. This ends up with the largest item moving to the with each pass. Bubble sort terminates with one final pass where no swaps are necessary.
+Bubble sort has muliple passes through a list. Makes comparisions between all pairs of items and swaps them if not in order. This ends up with the largest item moving to the end with each pass. Bubble sort terminates with one final pass where no swaps are necessary.
 - O(n^2) time complexity
 - Slowest sort
 
