@@ -125,6 +125,7 @@ Position of data in a hash tables is calculated with a **hash function** / **has
 
 If there is no key one can be made out of the value by adding up its ASCII if its a string, or is a key is a string the same is done. This is all done by the hash function. If the key is not the value itself it should be stored with with value.
 
+Hash function using a MOD:
 ```py
 (key, value) -> make the key hashable -> key MOD length of array -> hash value / position / bucket
 ```
@@ -138,8 +139,6 @@ A hash function should:
   - and minimsl clustering - where the table gets filled up in common collision spots.
 
 Hash tables are larger than the number of items in the table, optimally by about x1.33. The larger the number of postions in the array the more space is wasted, but the more free room the table has to store all the data with a lower chance of getting an collision.
-
-
 
 Searching, adding and removing values ina hash table is very efficient.
 
