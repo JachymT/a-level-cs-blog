@@ -117,9 +117,15 @@ class Node
 Prodecural implementation would just be using a 2D array passed to and from functions.
 
 ## Hash tables
-Hash tables are used in dictionaries and let data be found in a list in O(1) time. They result in key-value pairs. 
+Hash tables are used in dictionaries and let data be found from a list in O(1) time.
 
-Position of data in a hash tables is calculated with a **hash function** / **hashing algorithm**. Hash tables are just arrays, accessed as normal, but they require key-value pairs. This is becuase the hash fucntion needs to be applied to a **key** coresponding to the value, to get a new memory address in the array. The key is not the actual array position!!! If there is no key one can be made out of the value by adding up its ASCII if its a string. The key should be stored with the data.
+Position of data in a hash tables is calculated with a **hash function** / **hashing algorithm**. Hash tables are just arrays, accessed as normal, but they require key-value pairs. This is becuase the hash fucntion needs to be applied to a **key** coresponding to the value, to get a new memory address in the array. The key is not the actual array position!!! 
+
+If there is no key one can be made out of the value by adding up its ASCII if its a string, or is a key is a string the same is done. This is all done by the hash function. If the key is not the value itself it should be stored with with value.
+
+```py
+(key, value) -> make the key hashable -> key MOD length of array -> hash value
+```
 
 A hash function should:
 - return the same array position for the same key
