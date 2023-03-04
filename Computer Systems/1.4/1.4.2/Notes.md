@@ -119,7 +119,7 @@ Prodecural implementation would just be using a 2D array passed to and from func
 ## Hash tables
 Hash tables are used in dictionaries and let data be found from a list in O(1) time.
 
-![image](https://user-images.githubusercontent.com/72783315/222904997-dcce0d26-c9e5-419a-bd62-1633f9a3f508.png)
+<img width="626" alt="hash table" src="https://user-images.githubusercontent.com/72783315/222905253-276df27e-f6a3-4f2d-a2c6-20fc0d532d21.png">
 
 Position of data in a hash tables is calculated with a **hash function** / **hashing algorithm**. Hash tables are just arrays, accessed as normal, but they require key-value pairs. This is becuase the hash fucntion needs to be applied to a **key** coresponding to the value, to get a new memory address in the array. The key is not the actual array position!!! 
 
