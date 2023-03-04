@@ -132,12 +132,21 @@ Merge sort works by spliting a list into two smaller lists recursively untill th
 ```
 
 ### Quick Sort
-Quick sort starts by choosing a central pivot element in the list. Then elements are placed either side of the pivot, and are sorted in relation to that pivot. This is recursively repeated with new pivots. Untill there are no more elements that could become the pivot, because only elements that havn't been pivots before can become pivots, and only elements thats have elements that have not become pivots next to them.
+Quick sort starts by choosing a central pivot element in the list. Then elements are placed either side of the pivot, and are sorted in relation to that pivot. This is recursively repeated with new pivots untill there are no more elements that could become the pivot, because only elements that havn't been pivots before can become pivots, and only elements thats have elements that have not become pivots next to them. Pivots automatically get sorted.
 - recursive
 - O(n^2) worst case time complexity
 - Usually O(n log n) time complexity if optimised
 
-*pivot chosen randomly*
+*pivot chosen randomly, brackets pivots
 ```py
-16, 8, 5, 22, 7, pivot = 5
+16, 6, 5, 22, (11) pivot = 11
+6, 5, (11), 16, 22
+
+6, (5)
+(5), 6  = sorted
+
+16, (22)
+16, (22) = sorted
+
+5, 6, 11, 16, 22
 ```
