@@ -58,7 +58,7 @@ The internet is a network of networks allows for global communication between an
 ### Protocols
 A protocol is a set of rules for procesing data, standardized across the internet to allow for communication.
 - HTTP / HTTPS - For web page requests
-- TCP (Transmission Control Protocol) - Error checks transmitions
+- TCP (Transmission Control Protocol) - Error checks transmitions, splits into packets
 - IP (Internet Protocol) - Routes packets over WAN
 - FTP (File Transmission Protocol) - Transmission of files over networks
 - POP3 / IMAP / SMTP - For transfering emails between clients and servers
