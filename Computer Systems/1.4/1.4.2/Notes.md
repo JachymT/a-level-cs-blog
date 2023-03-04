@@ -117,10 +117,11 @@ class Node
 Prodecural implementation would just be using a 2D array passed to and from functions.
 
 ## Hash tables
-Hash tables are used in dictionaries and let data be found from a list in O(1) time.
+Hash tables are used in dictionaries and let data be found from a list in O(1) time. Hashing is used in database indexing, and storing passwords.
 
 <img width="626" alt="hash table" src="https://user-images.githubusercontent.com/72783315/222905253-276df27e-f6a3-4f2d-a2c6-20fc0d532d21.png">
 
+### Hash functions
 Position of data in a hash tables is calculated with a **hash function** / **hashing algorithm**. Hash tables are just arrays, accessed as normal, but they require key-value pairs. This is becuase the hash fucntion needs to be applied to a **key** coresponding to the value, to get a new memory address in the array. The key is not the actual array position!!! 
 
 If there is no key one can be made out of the value by adding up its ASCII if its a string, or is a key is a string the same is done. This is all done by the hash function. If the key is not the value itself it should be stored with with value.
@@ -137,10 +138,21 @@ A hash function should:
 - have a uniform distribution of hash values (array positions)
   - therefore result in **few collisions** - where unique keys result in the same hash value 
   - and minimsl clustering - where the table gets filled up in common collision spots.
+  - if every single value collided, every search would be a linnear search which defeats the point.
+- Also they are one way (cannot be undone easily)
 
 Hash tables are larger than the number of items in the table, optimally by about x1.33. The larger the number of postions in the array the more space is wasted, but the more free room the table has to store all the data with a lower chance of getting an collision.
 
-Searching, adding and removing values ina hash table is very efficient.
+### Operations
+Searching, adding and removing values in a hash table is very efficient and simple. Infact they all do the same thing and work in one operation. Put the key through the hash function, get the index in the array, check for collions and complete the operation.
+
+### Collisions
+One way to deal with the inveitable fate of meeting a collision is to replace the hash table with pointers to linked lists. This is called **chaining** / closed addressing and is shown in the diagram above. Nodes in the linked list store the key, value and pointer to the next node. This makes dealing with colliosns easy since you just go down the list until you fin the item you want or you find a null pointer.
+
+The second way is to use **linnear probbing** / open addressing. This just moves down the hash table untill an open spot is found for the data to go, but this can end up getting in the way of other data. This reduces efficeiny, esspecially for a small hash table since when searching, indexes are checked untill an empty one is found.
+
+### Re-hashing
+Creating a new table with the optimal number of spaces for the new amount of data items. Instead of a hash table filling up and getting slow, all the values can be recalculated to improve overall efficiency.
 
 ## Graphs
 
