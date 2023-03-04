@@ -68,7 +68,7 @@ Set of 4 network layers working together, in the following oder (top to bottom)
 
 Application Layer - specifies what protocols needs to be used by the application (e.g a browser using HTTPS)
 
-Transport Layer - establishes an end to end connection and splits data into packets, labled with the port number used and the packet number. The transport layer requests any packtets that get lost.
+Transport Layer - establishes an end to end connection and splits data into packets, labled with the port number used and the packet number. The transport layer requests any packets that get lost.
 
 Network (internet) layer - Adds the source and destination IP addresss for each packet. The router operates on this layer using the IP protocol to route packets
 
