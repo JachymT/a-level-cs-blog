@@ -116,11 +116,54 @@ class Node
 
 Prodecural implementation would just be using a 2D array passed to and from functions.
 
+## Hash tables
+Hash tables are used in dictionaries and let data be found in a list in O(1) time. They result in key-value pairs. 
+
+Position of data in a hash tables is calculated with a **hash function** / **hashing algorithm**. Hash tables are just arrays, accessed as normal, but they require key-value pairs. This is becuase the hash fucntion needs to be applied to a **key** coresponding to the value, to get a new memory address in the array. The key is not the actual array position!!! If there is no key one can be made out of the value by adding up its ASCII if its a string. The key should be stored with the data.
+
+A hash function should:
+- return the same array position for the same key
+- be fast to compute
+- use little memory
+- have a uniform distribution of hash values (array positions)
+  - therefore result in **few collisions** - where unique keys result in the same hash value 
+  - and minimsl clustering - where the table gets filled up in common collision spots.
+
+Hash tables are larger than the number of items in the table, optimally by about x1.33. The larger the number of postions in the array the more space is wasted, but the more free room the table has to store all the data with a lower chance of getting an collision.
+
+
+
+Searching, adding and removing values ina hash table is very efficient.
+
 ## Graphs
+
+1
+1
+
+1
+1
+1
+1
 
 ### Directed graphs
 
+1
+
+1
+1
+1
+1
+
+
 ### Undirected graphs
+
+1
+1
+1
+
+1
+
+1
 
 ## Trees
 ![image](https://user-images.githubusercontent.com/72783315/168257022-a7303f2f-d6ae-4ea0-a485-ffc20c3cf228.png)
