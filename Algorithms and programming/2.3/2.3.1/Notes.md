@@ -17,7 +17,7 @@ To find the time complexity of an algorithm, check the time complexity of each l
 Space complexity? Don't worry about it. Considers auxiliary (temporary) space and any additional inputs it takes.
 
 ## Designing algorithms
-An algorithm is a sequence of steps to solve a problem. It should terminate and handle as many cases as possible. A good algorithm should be unambigous, understandable and optimised as far as possible. Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes.
+An algorithm is a sequence of steps to solve a problem. It should terminate and handle as many cases as possible. A good algorithm should be unambigous, understandable and optimised as far as possible. Consider time and space compexity (using a lot of storage is bad and memory is limited), in unison. One can be sacrifised for the other sometimes.
 
 **Tractable algorithms** - have a feesable solution with predicatable efficiency; can be messured with time and space complexity. Actual definition is that it is achievable in polynomial time complexity or less. 
 - E.g a searching a finite list.
