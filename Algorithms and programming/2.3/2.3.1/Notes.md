@@ -12,7 +12,9 @@ Big O notation can refer to best case, worse case or the average case. Worst cas
 - O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial
 - O(n!) - factorial time; just don't, traveling salesman brute force solution... and bogosort
 
-To find the big O notation of an algorithm, check the time complexity of each loop and and count how many operations are made (how many lines of code are roughly executed). Then take the highest degree of this function and omit any constants. If you found there to be a total of f(n) = ½n(n+1) loops, then the big O notation would be O(n²)
+To find the time complexity of an algorithm, check the time complexity of each loop and and count how many operations are made (how many lines of code are roughly executed). Then take the highest degree of this function and omit any constants. If you found there to be a total of f(n) = ½n(n+1) loops, then the big O notation would be O(n²).
+
+Space complexity? Don't worry about it. Considers auxiliary (temporary) space and any additional inputs it takes.
 
 ## Designing algorithms
 An algorithm is a sequence of steps to solve a problem. It should terminate and handle as many cases as possible. A good algorithm should be unambigous, understandable and optimised as far as possible. Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes.
