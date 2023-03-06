@@ -137,7 +137,7 @@ Quick sort starts by choosing a central pivot element in the list. Then elements
 - O(n²) worst case time complexity
 - Usually O(n log n) time complexity if optimised
 
-*pivot chosen randomly, brackets pivots
+*pivot chosen randomly*
 ```py
 16, 6, 5, 22, (11) pivot = 11
 6, 5, (11), 16, 22
