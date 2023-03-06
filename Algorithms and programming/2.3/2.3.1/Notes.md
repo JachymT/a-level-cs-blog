@@ -5,7 +5,7 @@ Big O notation is used to classify the order of an algorithm, messuring how runt
 
 Big O notation can refer to best case, worse case or the average case. Worst case senario is most commonly used because you can't expect your algorithm to run with the best case or average case all of the time.
 
-- O(1) - linnear time; constant
+- O(1) - constant; doesn't scale
 - O(log n) - logarithmic time; changes at a slowing rate
 - O(n) - linnear time; changes proportionally 
 - O(n²) - polynomial time; proportional to the square, has a nested loop
