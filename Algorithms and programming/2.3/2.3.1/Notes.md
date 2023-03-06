@@ -15,11 +15,11 @@ Big O notation can refer to best case, worse case or the average case. Worst cas
 To find the big O notation of an algorithm, check the time complexity of each loop and and count how many operations are made. Then take the highest degree of this function and omit any constants. E.g f(x) = ½n(n+1) = n²
 
 ## Designing algorithms
-Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes.
+Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes. A good algorithm should be unambigous and optimised as far as possible.
 
 **Tractable algorithms** - have a feesable solution with predicatable efficiency; can be messured with time and space complexity.
 
-**Intractable algorithms** -  not solveable in a reasonable amount of time. Can be approximated with heuristics.
+**Intractable algorithms** -  not solveable in a reasonable amount of time. Can be approximated with heuristics. E.g plotting a graph - not every point can be plotted.
 
 ## Searching algorithms
 Find a specified element form a data structure.
