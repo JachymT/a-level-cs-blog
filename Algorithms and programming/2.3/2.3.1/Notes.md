@@ -17,9 +17,13 @@ To find the big O notation of an algorithm, check the time complexity of each lo
 ## Designing algorithms
 An algorithm is a sequence of steps to solve a problem. It should terminate and handle as many cases as possible. A good algorithm should be unambigous, understandable and optimised as far as possible. Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes.
 
-**Tractable algorithms** - have a feesable solution with predicatable efficiency; can be messured with time and space complexity. Actual definition is that it is achievable in polynomial time complexity or less. E.g a searching a finite list.
+**Tractable algorithms** - have a feesable solution with predicatable efficiency; can be messured with time and space complexity. Actual definition is that it is achievable in polynomial time complexity or less. 
+- E.g a searching a finite list.
 
-**Intractable algorithms** - not solveable in a reasonable amount of time. Can be approximated with heuristics like plotting a graph - not every value can be calculated so the shape needs to be estimated with points. Or algorithsm with high time complexities like towers of Hanoi, bin packing and prime factor decompositon of large numbers. Or subjective problems like finding the meaning of life.
+**Intractable algorithms** - not solveable in a reasonable amount of time. 
+- Can be approximated with heuristics like when trying to plot a graph - not every value can be calculated so the shape needs to be estimated with points. 
+- Or algorithsm with high time complexities like towers of Hanoi, bin packing and prime factor decompositon of large numbers. These have exponential time complexities or higher.
+- Or subjective problems like finding the meaning of life.
 
 ## Searching algorithms
 Find a specified element from a data structure.
