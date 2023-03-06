@@ -28,7 +28,6 @@ An algorithm is a sequence of steps to solve a problem. It should terminate and 
 - Or subjective problems like finding the meaning of life.
 
 ## Searching algorithms
-Find a specified element from a data structure.
 
 ### Linnear Search
 Searches every index of the list sequencially, comparing the desired item to every element in the list, starting with the first, and moving on untill the item is found or the end of the list is reached.
