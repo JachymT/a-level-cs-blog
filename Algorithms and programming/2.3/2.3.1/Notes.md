@@ -1,7 +1,7 @@
 # Algorithms
 
 ## Big O notation
-Big O notation refers to the time complexity of an algorithm, messuring how many lines of code are roughly executed as a the size of data scales - it aproximates growth. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A n^2 algorithm can be equally fast compared to a log n algorithm for 5 items. Big O notation is a non machine dependent.
+Big O notation is used to classify the order of an algorithm, messuring how runtime as the size of data scales - it aproximates growth. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A n^2 algorithm can be equally fast compared to a log n algorithm for 5 items. Big O notation is a non machine dependent.
 
 Big O notation can refer to best case, worse case or the average case. Worst case senario is most commonly used because you can't expect your algorithm to run with the best case or average case all of the time.
 
@@ -12,7 +12,7 @@ Big O notation can refer to best case, worse case or the average case. Worst cas
 - O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial
 - O(n!) - factorial time; just don't, traveling salesman brute force solution. AND BOGOSORT
 
-To find the big O notation of an algorithm, check the time complexity of each loop and and count how many operations are made. Then take the highest degree of this function and omit any constants. E.g f(x) = ½n(n+1) = n²
+To find the big O notation of an algorithm, check the time complexity of each loop and and count how many operations are made (how many lines of code are roughly executed). Then take the highest degree of this function and omit any constants. If you found there to be a total of f(n) = ½n(n+1) loops, then the big O notation would be O(n²)
 
 ## Designing algorithms
 Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes. A good algorithm should be unambigous and optimised as far as possible.
@@ -82,7 +82,7 @@ https://www.toptal.com/developers/sorting-algorithms
 
 ### Bubble Sort
 Bubble sort has muliple passes through a list. Makes comparisions between all pairs of items and swaps them if not in order. This ends up with the largest item moving to the end with each pass. Bubble sort terminates with one final pass where no swaps are necessary.
-- O(n^2) time complexity
+- O(n²) time complexity
 - Slowest sort
 
 ```py
@@ -100,7 +100,7 @@ next i
 ### Insertion Sort
 Insertion sort considers sorted and unsorted parts of the list. Moving through the list, each time another element is individually added to the sorted list. One element is sorted at a time basically.
 - Efficient for small lists, and nearly sorted lists
-- O(n^2) time complexity - still just as slow as bubble sort for large lists
+- O(n²) time complexity - still just as slow as bubble sort for large lists
 - takes very little storage / overhead
 - Insertion sort is an **adaptive** algorithm, its time complexity is O(n) when a list is nearly sorted
 
@@ -134,7 +134,7 @@ Merge sort works by spliting a list into two smaller lists recursively untill th
 ### Quick Sort
 Quick sort starts by choosing a central pivot element in the list. Then elements are placed either side of the pivot, and are sorted in relation to that pivot. This is recursively repeated with new pivots untill there are no more elements that could become the pivot, because only elements that havn't been pivots before can become pivots, and only elements thats have elements that have not become pivots next to them. Pivots automatically get sorted.
 - recursive
-- O(n^2) worst case time complexity
+- O(n²) worst case time complexity
 - Usually O(n log n) time complexity if optimised
 
 *pivot chosen randomly, brackets pivots
