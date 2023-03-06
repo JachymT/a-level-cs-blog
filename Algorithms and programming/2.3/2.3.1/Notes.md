@@ -22,7 +22,7 @@ Consider time and space compexity (using a lot of storage is bad), in unison. On
 **Intractable algorithms** -  not solveable in a reasonable amount of time. Can be approximated with heuristics. E.g plotting a graph - not every point can be plotted.
 
 ## Searching algorithms
-Find a specified element form a data structure.
+Find a specified element from a data structure.
 
 ### Linnear Search
 Searches every index of the list sequencially, comparing the desired item to every element in the list, starting with the first, and moving on untill the item is found or the end of the list is reached.
