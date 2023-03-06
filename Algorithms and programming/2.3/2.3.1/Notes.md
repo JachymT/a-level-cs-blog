@@ -1,18 +1,18 @@
 # Algorithms
 
 ## Big O notation
-Big O notation refers to the time complexity of an algorithm, messuring how many lines of code are roughly executed as a the size of data scales - it aproximates growth. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A n^2 algorithm can be equally fast compared to a log n algorithm for 5 items. 
+Big O notation refers to the time complexity of an algorithm, messuring how many lines of code are roughly executed as a the size of data scales - it aproximates growth. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A n^2 algorithm can be equally fast compared to a log n algorithm for 5 items. Big O notation is a non machine dependent.
 
-Big O notation can refer to best case, worse case or the average case. Average time or worst case senario is most commonly used.
+Big O notation can refer to best case, worse case or the average case. Worst case senario is most commonly used because you can't expect your algorithm to run with the best case or average case all of the time.
 
 - O(1) - linnear time; constant
 - O(log n) - logarithmic time; changes at a slowing rate
 - O(n) - linnear time; changes proportionally 
-- O(n^2) - polynomial time; proportional to the square, has a nested loop
-- O(2^n) - exponential time; amount of time doubles as n increased, slower than polynomial
+- O(n²) - polynomial time; proportional to the square, has a nested loop
+- O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial
 - O(n!) - factorial time; just don't, traveling salesman brute force solution. AND BOGOSORT
 
-To find the big O notation of an algorithm, check the time complexity of each loop and take the highest one.
+To find the big O notation of an algorithm, check the time complexity of each loop and and count how many operations are made. Then take the highest degree of this function and omit any constants. E.g f(x) = ½n(n+1) = n²
 
 ## Designing algorithms
 Consider time and space compexity (using a lot of storage is bad), in unison. One can be sacrifised for the other sometimes.
