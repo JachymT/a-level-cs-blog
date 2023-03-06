@@ -10,7 +10,7 @@ Big O notation can refer to best case, worse case or the average case. Worst cas
 - O(n) - linnear time; changes proportionally 
 - O(n²) - polynomial time; proportional to the square, has a nested loop
 - O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial
-- O(n!) - factorial time; just don't, traveling salesman brute force solution. AND BOGOSORT
+- O(n!) - factorial time; just don't, traveling salesman brute force solution... and bogosort
 
 To find the big O notation of an algorithm, check the time complexity of each loop and and count how many operations are made (how many lines of code are roughly executed). Then take the highest degree of this function and omit any constants. If you found there to be a total of f(n) = ½n(n+1) loops, then the big O notation would be O(n²)
 
