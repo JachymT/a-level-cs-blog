@@ -29,7 +29,7 @@
   - [1.4.3 Boolean Algebra](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.4/1.4.3)
 
 - 1.5 Legal, moral, cultural and ethical issues
-  - 1.5.1 Computing related legislation
+  - [1.5.1 Computing related legislation](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.5/1.5.1)
   - 1.5.2 Moral and ethical issues
 
 ### Algorithms and programming - Component 2
