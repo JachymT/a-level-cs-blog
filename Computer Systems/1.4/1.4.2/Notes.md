@@ -250,7 +250,7 @@ Based on this tree
 [Read This for psuedocode](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/binary_tree_traversals.html)
 
 ## Properties
-**Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations
+**Static data structures** - size of the data structure is set cannot be changed during run time. Elements in **contiguous** (adjacent) memory locations. Easier to porgram than dynamic structures
 
 **dynamic data structures** - size is not limited and can be changed during run time. Elements are stored in **non-contiguous** memory locations
 
