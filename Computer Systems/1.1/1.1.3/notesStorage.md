@@ -58,14 +58,18 @@ Typical SSDs use flash media. Other examples include USB sticks and flash memory
 Work by flowing electricity forcing electrons into a floating gate between two oxide layers. This causes a change of charge in the floating gate - if a charge is trapped a 1 is messured and if not a 0.  NAND gates form each of the memory cells.
 
 ### Positives
- - Small, lightweight and portable - **compact**
- - Very quick to access - **fast**
+ - Small, lightweight and portable, and compact
+ - Very quick to access
  - silent
  - Large capacity
+ - No moving parts to break - more durable
+ - Perfect for storing frequently read programs such as the OS and other small programs.
+ - Mostly Random access? All locations take the same amount of time? research.
  
 ### Negatives
  - Oxide layers will eventually deteriorate - limited read/writes
  - More expensive than hard drives per GB atm (costly)
+ - Not suitable for long term archiving 
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor3.PNG" height="200">
 
