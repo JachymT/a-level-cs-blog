@@ -151,3 +151,4 @@ Examples
 - Self driving cars
 - Scientifical instruments
 - Industrial systems
+- Most embedded system
