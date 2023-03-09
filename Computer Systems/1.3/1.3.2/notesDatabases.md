@@ -60,7 +60,7 @@ A database using a structured tuple of tables in an ordered logic, where **links
 ### Advantages
 - Can be accessed over a network, and **mulitple people** can access it at once.
 - **Powerful**, **efficient** and **faster** than flat file databases
-- Searching is faster because of more compex query support using SQL
+- Searching is faster because of more compex query support using SQL. Data from related tables can be queried together.
 - Efficient design of **indexing** makes seaching much faster as well
 - Increased security of data - as **user access levels** can be changed and set (eg. teachers can only access students data and not other teachers)
 - Has **referential integrity** (data intergrity) - when changes are made to a specific field these changes are cascaded to any relation/table that also contain that field value
