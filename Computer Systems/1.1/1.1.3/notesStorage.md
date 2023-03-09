@@ -65,7 +65,7 @@ Work by flowing electricity forcing electrons into a floating gate between two o
  
 ### Negatives
  - Oxide layers will eventually deteriorate - limited read/writes
- - Costly but getting cheaper
+ - More expensive than hard drives per GB atm (costly)
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor3.PNG" height="200">
 
