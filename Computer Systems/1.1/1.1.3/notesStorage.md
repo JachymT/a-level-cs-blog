@@ -2,7 +2,7 @@
 Binary computers mean that storage can take advantage of the speed that it takes to detect one of two states. E.g magnetic storage uses magnetic polarity and SSDs use floating gate transistors.
 
 ## RAM
-Random access memory - Fast, **temporary** and **volite** memory. RAM compunicates back and forth with the CPU by buses, and information stored in RAM is processed by the CPU. Since its close to the CPU its much faster than accessing secondary storage (hard disk). 
+Random access memory - Fast, **temporary** and **volite** memory. RAM compunicates back and forth with the CPU by buses, and information stored in RAM is processed by the CPU. Since its close to the CPU its much faster than accessing secondary storage (hard disk). RAM is fast because moving between secondary and primary storage is slow and more RAM reduces the need for virtual storage.
 
 The RAM holds the operting system while the computer is running along with other programs.
 
