@@ -1,4 +1,6 @@
 # Storage
+Binary computers mean that storage can take advantage of the speed that it takes to detect one of two states. E.g magnetic storage uses magnetic polarity and SSDs use floating gate transistors.
+
 ## RAM
 Random access memory - Fast, **temporary** and **volite** memory. RAM compunicates back and forth with the CPU by buses, and information stored in RAM is processed by the CPU. Since its close to the CPU its much faster than accessing secondary storage (hard disk). 
 
@@ -50,10 +52,10 @@ Very small magnetic components represent binary data, being in one of two states
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/stor2a.PNG" height="200">
 
 ## Solid state storage
-Typical SSDs use magnetic media. Other examples include USB sticks and flash memory cards (eg. SD cards)
+Typical SSDs use flash media. Other examples include USB sticks and flash memory cards (eg. SD cards).
 
 ### How they work
-Work by flowing electricity forcing electrons into a floating gate between two oxide layers. This causes a change of charge in the floating gate, which can be messured as a 1 or 0, in oder to store binary data. silicon semiconductors forming the logic gates NAND and NOR
+Work by flowing electricity forcing electrons into a floating gate between two oxide layers. This causes a change of charge in the floating gate - if a charge is trapped a 1 is messured and if not a 0.  NAND gates form each of the memory cells.
 
 ### Positives
  - Small, lightweight and portable - **compact**
