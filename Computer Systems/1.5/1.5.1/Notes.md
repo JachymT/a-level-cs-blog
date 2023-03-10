@@ -31,7 +31,7 @@ Personal data must be
 Data subject - Person identified by personal data
 
 ## Regulation of Investigatory Powers Act 2000 (1984)
-RIPA regulates surveillance and public investigation. Places limits on investigatory powers such as the government, the police, social media and ISPs. Updated to be the Investigatory Powers Act 2016. Bassically, ISPs must collect data and that data must be handed over for surveilance if requested. Arguable it is an invasion of privacy and is often misused.
+RIPA regulates surveillance and public investigation. Places limits on investigatory powers such as the government, the police, social media and ISPs. Updated to be the Investigatory Powers Act 2016. Since the orgional act many more organisation have been given rights to data. Arguable it is an invasion of privacy and is often misused.
 
 Public bodies with enough authority can:
 - Demand customer's digital communications from the ISP without the informing the customer.
@@ -40,3 +40,5 @@ Public bodies with enough authority can:
 - Demand that encryption keys be handed over
 - Intercept digital communications
 - Interception warrent can be kept secert, even in court
+
+TLDR ISPs must collect data and that data must be handed over to companies with a warrent for surveilance if requested.
