@@ -3,7 +3,7 @@
 ## Big O notation
 Big O notation is used to classify the order of an algorithm, messuring how runtime or space requirements grow as the size of data scales - it aproximates growth. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A n^2 algorithm can be equally fast compared to a log n algorithm for 5 items. Big O notation is a non machine dependent.
 
-Big O notation can refer to best case, worse case or the average case. Worst case senario is most commonly used because you can't expect your algorithm to run with the best case or average case all of the time. Average can be ambigous - example in a linnear search your item might not even be in the list. worst case is the easiest the calculate and covers all cases.
+Big O notation can refer to best case, worse case or the average case. Worst case senario is most commonly used because you can't expect your algorithm to run with the best case or average case all of the time. Average can be ambigous - for example in a linnear search your item might not even be in the list. worst case is the easiest the calculate and covers all cases.
 
 - O(1) - constant; doesn't scale
 - O(log n) - logarithmic time; changes at a slowing rate
