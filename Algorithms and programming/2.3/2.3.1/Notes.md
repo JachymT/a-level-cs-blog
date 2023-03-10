@@ -1,23 +1,25 @@
 # Algorithms
 
 ## Big O notation
-Big O notation is used to classify the order of an algorithm, messuring how runtime or space requirements grow as the size of data scales - it aproximates growth. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A n^2 algorithm can be equally fast compared to a log n algorithm for 5 items. Big O notation is a non machine dependent.
+Big O notation is used to classify the order of an algorithm, messuring how runtime or space requirements grow as the size of data scales - it aproximates growth. Big O notation is a non machine dependent. Whilst big O is an indicator of efficieny, its only really applicable for large data sets (large values of n). A O(n²) algorithm can be equally fast compared to am O(log n) algorithm for 5 items. O(n²) should be avoided for mid-large data sets.
 
 Big O notation can refer to best case, worse case or the average case. Worst case senario is most commonly used because you can't expect your algorithm to run with the best case or average case all of the time. Average can be ambigous - for example in a linnear search your item might not even be in the list. Worst case is the easiest the calculate and covers all cases.
 
-- O(1) - constant; doesn't scale
+- O(1) constant; doesn't scale (maths operations)
 - O(log n) - logarithmic time; changes at a slowing rate
-- O(n) - linnear time; changes proportionally 
+- O(n) - linnear time; changes proportionally to the input
 - O(n²) - polynomial time; proportional to the square, has a nested loop
-- O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial
-- O(n!) - factorial time; just don't, traveling salesman brute force solution... and bogosort
+- O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial (finding all permutations)
+- O(n!) - factorial time; just don't (traveling salesman brute force solution... and bogosort)
 
-To find the time complexity of an algorithm, check the time complexity of each loop and and count how many operations are made (how many lines of code are roughly executed). Then take the highest degree of this function and omit any constants. If you found there to be a total of f(n) = ½n(n+1) operations, then the big O notation would be O(n²).
+To find the time complexity of an algorithm, check the time complexity of each loop and and count how many operations are made (how many lines of code are roughly executed). Then take the highest degree of this function and omit any constants. If you found there to be a total of f(n) = ½n(n+1) operations, then the big O notation would be O(n²). O(n²) should usually be avoided.
 
 Space complexity? Don't worry about it. Considers auxiliary (temporary) space and any additional inputs the algorithm takes.
 
 ## Designing algorithms
-An algorithm is a sequence of steps to solve a problem. It should terminate and handle as many cases as possible. A good algorithm should be unambigous, understandable and optimised as far as possible. Consider time and space compexity (using a lot of storage is bad and memory is limited), in unison. One can be sacrifised for the other sometimes.
+An algorithm is a sequence of steps to solve a problem. It should terminate and handle as many cases as possible. A good algorithm should be unambigous, understandable and optimised as far as possible. 
+
+Consider time and space compexity (using a lot of storage is bad and memory is limited), in unison. One can be sacrifised for the other sometimes. Memory is not as scarce as time generally and space is not an issue for small data sets. Time complexity is more important for real time systems.
 
 **Tractable algorithms** - have a feesable solution with predicatable efficiency; can be messured with time and space complexity. Actual definition is that it is achievable in polynomial time complexity or less. 
 - E.g a searching a finite list.
