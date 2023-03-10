@@ -6,10 +6,11 @@ Big O notation is used to classify the order of an algorithm, messuring how runt
 Big O notation can refer to best case, worse case or the average case. Worst case senario is most commonly used because you can't expect your algorithm to run with the best case or average case all of the time. Average can be ambigous - for example in a linnear search your item might not even be in the list. Worst case is the easiest the calculate and covers all cases.
 
 - O(1) constant; doesn't scale (maths operations)
-- O(log n) - logarithmic time; changes at a slowing rate
-- O(n) - linnear time; changes proportionally to the input
-- O(n²) - polynomial time; proportional to the square, has a nested loop
-- O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial (finding all permutations)
+- O(log n) - logarithmic time; changes at a slowing rate (divide and conquer)
+- O(n) - linnear time; changes proportionally to the input (linnear search)
+- O(n log n) - linearithmic time; between n and n² (merge sort and quicksort)
+- O(n²) - polynomial time; proportional to the square, has a nested loop (bubble sort)
+- O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial (recursive algorithms like the fibonacci sequence)
 - O(n!) - factorial time; just don't (traveling salesman brute force solution... and bogosort)
 
 To find the time complexity of an algorithm, check the time complexity of each loop and and count how many operations are made (how many lines of code are roughly executed). Then take the highest degree of this function and omit any constants. If you found there to be a total of f(n) = ½n(n+1) operations, then the big O notation would be O(n²). O(n²) should usually be avoided.
