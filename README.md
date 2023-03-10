@@ -63,4 +63,4 @@
 ### Exam notes
 - AO1 - Demonstrate **knowledge** and understanding of the principles and concepts of computer science
 - AO2 - **Apply** knowledge to analyse problems in computational terms
-- AO3 - **Evaluate** computer systemsm, making judgements and presenting conclusions
+- AO3 - **Evaluate** computer systems, making judgements and presenting conclusions
