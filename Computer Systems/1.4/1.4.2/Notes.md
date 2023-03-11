@@ -155,7 +155,7 @@ The second way is to use **linnear probbing** / open addressing. This just moves
 Creating a new table with the optimal number of spaces for the new amount of data items. Instead of a hash table filling up and getting slow, all the values can be recalculated to improve overall efficiency.
 
 ## Graphs
-Graphs are a set of nodes (vertices) and edges (arcs), representing abstract relationships between objects, such as transport networks and routers.
+Graphs are a set of nodes (vertices) and edges (arcs), representing abstract relationships between objects, such as transport networks, molecular structures and routers.
 
 ![image](https://user-images.githubusercontent.com/72783315/224493438-5cc37300-7491-49c1-9d25-336ebc404b19.png)
 
@@ -168,7 +168,7 @@ Graphs are a set of nodes (vertices) and edges (arcs), representing abstract rel
 **cycle** - a part of a graph is cyclical if a node has a path back to itself, without crossing the same node twice
 
 ### Undirected graphs
-Straight up a normal graph, can be traversed in both directions. Represented in code using a dictionary. Each key is a node and the values are its neighbouring nodes. Alternative representation is as a list with pairs of nodes, representing edges. The notation below works for directed graphs by onling having values that the nodes points to in the dict.
+Straight up a normal graph, can be traversed in both directions. Represented in code using a dictionary. Each key is a node and the values are its neighbouring nodes. Alternative representation is as a list with pairs of nodes, representing edges. The notation below works for directed graphs by onling having values that the nodes points to in the dict. The implemention below is called an adjacency list.
 
 ```py
 DICTIONARY graph = {
@@ -191,13 +191,15 @@ All graphs, even weighted, can have both directed and undirected parts in the sa
 ### Weighted graphs
 Edges are given values. In a transport example with cities as nodes these are not distances! they are simply the cost of the journey in relation to the other journeys, eg the average time it would take from that node to the next. They can be represented as matrixes or lists.
 
-#### adjacency matrix
-Adjacency matrixes are tables of all possible connections between nodes, with each cell being an edge. They are great for visualling paths, adding new nodes or just getting information from them! Example of a weighted undirected graph as an adjacency matrix below.
+#### Adjacency matrixes
+Adjacency matrixes are tables (arrays) of all possible connections between nodes, with each cell being an edge. They are great for visualling paths, adding new nodes or just getting information from them! Example of a weighted undirected graph as an adjacency matrix below with a real life application.
 
 <img width="625" alt="celeste lobby routing" src="https://user-images.githubusercontent.com/72783315/224494584-90b556ad-c71f-4ab5-ae13-35eb8fa07a14.png">
 
-#### adjacency list
-Adjacency lists are more space efficient for large graphs. 
+#### Adjacency lists
+Adjacency lists are more space efficient for large graphs, since you don't have a bunch of empty spaces in the array. They are just dictionaries / the way that graphs are stored normally, except with edge values.
+
+![image](https://user-images.githubusercontent.com/72783315/224496012-ae41d088-b0d1-4d90-84f3-1791b9847a34.png)
 
 ## Trees
 Trees are just graphs with extra rules
