@@ -39,6 +39,7 @@ A risk driven model or guide to software development which works by adapting and
 
 Advantages
 - high amount of risk analysis - determines success
+- risks are spotted early
 - effective for large scale projects
 - Development is fast
 - aditional functionality can always be added
