@@ -168,7 +168,7 @@ Graphs are a set of nodes (vertices) and edges (arcs), representing abstract rel
 **cycle** - a part of a graph is cyclical if a node has a path back to itself, without crossing the same node twice
 
 ### Undirected graphs
-Straight up a normal graph, can be traversed in both directions. Represented using a dictionary. Each key is a node and the values are its neighbouring nodes. Pseudocode version below.
+Straight up a normal graph, can be traversed in both directions. Represented in code using a dictionary. Each key is a node and the values are its neighbouring nodes. Alternative representation is as a list with pairs of nodes, representing edges. The notation below works for directed graphs by onling having values that the nodes points to in the dict.
 
 ```py
 DICTIONARY graph = {
@@ -178,6 +178,8 @@ DICTIONARY graph = {
   "4" : ["3"], 
   "5" : ["2"]
 }
+
+edges = { (1,2), (1,3), (2,3), (2,5), (3,4) }
 ```
 
 ### Directed graphs
@@ -190,13 +192,12 @@ All graphs, even weighted, can have both directed and undirected parts in the sa
 Edges are given values. In a transport example with cities as nodes these are not distances! they are simply the cost of the journey in relation to the other journeys, eg the average time it would take from that node to the next. They can be represented as matrixes or lists.
 
 #### adjacency matrix
-Adjacency matrixes are tables of all possible connections between nodes, with each cell being an edge. They are great for visualling paths, adding new nodes or just getting information from them!
+Adjacency matrixes are tables of all possible connections between nodes, with each cell being an edge. They are great for visualling paths, adding new nodes or just getting information from them! Example of a weighted undirected graph as an adjacency matrix below.
 
-<img width="400" alt="celeste lobby routing" src="https://user-images.githubusercontent.com/72783315/224494584-90b556ad-c71f-4ab5-ae13-35eb8fa07a14.png">
-Example of a weighted undirected graph as an adjacency matrix
+<img width="625" alt="celeste lobby routing" src="https://user-images.githubusercontent.com/72783315/224494584-90b556ad-c71f-4ab5-ae13-35eb8fa07a14.png">
 
-#### adjacency list. 
-Adjacency matrixes are tables of all possible connections between nodes, with each cell being an edge, which are great for visualling paths.
+#### adjacency list
+Adjacency lists are more space efficient for large graphs. 
 
 ## Trees
 Trees are just graphs with extra rules
