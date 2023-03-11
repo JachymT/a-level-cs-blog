@@ -155,36 +155,48 @@ The second way is to use **linnear probbing** / open addressing. This just moves
 Creating a new table with the optimal number of spaces for the new amount of data items. Instead of a hash table filling up and getting slow, all the values can be recalculated to improve overall efficiency.
 
 ## Graphs
+Graphs are a set of nodes (vertices) and edges (arcs), representing abstract relationships between objects, such as transport networks and routers.
 
-1
-1
+![image](https://user-images.githubusercontent.com/72783315/224493438-5cc37300-7491-49c1-9d25-336ebc404b19.png)
 
-1
-1
-1
-1
-
-### Directed graphs
-
-1
-
-1
-1
-1
-1
+**adjacent** - neighbouring nodes connected by an edge
+**degree** - the number of connections a node has
+**path** - a sequence of connected nodes
+**cycle** - a part of a graph is cyclical if a node has a path back to itself, without crossing the same node twice
 
 
 ### Undirected graphs
+Straight up a normal graph, can be traversed in both directions. 
 
-1
-1
-1
+Represented using a dictionary. Each key is a node and the values are its neighbouring nodes. Pseudocode version below.
 
-1
+```
+graph = {
 
-1
+}
+```
+
+### Directed graphs
+Edges point in a direction from one node to another. Drawn with arrows
+
+All graphs, even weighted, can have both directed and undirected parts in the same graph, although they usually use omni directional arrows to show that.
+
+
+### Weighted graphs
+Edges are given values. In a transport example with cities as nodes these are not distances! they are simply the cost of the journey in relation to the other journeys, eg the average time it would take from that node to the next. They can be represented as matrixes or lists.
+
+#### adjacency matrix
+Adjacency matrixes are tables of all possible connections between nodes, with each cell being an edge. They are great for visualling paths, adding new nodes or just getting information from them!
+
+<img width="929" alt="Screenshot 2023-03-11 at 15 59 28" src="https://user-images.githubusercontent.com/72783315/224494584-90b556ad-c71f-4ab5-ae13-35eb8fa07a14.png">
+Example of a weighted undirected graph as an adjacency matrix
+
+#### adjacency list. 
+Adjacency matrixes are tables of all possible connections between nodes, with each cell being an edge, which are great for visualling paths.
 
 ## Trees
+Trees are just graphs with extra rules
+
 ![image](https://user-images.githubusercontent.com/72783315/168257022-a7303f2f-d6ae-4ea0-a485-ffc20c3cf228.png)
 ![image](https://user-images.githubusercontent.com/72783315/168257817-6b046204-4b0c-4bfc-925b-b98f7e3f45c4.png)
 
