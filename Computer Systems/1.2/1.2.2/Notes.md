@@ -9,7 +9,7 @@ high level source code needs to be translated to low level object code (machine 
 
 **Assemblers** - Translates a program written in assembly language into machine code.
 
-**Libraries** - Pre-written modules for high level langauges that provide additional functuality efficiently and reliably.
+**Libraries** - Pre-written modules for high level langauges that provide additional functuality. They come precompiled and so can be used with any language, and dont take any time to add in. They are highly optimised, tested and documented and speed up development because they let you rely on other peoples work and ability to make something useful :)
 
 **Dynamic Link Libraries** - A library shared by multiple programs. DLLs  are linked to the translated program by the OS. DLLs reduce the amount of main memory needed because the DLLs can be used repeatedly. DLLs are used to load drivers by programs. 
 
@@ -23,7 +23,7 @@ high level source code needs to be translated to low level object code (machine 
 ### Lexican analysis
 Done by the lexer. Passes over comments, whitespaces and formats code into individual words (lexemes). Then each lexeme is matching to token classes, e.g. DIV is an operator. The lexemes are stored as these tokens in the format:
 
-**[tokenclass:token]**
+`[tokenclass:token]`
 
 So the source code, which contained lexemes, is now a series of tokens which can be put into a symbol table, which just indexes all the tokens. End output is a token stream.
 
