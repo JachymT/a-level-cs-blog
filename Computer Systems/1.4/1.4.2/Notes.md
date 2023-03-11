@@ -265,6 +265,8 @@ Method: Draw an arrow around and follow it BACKWARDS, writing any node it passes
 ### in-order traversing
 Nodes are visited between the subtrees. Gives ordered data if the tree is ordered with the lowest values as the root. Traverse the **left** sub-tree, visit the **root** node, traverse the **right** sub-tree ← ↓ →
 
+![image](https://user-images.githubusercontent.com/72783315/224504953-181f77c8-359d-447a-aef1-b571552546ad.png)
+
 Method: Just write out the list in the correct order. Don't try to traverse.
 
 ### Implementation
