@@ -187,7 +187,6 @@ Edges point in a direction from one node to another. Drawn with arrows
 
 All graphs, even weighted, can have both directed and undirected parts in the same graph, although they usually use omni directional arrows to show that.
 
-
 ### Weighted graphs
 Edges are given values. In a transport example with cities as nodes these are not distances! they are simply the cost of the journey in relation to the other journeys, eg the average time it would take from that node to the next. They can be represented as matrixes or lists.
 
@@ -200,6 +199,15 @@ Adjacency matrixes are tables (arrays) of all possible connections between nodes
 Adjacency lists are more space efficient for large graphs, since you don't have a bunch of empty spaces in the array. They are just dictionaries / the way that graphs are stored normally, except with edge values.
 
 ![image](https://user-images.githubusercontent.com/72783315/224496012-ae41d088-b0d1-4d90-84f3-1791b9847a34.png)
+
+### Graph traversals
+Traversals systematically explore each node in a graph. Each node can be in 1 of three states: unvisted, discovered and visited. unvisted nodes can be added to a list of nodes to explore next. Discovered nodes have been added to a list / seen because one of its neighbours was previously visited and visted nodes have been fully explored and can be marked off.
+
+#### Bredth first
+Uses a **queue** to decide which node to visit next. Visits all adjacent nodes before moving on.
+
+#### Depth first
+Uses a **stack** to decide which node to visit next. Visits all nodes down a path before backtracking.
 
 ## Trees
 Trees are just graphs with extra rules
@@ -226,16 +234,19 @@ Used in:
 - compression algorithms
 
 ### Operations
+These are the same for graphs.
+
 - Add a node - If using a binnary tree to sort data, compare each item to the node, and then go left if < and right if >, then add it to the end.
 - Remove a node - Delete the node and then re-arrange all the items below to follow the same rules as the origional tree
-- bredth-first search 
-- pre-order traversing
-- post-order traversing
-- in-order traversing 
+- bredth-first traversing (note: traversing is the same as searching!!) 
+- depth first traversing (all start at the root node and explore as far a possible before backtracking)
+  - pre-order traversing (sometimes incorectly called depth first??)
+  - post-order traversing
+  - in-order traversing 
 
 https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm
 
-### Pre-order traversing (Depth first)
+### Pre-order traversing
 Visits a node before exploring its subtrees (traverses going down). Start at the **root** node, traverse the **left** sub-tree, traverse the **right** sub-tree ↓ ← →
 
 ![image](https://user-images.githubusercontent.com/72783315/168823124-18340a32-8b4a-466d-843b-2cbee3cf28a1.png)
