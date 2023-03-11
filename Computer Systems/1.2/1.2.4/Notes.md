@@ -59,6 +59,7 @@ For example, in LMC, if you wanted to load the value at address 3 you would writ
 - fastest possible execution time
 - small storage requirements
 - for embedded systems / OS development
+- control hardware directly
 
 **High Level**
 - easier to use and learn
