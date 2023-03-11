@@ -14,7 +14,7 @@ A core is an independent processor that can run its fetch-decode-execute cycle. 
 
 This theoretically allows for 2x, 4x or more times as many instructions executed per second. However all cores can not always be utilized efficiently, and cores comunicating becomes more complicated and uses processing power. They are particularly useful for multitasking, and since computers are nearly always mulitasking, so there is a large benefit compared to having a single core processor.
 
-Programs designed to do **parallel processing** benifit greatly from multiple cores.
+Programs designed to do **parallel processing** benifit greatly from multiple cores. Programs can often only be parallized to a certain extent, for example using 3 out of 4 cores fully becuase of data dependencies. Also overheads (additional proccessing costs) from communicating between CPUs exist.
 
 ## Cache
 Cache is CPU's on board memory, it is Random Access memory but either in or next to the CPU. It the **closest and fastest** memory for storing instructions, which are copied over from RAM. Less frequently used instructions in cache are replaced with more commenly fetched ones. The CPU checks for cache before checking RAM.
