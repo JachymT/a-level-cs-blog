@@ -9,6 +9,7 @@ Involves cascading from one stage in development to another, where each stage is
 Advantages
 - Very simple and easy to understand
 - Easy to manage the projects because of the rigidity of the model
+- Timescales are easy to keep to - easy to know if you are ahead or behind
 - Saves time over the other methods
 - effective for smaller projects
 
