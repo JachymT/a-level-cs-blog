@@ -52,6 +52,20 @@ Assembly language is a programming language that uses meumonics to comunicate wi
 
 For example, in LMC, if you wanted to load the value at address 3 you would write `LDA 003`. Machine code works similarly. 
 
+### Comparing low level and high level languages in development
+
+**Low Level**
+- architecture specific
+- fastest possible execution time
+- small storage requirements
+- for embedded systems / OS development
+
+**High Level**
+- easier to use and learn
+- easeir to maintain and debug
+- very specialised to solve certain problems
+- produces software fast
+
 ## Machine code instructions
 Binary instructions that the CPU can process, specific to the type of CPU. All programs are translated into machine code. An instruction in machine code contains an opcode and operand part, these are **split in the Current Instruction Register** (CIR). These can be seen more clearly in **assembly language** which is a simplified view of machine code.
 
