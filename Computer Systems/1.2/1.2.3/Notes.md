@@ -1,5 +1,5 @@
 # Software methodologies
-There are 5 main approaches when working on a software development project. The lifecycle of software development can be partitioned into phases, which together lead to a well thought out, functional and maintained solution.
+There are 5 main approaches when working on a software development project, aslso know as **Software Development Life Cycles**. The lifecycle of software development can be partitioned into phases, which together lead to a well thought out, functional and maintained solution.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/phases.png" height="500">
 
@@ -35,19 +35,22 @@ Dissadvantages
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method3.png" height="500">
 
 ### The Spiral Method
-A risk driven model or guide to software development which works by adapting and generating a path to solve a project based on its risks. It ussualy starts with determining objectives then identifying and resolving risks, then developing and testing, then planning the next iteration in the spiral.
+A risk driven model which works by adapting and generating a path to solve a project based on its risks. It ussualy starts with determining objectives, then identifying and resolving risks, then developing and testing, then evaluating and planning the next iteration in the spiral.
+
+One loop is an iteration and sections of the loop are phases.
 
 Advantages
 - high amount of risk analysis - determines success
 - risks are spotted early
-- effective for large scale projects
-- Development is fast
+- effective for complicated, large scale projects
+- Development is iterative and can is split up.
 - aditional functionality can always be added
 
 Disadvantages
-- costly model
+- costly
+- complex
 - not appropriate for low-risk projects
-- may continue indefinitely and never finish
+- may continue indefinitely and never finish - end date is unknown
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method4.png" height="500">
 
