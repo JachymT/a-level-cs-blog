@@ -13,7 +13,7 @@ RISC is used in portable and small proccessors. E.G ARM
 
 Complex instructuion set computer - aims to complete a task in as few instructions as a possible, making use of very complex instructions. 
 
-The instructions are easy to translate from a high level language to assembly, but take more clock cycles to execute. CISC Requires less instruction cycles to get the same result as RISC. They  have variable instruction lengths and multiple address modes for instructions.
+The instructions are easy to translate from a high level language to assembly, but take more clock cycles to execute. CISC Requires less instruction cycles to get the same result as RISC. But since instructions can be as long as they want, it uses variable instruction lengths.
 
 Used in security systems and automation. Eg. Intel x86 and AMD. Utilize RISC practises and microcodes.
 
