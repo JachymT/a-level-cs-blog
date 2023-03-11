@@ -203,11 +203,13 @@ Adjacency lists are more space efficient for large graphs, since you don't have 
 ### Graph traversals
 Traversals systematically explore each node in a graph. Each node can be in 1 of three states: unvisted, discovered and visited. unvisted nodes can be added to a list of nodes to explore next. Discovered nodes have been added to a list / seen because one of its neighbours was previously visited and visted nodes have been fully explored and can be marked off.
 
+Practise implementing these.
+
 #### Bredth first
-Uses a **queue** to decide which node to visit next. Visits all adjacent nodes before moving on.
+Uses a **queue** to decide which node to visit next. Visits all adjacent nodes before moving on. Similar to dikstra's but slightly different. Remember to only add nodes to the queue if they havnt been discovered yet. Search ends when all nodes have been visted.
 
 #### Depth first
-Uses a **stack** to decide which node to visit next. Visits all nodes down a path before backtracking.
+Uses a **stack** to decide which node to visit next. Visits all nodes down a path before backtracking. Can be done recursively or iteratively.
 
 ## Trees
 Trees are just graphs with extra rules
@@ -234,11 +236,11 @@ Used in:
 - compression algorithms
 
 ### Operations
-These are the same for graphs.
+These are the same for graphs. Note: traversing is the same as searching!!
 
 - Add a node - If using a binnary tree to sort data, compare each item to the node, and then go left if < and right if >, then add it to the end.
 - Remove a node - Delete the node and then re-arrange all the items below to follow the same rules as the origional tree
-- bredth-first traversing (note: traversing is the same as searching!!) 
+- bredth-first traversing (same as for graphs) 
 - depth first traversing (all start at the root node and explore as far a possible before backtracking)
   - pre-order traversing (sometimes incorectly called depth first??)
   - post-order traversing
@@ -264,11 +266,6 @@ Method: Draw an arrow around and follow it BACKWARDS, writing any node it passes
 Nodes are visited between the subtrees. Gives ordered data if the tree is ordered with the lowest values as the root. Traverse the **left** sub-tree, visit the **root** node, traverse the **right** sub-tree ← ↓ →
 
 Method: Just write out the list in the correct order. Don't try to traverse.
-
-### Bredth first traversal
-Make notes: 
-
-https://isaaccomputerscience.org/concepts/dsa_pathfinding_dfs_bfs?examBoard=all&stage=all
 
 ### Implementation
 [Recursive implementation in python](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.4/1.4.2)
