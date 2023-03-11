@@ -160,19 +160,23 @@ Graphs are a set of nodes (vertices) and edges (arcs), representing abstract rel
 ![image](https://user-images.githubusercontent.com/72783315/224493438-5cc37300-7491-49c1-9d25-336ebc404b19.png)
 
 **adjacent** - neighbouring nodes connected by an edge
+
 **degree** - the number of connections a node has
+
 **path** - a sequence of connected nodes
+
 **cycle** - a part of a graph is cyclical if a node has a path back to itself, without crossing the same node twice
 
-
 ### Undirected graphs
-Straight up a normal graph, can be traversed in both directions. 
+Straight up a normal graph, can be traversed in both directions. Represented using a dictionary. Each key is a node and the values are its neighbouring nodes. Pseudocode version below.
 
-Represented using a dictionary. Each key is a node and the values are its neighbouring nodes. Pseudocode version below.
-
-```
-graph = {
-
+```py
+DICTIONARY graph = {
+  "1" : ["2", "3"],
+  "2" : ["1", "3", "5"],
+  "3" : ["1", "2", "4"],
+  "4" : ["3"], 
+  "5" : ["2"]
 }
 ```
 
@@ -188,7 +192,7 @@ Edges are given values. In a transport example with cities as nodes these are no
 #### adjacency matrix
 Adjacency matrixes are tables of all possible connections between nodes, with each cell being an edge. They are great for visualling paths, adding new nodes or just getting information from them!
 
-<img width="929" alt="Screenshot 2023-03-11 at 15 59 28" src="https://user-images.githubusercontent.com/72783315/224494584-90b556ad-c71f-4ab5-ae13-35eb8fa07a14.png">
+<img width="400" alt="celeste lobby routing" src="https://user-images.githubusercontent.com/72783315/224494584-90b556ad-c71f-4ab5-ae13-35eb8fa07a14.png">
 Example of a weighted undirected graph as an adjacency matrix
 
 #### adjacency list. 
