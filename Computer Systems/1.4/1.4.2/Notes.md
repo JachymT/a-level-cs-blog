@@ -155,7 +155,7 @@ The second way is to use **linnear probbing** / open addressing. This just moves
 Creating a new table with the optimal number of spaces for the new amount of data items. Instead of a hash table filling up and getting slow, all the values can be recalculated to improve overall efficiency.
 
 ## Graphs
-Graphs are a set of nodes (vertices) and edges (arcs), representing abstract relationships between objects, such as transport networks, molecular structures and routers.
+Graphs are a set of nodes (vertices) and edges (arcs), representing relationships between objects, such as transport networks, molecular structures and routers. They are abstract data structures.
 
 ![image](https://user-images.githubusercontent.com/72783315/224493438-5cc37300-7491-49c1-9d25-336ebc404b19.png)
 
@@ -212,7 +212,7 @@ Uses a **queue** to decide which node to visit next. Visits all adjacent nodes b
 Uses a **stack** to decide which node to visit next. Visits all nodes down a path before backtracking. Can be done recursively or iteratively.
 
 ## Trees
-Trees are just graphs with extra rules
+Trees are just graphs with extra rules. Specifically, a connected undirected graph with no cycles.
 
 ![image](https://user-images.githubusercontent.com/72783315/168257022-a7303f2f-d6ae-4ea0-a485-ffc20c3cf228.png)
 ![image](https://user-images.githubusercontent.com/72783315/168257817-6b046204-4b0c-4bfc-925b-b98f7e3f45c4.png)
