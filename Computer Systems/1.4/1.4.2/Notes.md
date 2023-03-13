@@ -212,19 +212,17 @@ Uses a **queue** to decide which node to visit next. Visits all adjacent nodes b
 Uses a **stack** to decide which node to visit next. Visits all nodes down a path before backtracking. Can be done recursively or iteratively.
 
 ## Trees
-Trees are just graphs with extra rules. Specifically, a connected undirected graph with no cycles.
+Trees are just graphs with extra rules. Specifically, a connected undirected graph with no cycles. Used for **path finding algorithms** and **file systems**.
 
 ![image](https://user-images.githubusercontent.com/72783315/168257022-a7303f2f-d6ae-4ea0-a485-ffc20c3cf228.png)
 ![image](https://user-images.githubusercontent.com/72783315/168257817-6b046204-4b0c-4bfc-925b-b98f7e3f45c4.png)
 
-Starts with a **root node**, and has nodes coming off it with **branches**
-
-Used for **path finding algorithms** and **file systems**.
+Rooted trees starts with a **root node**, and have nodes coming off it with **branches**
 
 ### Binary trees
-Special case of a tree, where it can only have 2 child nodes. This is the most commen way to use trees and the only way you need to know for the exam. They are much easier to search through and use a **left pointer and a right pointer**, which can be implemented using a 2D array.
+Special case of a tree, where each node can have a max of 2 child nodes. This is the most commen way to use trees and the only way you need to know for the exam. They are much easier to search through and use a **left pointer and a right pointer**, which can be implemented using a 2D array.
 
-A **binnary search tree** is an ordered binnary tree. An in order traversal gives the nodes in ascending order, and a reverse order traversal gives descending values. If using a binnary tree to sort data, compare the item to each node, and then go left if < and right if >, then add it to the end.
+A **binnary search tree** is an ordered binnary tree. An in order traversal gives the nodes in ascending order, and a reverse in order traversal gives descending values. If using a binnary tree to sort data, compare the item to each node, and then go left if < and right if >, then add it to the end.
 
 ![binnary search tree](https://user-images.githubusercontent.com/72783315/216965893-072c4c5d-c139-457a-94ba-c59d7f2e8ae6.png)
 
