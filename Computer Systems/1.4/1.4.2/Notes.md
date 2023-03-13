@@ -159,7 +159,7 @@ Graphs are a set of nodes (vertices) and edges (arcs), representing relationship
 
 ![image](https://user-images.githubusercontent.com/72783315/224493438-5cc37300-7491-49c1-9d25-336ebc404b19.png)
 
-**adjacent** - neighbouring nodes connected by an edge
+**adjacent** - neighbouring nodes connected by an **edge / arc**
 
 **degree** - the number of connections a node has
 
@@ -215,9 +215,13 @@ Uses a **stack** to decide which node to visit next. Visits all nodes down a pat
 Trees are just graphs with extra rules. Specifically, a connected undirected graph with no cycles. Used for **path finding algorithms** and **file systems**.
 
 ![image](https://user-images.githubusercontent.com/72783315/168257022-a7303f2f-d6ae-4ea0-a485-ffc20c3cf228.png)
-![image](https://user-images.githubusercontent.com/72783315/168257817-6b046204-4b0c-4bfc-925b-b98f7e3f45c4.png)
 
-Rooted trees starts with a **root node**, and have nodes coming off it with **branches**
+tree facts: 
+- Rooted trees starts with a **root node** which has no nodes coming into it
+- **branches** connect nodes
+- Nodes can be **parents** or **children** depending on if they have branches coming in or out.
+- A **leaf** has no children
+- A **subtree** is a tree contained in a tree.
 
 ### Binary trees
 Special case of a tree, where each node can have a max of 2 child nodes. This is the most commen way to use trees and the only way you need to know for the exam. They are much easier to search through and use a **left pointer and a right pointer**, which can be implemented using a 2D array.
