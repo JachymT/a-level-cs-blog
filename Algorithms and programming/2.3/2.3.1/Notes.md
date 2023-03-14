@@ -18,6 +18,10 @@ To find the time complexity of an algorithm, check the time complexity of each l
 
 Space complexity? Don't worry about it. Considers auxiliary (temporary) space and any additional inputs the algorithm takes.
 
+![image](https://user-images.githubusercontent.com/72783315/225045690-e07edd77-c459-4901-adca-538f4f2d2d90.png)
+
+learn
+
 ## Designing algorithms
 An algorithm is a sequence of steps to solve a problem. It should terminate and handle as many cases as possible. A good algorithm should be unambigous, understandable and optimised as far as possible. 
 
