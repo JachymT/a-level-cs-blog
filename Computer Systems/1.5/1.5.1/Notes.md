@@ -15,6 +15,8 @@ The following activites are illegal
 -  Unauthorised modification of computer material
 -  Unauthorised access with intent to cause further harm
 
+TLDR outlaws malware
+
 ## Data Protection Act 1998
 Protects people rather the actual data. It give people the rights to do the things below.
 
