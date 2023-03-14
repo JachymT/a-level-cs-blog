@@ -12,8 +12,8 @@ Attempts to prevent malicous use of computers. To access data you need permissio
 
 The following activites are illegal
 -  Unauthorised access to computer materials
--  Unauthorised access with intent to cause further harm
 -  Unauthorised modification of computer material
+-  Unauthorised access with intent to cause further harm
 
 ## Data Protection Act 1998
 Protects people rather the actual data. It give people the rights to do the things below.
