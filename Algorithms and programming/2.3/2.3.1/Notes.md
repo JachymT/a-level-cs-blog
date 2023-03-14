@@ -160,6 +160,6 @@ Quick sort starts by choosing a central pivot element in the list. Then elements
 5, 6, 11, 16, 22
 ```
 
-learn this
+### Time complexity guide
 
 ![image](https://user-images.githubusercontent.com/72783315/225045690-e07edd77-c459-4901-adca-538f4f2d2d90.png)
