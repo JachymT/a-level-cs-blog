@@ -252,7 +252,7 @@ The order for when the root node is visited () is the same as the order in which
 
 ![image](https://user-images.githubusercontent.com/72783315/224696393-37d7dd95-83e7-4638-b03d-1e1a49cb4cf2.png)
 
-Use method 1 for traversing the above.
+Use method 1 for traversing the above. The order is pre, in post, from left to bottom to right! Its easy!
 
 #### Pre-order traversing ↓ ← →
 Visits a node before exploring its subtrees (traverses going down). Start at the **root** node, traverse the **left** sub-tree, traverse the **right** sub-tree ↓ ← →
