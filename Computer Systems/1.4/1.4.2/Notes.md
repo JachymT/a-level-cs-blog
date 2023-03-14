@@ -236,7 +236,7 @@ Used in:
 - wireless networking
 - OS scheduling
 - compression algorithms
-- postfix notation - where operators go after the operands. There is also an infix and postfix notation
+- postfix notation - where operators go after the operands. There is also an infix and postfix notation. Infix is jsut normal arithmetic so use that to check (uess inorder)
 
 ### Operations
 These are the same for graphs. Note: traversing is the same as searching!!
