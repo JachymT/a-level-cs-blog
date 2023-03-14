@@ -38,7 +38,7 @@ Consent is technically not necessary to store data.
 RIPA regulates surveillance and public investigation. Places limits on investigatory powers such as the government, the police, social media and ISPs. Updated to be the Investigatory Powers Act 2016. Since the orgional act many more organisation have been given rights to data. Arguably it is an invasion of privacy and is often misused.
 
 Public bodies with enough authority can:
-- Demand customer's digital communications from the ISP without the informing the customer.
+- Demand customer's data from the ISP without the informing the customer.
 - Carry out mass survielence
 - Demand that ISPs have equipment in place for surveillance
 - Demand that encryption keys be handed over
