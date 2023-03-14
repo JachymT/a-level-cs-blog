@@ -38,6 +38,6 @@ Flip flops take the value to be stored as an input and a clock signal (alternati
 
 () do operations inside brackets first. order of operations normally is to do the operatiosn around ORs first. Put brackets around anything which isnt a OR, basically just do ANDs first and it works.
 
-GROUPS rectangles around TRUEs in 2s 4s or 8s. Groups can overlap, and the less rectangles the better. Groups can then be used to simplify the expression.
+GROUPS rectangles around TRUEs in 2s 4s or 8s. Groups can overlap, and the less rectangles the better. Groups can then be used to simplify the expression, which makes it easier to read and require less physical hardware to make on a circuit board.
 
 ![image](https://user-images.githubusercontent.com/72783315/221143287-b06a5d28-aa5e-4b02-8f77-9b5c3a1f16c4.png)
