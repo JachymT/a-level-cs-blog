@@ -252,7 +252,7 @@ The order for when the root node is visited () is the same as the order in which
 
 ![image](https://user-images.githubusercontent.com/72783315/224696393-37d7dd95-83e7-4638-b03d-1e1a49cb4cf2.png)
 
-Use method 1 for traversing the above. The order is pre, in post, from left to bottom to right! Its easy!
+Use method 1 for traversing the above. The order is pre then in then post, from left to bottom to right, the same as the position of the ↓ in the algorithm! Its easy!
 
 #### Pre-order traversing ↓ ← →
 Visits a node before exploring its subtrees (traverses going down). Start at the **root** node, traverse the **left** sub-tree, traverse the **right** sub-tree ↓ ← →
@@ -262,14 +262,14 @@ Method 1: Draw an line around the tree and go in order of the **left** dots (red
 Method 2: Draw an arrow around the tree and follow it, writing any node it passes. (the same as method 1)
 
 #### in-order traversing
-Nodes are visited between the subtrees. Gives ordered data if the tree is ordered with the lowest values as the root. Traverse the **left** sub-tree, visit the **root** node, traverse the **right** sub-tree ← ↓ →
+Nodes are visited between the subtrees. Gives ordered data if the tree is ordered with the lowest values as the root. Traverse the **left** sub-tree, visit the current node, traverse the **right** sub-tree ← ↓ →
 
 Method 1: Draw an line around the tree and go in order of the **bottom** dots (blue)
 
 Method 2: Just write out the list in the correct order. Don't try to traverse.
 
 #### Post-order traversing
-Node is visited after both of its subtrees. Traverse the **left** sub-tree, traverse the **right** sub-tree, visit the **root** node ← → ↓
+Node is visited after both of its subtrees. Traverse the **left** sub-tree, traverse the **right** sub-tree, visit the current node ← → ↓
 
 Method 1: Draw an line around the tree and go in order of the **right** dots (green)
 
