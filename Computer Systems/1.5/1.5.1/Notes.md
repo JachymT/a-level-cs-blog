@@ -1,7 +1,7 @@
 # Computer Related Legislation
 
 ## Copyright Designs and Patents Act 1988
-Attempts to protect an individual's or organisation's work by applying copyright automatically to any origional work created. The act give the owner or creator the right to how the work is used, including copying, adapting and lending selling copies. The legislation applies to digital content such as literary, musical, artistic and other intellectual property (work/things). In 1992 it was updated to include software, enforced by software licenses. When you agree to a license the owner is letting you use the software as long as you agree to thier terms. These terms can be restritive or not. Free software means there are no restrictions placed on the software, it can be modified adn distributed. Open source software is usually free software. Proprietary software restricts the user.
+Attempts to protect an individual's or organisation's work by applying copyright automatically to any origional work created. The act give the owner or creator the right to how the work is used, including copying, adapting and lending selling copies. The legislation applies to digital content such as literary, musical, artistic, brand names, product designs, inventions and other intellectual property (work/things). In 1992 it was updated to include software, enforced by software licenses. When you agree to a license the owner is letting you use the software as long as you agree to thier terms. These terms can be restritive or not. Free software means there are no restrictions placed on the software, it can be modified adn distributed. Open source software is usually free software. Proprietary software restricts the user.
 
 Copyright expires after 25-70 years depending on the type of content. 
 
