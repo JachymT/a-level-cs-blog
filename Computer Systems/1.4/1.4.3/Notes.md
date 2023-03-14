@@ -12,7 +12,7 @@ Adds two binnary numbers with a XOR for the sum and an AND for the carry
 <img width="500" alt="1" src="https://user-images.githubusercontent.com/72783315/222000113-d097c9b1-2908-42f6-820d-a814b8045240.png">
 
 ### Full Adder
-Adders can be concatenated to get multiple additions
+Adders can be concatenated to get multiple additions, just add an OR to the last carry
 
 <img width="500" alt="2" src="https://user-images.githubusercontent.com/72783315/222000813-52c8fa20-fa64-45db-af3b-f6d18f6c1da7.png">
 
