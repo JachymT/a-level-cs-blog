@@ -8,10 +8,10 @@ Copyright expires after 25-70 years depending on the type of content. Alive owne
 Whilst copyright applies to all work, patents apply to ideas (**intellectual property**). This includes brand names, product designs, inventions and other things you can think into existence. Trademarks apply to indications of a company (like logos).
 
 ## Computer Misuse Act 1990
-Attempts to prevent malicous use of computers. To access data you need permission to the data and the computer. Updated since release.
+Criminalises malicous access to computers. To access data you need permission to the data and the computer. Updated since release.
 
 The following activites are illegal
--  Unauthorised access to computer materials
+-  Unauthorised access to computer systems
 -  Unauthorised modification of computer material
 -  Unauthorised access with intent to cause further harm
 
