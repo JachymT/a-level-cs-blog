@@ -23,7 +23,9 @@ An algorithm is a sequence of steps to solve a problem. It should terminate and 
 
 Consider time and space compexity (using a lot of storage is bad and memory is limited), in unison. One can be sacrifised for the other sometimes. Memory is not as scarce as time generally and space is not an issue for small data sets. Time complexity is more important for real time systems.
 
-**Tractable algorithms** - have a feesable solution with predicatable efficiency; can be messured with time and space complexity. Actual definition is that it is achievable in polynomial time complexity or less. 
+**Tractable algorithms** - have a feesable solution with predicatable efficiency.
+- Can be messured with time and space complexity. 
+- Actual definition is that it is achievable in polynomial time complexity or less. 
 - E.g a searching a finite list.
 
 **Intractable algorithms** - not solveable in a reasonable amount of time. 
