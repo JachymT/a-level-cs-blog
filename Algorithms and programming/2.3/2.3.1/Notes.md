@@ -10,7 +10,7 @@ Big O notation can refer to best case, worse case or the average case. Worst cas
 - O(n) - linnear time; changes proportionally to the input (linnear search)
 - O(n log n) - linearithmic time; between n and n² (merge sort and quicksort)
 - O(n²) - polynomial time; proportional to the square, has a nested loop (bubble sort)
-- O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial (recursive algorithms like the fibonacci sequence)
+- O(2ⁿ) - exponential time; amount of time doubles as n increased, slower than polynomial (recursive algorithms are 2ⁿ, fib recursive is 1.618ⁿ without optimisations!)
 - O(n!) - factorial time; just don't (traveling salesman brute force solution... and bogosort)
 - O(nⁿ) - super-exponential; mind blown emoji
 
