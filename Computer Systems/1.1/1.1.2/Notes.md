@@ -20,7 +20,7 @@ Used in security systems and automation. Eg. Intel x86 and AMD. Utilize RISC pra
 ![image](https://user-images.githubusercontent.com/72783315/137929032-43626ccc-ba85-4076-ae26-34988aba1f5a.png)
 
 ## GPUs
-Graphical processing units are highly specialised to be fast and eficient for certain tasks like rendering graphics. They are made for mass calculations that take full advantage of parallel processing. They became more generic and started being used for modelling and analysis.
+Graphical processing units are highly specialised to be fast and eficient for certain tasks like rendering graphics, physics simulations, and training neural networks and data analysis. They are made for performing calculations on huge data sets. They take full advantage of parallel processing.
 
 ### Co-processors
 Any additional processor used for a specialist task, working concurrently with the main CPU. A GPU is an example of a co-processor
