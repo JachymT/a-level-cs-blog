@@ -13,14 +13,14 @@ high level source code needs to be translated to low level object code (machine 
 
 **Dynamic Link Libraries** - A library shared by multiple programs. DLLs  are linked to the translated program by the OS. DLLs reduce the amount of main memory needed because the DLLs can be used repeatedly. DLLs are used to load drivers by programs. 
 
-**Linkers** - When an program produces multiple code objects, a linker resolves them all into 1 executable.#
+**Linkers** - When an program produces multiple code objects, a linker resolves them all into 1 executable.
 
 **Loader** - Before a program can be executed, the loader needs to prepare the machine code, so that it can be loaded into main memory.
 
 ## Oder of translation
 4 main stages for a translator
 
-### Lexican analysis
+### Lexicon analysis
 Done by the lexer. Passes over comments, whitespaces and formats code into individual words (lexemes). Then each lexeme is matching to token classes, e.g. DIV is an operator. The lexemes are stored as these tokens in the format:
 
 `[tokenclass:token]`
