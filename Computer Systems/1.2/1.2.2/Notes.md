@@ -20,17 +20,26 @@ high level source code needs to be translated to low level object code (machine 
 ## Oder of translation
 4 main stages for a translator
 
-### Lexicon analysis
-Done by the lexer. Passes over comments, whitespaces and formats code into individual words (lexemes). Then each lexeme is matching to token classes, e.g. DIV is an operator. The lexemes are stored as these tokens in the format:
+### Lexical analysis
+Done by the **lexer**. Passes over comments and whitespaces to formats code into individual words or characters called **lexemes**. Lexemes are **tokens** that are found in the source code. Tokens are just a predefiend sequences of characters that the languages recognises from a pattern for example a literal will have quotes around it. These tokens are a part of token classes, including:
+- Identifiers (`variable names`)
+- Delimiters / punctuations (`;, (), {}`)
+- Operators (`+, -, *, /, DIV, MOD`)
+- Literals (`"The flag is raised"`)
+- Keywords (`if, else, while`)
+- Numbers (`-1, 3.14`)
+- Non-Tokens (`Comments, blank spaces`)
 
-`[tokenclass:token]`
+Then each lexeme is matched its token e.g `Keyword_if`. The source code can be stored in the following format (idk but hypothetically):
 
-So the source code, which contained lexemes, is now a series of tokens which can be put into a symbol table, which just indexes all the tokens. End output is a token stream.
+`[lexeme : specific_token : token_class]`
+
+So the source code, which is split into lexemes, is now a series of tokens which can be put into a symbol table, which just indexes all the tokens. End output is a token stream.
 
 ### Syntax analysis
-Creates an abstract syntax tree / parse tree from the token stream. Matches tokens against set rules of the language, e.g. identifier must be followed by a varaible name - int score. Detects any syntaxs errors - tockens that break the format. Logical errors are also detected (e.g unreferenced var).
+Creates an abstract syntax tree / parse tree from the token stream. Matches tokens against set rules of the language, e.g. identifier must be followed by a varaible name e.g `int score`. Detects any syntaxs errors - tokens that break the format. Logical errors are also detected (e.g unreferenced var).
 
-These trees are then used to update the symbol table with more info about identifiers. 
+These trees are then used to update the symbol table with more info about tokens. 
 
 ### Code generation
 Abstract tree code -> object code. Object code can then be linked (see above).
@@ -79,9 +88,6 @@ Will be suitable for different things. Also closed source is inherently bad.
 
 ### Open Source 
 The source code is availiable to the public.
-
-**Advantages**
-- 
 
 ### Closed Source / Proprietary
 The source code not availiable, when accessing the software you need a licence
