@@ -18,7 +18,7 @@ Some ROMs can be changed for examples cartridges in a DS, but most are soldered 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.1/1.1.3/images/RamRomDifferences.PNG" height="500">
 
 ## Optical storage
-Optical media includes Compact Disks (CDs), Digital Versitile Disks (DVDs) and Blue-rays. 
+Optical media includes Compact Disks (CDs), Digital Versitile Disks (DVDs), DVD-Rs (read only DVDs) and Blue-rays. 
 
 ### How they work
 Optical drives work by **lazers** being shined on the drive and the **reflected** or **scattered** light being processed. The surface of a disk has **pits and lands** which reflect the laser differently and so can store binary data. They are read-only and have to be pressed or burned with data.
