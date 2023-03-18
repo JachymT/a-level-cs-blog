@@ -189,16 +189,14 @@ Makes sure data sent is unreadable if intercepted. Encrypted and decrypted using
 ### Authentications
 Authentication in a network is basically user access levels. Require a username and password to log on, with multiple redentials (normal, admin). Done through the use of Smart cards and biometrics (fingerprints).
 
-### Malicous software
-Worms are self executing and self replicating. 
-
-Viruses are self executing and infect other programs or data files with the users help.
-
-A Trojan requires user help to install and cannot self-replicate.
-
 ### Prevention
 - 4 things above
 - Updating the operating system and application programs reduce vulnerabilities in the system. 
 - Updating / Installing anti-malware (“anti-virus”) software
 - Have unique, complex passwords
 - Don't click on phishing links
+
+### Malicous software
+- Worms are self executing and self replicating. 
+- Viruses are self executing and infect other programs or data files with the users help.
+- A Trojan requires user help to install and cannot self-replicate.
