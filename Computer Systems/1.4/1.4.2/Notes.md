@@ -155,7 +155,7 @@ The second way is to use **linnear probbing** / open addressing. This just moves
 Creating a new table with the optimal number of spaces for the new amount of data items. Instead of a hash table filling up and getting slow, all the values can be recalculated to improve overall efficiency.
 
 ## Graphs
-Graphs are a set of nodes (vertices) and edges (arcs), representing relationships between objects, such as transport networks, molecular structures and routers. They are abstract data structures (they are not coded the same way they are represented).
+Graphs are a set of nodes (vertices) and edges (arcs), representing relationships between objects, such as transport networks, molecular structures and routers. They are **abstract data structures** (they are not coded the same way they are represented).
 
 ![image](https://user-images.githubusercontent.com/72783315/224493438-5cc37300-7491-49c1-9d25-336ebc404b19.png)
 
@@ -168,7 +168,7 @@ Graphs are a set of nodes (vertices) and edges (arcs), representing relationship
 **cycle** - a part of a graph is cyclical if a node has a path back to itself, without crossing the same node twice
 
 ### Undirected graphs
-Straight up a normal graph, can be traversed in both directions. Represented in code using a dictionary. Each key is a node and the values are its neighbouring nodes. Alternative representation is as a list with pairs of nodes, representing edges. The notation below works for directed graphs by onling having values that the nodes points to in the dict. The implemention below is called an adjacency list.
+Straight up a normal graph, can be traversed in both directions. One way to implement in code using a dictionary, called an **adjacency list**. Each key is a node and the values are its neighbouring nodes. Alternative representation is as a list with pairs of nodes, representing edges. The notation below works for directed graphs by only having values that the nodes points to in the dict.
 
 ```py
 DICTIONARY graph = {
