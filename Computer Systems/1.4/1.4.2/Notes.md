@@ -217,7 +217,7 @@ Trees are just graphs with extra rules. Specifically, a connected undirected gra
 ![image](https://user-images.githubusercontent.com/72783315/168257022-a7303f2f-d6ae-4ea0-a485-ffc20c3cf228.png)
 
 tree facts: 
-- Rooted trees starts with a **root node** which has no nodes coming into it
+- Rooted trees starts with a **root node** which has no nodes coming into it. All trees can be rooted however it just depends on how its drawn.
 - **branches** connect nodes
 - Nodes can be **parents** or **children** depending on if they have branches coming in or out.
 - A **leaf** has no children
