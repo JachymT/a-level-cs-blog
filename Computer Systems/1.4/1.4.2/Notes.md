@@ -218,7 +218,7 @@ Trees are just graphs with extra rules. Specifically, a connected undirected gra
 
 tree facts: 
 - Rooted trees starts with a **root node** which has no nodes coming into it. All trees can be rooted however it just depends on how its drawn.
-- **branches** connect nodes
+- **branches** (edges) connect nodes
 - Nodes can be **parents** or **children** depending on if they have branches coming in or out.
 - A **leaf** has no children
 - A **subtree** is a tree contained in a tree.
@@ -226,9 +226,9 @@ tree facts:
 ### Binary trees
 Special case of a tree, where each node can have a max of 2 child nodes. This is the most commen way to use trees and the only way you need to know for the exam. They are much easier to search through and use a **left pointer and a right pointer**, which can be implemented using a 2D array.
 
-A **binnary search tree** is an **ordered**, **balanced** binnary tree. Balanced means it splits in two perfectly. The smaller the **height** of a tree (how many subtrees deep it) the optimised the tree is for searching.
+A **binnary search tree** is an **ordered** binnary tree. The smaller the **height** of a tree (how many subtrees deep it) the optimised the tree is for searching. A perfect binnary search tree would be **balanced**, where it splits in half each time perfectly.
 
-An in order traversal gives the nodes in ascending order, and a reverse in order traversal gives descending values. If using a binnary tree to sort data, compare the item to each node, and then go left if < and right if >, then add it to the end.
+If creating a binnary tree, add the data to it in the origional order given. If using a binnary tree to sort data, compare the item to each node, and then go left if < and right if >, then add it to the end. An in order traversal gives the nodes in ascending order, and a reverse in order traversal gives descending values. 
 
 ![binnary search tree](https://user-images.githubusercontent.com/72783315/216965893-072c4c5d-c139-457a-94ba-c59d7f2e8ae6.png)
 
