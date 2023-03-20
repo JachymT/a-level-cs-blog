@@ -191,7 +191,7 @@ All graphs, even weighted, can have both directed and undirected parts in the sa
 Edges are given values. In a transport example with cities as nodes these are not distances! they are simply the cost of the journey in relation to the other journeys, eg the average time it would take from that node to the next. They can be represented as matrixes or lists.
 
 #### Adjacency matrixes
-Adjacency matrixes are tables (arrays) of all possible connections between nodes, with each cell being an edge. They are great for visualling paths, adding new nodes or just getting information from them! Example of a weighted undirected graph as an adjacency matrix below with a real life application.
+Adjacency matrixes are tables (arrays) of all possible connections between nodes, with each cell being an edge. They are great for visualling paths, adding new nodes or just getting information from them! Example of a weighted undirected graph as an adjacency matrix below with a real life application !!!! !!!! !! ! ! ! 
 
 <img width="625" alt="celeste lobby routing" src="https://user-images.githubusercontent.com/72783315/224494584-90b556ad-c71f-4ab5-ae13-35eb8fa07a14.png">
 
