@@ -55,7 +55,7 @@ list.append(14)                     //appends the parameter to the end of the li
 ```
 
 ## Tuples
-Tuples, like lists, are **dynamic** and can contain **more than one data type** but they are **immutable**. They are accessed in the same way and are used for lists that shouldn't be changed.
+Tuples, like lists, are **dynamic** but can contain **more than one data type** and they are **immutable**. They are accessed in the same way and are used for lists that shouldn't be changed.
 
 ```py
 tuple = (1, 2, "Python", function(), (12, 0))
