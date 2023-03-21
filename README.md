@@ -30,7 +30,7 @@
 
 - 1.5 Legal, moral, cultural and ethical issues
   - [1.5.1 Computing related legislation](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.5/1.5.1)
-  - 1.5.2 Moral and ethical issues
+  - [1.5.2 Moral and ethical issues](https://github.com/JachymT/a-level-cs-blog/blob/main/Computer%20Systems/1.5/1.5.2/Notes.md)
 
 ### Algorithms and programming - Component 2
 - 2.1 Elements of computational thinking
