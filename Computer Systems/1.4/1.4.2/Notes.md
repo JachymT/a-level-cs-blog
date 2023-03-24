@@ -155,7 +155,7 @@ The second way is to use **linnear probbing** / open addressing. This just moves
 Creating a new table with the optimal number of spaces for the new amount of data items. Instead of a hash table filling up and getting slow, all the values can be recalculated to improve overall efficiency.
 
 ## Graphs
-Graphs are a set of nodes (vertices) and edges (arcs), representing relationships between objects, such as transport networks, molecular structures and routers. They are **abstract data structures** (they are not coded the same way they are represented).
+Graphs are a set of nodes (vertices) and edges (arcs), representing relationships between objects, such as transport networks, molecular structures, routers and the page rank algorithm. They are **abstract data structures** (they are not coded the same way they are represented).
 
 ![image](https://user-images.githubusercontent.com/72783315/224493438-5cc37300-7491-49c1-9d25-336ebc404b19.png)
 
