@@ -202,6 +202,8 @@ Adjacency lists are more space efficient for large graphs, since you don't have 
 
 ![image](https://user-images.githubusercontent.com/72783315/224496012-ae41d088-b0d1-4d90-84f3-1791b9847a34.png)
 
+<img width="200" src="https://user-images.githubusercontent.com/72783315/227500541-f38ecd74-4fb6-4cef-ba20-d67781dda7f5.jpg"> <img width="200" src="https://user-images.githubusercontent.com/72783315/227500693-c74ae3c9-dfd8-41b1-a580-62ea9e438601.png">
+
 ### Graph traversals
 Traversals systematically explore each node in a graph. Each node can be in 1 of three states: unvisted, discovered and visited. unvisted nodes can be added to a list of nodes to explore next. Discovered nodes have been added to a list / seen because one of its neighbours was previously visited and visted nodes have been fully explored and can be marked off.
 
