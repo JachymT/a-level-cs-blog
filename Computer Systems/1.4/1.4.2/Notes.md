@@ -157,7 +157,7 @@ Creating a new table with the optimal number of spaces for the new amount of dat
 ## Graphs
 Graphs are a set of nodes (vertices) and edges (arcs), representing relationships between objects, such as transport networks, molecular structures, routers and the page rank algorithm. They are **abstract data structures** (they are not coded the same way they are represented).
 
-![image](https://user-images.githubusercontent.com/72783315/224493438-5cc37300-7491-49c1-9d25-336ebc404b19.png)
+![image](https://user-images.githubusercontent.com/72783315/227492181-9a5d4f6c-9ad3-44e4-b18f-1936baaa1a43.png)
 
 **adjacent** - neighbouring nodes connected by an **edge / arc**
 
