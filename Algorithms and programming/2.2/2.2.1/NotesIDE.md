@@ -18,6 +18,6 @@ Text editors with tools to assist development of code.
 ## Running code
 - Includes a relevant translator
 - Inbuilt terminal
-- Run time environment - live view for example of a moblibe app
+- Run time environment / system - provide the software and hardware for a program to be run in real time. vital for devloping an anything interative.
 
 ![image](https://user-images.githubusercontent.com/72783315/150486138-f41a9845-3af8-442a-b159-a4fecc40bb00.png)
