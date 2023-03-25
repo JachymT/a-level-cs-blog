@@ -15,8 +15,8 @@ cover A01, A02, A03
 ## Environmental Effects
 (sum up points)
 
-## Censorship, Monitering connections and Privacy
+## Censorship, Collecting data and Privacy
 (sum up points)
 
-## Designing websites
+## Accessibility
 (sum up points)
