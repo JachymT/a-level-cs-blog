@@ -128,7 +128,7 @@ If there is no key one can be made out of the value by adding up its ASCII if it
 
 Hash function using a MOD:
 ```py
-(key, value) -> make the key hashable -> key MOD length of array -> hash value / position / bucket
+(key, value) -> make the key hashable -> key MOD length of array -> hash value / address in array / position / bucket
 ```
 
 A hash function should:
@@ -147,6 +147,8 @@ Hash tables are larger than the number of items in the table, optimally by about
 Searching, adding and removing values in a hash table is very efficient and simple. Infact they all do the same thing and work in one operation. Put the key through the hash function, get the index in the array, check for collions and complete the operation.
 
 ### Collisions
+A collision is when two keys get hashed to the same address.
+
 One way to deal with the inveitable fate of meeting a collision is to replace the hash table with pointers to linked lists. This is called **chaining** / closed addressing and is shown in the diagram above. Nodes in the linked list store the key, value and pointer to the next node. This makes dealing with colliosns easy since you just go down the list until you fin the item you want or you find a null pointer.
 
 The second way is to use **linnear probbing** / open addressing. This just moves down the hash table untill an open spot is found for the data to go, but this can end up getting in the way of other data. This reduces efficeiny, esspecially for a small hash table since when searching, indexes are checked untill an empty one is found.
