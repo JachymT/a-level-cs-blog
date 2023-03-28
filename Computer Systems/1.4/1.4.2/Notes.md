@@ -144,7 +144,7 @@ A hash function should:
 Hash tables are larger than the number of items in the table, optimally by about x1.33. The larger the number of postions in the array the more space is wasted, but the more free room the table has to store all the data with a lower chance of getting an collision. Fuller table = more chance of collisions (load factor)
 
 ### Operations
-Searching, adding and removing values in a hash table is very efficient and simple. Infact they all do the same thing and work in one operation. Put the key through the hash function, get the index in the array, check for collions and complete the operation.
+Searching, adding and removing values in a hash table is very efficient and simple. Infact they all do the same thing and work in one operation. Put the key through the hash function, get the index in the array, check for collions and complete the operation. Also when deleting values, don't replace with an empty value because that messes up searching. Instead put a value to mark that a value has been deleted.
 
 ### Collisions
 A collision is when two keys get hashed to the same address.
