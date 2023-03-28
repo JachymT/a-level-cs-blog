@@ -122,9 +122,9 @@ Hash tables are used in dictionaries and let data be found from a list in O(1) t
 <img width="626" alt="hash table" src="https://user-images.githubusercontent.com/72783315/222905253-276df27e-f6a3-4f2d-a2c6-20fc0d532d21.png">
 
 ### Hash functions
-Position of data in a hash tables is calculated with a **hash function** / **hashing algorithm**. Hash tables are just arrays, accessed as normal, but they require key-value pairs. This is becuase the hash fucntion needs to be applied to a **key** coresponding to the value, to get a new memory address in the array. The key is not the actual array position!!! 
+Position of data in a hash tables is calculated with a **hash function** / **hashing algorithm**. Hash tables are just arrays, accessed as normal, but they require key-value pairs. This is because the hash fucntion needs to be applied to a **key** coresponding to the value, to get a new memory address in the array. The key is not the actual array position!!! 
 
-If there is no key one can be made out of the value by adding up its ASCII if its a string, or is a key is a string the same is done. This is all done by the hash function. If the key is not the value itself it should be stored with with value.
+If there is no key one can be made out of the value by adding up its ASCII if it is alphanumeric (a string), or if a key is a string the same is done. This is all done by the hash function. If the key is not the value itself it should be stored with with value in the hash table.
 
 Hash function using a MOD:
 ```py
