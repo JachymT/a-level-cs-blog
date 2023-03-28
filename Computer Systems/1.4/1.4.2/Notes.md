@@ -141,7 +141,7 @@ A hash function should:
   - if every single value collided, every search would be a linnear search which defeats the point.
 - Also they are one way (cannot be undone easily)
 
-Hash tables are larger than the number of items in the table, optimally by about x1.33. The larger the number of postions in the array the more space is wasted, but the more free room the table has to store all the data with a lower chance of getting an collision.
+Hash tables are larger than the number of items in the table, optimally by about x1.33. The larger the number of postions in the array the more space is wasted, but the more free room the table has to store all the data with a lower chance of getting an collision. Fuller table = more chance of collisions (load factor)
 
 ### Operations
 Searching, adding and removing values in a hash table is very efficient and simple. Infact they all do the same thing and work in one operation. Put the key through the hash function, get the index in the array, check for collions and complete the operation.
