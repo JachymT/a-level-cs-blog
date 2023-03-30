@@ -2,6 +2,16 @@
 
 ## SQL from the Spec
 
+`AND` - add aditional search criteria
+
+`LIKE` - after a where, for queries 
+
+`IN` - after a where, for queries
+
+`(WILDCARDS)` - `* %` replace any amount of characters when querying,  `_ ?`replace a single character when querying
+
+`ODER BY` - select a field to oder by, defualt is `ASC` but `DESC` can be specified after
+
 fields to be displayed from Table
 ```SQL
 SELECT fields FROM Table
@@ -15,36 +25,38 @@ ON
 Table1.PrimaryKey = Table2.ForeignKey
 ```
 
-followed by search criteria
+where should be followed by search criteria
 ```SQL
 WHERE field = false
 ```
 
-`AND` - add aditional search criteria
+Deletes records that meet the condition set by a WHERE statement. If left blank deletes all records.
+```SQL
+DELETE FROM Table
+```
 
-`LIKE` - after a where, for queries 
-
-`IN` - after a where, for queries
-
-`(WILDCARDS)` - `* %` replace any amount of characters when querying,  `_ ?`replace a single character when querying
-
-`ODER BY` - select a field to oder by, defualt is `ASC` but `DESC` can be specified after
-
-`DELETE FROM Table` Deletes records that meet the condition set by a WHERE statement. If left blank deletes all records.
-
+Inserts a new record into a table. value1 gets added to column1.
 ```SQL
 INSERT INTO Table (column1, column2, ect)
 VALUES (value1, value2, ect)
 ```
-Inserts a new record into a table. value1 gets added to column1.
 
-`DROP TABLE Table` Deletes the whole table and anything in it
+Updates data contained records. Must be met by the where condition to be set.
+```SQL
+UPDATE Table
+SET Field = 'new value'
+WHERE Field = 'condition'
+```
 
+Deletes the whole table and anything in it
+```SQL
+DROP TABLE Table
+```
+
+## Writing
 `#dd/mm/yyyy` - format for querying dates
 
 As a genral rule use '' for strings and nothing for numbers and dates
-
-## Writing
 
 ```SQL
 SELECT date, type
