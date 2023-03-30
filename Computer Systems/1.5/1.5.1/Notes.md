@@ -18,7 +18,7 @@ The following activites are illegal
 TLDR outlaws malware
 
 ## Data Protection Act 1998
-Protects people rather the actual data. It give people the rights to do the things below.
+Protects people rather the actual data. It give people the rights over thier personal data and regulate how organisations handle personal data.
 
 Personal data must be
 - used fairly and lawfully
