@@ -30,13 +30,13 @@ WHERE field = false
 
 `ODER BY` - select a field to oder by, defualt is `ASC` but `DESC` can be specified after
 
-`DELETE FROM Table` Deletes records specified by WHERE statement, or deletes all records
+`DELETE FROM Table` Deletes records that meet the condition set by a WHERE statement. If left blank deletes all records.
 
 ```SQL
 INSERT INTO Table (column1, column2, ect)
 VALUES (value1, value2, ect)
 ```
-Inserts a new row into a table. value1 gets added to column1.
+Inserts a new record into a table. value1 gets added to column1.
 
 `DROP TABLE Table` Deletes the whole table and anything in it
 
