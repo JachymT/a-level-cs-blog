@@ -12,46 +12,46 @@
 
 `ODER BY` - select a field to oder by, defualt is `ASC` but `DESC` can be specified after
 
-fields to be displayed from Table
 ```SQL
 SELECT fields FROM Table
 ```
+fields to be displayed from Table
 
-links fields in relational databases
 ```SQL
 FROM Table1
 JOIN Table2 
 ON 
 Table1.PrimaryKey = Table2.ForeignKey
 ```
+links fields in relational databases
 
-where should be followed by search criteria
 ```SQL
 WHERE field = false
 ```
+where should be followed by search criteria
 
-Deletes records that meet the condition set by a WHERE statement. If left blank deletes all records.
 ```SQL
 DELETE FROM Table
 ```
+Deletes records that meet the condition set by a WHERE statement. If left blank deletes all records.
 
-Inserts a new record into a table. value1 gets added to column1.
 ```SQL
 INSERT INTO Table (column1, column2, ect)
 VALUES (value1, value2, ect)
 ```
+Inserts a new record into a table. value1 gets added to column1.
 
-Updates data contained records. Must be met by the where condition to be set.
 ```SQL
 UPDATE Table
 SET Field = 'new value'
 WHERE Field = 'condition'
 ```
+Updates data contained records. Must be met by the where condition to be set.
 
-Deletes the whole table and anything in it
 ```SQL
 DROP TABLE Table
 ```
+Deletes the whole table and anything in it.
 
 ## Writing
 `#dd/mm/yyyy` - format for querying dates
