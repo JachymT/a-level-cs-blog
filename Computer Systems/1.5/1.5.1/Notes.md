@@ -32,6 +32,10 @@ Personal data must be
 
 Data subject - Person identified by personal data
 
+privacy - refers to the protection of someone's personal data
+
+cofindtiality - refers to preventing unauthorised access to data
+
 Consent is technically not necessary to store data.
 
 ## Regulation of Investigatory Powers Act 2000 (1984)
