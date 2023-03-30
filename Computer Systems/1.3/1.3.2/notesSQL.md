@@ -53,6 +53,16 @@ DROP TABLE Table
 ```
 Deletes a table from the database and anything in it.
 
+```SQL
+CREATE TABLE Table (
+  id INTEGER PRIMARY KEY,
+  customer_id INTEGER,
+  product TEXT,
+  quantity INTEGER
+)
+```
+not in spec
+
 ## Writing
 `#dd/mm/yyyy` - format for querying dates
 
