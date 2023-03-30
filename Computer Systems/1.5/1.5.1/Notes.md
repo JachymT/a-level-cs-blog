@@ -18,7 +18,7 @@ The following activites are illegal
 TLDR outlaws malware
 
 ## Data Protection Act 1998
-Protects people rather the actual data. It give people the rights over thier personal data and regulate how organisations handle personal data.
+Protects people rather the actual data. It give people the rights over thier personal data and regulate how organisations handle personal data. The Information Commissioners Office enforces the data protection act in the UK, reguates things independently, and gives legal advice. Consent is technically not necessary to store data.
 
 Personal data must be
 - used fairly and lawfully
@@ -32,11 +32,9 @@ Personal data must be
 
 Data subject - Person identified by personal data
 
-privacy - refers to the protection of someone's personal data
+Privacy - refers to the protection of someone's personal data
 
-cofindtiality - refers to preventing unauthorised access to data
-
-Consent is technically not necessary to store data.
+Cofindetiality - refers to preventing unauthorised access to data
 
 ## Regulation of Investigatory Powers Act 2000 (1984)
 RIPA regulates surveillance and public investigation. Places limits on investigatory powers such as the government, the police, social media and ISPs. Updated to be the Investigatory Powers Act 2016. Since the orgional act many more organisation have been given rights to data. Arguably it is an invasion of privacy and is often misused.
