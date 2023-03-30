@@ -51,7 +51,7 @@ Updates data contained records. Must be met by the where condition to be set.
 ```SQL
 DROP TABLE Table
 ```
-Deletes the whole table and anything in it.
+Deletes a table from the database and anything in it.
 
 ## Writing
 `#dd/mm/yyyy` - format for querying dates
