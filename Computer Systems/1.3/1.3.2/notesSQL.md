@@ -32,9 +32,11 @@ WHERE field = false
 
 `DELETE FROM Table` Deletes records specified by WHERE statement, or deletes all records
 
-`INSERT INTO Table`
-
-`Values(field1, filed2 ...)` Inserts a new row into a table.
+```SQL
+INSERT INTO Table (column1, column2, ect)
+VALUES (value1, value2, ect)
+```
+Inserts a new row into a table. value1 gets added to column1.
 
 `DROP TABLE Table` Deletes the whole table and anything in it
 
