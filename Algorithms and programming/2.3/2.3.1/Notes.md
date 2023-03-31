@@ -173,13 +173,19 @@ Finding the shortest route from one point to another, when having to travel acro
 Finds the shortest path from a start node to any other node. Implemented using a priotity queue.
 
 Method
-- Start node has a distance of 0
-- The neighbouring nodes are checked.
+- Start node has a distance of 0, add this to the queue
+- If you need to label the other temporary distances, label them as infinity, otherwise leave them blank for now.
+- Remove the start node from the front of the priority queue and write its final distance - 0
+- Check all the neighbouring nodes, and write their temporary distances
+- Temporary distances are the previous final distance + the edge length
+- Add these visited nodes to the priority queue in order of thier distances (smallest at the front)
+- Repeat the steps, remove the front node
 - Once nodes are removed from the queue, that is their final distance
-- The final values are teh distances from the start node to each node.
+- Update neighbouring nodes temporary distances. If the node has already been visited check it again anyway
+- If the new distance is lower than the previous temporary one, replace it with the lower one.
+- Keep going
+- The final values are the distances from the start node to each node.
 - To find the path, go backwards subtracting the weight of the edge if it gives the node final value. E.g  from D=8 you want to go along an edge of length 1 to C=7 since 8-1=7
-
-Implemented using a priotity queue.
 
 ### A*
 The A* algorithm is a more general dijkstra's algorithm used to find a specific node, rather than all nodes in a graph. Uses heuristic approach to better direct where Dikstra searches. Uses aproximate distance, for example using as the crow flies distances for aproximation. Imagine raises nodes up to make a hill going towards the node you want to find. For example if you want to drive to Edinburgh, you don't need to search any nodes to the south. 
