@@ -18,7 +18,7 @@
   - [1.2.4 Types of programing languages](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.2/1.2.4)
 
 - 1.3 Exchanging data
-  - 1.3.1 Compression, encryption and hashing
+  - [1.3.1 Compression, encryption and hashing](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.1)
   - [1.3.2 Databases](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.2)
   - [1.3.3 Networks](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.3)
   - [1.3.4 Web technologies](https://github.com/JachymT/a-level-cs-blog/tree/main/Computer%20Systems/1.3/1.3.4)
