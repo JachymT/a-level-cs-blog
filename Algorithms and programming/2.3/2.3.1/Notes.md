@@ -192,8 +192,8 @@ Method
 Limitations
 - Needs to visit all nodes
 - Gets the shortest path to all nodes which is often uncessary
-- Weights can't be negative.
+- Weights can't be negative
 
 ### A*
-The A* algorithm is a more general dijkstra's algorithm used to find a specific node, rather than all nodes in a graph. Uses heuristic approach to better direct where Dikstra searches. Uses aproximate distance, for example using as the crow flies distances for aproximation. Imagine raises nodes up to make a hill going towards the node you want to find. For example if you want to drive to Edinburgh, you don't need to search any nodes to the south. 
+The A* algorithm is a more general dijkstra's algorithm used to find a specific node, and doesn't need to check all nodes in a graph. Performace is improved with a heuristic approach to better direct where the algorithm searches. Uses aproximate distance, for example using as the crow flies distances for aproximation. Imagine raises nodes up to make a hill going towards the node you want to find. For example if you want to drive to Edinburgh, you don't need to search any nodes to the south. 
 
