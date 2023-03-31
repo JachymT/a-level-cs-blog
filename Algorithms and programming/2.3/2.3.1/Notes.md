@@ -176,9 +176,11 @@ Method
 - Start node has a distance of 0
 - The neighbouring nodes are checked.
 - Once nodes are removed from the queue, that is their final distance
+- The final values are teh distances from the start node to each node.
+- To find the path, go backwards subtracting the weight of the edge if it gives the node final value. E.g  from D=8 you want to go along an edge of length 1 to C=7 since 8-1=7
 
 Implemented using a priotity queue.
 
 ### A*
-Heuristic approach to better direct where Dikstra searches. One was is it use as the crow flies distances for aproximation. Raises nodes up.
+The A* algorithm is a more general dijkstra's algorithm used to find a specific node, rather than all nodes in a graph. Uses heuristic approach to better direct where Dikstra searches. Uses aproximate distance, for example using as the crow flies distances for aproximation. Imagine raises nodes up to make a hill going towards the node you want to find. 
 
