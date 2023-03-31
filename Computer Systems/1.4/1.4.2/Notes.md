@@ -62,9 +62,9 @@ tuple = (1, 2, "Python", function(), (12, 0))
 ```
 
 ## Stacks
-stacks handle linnear lists of data. They use a **last in first out** data structure. They are used to reverse an action - tracking user inputs, used in iteration - like pathfinding algorithms. They are implemented using pointers, which point to the top of the stack.
+stacks handle linnear lists of data. They use a **last in first out** data structure. They are used to reverse an action - tracking user inputs, used in recursion - like pathfinding algorithms. They are implemented using pointers, which point to the next availiable space in the stack.
 
-Adding data to a stack **pushing**. If the stack if full a stack **overflow** error is given.
+Adding data to a stack is called **pushing**. If the stack if full a stack **overflow** error is given.
 
 taking data off the stack is called **popping**. If the stack is empty a stack **underflow** error is given.
 
