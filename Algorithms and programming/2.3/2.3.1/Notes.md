@@ -170,11 +170,12 @@ Quick sort starts by choosing a central pivot element in the list. Then elements
 Finding the shortest route from one point to another, when having to travel across other points. Path finding algorithms work on weighted graph structures and can be applied to satnavs, puzzle solving, packet routing and even finding the shortest length of wire for a a circuit. They avoid costs in the form of slower paths. E.g if there was an obstance in one of the roads and the weight was raised to 100, path finding algorithms would go around that road, same with a wall.
 
 ### Dijkstra
-Finds the shortest path from a start node to any other node. 
+Finds the shortest path from a start node to any other node. Implemented using a priotity queue.
 
 Method
 - Start node has a distance of 0
 - The neighbouring nodes are checked.
+- Once nodes are removed from the queue, that is their final distance
 
 Implemented using a priotity queue.
 
