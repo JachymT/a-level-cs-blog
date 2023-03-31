@@ -137,7 +137,7 @@ A hash function should:
 - use little memory
 - have a uniform distribution of hash values (array positions)
   - therefore result in **few collisions** - where unique keys result in the same hash value 
-  - and minimsl clustering - where the table gets filled up in common collision spots.
+  - and minimalise clustering - where the table gets filled up in common collision spots.
   - if every single value collided, every search would be a linnear search which defeats the point.
 - Also they are one way (cannot be undone easily)
 
