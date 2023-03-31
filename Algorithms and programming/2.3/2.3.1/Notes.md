@@ -187,6 +187,8 @@ Method
 - The final values are the distances from the start node to each node.
 - To find the path, go backwards subtracting the weight of the edge if it gives the node final value. E.g  from D=8 you want to go along an edge of length 1 to C=7 since 8-1=7
 
+**visited** means fully explored. If a node is visited then its final distance has been found.
+
 ### A*
 The A* algorithm is a more general dijkstra's algorithm used to find a specific node, rather than all nodes in a graph. Uses heuristic approach to better direct where Dikstra searches. Uses aproximate distance, for example using as the crow flies distances for aproximation. Imagine raises nodes up to make a hill going towards the node you want to find. For example if you want to drive to Edinburgh, you don't need to search any nodes to the south. 
 
