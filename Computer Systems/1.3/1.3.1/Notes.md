@@ -1,6 +1,6 @@
 # Compression, Encryption and Hashing
 
-# Compression
+## Compression
 
-# Encryption
+## Encryption
 Encryption is encoding data to make it harder to understand by anyone other than the intended recipient. Should make data unreadable without a key.
