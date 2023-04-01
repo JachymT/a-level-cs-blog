@@ -68,8 +68,8 @@ JavaScript is an example of an interpreted lanauge. Code is translated and execu
 
 **Advantages**
 - Code can be run on any architecture
-- Becuase code is also error checked line by line, errors are shown as they occur and the program will stop at any error so its easy to tell which line it came from. This makes them useful for debugging.
-- software can still be shared over a browser - JS is not completly useless.
+- Allows for run time debugging tools e.g breakpoints and stepping. Because code is also error checked line by line, errors are shown as they occur and the program will stop at any error so its easy to tell which line it came from. This makes them easier to use than compilers, which won't run code with any errors
+- software can still be shared over a browser - JS is not useless.
 
 **Disadavntages**
 - Execution is far slower than with translators. 
