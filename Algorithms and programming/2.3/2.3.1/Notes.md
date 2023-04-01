@@ -173,6 +173,7 @@ Finding the shortest route from one point to another, when having to travel acro
 Finds the shortest path from a start node to any other node. Implemented using a **priotity queue** and is **breadth first**.
 
 Method
+```py
 - Start node has a distance of 0, add this to the queue
 - If you need to label the other temporary distances, label them as infinity, otherwise leave them blank for now.
 - Remove the start node from the front of the priority queue and write its final distance - 0
@@ -186,6 +187,7 @@ Method
 - Keep going
 - The final values are the distances from the start node to each node.
 - To find the path, go backwards subtracting the weight of the edge if it gives the node final value. E.g  from D=8 you want to go along an edge of length 1 to C=7 since 8-1=7
+```
 
 **visited** means fully explored. If a node is visited then its final distance has been found / has been removed from the queue.
 
