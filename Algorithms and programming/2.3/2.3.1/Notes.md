@@ -174,19 +174,20 @@ Finds the shortest path from a start node to any other node. Implemented using a
 
 Method
 ```py
-- Start node has a distance of 0, add this to the queue
-- If you need to label the other temporary distances, label them as infinity, otherwise leave them blank for now.
-- Remove the start node from the front of the priority queue and write its final distance - 0
-- Check all the neighbouring nodes, and write their temporary distances
-- Temporary distances are the previous final distance + the edge length
-- Add these visited nodes to the priority queue in order of thier distances (smallest at the front)
-- Repeat the steps, remove the front node
-- Once nodes are removed from the queue, that is their final distance
-- Update neighbouring nodes temporary distances. If the node has already been visited check it again anyway
-- If the new distance is lower than the previous temporary one, replace it with the lower one.
-- Keep going
-- The final values are the distances from the start node to each node.
-- To find the path, go backwards subtracting the weight of the edge if it gives the node final value. E.g  from D=8 you want to go along an edge of length 1 to C=7 since 8-1=7
+1. Start node has a distance of 0, add this to the queue
+   If you need to label the other temporary distances, label them as infinity, otherwise leave them blank for now.
+2. Remove the start node from the front of the priority queue and write its final distance - 0
+3. Check all the neighbouring nodes, and write their temporary distances
+   Temporary distances are the previous final distance + the edge length
+4. Add these visited nodes to the priority queue in order of thier distances (smallest at the front)
+5. Repeat the steps, removing the front node from the queue
+6. Once nodes are removed from the queue, that is their final distance
+7. Update neighbouring nodes temporary distances. If the node has already been visited check it again anyway
+   If the new distance is lower than the previous temporary one, replace it with the lower one.
+8. Keep going
+9. The final values are the distances from the start node to each node.
+10. To find the path, go backwards subtracting the weight of the edge if it gives the node final value. 
+    E.g from D=8 you want to go along an edge of length 1 to C=7 since 8-1=7
 ```
 
 **visited** means fully explored. If a node is visited then its final distance has been found / has been removed from the queue.
