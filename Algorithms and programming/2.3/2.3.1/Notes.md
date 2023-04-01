@@ -170,9 +170,8 @@ Quick sort starts by choosing a central pivot element in the list. Then elements
 Finding the shortest route from one point to another, when having to travel across other points. Path finding algorithms work on weighted graph structures and can be applied to satnavs, puzzle solving, packet routing and even finding the shortest length of wire for a a circuit. They avoid costs in the form of slower paths. E.g if there was an obstance in one of the roads and the weight was raised to 100, path finding algorithms would go around that road, same with a wall. Nodes are sometimes called vertices.
 
 ### Dijkstra
-Finds the shortest path from a start node to any other node. Implemented using a **priotity queue** and is **breadth first**.
+Finds the shortest path from a start node to any other node. Implemented using a **priotity queue**. Dijkstra's is **breadth first**.
 
-Method
 ```py
 1. Start node has a distance of 0, add this to the queue
    If you need to label the other temporary distances, label them as infinity, otherwise leave them blank for now.
@@ -189,8 +188,7 @@ Method
 10. To find the path, go backwards subtracting the weight of the edge if it gives the node final value. 
     E.g from D=8 you want to go along an edge of length 1 to C=7 since 8-1=7
 ```
-
-**visited** means fully explored. If a node is visited then its final distance has been found / has been removed from the queue.
+**visited** means fully explored. If a node is visited then its final distance has been found / the node has been removed from the queue.
 
 Limitations
 - Needs to visit all nodes
