@@ -1,9 +1,9 @@
 # Types of Processors
 
 ## RISC 
-Reduced instruction set computer - aim to use as simple instructions to process a higher number of instructions per second.
+Reduced instruction set computer - aim to use as simple instructions to process a higher number of instructions per second. Instructions execute faster than in CISC.
 
-Programs are harder to translate since the compiler is producing more lines of code. More RAM is needed to store these instructions. They use a fixed format for instructions and limited modes of addressing.
+Programs are harder to translate since the compiler is producing more lines of code. More RAM is needed to store these instructions, and RAM access is frequent. They use a fixed format for instructions and limited modes of addressing.
 
 However each instruction requires less **processing power** and complicated **hardware**. In RISC proccessors more room is left for registers and cache. Since instructions are uniform in execution time, pipelinning becomes feesable.
 
@@ -13,7 +13,7 @@ RISC is used in portable and small proccessors. E.G ARM
 
 Complex instructuion set computer - aims to complete a task in as few instructions as a possible, making use of very complex instructions. 
 
-The instructions are easy to translate from a high level language to assembly, but take more clock cycles to execute. CISC Requires less instruction cycles to get the same result as RISC. But since instructions can be as long as they want, it uses variable instruction lengths.
+The instructions are easy to translate from a high level language to assembly, but take more clock cycles to execute. CISC Requires less instruction cycles to get the same result as RISC. But since instructions can be as long as they want, it uses variable instruction lengths and formats.
 
 Used in security systems and automation. Eg. Intel x86 and AMD. Utilize RISC practises and microcodes.
 
