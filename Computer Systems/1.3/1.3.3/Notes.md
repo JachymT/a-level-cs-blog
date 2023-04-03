@@ -1,5 +1,5 @@
 # Networks
-A network is any connection between two or more computers, and allows them to send data back and forth. Networks in a company allow for shared peripherals, files and backup resources.
+A network is any connection between two or more computers, and allows them to send data back and forth. Networks in a company allow for shared peripherals and files, and for remote backups and maintenance.
 
 A LAN is over a small geographical area. A LAN requires infastructure to be built, either with wi-fi or copper / fibre optic cables.
 
