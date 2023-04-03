@@ -138,7 +138,7 @@ A network where terminals (clients) connect to a central server. The server typi
 **Advantages**
 - Secure - data is stored in one location
 - central backups can be carreid out
-- data and recoures can be shared between clients
+- Shared resources - files and peripherals can be accessed by clients
 
 **Disadvantages**
 - single point of failure, if the server fails then the terminals fail
@@ -149,7 +149,7 @@ A network where terminals (clients) connect to a central server. The server typi
 A network where computers are connected together and can act as both servers and clients, both providing and requesting data.
 
 **Advantages**
-- cheap
+- cheaper
 - easy to maintain
 - not dependent on a central server
 - recourses can be shared between computers
@@ -160,7 +160,7 @@ A network where computers are connected together and can act as both servers and
 - poor security
 - hard to locate resources
 
-Uses of each architecture
+Both architectures form a network and allow for sharing files and data
 
 <img src="https://user-images.githubusercontent.com/72783315/196441612-385bab50-92bb-4a87-9f90-e95c8e4579c7.png" height="350">
 
