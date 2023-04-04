@@ -101,10 +101,10 @@ Data is sent over networks in small chunks called data packets / ip packets. Pac
 The header of the packet contains information that the routers need for packet switching (see above).
 
 ### Network Performace
-Network traffic causes latency - packets build up in the routers memory and take longer to arrive. Latency (delay), error rate (how many packets get lost) and bandwidth (speed of transfer) all affect network performance.
+Network traffic causes latency - packets build up in the switch / routers memory and take longer to arrive. Latency (delay), error rate (how many packets get lost) and bandwidth (speed of transfer - affected by the transmission medium, e.g. fibreoptic cable.) all affect network performance.
 
 ## Hardware
-Home networks ussually just put all of these into one device. Also A hub is just a faster switch. Fibreoptics / other cables exist
+Home networks ussually just put all of these into one device. Also a switch is just a faster hub. Fibreoptics / other cables exist.
 
 ### Network Interface Card
 Usually built into the motherboard, the NIC is needed for connecting to a network. Assigns a unique MAC address to the device
