@@ -19,15 +19,23 @@ Automation in decision making means the application of alorithms to real life si
 
 ## AI
 AI is beign invested it in at a faster rate than ever before because of its ability to replicate human learning. However, AI has some major pitfalls, which without understanding, can lead people into the trap of thinking it can replace human intelligence.
-- Fundementally there is disconnect between any kind of emotions, intentions or wider context. In essence it is just copying and not thinking
+- Fundementally there is disconnect between any kind of emotions, intentions or wider context. In essence it is just copying and not thinking.
+- For example, a person can apply past information to question where some data they are given is true, but an AI cannot.
+- It can easily deceive, sounding confident when it knows very little.
+  - This leads to missinformation being spread or people being convinved to do things the AI is making up.
 - Requires an increadible amount of data
   - This data can be stolen, unavailiable or incomplete
   - Not to mention the potential copyright infringement, of using this data (copyright designs and patents act 1988)
-- Requires an even geater amount of proccessing power, which is increadibly harmful to the planet, wasting heat and using fossil fuels
+- Requires an even geater amount of proccessing power,
+  - which is increadibly harmful to the planet, wasting heat and using fossil fuels
+  - and also is limited by the hardware the creator has access to
+- Cognitive biases that people have can appear in AI too
+
+When AI is explainable - developed in a way that lets you see how an AI comes to the decision it makes, it can be hugely beneficial, and can be used collaborativly with people.
 
 AI is used in:
   - Medical research
-  - Every day use - chat bots and DALL-E
+  - Every day use - chat bots, spellcheck
   - voice recognision
   - pretty much anything
 
