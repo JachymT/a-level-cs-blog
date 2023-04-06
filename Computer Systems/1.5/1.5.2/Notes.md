@@ -18,10 +18,21 @@ Automation in decision making means the application of alorithms to real life si
 - Driveless cars need to make difficult decisions about the value of human life, and there needs to be accountability for those desicions
 
 ## AI
-(sum up points)
+AI is beign invested it in at a faster rate than ever before because of its ability to replicate human learning. However, AI has some major pitfalls, which without understanding, can lead people into the trap of thinking it can replace human intelligence.
+- Fundementally there is disconnect between any kind of emotions, intentions or wider context. In essence it is just copying and not thinking
+- Requires an increadible amount of data
+  - This data can be stolen, unavailiable or incomplete
+  - Not to mention the potential copyright infringement, of using this data (copyright designs and patents act 1988)
+- Requires an even geater amount of proccessing power, which is increadibly harmful to the planet, wasting heat and using fossil fuels
+
+AI is used in:
+  - Medical research
+  - Every day use - chat bots and DALL-E
+  - voice recognision
+  - pretty much anything
 
 ## Environmental Effects
-(sum up points)
+The more widly accessible technology is, the more it is produced and the more waste that gets thrown out. EU charging cabel laws is the best case study for this section.
 
 ## Censorship, Collecting data and Privacy
 (sum up points)
