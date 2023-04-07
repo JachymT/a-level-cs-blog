@@ -68,14 +68,7 @@ Stalking and harasment are much easier because of:
 - Identities are easier to hide - the Internet provides a sense of anonymity beucase of its de-centralized nature
 - VPN and encryption can be used to avoid detection.
 - Missinformation can be spread and beleived at much faster speeds
-- Personal information is easy to aquire, even if you have no technical knowledge (buying email / irl addresses websites are a thing)
-
-### Collecting data
-Big Data is a large amount of data from a variety of sources. Used in data mining, AI and targeted advertising.
-
-Data on people is collected in several ways but for two main reasons: money and to detect crime. It can be collected, without the users consent under the investigatory powers act (2000)
-
-
+- Personal information is easy to aquire, even if you have no technical knowledge
 
 ### Censorship
 Censorship is any kind of controlling of what people can view.
@@ -84,8 +77,19 @@ Censorship is any kind of controlling of what people can view.
 - Used by government to prevent citizen to seeing opposing political beliefs or socially unacceptable content
 - Can be bypassed
 
+### Collecting personal data
+Big Data is a large amount of data from a variety of sources. Used in data mining and to feed into algorithms. 
+
+Data can be easily collected without the users consent under the investigatory powers act (2000). The telecommunications act of 1984 allows for people to criminalised through a phone call, and allows for mass surveillance, however it is hard to know to what extent data is being collected unless the authoirties at hand disclose so. This is done though monitering people's activities online, emails, messages and phone calls. Collected personal data can be pretty much anything, e.g. addresses or medical records. This has laed to major data breaches in the past when personal data has not been handled correctly. Because this breaches this the data protection act of 1998, this lead to fines to to company / council. 
+
+Encrypted data is still valuable in the hand of attackers because of a principle know as store now, decrypt later which assumes that quantum computer will be able to crack encryption that is difficult to break now in a few decades. However encrypting data can still deter a lot of breaches.
+
+Many people argue that mass surveilance and companies collecting data is an invasion of privacy. Sureillance data can be used a evidence to charge criminals in court, and warrent is still required (unless you are the government or ISP), although it ends up including non criminal civilians.
+
 ### Piracy
-Piracy is the illegal copying of software without regard for copyright laws. The internet has made piracy more of a problem than before, since pirated files can be distributed easier. Music and video are two popular forms of content to distribute illegally and the distributer of the copryrighted content is in fault in the eyes of the law in this situation. Copyright law covers these types of media unless they have been released with a permissive license, for example a creative commons license.
+Piracy is the illegal copying of software without regard for copyright laws. The internet has made piracy more of a problem than before, since pirated files can be distributed easier. Music and video are two popular forms of content to distribute illegally and the distributer of the copryrighted content is in fault in the eyes of the law in this situation. Copyright law covers these types of media unless they have been released with a permissive license, for example a creative commons license. Sometimes these licenses are assumed which causes confusion and making it easier to specify a license for your property if you are a creator would mean less people would resort to piracy or pirate by accident. 
+
+People should have rights over he content they create and pirating violate these rights and hurts the income of the people making the content. Music labels and streaming services need to enforce copyright to pay the artists. Piracy can also have a negative impact on people who use the content following its regulaations, such as the creators releasing thier work under more restictive licesing or making thier work more harder to aquire. 
 
 ## Accessibility
 Websites should be designed in accordance to the Equality Act (2010) to make sure content can be accessed by people with particular needs.
@@ -102,4 +106,6 @@ Websites should be designed in accordance to the Equality Act (2010) to make sur
 - keep in mind that different input methods and keyboard layouts exists.
 
 ## The economy 
-For a long time, countries with lower GDA have had less access to the internet (digital divide)
+Countries with lower GDA have less access to the internet, creating a digital divide and disadvatanging certain people. This gap has closed as more countreis gain access to the internet. 
+
+The selling of digital goodscontributes to a major part of the economy.
