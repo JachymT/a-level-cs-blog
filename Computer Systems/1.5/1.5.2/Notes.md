@@ -40,10 +40,24 @@ AI is used in:
   - pretty much anything
 
 ## Environmental Effects
-The more widly accessible technology is, the more it is produced and the more waste that gets thrown out. EU charging cabel laws is the best case study for this section.
+The more widly accessible technology is, the more it is produced and the more waste that gets thrown out. 
+- E-waste is toxic, can contanimate water supplies or soil
+- Computer parts are sometimes shipped to 3rd world countries with fewer environmental protection laws.
+- Engery consuption emits greenhouses, contribuiting to global warming and reducing biodiversity in the long term.
+
+EU charging cabble laws is a good case study for this section. (citation needed)
 
 ## Censorship, Collecting data and Privacy
-(sum up points)
+A whole mess
 
 ## Accessibility
-(sum up points)
+Websites should be designed in accordance to the Equality Act (2010), to make sure no groups are discriminated against when viewing.
+- menu buttons for navigation between pages
+- ability to enlarge text
+- ability to increase contrast
+- provide alt text for images
+- provide transcriptions of audio files
+- be translatable
+- use unicode
+- Software should be developed with photosensitive users in mind.
+- Software should keep in mind that different input methods and keyboard layouts exists, and people may need to enter special characters for their name.
