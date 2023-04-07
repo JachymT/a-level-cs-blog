@@ -65,7 +65,8 @@ A whole mess
 People use technology to keep connected regardless of location. The Malicious Communications Act 1988 punishes messages that might be indecent cause distress or be threatening. 
 
 Stalking and harasment are much easier because of:
-- Identities are easier to hide - the Internet provides a sense of anonymity
+- Identities are easier to hide - the Internet provides a sense of anonymity beucase of its de-centralized nature
+- VPN and encryption can be used to avoid detection.
 - Missinformation can be spread and beleived at much faster speeds
 - Personal information is easy to aquire, even if you have no technical knowledge (buying email / irl addresses websites are a thing)
 
@@ -74,13 +75,17 @@ Big Data is a large amount of data from a variety of sources. Used in data minin
 
 Data on people is collected in several ways but for two main reasons: money and to detect crime. It can be collected, without the users consent under the investigatory powers act (2000)
 
+
+
 ### Censorship
 Censorship is any kind of controlling of what people can view.
 - ISPs block content
 - Used in schools and work to restrict what websites can be viewed
+- Used by government to prevent citizen to seeing opposing political beliefs or socially unacceptable content
+- Can be bypassed
 
 ### Piracy
-Piracy is the illegal copying of software without regard for copyright laws.
+Piracy is the illegal copying of software without regard for copyright laws. The internet has made piracy more of a problem than before, since pirated files can be distributed easier. Music and video are two popular forms of content to distribute illegally and the distributer of the copryrighted content is in fault in the eyes of the law in this situation. Copyright law covers these types of media unless they have been released with a permissive license, for example a creative commons license.
 
 ## Accessibility
 Websites should be designed in accordance to the Equality Act (2010) to make sure content can be accessed by people with particular needs.
