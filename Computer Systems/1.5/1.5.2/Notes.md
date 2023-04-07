@@ -37,7 +37,7 @@ AI is used in:
   - Medical research
   - Every day use - chat bots, spellcheck
   - voice recognision
-  - pretty much anything
+  - pretty much anything execpt the things it can't do which is a lot.
 
 ## Environmental Effects
 The more widly accessible technology is, the more it is produced and the more waste that gets thrown out. 
@@ -47,17 +47,24 @@ The more widly accessible technology is, the more it is produced and the more wa
 
 EU charging cabble laws is a good case study for this section. (citation needed)
 
+Technology is used in lots of ways to benefit the environment
+- energy monitering in homes to reduce power usage in real-time
+- Incentives to use smart vehives with less and more efficient fuel consumption / electric cars.
+- Uses in scientific research, satellites and monitering plant and animal life, and the effects of climate change on the ice caps.
+
 ## Censorship, Collecting data and Privacy
 A whole mess
 
 ## Accessibility
-Websites should be designed in accordance to the Equality Act (2010), to make sure no groups are discriminated against when viewing.
+Websites should be designed in accordance to the Equality Act (2010) to make sure content can be accessed by people with particular needs.
 - menu buttons for navigation between pages
 - ability to enlarge text
-- ability to increase contrast
+- ability to increase contrast 
+- some colour schemes are better for colour blindness
+- colours have no set meaning
 - provide alt text for images
 - provide transcriptions of audio files
-- be translatable
-- use unicode
-- Software should be developed with photosensitive users in mind.
-- Software should keep in mind that different input methods and keyboard layouts exists, and people may need to enter special characters for their name.
+- be translatable (sometimes text direction needs to be fliped or rotated)
+- use unicode (people may need to enter special characters for their name)
+- be developed with photosensitive users in mind.
+- keep in mind that different input methods and keyboard layouts exists.
