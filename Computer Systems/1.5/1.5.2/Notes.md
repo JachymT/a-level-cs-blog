@@ -1,7 +1,7 @@
 # Ethical, Moral and Cultural issues
-moral, ethical, environmental and cultural implications. Read stuff and talk about it.
+Moral, ethical, environmental and cultural implications. Read stuff and talk about it. Most of the stuff below is general knowledge and is not in the spec.
 
-cover A01, A02, A03
+Cover A01, A02, A03
 
 ## Automation in the work force
 Computers are used to increase efficiency in the work force, mainly in manufacturing and repetitive jobs like store cashiers, or factory work. Also contributes to the rise in online shopping / services.
@@ -54,12 +54,33 @@ Automation in decision making means the application of alorithms to real life si
 - Used in application processes, CCTV security systems and recruitment
 - Algorithms inherently have biases, leading to decision making which discriminates, partucularly agaisnt already oppressed groups.
 - Driveless cars need to make difficult decisions about the value of human life, and there needs to be accountability for those desicions
-- Lethal Autonomous weapons - giving AI roles of power could hypothetically lead them to making unedcuated decisions costing lives. this is pretty much universally agreeded to be bad unless you are trying to start a nuclear war.
+- Lethal Autonomous weapons - giving AI roles of power could hypothetically lead them to making unedcuated decisions costing lives. This is pretty much universally agreeded to be bad unless you are trying to start a nuclear war.
 
 Some automated systems include drones carrying medial equipment and robot vacumm cleaners. When talking about these, consider the impact on societies culture these will have and what ethical considerations there are.
 
 ## Censorship, Collecting data and Privacy
 A whole mess
+
+### Malicious and offensive communications
+People use technology to keep connected regardless of location. The Malicious Communications Act 1988 punishes messages that might be indecent cause distress or be threatening. 
+
+Stalking and harasment are much easier because of:
+- Identities are easier to hide - the Internet provides a sense of anonymity
+- Missinformation can be spread and beleived at much faster speeds
+- Personal information is easy to aquire, even if you have no technical knowledge (buying email / irl addresses websites are a thing)
+
+### Collecting data
+Big Data is a large amount of data from a variety of sources. Used in data mining, AI and targeted advertising.
+
+Data on people is collected in several ways but for two main reasons: money and to detect crime. It can be collected, without the users consent under the investigatory powers act (2000)
+
+### Censorship
+Censorship is any kind of controlling of what people can view.
+- ISPs block content
+- Used in schools and work to restrict what websites can be viewed
+
+### Piracy
+Piracy is the illegal copying of software without regard for copyright laws.
 
 ## Accessibility
 Websites should be designed in accordance to the Equality Act (2010) to make sure content can be accessed by people with particular needs.
