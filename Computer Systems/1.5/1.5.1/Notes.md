@@ -19,7 +19,7 @@ The following activites are illegal
 TLDR outlaws malware
 
 ## Data Protection Act 1998
-Protects people rather the actual data. It give people the rights over thier personal data and regulate how organisations handle personal data. The Information Commissioners Office enforces the data protection act in the UK, reguates things independently, and gives legal advice. Consent is technically not necessary to store data.
+Protects people rather the actual data. It give people the rights over thier personal data and regulate how organisations handle personal data. The Information Commissioners Office enforces the data protection act in the UK, reguates things independently, and gives legal advice. Consent is technically not necessary to store data. Updated in 2018.
 
 Personal data must be
 - used fairly and lawfully
