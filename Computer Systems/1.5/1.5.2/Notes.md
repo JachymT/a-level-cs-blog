@@ -7,6 +7,7 @@ Cover A01, A02, A03
 Computers are used to increase efficiency in the work force, mainly in manufacturing and repetitive jobs like store cashiers, or factory work. Also contributes to the rise in online shopping / services.
 - reduces labour costs, reducing product prices
 - mostly replacing tedious and monotonous jobs
+- removes chance of human error
 - contributes to structural unemployment
 - leads to reduced income for people whose skills become less useful
 - Luddite Fallacy - in the long term technology lead to more new jobs being created than jobs lost
