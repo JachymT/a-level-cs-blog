@@ -37,7 +37,7 @@ Privacy - refers to the protection of someone's personal data
 
 Cofindetiality - refers to preventing unauthorised access to data
 
-## Regulation of Investigatory Powers Act 2000 (1984)
+## Regulation of Investigatory Powers Act 2000
 RIPA regulates surveillance and public investigation. Places limits on investigatory powers such as the government, the police, social media and ISPs. Updated to be the Investigatory Powers Act 2016. Since the orgional act many more organisation have been given rights to data. Arguably it is an invasion of privacy and is often misused.
 
 Public bodies with enough authority can:
