@@ -140,7 +140,7 @@ A hash function should:
   - therefore result in **few collisions** - where unique keys result in the same hash value 
   - and minimalise clustering - where the table gets filled up in common collision spots.
   - if every single value collided, every search would be a linnear search which defeats the point.
-- Be only one way (cannot be undone)
+- Be only one way (cannot be reversed)
 
 Hash tables are larger than the number of items in the table, optimally by about x1.33. The larger the number of postions in the array the more space is wasted, but the more free room the table has to store all the data with a lower chance of getting an collision. Fuller table = more chance of collisions (load factor)
 
