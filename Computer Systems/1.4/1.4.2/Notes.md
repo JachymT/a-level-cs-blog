@@ -117,7 +117,7 @@ class Node
 Prodecural implementation would just be using a 2D array passed to and from functions.
 
 ## Hash tables
-Hash tables are used in dictionaries and let data be found from a list in O(1) time. Hashing is used in database indexing, and storing passwords.
+Hash tables are used in dictionaries and let data be found from a list in O(1) time. Used whenever data needs to be frequently accessed, e.g in database indexing, storing passwords and caches.
 
 <img width="626" alt="hash table" src="https://user-images.githubusercontent.com/72783315/222905253-276df27e-f6a3-4f2d-a2c6-20fc0d532d21.png">
 
@@ -133,13 +133,14 @@ Hash function using a MOD:
 
 A hash function should:
 - return the same array position for the same key
+- give an output shorter in length than the input
 - be fast to compute
 - use little memory
 - have a uniform distribution of hash values (array positions)
   - therefore result in **few collisions** - where unique keys result in the same hash value 
   - and minimalise clustering - where the table gets filled up in common collision spots.
   - if every single value collided, every search would be a linnear search which defeats the point.
-- Also they are one way (cannot be undone easily)
+- Be only one way (cannot be undone)
 
 Hash tables are larger than the number of items in the table, optimally by about x1.33. The larger the number of postions in the array the more space is wasted, but the more free room the table has to store all the data with a lower chance of getting an collision. Fuller table = more chance of collisions (load factor)
 
