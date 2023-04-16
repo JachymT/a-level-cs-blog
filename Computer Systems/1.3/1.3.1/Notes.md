@@ -20,13 +20,18 @@ Advantages of lossless
 - origional file can be recovered
 
 ## Encryption
-Encryption is encoding data to make it harder to understand by anyone other than the intended recipient. When storing or sending **plain-text** (unscrambled) data it is encrypted into **cypher-text** and decrypted to be viewed again. Encryption keeps information secure and unreadable.
-
-Keys are typically 256 bits long, and with current computers would take lifetimes to brute force. Know as computational security, encryption relies on intractable algorithms - not being breakable in a reasonable amount of time without a key. The strength of security also depends on keeping the key safe in key exchange and the encryption algorithm.
-
-Both ways a key is used for the algorithm to work. In **symmetric** encryption the same key is used for encryption and decryption. The key needs to remain private and must be already know by the sender and receiver, or secretly shared through a key exchange.
-
-In asymmetric two keys are used, a private and a public key. The public key of the recipeint is used for encryption and the corresponding private key is used for decryption. Asymmetric encryption is also used to prove that you are the sender of a message, if you encrypt a message with your private key, only your public key can decrypt it.
+Encryption is encoding data to make it harder to understand by anyone other than the intended recipient. When storing or sending **plain-text** (unscrambled) data it is encrypted into **cypher-text** and decrypted to be viewed again. Encryption keeps information secure, unreadable and confidential. It is done with hash functions.
 
 [how hashing works](https://github.com/JachymT/a-level-cs-blog/blob/main/Computer%20Systems/1.4/1.4.2/Notes.md#hash-tables)
+
+Keys are typically 256 bits long, and with current computers would take lifetimes to brute force. Know as **computational security**, encryption relies on intractable problems - not being breakable in a reasonable amount of time without a key. Quantum computing makes a lot of this obsolete, so instead, quantum key distribution is being researched.
+
+In **symmetric** encryption the same key is used for encryption and decryption. The key needs to remain private and must be already know by the sender and receiver, or secretly shared through a key exchange which must also be secure.
+
+In **asymmetric** two keys are used, a private and a public key. The public key of the recipeint is used for encryption and the corresponding private key is used for decryption. Asymmetric encryption is also used for **sender authentication**. if you encrypt a message with your private key, only your public key can decrypt it, proving that you are the sender of a message.
+
+### Digital signatures and certificates
+A digital signature garantees the integrity of a message (that it hasn't been altered). A digital signiture is made by the sender with thier private key. If they then encrypt this with the origional message and send it, the recpeitan decrypt both the message and the signature, to check that they match. It can also include a timestamp. Emails use this so that if a message is tampered with, they'll be able to tell.
+
+A gigital certificates verifys the sender's identity and is issued by an official certificate authority. Browsers check the certificates of websites before they are visited, to make sure the IPs match, and the certificate is in date. The cerficitates use digital signatures to make sure they are genuine. Used by Transport Layer Security encryption protocol which is used in HTTPS.
 
