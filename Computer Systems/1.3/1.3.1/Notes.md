@@ -22,6 +22,8 @@ Advantages of lossless
 ## Encryption
 Encryption is encoding data to make it harder to understand by anyone other than the intended recipient. When storing or sending **plain-text** (unscrambled) data it is encrypted into **cypher-text** and decrypted to be viewed again. Encryption keeps information secure and unreadable.
 
+Keys are typically 256 bits long, and with current computers would take lifetimes to brute force. Know as computational security, encryption relies on ciphers not being breakable in a reasonable amount of time - . The strength of security also depends on keeping the key safe in key echnage and the encryption algorithm.
+
 Both ways a key is used for the algorithm to work. In **symmetric** encryption the same key is used for encryption and decryption. The key needs to remain private and must be already know by the sender and receiver, or secretly shared through a key exchange.
 
 In asymmetric two keys are used, a private and a public key. The public key of the recipeint is used for encryption and the corresponding private key is used for decryption. Asymmetric encryption is also used to prove that you are the sender of a message, if you encrypt a message with your private key, only your public key can decrypt it.
