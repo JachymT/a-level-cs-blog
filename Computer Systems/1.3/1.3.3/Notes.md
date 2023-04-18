@@ -76,7 +76,7 @@ Link Layer - connects devices through network hardware and data links. Connects 
 
 ![image](https://user-images.githubusercontent.com/72783315/196445137-b1aba957-4267-4493-b6d1-1ba2d6d27225.png)
 
-### Packet data
+## Packet data
 Packets are segments of data. They contain various information:
 
 **Header**
@@ -95,10 +95,22 @@ A TCP/IP packet could contain:
 
 ![image](https://user-images.githubusercontent.com/72783315/195106282-db91910e-dda6-413a-b8d3-fd2da0fafeec.png)
 
+## Network Switching
+netweork switching is sending data to some hardware component.
+
 ### Packet switching
-Data is sent over networks in small chunks called data packets / ip packets. Packets are treated individualy and can travel across any route. Routers are responsible for directing packets along the best route. For example if a router fails the packts just go around it. At the destination the packets are assembled and any missing packets are requested. 
+One method of packet switching is packet switching. Data is sent over networks in small chunks called data packets / ip packets. Packets are treated individualy and can travel across any route. Routers are responsible for directing packets along the best route. For example if a router fails the packts just go around it. At the destination the packets are assembled and any missing packets are requested. 
 
 The header of the packet contains information that the routers need for packet switching (see above).
+
+### Network Switching
+
+https://teachcomputerscience.com/packet-and-circuit-switching/
+https://teachcomputerscience.com/packet-and-circuit-switching/
+https://teachcomputerscience.com/packet-and-circuit-switching/
+https://teachcomputerscience.com/packet-and-circuit-switching/https://teachcomputerscience.com/packet-and-circuit-switching/https://teachcomputerscience.com/packet-and-circuit-switching/https://teachcomputerscience.com/packet-and-circuit-switching/
+
+https://teachcomputerscience.com/packet-and-circuit-switching/
 
 ### Network Performace
 Network traffic causes latency - packets build up in the switch / routers memory and take longer to arrive. Latency (delay), error rate (how many packets get lost) and bandwidth (speed of transfer - affected by the transmission medium, e.g. fibreoptic cable.) all affect network performance.
