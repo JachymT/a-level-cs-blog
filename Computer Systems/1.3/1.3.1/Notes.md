@@ -22,7 +22,7 @@ Advantages of lossless
 ## Encryption
 Encryption is a two way fucntion that encodes data to make it harder to understand by anyone other than the intended recipient. When storing or sending **plain-text** (unscrambled) data it is encrypted into **cypher-text** and decrypted to be viewed again. Encryption keeps information secure, unreadable and confidential. It is done with hash functions.
 
-Hashing maps an input to a string of a same length each time. Used to authenticate an origional message or as checksum. Unlike encryption is it one-way and not used for storing data securely. Hashing gives a hash value or digest. [how hashing works](https://github.com/JachymT/a-level-cs-blog/blob/main/Computer%20Systems/1.4/1.4.2/Notes.md#hash-tables)
+**Hashing** maps an input to a string of a same length each time. Used to authenticate an origional message or as checksum. Unlike encryption is it one-way and not used for storing data securely. Hashing gives a hash value or digest. [how hashing works](https://github.com/JachymT/a-level-cs-blog/blob/main/Computer%20Systems/1.4/1.4.2/Notes.md#hash-tables)
 
 Keys are typically 256 bits long, and with current computers would take lifetimes to brute force. Know as **computational security**, encryption relies on intractable problems - not being breakable in a reasonable amount of time without a key. Quantum computing makes a lot of this obsolete, so instead, quantum key distribution is being researched.
 
@@ -30,10 +30,10 @@ In **symmetric** encryption the same key is used for encryption and decryption. 
 
 In **asymmetric** two keys are used, a private and a public key. The public key of the recipeint is used for encryption and the corresponding private key is used for decryption. Asymmetric encryption is also used for **sender authentication**. if you encrypt a message with your private key, only your public key can decrypt it, proving that you are the sender of a message.
 
-A salt is when random data is added to the input of hash function to increase complexity and to get a unique hash. Commonly used in stopring passwords to give better protection against brute forece attacks and store now decrypt later. [blog that goes into salting](https://www.thesslstore.com/blog/difference-encryption-hashing-salting/)
+A **salt** is when random data is added to the input of hash function to increase complexity and to get a unique hash. Commonly used in stopring passwords to give better protection against brute forece attacks and store now decrypt later. [blog that goes into salting](https://www.thesslstore.com/blog/difference-encryption-hashing-salting/)
 
 ### Digital signatures and certificates
 A digital signature garantees the integrity of a message (that it hasn't been altered). A digital signiture is made by the sender with thier private key. If they then encrypt this with the origional message and send it, the recpeitan decrypt both the message and the signature, to check that they match. It can also include a timestamp. Emails use this so that if a message is tampered with, they'll be able to tell.
 
-A gigital certificates verifys the sender's identity and is issued by an official certificate authority. Browsers check the certificates of websites before they are visited, to make sure the IPs match, and the certificate is in date. The cerficitates use digital signatures to make sure they are genuine. Used by Transport Layer Security encryption protocol which is used in HTTPS.
+A digital certificates verifys the sender's identity and is issued by an official certificate authority. Browsers check the certificates of websites before they are visited, to make sure the IPs match, and the certificate is in date. The cerficitates use digital signatures to make sure they are genuine. Used by Transport Layer Security encryption protocol which is used in HTTPS.
 
