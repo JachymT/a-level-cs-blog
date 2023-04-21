@@ -26,7 +26,7 @@ Encryption is a two way fucntion that encodes data to make it harder to understa
 
 Keys are typically 256 bits long, and with current computers would take lifetimes to brute force. Know as **computational security**, encryption relies on intractable problems - not being breakable in a reasonable amount of time without a key. Quantum computing makes a lot of this obsolete, so instead, quantum key distribution is being researched.
 
-In **symmetric** encryption the same key is used for encryption and decryption. The key needs to remain private and must be already know by the sender and receiver, or secretly shared through a key exchange which must also be secure.
+In **symmetric** encryption the same key is used for encryption and decryption. The key needs to remain private and must be already know by the sender and receiver, or secretly shared through a **key exchange** which must also be secure.
 
 In **asymmetric** two keys are used, a private and a public key. The public key of the recipeint is used for encryption and the corresponding private key is used for decryption. Asymmetric encryption is also used for **sender authentication**. if you encrypt a message with your private key, only your public key can decrypt it, proving that you are the sender of a message.
 
