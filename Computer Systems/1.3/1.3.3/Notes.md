@@ -96,21 +96,15 @@ A TCP/IP packet could contain:
 ![image](https://user-images.githubusercontent.com/72783315/195106282-db91910e-dda6-413a-b8d3-fd2da0fafeec.png)
 
 ## Network Switching
-netweork switching is sending data to some hardware component.
+Network switching is sending data to some hardware component. Data travels over switches or routers.
 
 ### Packet switching
-One method of packet switching is packet switching. Data is sent over networks in small chunks called data packets / ip packets. Packets are treated individualy and can travel across any route. Routers are responsible for directing packets along the best route. For example if a router fails the packts just go around it. At the destination the packets are assembled and any missing packets are requested. 
+One method of network switching is packet switching. Data is sent over networks in small chunks called data packets / ip packets. Packets are treated individualy and can travel across any route. Routers are responsible for directing packets along the best route. For example if a router fails the packts just go around it. At the destination the packets are assembled and any missing packets are requested. 
 
 The header of the packet contains information that the routers need for packet switching (see above).
 
-### Network Switching
-
-https://teachcomputerscience.com/packet-and-circuit-switching/
-https://teachcomputerscience.com/packet-and-circuit-switching/
-https://teachcomputerscience.com/packet-and-circuit-switching/
-https://teachcomputerscience.com/packet-and-circuit-switching/https://teachcomputerscience.com/packet-and-circuit-switching/https://teachcomputerscience.com/packet-and-circuit-switching/https://teachcomputerscience.com/packet-and-circuit-switching/
-
-https://teachcomputerscience.com/packet-and-circuit-switching/
+### Circuit Switching
+Packet switching with a built in direction for the data to travel; it has a physical route. Requires a dedicated channel to be established and held for the connection. Used for phone calls, as it same connection is held after the phone call is dropped.
 
 ### Network Performace
 Network traffic causes latency - packets build up in the switch / routers memory and take longer to arrive. Latency (delay), error rate (how many packets get lost) and bandwidth (speed of transfer - affected by the transmission medium, e.g. fibreoptic cable.) all affect network performance.
