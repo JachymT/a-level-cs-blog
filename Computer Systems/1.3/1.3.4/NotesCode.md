@@ -104,7 +104,7 @@ background-color      /* named colors and hex colors */
 border-color
 border-style
 border-width
-font-family           /* references fonts */
+font-family           /* affects text */
 font-size
 color
 height
