@@ -28,7 +28,7 @@ links fields in relational databases
 ```SQL
 WHERE field = false
 ```
-where should be followed by search criteria
+where should be followed by search criteria, always use single equals sign
 
 ```SQL
 DELETE FROM Table
