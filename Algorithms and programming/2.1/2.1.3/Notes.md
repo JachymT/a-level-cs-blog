@@ -16,6 +16,7 @@ Read from left to write no matter what, dont take into account levels.
 - Increases maintainability - new modules can be added easily
 - Increases readability - easier to follow
 - Modules can be shared between team members
+- Different modules can be developed at the same time
 - reliable
 
 ## Disadvantages
