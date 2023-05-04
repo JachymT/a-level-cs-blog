@@ -64,7 +64,7 @@ Work by flowing electricity forcing electrons into a floating gate between two o
  - Large capacity
  - No moving parts to break - more durable
  - Perfect for storing frequently read programs such as the OS and other small programs.
- - Mostly Random access? All locations take the same amount of time? research.
+ - Random access. All locations take the same amount of time to access, so it does not matter whether data is stored sequentially or not. 
  
 ### Negatives
  - Oxide layers will eventually deteriorate - limited read/writes
