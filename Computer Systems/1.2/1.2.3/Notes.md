@@ -11,8 +11,6 @@ Advantages
 - Easy to manage the projects because of the rigidity of the model
 - Timescales are easy to keep to - easy to know if you are ahead or behind
 - Saves time over the other methods
-- effective for smaller projects
-- effective when there is a clear objective/ vision
 
 Disadvantages
 - Not applicable to projects that demand continuous maintenance
@@ -21,23 +19,12 @@ Disadvantages
 - costly
 - slow
 
+For
+- effective at any scale of project
+- projecrts with a clear objective/ vision/ requirements
+- for low risk projects 
+
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method2.png" height="500">
-
-### Rapid Application Development
-Building prototypes of the software after another untill a final product is reached. This method very effectively utilizes user feedback to iterate improvements and each prototype can be tested heavily and imporovements suggested. Can not really be classified under agile.
-
-Advantages
-- each loop is short - allowing for projects to change to mathc new requirements or feedback 
-- active user participation and feedback in the development process
-- good for interactive systems
-- moldable and easily changeable
-
-Dissadvantages
-- less apilcable and managable with a large scale team, since its so quickly changing
-- requires lots of communicataion, ideally locally based
-- requires a stable team with highly skilled developers,
-
-<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method3.png" height="500">
 
 ### The Spiral Method
 A risk driven model which works by adapting and generating a path to solve a project based on its risks. It ussualy starts with determining objectives, then identifying and resolving risks, then developing and testing, then evaluating and planning the next iteration in the spiral.
@@ -59,13 +46,33 @@ Disadvantages
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method4.png" height="500">
 
+### Rapid Application Development
+Building prototypes of the software after another untill a final product is reached. This method very effectively utilizes user feedback to iterate improvements and each prototype can be tested heavily and imporovements suggested. Comes after waterfall but before agile
+
+Advantages
+- each loop is short - allowing for projects to change to mathc new requirements or feedback 
+- active user participation and feedback in the development process
+- moldable and easily changeable requirements
+
+Dissadvantages
+- less apilcable and managable with a large scale team, since its so quickly changing
+- requires lots of communicataion, ideally locally based
+- requires a stable team with highly skilled developers - scales badly
+
+For
+- interactive systems
+- initial requirements do not need to be know
+
+<img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method3.png" height="500">
+
 ### Agile methodologies
-A group of methodologies succeeding RAD. They focus on achieving goals with iterative development as to solve the problem of ideas changing during development. These methods are refined by spliting iterations into sprints, which are short periods of time dedicated to focusing on one small goal. These are repeated, each time focusisng on another part of the project untill the final product is made.
+A group of methodologies succeeding RAD. They focus on achieving goals with iterative development as to solve the problem of ideas changing during development. These methods are refined by spliting iterations into sprints, which are short periods of time dedicated to focusing on one small goal. These are repeated, each time focusisng on another part of the project untill the final product is made. Is often paired with extreme programing ideas.
 
 Advantages
 - adaptive and non linnear, stages don't have to be well defined
 - rapid, continuous delivery of software
 - communication and constant feedback from customer representatives
+- focus on quality of code
 
 Disadvantages
 - requires educated decision making
@@ -77,10 +84,9 @@ Disadvantages
 A framework for producing high quality code and encourage developer statisfaction, in particular: simplicity, communication, feedback, courage and respect. It is an agile framework, so small regular software releases are expected. Team work and equality are valued.
 
 Advantages
-- allows greater flexibility within the modeling process
 - saves time on delivery
 - solve problems through discussions
-- mostly much cheaper than other methods
+- leads to happier and more productive teams
 
 Disadvantages
 - can lack design ideas and focus on only code
