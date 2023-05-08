@@ -7,16 +7,19 @@ There are 5 main approaches when working on a software development project, asls
 Involves cascading from one stage in development to another, where each stage is clearly seperated and identifyable. One stage is finished before the next is started and in some cases going back to the previous stage can happen when re-assesing and re-working a project. Aims to reduce changes requirements during development, goals are clearly stated from the start.
 
 Advantages
-- Very simple and easy to understand
+- Linnear - Very simple and easy to understand
 - Easy to manage the projects because of the rigidity of the model
 - Timescales are easy to keep to - easy to know if you are ahead or behind
 - Saves time over the other methods
 - effective for smaller projects
+- effective when there is a clear objective/ vision
 
 Disadvantages
 - Not applicable to projects that demand continuous maintenance
-- Cannot include clients feedback whilst on going
-- no option to know the end result of the entire project
+- Not many ways to backtrack to a previous stage
+- There won't be a working portotype untll near the end of the project
+- costly
+- slow
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method2.png" height="500">
 
