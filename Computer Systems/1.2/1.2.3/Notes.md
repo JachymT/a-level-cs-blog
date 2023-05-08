@@ -56,7 +56,7 @@ Disadvantages
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method4.png" height="500">
 
 ### Agile methodologies
-A group of methodologies steming from RAD. They focus of achieving goals with iterative development as to solve the problem of ideas changing during development. These methods are refined by spliting iteration into sprints, which are short periods of time decicating to focusing on one small goal. These are repeated, each time focusisng on another part of the project untill the final product is made.
+A group of methodologies succeeding RAD. They focus on achieving goals with iterative development as to solve the problem of ideas changing during development. These methods are refined by spliting iterations into sprints, which are short periods of time dedicated to focusing on one small goal. These are repeated, each time focusisng on another part of the project untill the final product is made.
 
 Advantages
 - adaptive and non linnear, stages don't have to be well defined
