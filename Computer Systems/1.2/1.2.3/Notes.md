@@ -27,14 +27,15 @@ Disadvantages
 Building prototypes of the software after another untill a final product is reached. This method very effectively utilizes user feedback to iterate improvements and each prototype can be tested heavily and imporovements suggested. Can not really be classified under agile.
 
 Advantages
-- accelerates the entire software development process
+- each loop is short - allowing for projects to change to mathc new requirements or feedback 
 - active user participation and feedback in the development process
 - good for interactive systems
 - moldable and easily changeable
 
 Dissadvantages
 - less apilcable and managable with a large scale team, since its so quickly changing
-- requires lots of communicataion
+- requires lots of communicataion, ideally locally based
+- requires a stable team with highly skilled developers,
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/method3.png" height="500">
 
