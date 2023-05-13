@@ -10,7 +10,7 @@ Operating systems are an example of systems software
 ![image](https://user-images.githubusercontent.com/72783315/171154482-c03a085c-de13-4325-afba-ca7628ef2440.png)
 
 ### Managing Peripherals
-All hardware needs to comunicate with the computer and it cannot do this without a device driver. Inputs and outputs are translated by the driver so that the OS can process requests from the device. For example keyboards and mice need to give inputs to the computer and have custom settings to do so.
+Device drivers are used to communicate with and control hardware. Inputs and outputs are translated by the driver so that the OS can process requests from the device and so the OS can send commands as specific instructions, by having the device driver acts as an interface between the two. For example keyboards and mice need to give inputs to the computer and have custom settings to do so.
 
 The peripheral management software calls a device driver, which manages the specific device.
 
