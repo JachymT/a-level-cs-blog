@@ -135,7 +135,7 @@ Fibre optic, Copper coaxel (cheaper, slower)
 ### Bridge
 Larger networks can be broken down into smaller networks and these are connected together using a Bridge. This can improve performance as each section has its own bandwidth. Usefull for splitting up / joing together a school network. Works at the data link layer.
 
-## Modem
+### Modem
 Modulates and demodulates electrical siganls so that they can be sent through different cables. Built into home network access devices. Also used to communicate with the ISP, translating analog signals to digital.
 
 ### Network diagram
