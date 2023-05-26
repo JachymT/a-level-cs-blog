@@ -196,5 +196,4 @@ Limitations
 - Weights can't be negative
 
 ### A*
-The A* algorithm is a more general dijkstra's algorithm used to find a specific node, and doesn't need to check all nodes in a graph. Performace is improved with a heuristic approach to better direct where the algorithm searches. Uses aproximate distance, for example using as the crow flies distances for aproximation. Imagine raises nodes up to make a hill going towards the node you want to find. For example if you want to drive to Edinburgh, you don't need to search any nodes to the south. 
-
+The A* algorithm is a more general dijkstra's algorithm used to find a specific node, and doesn't need to check all nodes in a graph. Performace is improved with a heuristic approach to better direct where the algorithm searches. Uses aproximate distance, for example using as the crow flies distances for aproximation. A* is useful because these aproximations are often very easy to find (a^2 + b^2 for an aproximate distance) and quickly remove unnecessary paths to take. For example image a map were nodes are on a hill, where the bottom of the hill is your destination and the opposite direction is up hill. A* Adds distance neede to travel based on how far away the node from the destination is, making the path of least resistence also be the "optimistic" or ideal route to the node.
