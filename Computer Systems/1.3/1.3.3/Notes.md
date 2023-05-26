@@ -113,7 +113,7 @@ Network traffic causes latency - packets build up in the switch / routers memory
 Home networks ussually just put all of these into one device. Also a switch is just a faster hub. Fibreoptics / other cables exist.
 
 ### Network Interface Card
-Usually built into the motherboard, the NIC is needed for connecting to a network. Assigns a unique MAC address to the device
+Usually built into the motherboard, the NIC is needed for connecting to a network. Assigns a unique MAC address to the device. Can be for a wired network, wireless or both.
 
 ### Router
 Allows for connection to other networks (the internet). Checks, sends and recieves packets meaningfully to reduce traffic.
