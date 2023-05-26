@@ -127,7 +127,7 @@ Gateways can also be used as proxy servers or firewalls.
 Allows Wi-Fi devices to connect to a wired network.
 
 ### Switch
-Connects devices together Directs the flow of data in a Network, the centre of a network, and sends data to the individual devices.
+Connects devices together Directs the flow of data in a Network, the centre of a network, and sends data to the individual devices. Better than a hub because data is only forwarded to the receiving device, instead of to all the devices.
 
 ### Cables
 Fibre optic, Copper coaxel (cheaper, slower)
