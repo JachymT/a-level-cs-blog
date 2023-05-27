@@ -1,7 +1,7 @@
 # Data structures
 
 ## Arrays
-An array in an **ordered**, **static**, of elements of a **single type**, in a **contiguous** area of memory. They allow for indexing and using values under a single identifier.
+An array in an **indexed**, **static**, **contiguous** area of memory, with elements of a **single type**. They allow for indexing and using values under a single identifier.
 
 You do not need to use an equals sign for declaring arrays in pseudocode. Identifiers are baked in when declaring
 
