@@ -11,7 +11,7 @@ The architecture used by little man computer. The fetch decode execute cycle fol
 
 ![image](https://github.com/JachymT/a-level-cs-blog/assets/72783315/7db2abc9-29a5-4015-9eb6-a56c132f733d)
 
-[image from](https://diveintosystems.org/book/C5-Arch/von.html)
+[image from https://diveintosystems.org/book/C5-Arch/von.html](https://diveintosystems.org/book/C5-Arch/von.html)
 
 ## Harvard
 
