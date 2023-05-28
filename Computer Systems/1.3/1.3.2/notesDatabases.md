@@ -101,11 +101,13 @@ Normalisation is the process of making the best possible design for a database. 
 - There must be no repeating attributes or grouped attributes
 
 ### 2NF
+*attributes must depend on the whole key*
 - Table already be in 1NF
 - Must contain no partial dependencies (functional dependencies of non-prime attributes on candidate keys)
 - eg. If there is a composite key there could be a partial dependancy on one of them.
 
 ### 3NF
+*attributes must depend on the nothing but the key*
 - Table already be in 2NF
 - Must contain no non-key dependencies, also know as transitive functional dependencies
 - All attributes are dependent on the primary key
