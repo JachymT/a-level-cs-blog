@@ -6,7 +6,7 @@ Attempts to protect an individual's or organisation's work by applying copyright
 
 Copyright expires after 25-70 years depending on the type of content. Alive owners of content can take legal action if someone breaches the act.
 
-Whilst copyright applies to all work, patents apply to **intellectual property** (ideas). This includes brand names, product designs symbols and imagery, inventions, and other things you can think into existence. Trademarks apply to indications of a company (like logos). The World Intellectual Property Organisation (WIPO) argues that intelectual property protection through laws for copyright, patents, trademarks and designs encourage competition and advancements in technology, and allows for profit from licensing, merchandising, sponsorships and other forms of revenue for buinesses. Capitalism am i right.
+Whilst copyright applies to all work, patents apply to **intellectual property** (ideas). This includes brand names, product designs symbols and imagery, inventions, and other things you can think into existence. Trademarks apply to indications of a company (like logos). The World Intellectual Property Organisation (WIPO) argues that intelectual property protection through laws for copyright, patents, trademarks and designs encourage competition and advancements in technology, and allows for profit from licensing, merchandising, sponsorships and other forms of revenue for buinesses. 
 
 ## Computer Misuse Act 1990
 Criminalises malicous access to computers. To access data you need permission to the data and the computer. Updated since release.
