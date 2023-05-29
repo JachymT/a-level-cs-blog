@@ -96,7 +96,7 @@ Piracy is the illegal copying of software without regard for copyright laws. The
 
 People should have rights over he content they create and pirating violate these rights and hurts the income of the people making the content. Music labels and streaming services need to enforce copyright to pay the artists. Piracy can also have a negative impact on people who use the content following its regulaations, such as the creators releasing thier work under more restictive licesing or making thier work more harder to aquire. 
 
-Acording to data from the *Online copyright infringement tracker survey* published by the UK Intellectual Property Office, piracy has remained mostly constant over the past decade, at around 20% for music. With reasons being cost, conveinience and availablity.
+Acording to data from the *Online copyright infringement tracker survey* published by the UK Intellectual Property Office, piracy has remained mostly constant over the past decade, at around 20% for music. With reasons being cost, conveinience and availablity. https://www.gov.uk/government/publications/online-copyright-infringement-tracker-survey-12th-wave/executive-summary-online-copyright-infringement-tracker-survey-12th-wave
 
 ## Accessibility
 Websites should be designed in accordance to the Equality Act (2010) to make sure content can be accessed by people with particular needs.
