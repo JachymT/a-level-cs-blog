@@ -56,7 +56,7 @@ All nodes connected. Wifi is a mesh.
 The internet is a network of networks allows for global communication between any connected devices.
 
 ### Protocols
-A protocol is a set of rules for procesing data, standardized across the internet to allow for communication.
+A protocols are sets of rules for procesing data, standardized across the internet to allow for communication between devices and so that signals are universally interpreted in the same way.
 - HTTP / HTTPS - For web page requests
 - TCP (Transmission Control Protocol) - Error checks transmitions, splits into packets
 - IP (Internet Protocol) - Routes packets over WAN
