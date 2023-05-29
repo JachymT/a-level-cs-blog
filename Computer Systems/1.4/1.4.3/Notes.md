@@ -4,6 +4,11 @@
 
 ![image](https://user-images.githubusercontent.com/72783315/221140764-a802ac9e-f70d-49ea-8810-21bb95094554.png)
 
+### Imporant ones (all the do with a something being done to a single backet)
+- De Morgan's law: to exapnd a negative bracket flip the operator.  ¬ (A ∧ ¬B) -> ¬A ∨ B
+- Distribution: expand backets between ANDs and OR and add backets to the pairs. A ∨ (B ∧ C) -> (A ∨ B) ∧ (A ∨ C)
+- Absoption when the operators are different and the letter outside is the same as one of the inside ones you can simplify to just the outside one. A ∧ (A ∨ ¬B) -> A
+
 ## Logic circuits
 
 ### Half Adder
