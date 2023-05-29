@@ -38,6 +38,6 @@ Flip flops take the value to be stored as an input and a clock signal (alternati
 
 () do operations inside brackets first. order of operations normally is to do the operatiosn around ORs first. Put brackets around anything which isnt a OR, basically just do ANDs first and it works.
 
-Groups inside Karnaugh maps must cover all 1s. Group rectangles in sizes of 1, 2, 4, 8 ... 2^n. Groups can overlap, wrap around and should be made in as few rectangles as possible. These can then be used to simplify the expression, which makes it easier to read and requires less physical hardware to make on a circuit board. Prioritise larger groups even if that means they overlap
+Groups inside Karnaugh maps must cover all 1s. Group rectangles in sizes of 1, 2, 4, 8 ... 2^n. Groups can overlap, wrap around and should be made in as few rectangles as possible. These can then be used to simplify the expression, which makes it easier to read and requires less physical hardware to make on a circuit board. Prioritise larger groups even if that means they overlap, basically make the largest groups you can.
 
 ![image](https://user-images.githubusercontent.com/72783315/221143287-b06a5d28-aa5e-4b02-8f77-9b5c3a1f16c4.png)
