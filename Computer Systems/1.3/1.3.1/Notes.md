@@ -28,7 +28,7 @@ Keys are typically 256 bits long, and with current computers would take lifetime
 
 In **symmetric** encryption the same key is used for encryption and decryption. The key needs to remain private and must be already know by the sender and receiver, or secretly shared through a **key exchange** which must also be secure. Most often used when the same person will be encrypting and decoding, for example encrypting your files for storage.
 
-In **asymmetric** two keys are used, a private and a public key. The public key of the recipeint is used for encryption and the corresponding private key is used for decryption. Asymmetric encryption is also used for **sender authentication**. if you encrypt a message with your private key, only your public key can decrypt it, proving that you are the sender of a message.
+In **asymmetric** two keys are used, a private and a public key. The public key of the recipeint is used for encryption and the corresponding private key is used for decryption. Asymmetric encryption is also used for **sender authentication**. if you encrypt a message with your private key, only your public key can decrypt it, proving that you are the sender of a message. Nearly always used in data exchange and happens without specialist knowledge, e.g. making payments online with a credit card.
 
 A **salt** is when random data is added to the input of hash function to increase complexity and to get a unique hash. Commonly used in stopring passwords to give better protection against brute forece attacks and store now decrypt later. [blog that goes into salting](https://www.thesslstore.com/blog/difference-encryption-hashing-salting/)
 
