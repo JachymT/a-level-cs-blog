@@ -53,11 +53,12 @@ Advantages
 - each loop is short - allowing for projects to change to mathc new requirements or feedback 
 - active user participation and feedback in the development process
 - moldable and easily changeable requirements
+- focus on functionality not code quality
 
 Dissadvantages
-- less apilcable and managable with a large scale team, since its so quickly changing
-- requires lots of communicataion, ideally locally based
-- requires a stable team with highly skilled developers - scales badly
+- less applicable and managable with a large scale team, and developers must all be highly skilled?
+- requires lots of communicataion, and ideally a locally based team.
+- focus on functionality not code quality
 
 For
 - interactive systems
