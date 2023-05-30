@@ -38,16 +38,36 @@ AI is used in:
   - Every day use - chat bots, spellcheck
   - voice recognision
   - navigation
+  - surveilance and object recognision
   - pretty much anything execpt the things it can't do which is a lot of them
 
+Generative AI is anything that produces new content, for example ChatGPT, and DALL-E 2.
+
 ## AI law
-Laws should be promote the development of explanable, safe, ethical and useful AI without stifling growth or inovation. With the current growth of the field, it can be expected that laws will soon catch up. Companies have set up agreement to develop ethical AI, and steps have been taken to increase awareness and standards for AI. Overall, most approaches are cautious. 
+Laws should be promote the development of explanable, safe, ethical and useful AI without stifling growth or inovation. 
+
+It is important to say that the current leaders of the field are not being reckless, they are shoeing the current state of the technology to the world and in lots of cases calling for more regulations.
+
+With the current growth of the field, new laws and regulations are constantly being proposed and implemented to keep pace with technological advancements and address emerging challenges.
+
+On the whole AI safety is being taken seriously by governments companies and law makers.
+
+Misuse of AI could destabilise economies, and give authoritarial leaders power to manipulate. Other AI experts have warned about the long term rists of not considering AI saftey. Once it gets better at learning it will be able to learn simultaneously as a single sytem muhc faster than people can. Founders of AI and leaders of companies have said that AI should slow its development despite the short term benefits its provides. Its not that AI is being ethically developed right now, its that if it keeps developing it will reach existential heights.
+
+Despite the internets bad track record with self regulation, major companies have set up agreements about the development of AI. To what extent the AI feild is actaully being regulated i'm not sure but the major companies invensting in AI (Google, Microsoft, Amazon, Meta, ...) are aproaching it cautiously are keeping AI ethical and taking steps to increase awareness and standards for AI.
+
+Current laws in place
 - General Data Protection Act of 2018 builds on the Data Protection Act of 1998. It includes a clause about AI - 'Right to explaination'.
 - Canada passed AI legislation in 2022 to regulate how data is handled by AI and to encourage responsible AI development.
-- 
+- Brazil has similar data laws in place
+- China has more laws in place about newer AI
 
+### The AI EU Act
+Proposed in 2022, the act aims to set global standards for AI. It will categorise AI inot three main categories based on risk: minimal (e.g video game AI), limited (e.g chatbots), high (e.g hiring for jobs) and unnacceptable (e.g social score systems, and mass public biometric identification). The act is planned to be approved by the end of 2023.
 
+Issues with the act include how to categorise the AI, since missing some parts of AI - or AI that has not been developed - will make the law have loopholes in the future
 
+The aim is for harm to be mitigated and for inovation to not be stifled in the process.
 
 ## Automation in decision making
 Automation in decision making means the application of alorithms to real life situations. The biggest example is probably in social media, where peoples interests and information is collected to feed them targeted ads. If any situations are not considered by the person designing the computer program, or comptuers are left to make their own rules, the equality and safety of people can be put in danger.
