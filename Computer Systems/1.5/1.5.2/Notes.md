@@ -40,7 +40,14 @@ AI is used in:
   - navigation
   - pretty much anything execpt the things it can't do which is a lot of them
 
-AI law has not caught up to AI yet; EU and Brazil have proposed frameworks to restrict high risk AI like social scoring and applicant ranking.
+## AI law
+Laws should be promote the development of explanable, safe, ethical and useful AI without stifling growth or inovation. With the current growth of the field, it can be expected that laws will soon catch up. Companies have set up agreement to develop ethical AI, and steps have been taken to increase awareness and standards for AI. Overall, most approaches are cautious. 
+- General Data Protection Act of 2018 builds on the Data Protection Act of 1998. It includes a clause about AI - 'Right to explaination'.
+- Canada passed AI legislation in 2022 to regulate how data is handled by AI and to encourage responsible AI development.
+- 
+
+
+
 
 ## Automation in decision making
 Automation in decision making means the application of alorithms to real life situations. The biggest example is probably in social media, where peoples interests and information is collected to feed them targeted ads. If any situations are not considered by the person designing the computer program, or comptuers are left to make their own rules, the equality and safety of people can be put in danger.
@@ -52,6 +59,8 @@ Automation in decision making means the application of alorithms to real life si
 **Ethical bias** comes from algorithmic bias. It could be from a not diverse enough data set, or an ambigious problem.
 
 Some automated systems include drones carrying medial equipment and robot vacumm cleaners. When talking about these, consider the impact on societies culture these will have and what ethical considerations there are.
+
+UK law currently has systems in place that allow customers to have any decisions made by an automated process be reviewed by a human, for example for a loan or job applicaiton. 
 
 ## Environmental Effects
 The more widly accessible technology is, the more it is produced and the more waste that gets thrown out. 
