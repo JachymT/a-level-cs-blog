@@ -27,7 +27,7 @@ WHERE field = false
 
 in used same as python, can replace using lots of `AND`s
 ```SQL
-WHERE field IN [1,2]
+WHERE field IN (1,2)
 ```
 
 LIKE is used for wildcards. `*` and  `%` replace any amount of characters, `_` and `?`replace a single character when querying.
