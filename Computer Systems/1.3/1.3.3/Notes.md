@@ -104,7 +104,7 @@ One method of network switching is packet switching. Data is sent over networks 
 The header of the packet contains information that the routers need for packet switching (see above).
 
 ### Circuit Switching
-Packet switching with a built in direction for the data to travel; it has a physical route. Requires a dedicated channel to be established and held for the connection. Used for phone calls, as it same connection is held after the phone call is dropped.
+Packet switching with a built in direction for the data to travel; it has a physical route. Requires a dedicated channel to be established and held for the connection. Used for phone calls, as it same connection is held after the phone call is dropped. Since the communcations path is only between the two devices, it is more secure than packet switching.
 
 ### Network Performace
 Network traffic causes latency - packets build up in the switch / routers memory and take longer to arrive. Latency (delay), error rate (how many packets get lost) and bandwidth (speed of transfer - affected by the transmission medium, e.g. fibreoptic cable.) all affect network performance.
