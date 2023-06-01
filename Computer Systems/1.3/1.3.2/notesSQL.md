@@ -25,7 +25,7 @@ where should be followed by search criteria, always use single equals sign
 WHERE field = false
 ```
 
-in used same as python, can replace using lots of `AND`s
+in used same as python, can replace using lots of `OR`s
 ```SQL
 WHERE field IN (1,2)
 ```
