@@ -63,7 +63,7 @@ Current laws in place
 - China has more laws in place about newer AI
 - major companies in AI (Google, Microsoft, Amazon, Meta, ...) have set up agreements to keep AI ethical developement ethical and are taking steps to increase awareness and standards for AI.
 
-### The AI EU Act
+### The AI EU Act case study
 Proposed in 2022, the act aims to set global standards for AI. It will categorise AI inot three main categories based on risk: minimal (e.g video game AI), limited (e.g chatbots), high (e.g hiring for jobs) and unnacceptable (e.g social score systems, and mass public biometric identification). The act is planned to be approved by the end of 2023.
 
 Issues with the act include how to categorise the AI, since missing some parts of AI - or AI that has not been developed yet - could introduce loopholes in the future.
@@ -87,12 +87,17 @@ The more widly accessible technology is, the more it is produced and the more wa
 - Computer parts are sometimes shipped to 3rd world countries with fewer environmental protection laws.
 - Engery consuption emits greenhouses, contribuiting to global warming and reducing biodiversity in the long term.
 
-EU charging cabble laws is a good case study for this section. (citation needed)
-
 Technology is used in lots of ways to benefit the environment
 - energy monitering in homes to reduce power usage in real-time
 - Incentives to use smart vehives with less and more efficient fuel consumption / electric cars.
 - Uses in scientific research, satellites and monitering plant and animal life, and the effects of climate change on the ice caps.
+
+### EU charging cable law case study
+A factor that caused the European Commission to pass its common charger law in June of 2022 is the waste produced from charging cables. According to reasearch by the European Commission, 11,000 tonnes of charging cables go to waste every year.
+
+By the end of 2024 all smartphones (and other small sized devices) sold in Europe must use USB-C, and devices will not come with charing cables unless opted for. The law is future proofed for the day when UBS-C is replaced with a new standard.
+
+The law shows that E-waste is a significant issue and could force companies using propreitery technology to change to be more sustainable globally. Execessive production of electronic devices with the aim of locking consumers into a propreity system, when exisiting solutions exist, causes irreversable damadge to the environment.
 
 ## Malicious and offensive communications
 People use technology to keep connected regardless of location. The Malicious Communications Act 1988 punishes messages that might be indecent cause distress or be threatening. 
