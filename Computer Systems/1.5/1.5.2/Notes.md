@@ -95,7 +95,7 @@ Technology is used in lots of ways to benefit the environment
 ### EU charging cable law case study
 A factor that caused the European Commission to pass its common charger law in June of 2022 is the waste produced from charging cables. According to reasearch by the European Commission, 11,000 tonnes of charging cables go to waste every year.
 
-By the end of 2024 all smartphones (and other small sized devices) sold in Europe must use USB-C, and devices will not come with charing cables unless opted for. The law is future proofed for the day when UBS-C is replaced with a new standard.
+By the end of 2024 all smartphones (and other small sized devices) sold in Europe must use USB-C, and devices will not come with charing cables unless opted for. The law is future proofed for the day when UBS-C is replaced with a new standard. The re-use of charging cables will also same consumers money.
 
 The law shows that E-waste is a significant issue and could force companies using propreitery technology to change to be more sustainable globally. Execessive production of electronic devices with the aim of locking consumers into a propreity system, when exisiting solutions exist, causes irreversable damadge to the environment.
 
