@@ -63,7 +63,7 @@ Current laws in place
 - China has more laws in place about newer AI
 - major companies in AI (Google, Microsoft, Amazon, Meta, ...) have set up agreements to keep AI ethical developement ethical and are taking steps to increase awareness and standards for AI.
 
-### The AI EU Act case study
+### The EU AI Act case study
 Proposed in 2022, the act aims to set global standards for AI. It will categorise AI inot three main categories based on risk: minimal (e.g video game AI), limited (e.g chatbots), high (e.g hiring for jobs) and unnacceptable (e.g social score systems, and mass public biometric identification). The act is planned to be approved by the end of 2023.
 
 Issues with the act include how to categorise the AI, since missing some parts of AI - or AI that has not been developed yet - could introduce loopholes in the future.
