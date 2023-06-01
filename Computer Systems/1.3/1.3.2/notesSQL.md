@@ -2,15 +2,10 @@
 
 ## SQL from the Spec
 
-`AND` - add aditional search criteria
-
-`LIKE` - after a where, for queries 
-
-`IN` - after a where, for queries
-
-`(WILDCARDS)` - `* %` replace any amount of characters when querying,  `_ ?`replace a single character when querying
-
-`ODER BY` - select a field to oder by, defualt is `ASC` but `DESC` can be specified after
+```SQL
+ODER BY
+```
+select a field to oder by, defualt is `ASC` but `DESC` can be specified after
 
 ```SQL
 SELECT fields FROM Table
@@ -29,6 +24,16 @@ links fields in relational databases
 WHERE field = false
 ```
 where should be followed by search criteria, always use single equals sign
+
+```SQL
+WHERE field IN [1,2]
+```
+IN can replace using lots of `AND`s
+
+```SQL
+WHERE field LIKE 'S%'
+```
+LIKE is used for wildcards. `*` and  `%` replace any amount of characters, `_` and `?`replace a single character when querying.
 
 ```SQL
 DELETE FROM Table
