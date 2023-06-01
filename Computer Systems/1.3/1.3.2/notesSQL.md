@@ -2,62 +2,63 @@
 
 ## SQL from the Spec
 
+select a field to oder by, defualt is `ASC` but `DESC` can be specified after
 ```SQL
 ODER BY
 ```
-select a field to oder by, defualt is `ASC` but `DESC` can be specified after
 
+fields to be displayed from Table
 ```SQL
 SELECT fields FROM Table
 ```
-fields to be displayed from Table
 
+links fields in relational databases
 ```SQL
 FROM Table1
 JOIN Table2 
 ON 
 Table1.PrimaryKey = Table2.ForeignKey
 ```
-links fields in relational databases
 
+where should be followed by search criteria, always use single equals sign
 ```SQL
 WHERE field = false
 ```
-where should be followed by search criteria, always use single equals sign
 
+in used same as python, can replace using lots of `AND`s
 ```SQL
 WHERE field IN [1,2]
 ```
-IN can replace using lots of `AND`s
 
+LIKE is used for wildcards. `*` and  `%` replace any amount of characters, `_` and `?`replace a single character when querying.
 ```SQL
 WHERE field LIKE 'S%'
 ```
-LIKE is used for wildcards. `*` and  `%` replace any amount of characters, `_` and `?`replace a single character when querying.
 
+Deletes records that meet the condition set by a WHERE statement. If left blank deletes all records.
 ```SQL
 DELETE FROM Table
 ```
-Deletes records that meet the condition set by a WHERE statement. If left blank deletes all records.
 
+Inserts a new record into a table. value1 gets added to column1.
 ```SQL
 INSERT INTO Table (column1, column2, ect)
 VALUES (value1, value2, ect)
 ```
-Inserts a new record into a table. value1 gets added to column1.
 
+Updates data contained records. Must be met by the where condition to be set.
 ```SQL
 UPDATE Table
 SET Field = 'new value'
 WHERE Field = 'condition'
 ```
-Updates data contained records. Must be met by the where condition to be set.
 
+Deletes a table from the database and anything in it.
 ```SQL
 DROP TABLE Table
 ```
-Deletes a table from the database and anything in it.
 
+not in spec 
 ```SQL
 CREATE TABLE Table (
   id INTEGER PRIMARY KEY,
@@ -66,7 +67,6 @@ CREATE TABLE Table (
   quantity INTEGER
 )
 ```
-not in spec
 
 ## Writing
 `#dd/mm/yyyy` - format for querying dates
@@ -78,7 +78,7 @@ SELECT date, type
 FROM tblPlanted
 WHERE date BETWEEN (#dd/mm/yyyy AND #dd/mm/yyyy)
 AND type IN ('Pine','Spruce')
-ODER BY date
+ODER BY date ASC
 ```
 
 ### [not particluarly useful or comprehensive SQL learning site](https://sqlzoo.net/wiki/SQL_Tutorial)
