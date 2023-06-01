@@ -31,7 +31,12 @@ Personal data must be
 - kept secure to prevent loss or damage
 - not be transferred to a country or territory outside the European Economic Area that do not have adequate data protection
 
-Data subject - Person identified by personal data
+Data subject - the person identified by personal data - has the right to know about data being stored about them and the rights to
+- be informed how that data is being used
+- view, erase and update any data stored about them
+- stop or restrict the processing of their data
+- object to certain usage of thier data
+- have data portability (being able to move data between different data controllers/ companies, or be given back to you in a transferable format)
 
 Privacy - refers to the protection of someone's personal data
 
