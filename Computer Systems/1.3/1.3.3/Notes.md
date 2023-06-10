@@ -205,7 +205,7 @@ Authentication in a network is basically user access levels. Require a username 
 - Have unique, complex passwords
 - Learn to recognise phising - links that pretend to be from a trusted source but are fraudulant and can steal information.
 
-### Malicous software and methods of attack
+### Malicous software and network threats
 - Worms are self executing and self replicating. 
 - Viruses are self executing and infect other programs or data files with the users help.
 - A Trojan requires user help to install and cannot self-replicate.
