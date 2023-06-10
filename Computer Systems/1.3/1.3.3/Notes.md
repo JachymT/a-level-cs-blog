@@ -211,6 +211,3 @@ Authentication in a network is basically user access levels. Require a username 
 - A Trojan requires user help to install and cannot self-replicate.
 - DDOS overloads a sever with traffic
 - Spyware and keyloggers can record and send out users credentials, even ones saved in browser cache
-
-### Denial of Service
-DoS or Distributed Dos
