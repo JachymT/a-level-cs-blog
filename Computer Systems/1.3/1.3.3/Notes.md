@@ -203,9 +203,14 @@ Authentication in a network is basically user access levels. Require a username 
 - Updating the operating system and application programs reduce vulnerabilities in the system. 
 - Updating / Installing anti-malware (“anti-virus”) software
 - Have unique, complex passwords
-- Don't click on phishing links
+- Learn to recognise phising - links that pretend to be from a trusted source but are fraudulant and can steal information.
 
-### Malicous software
+### Malicous software and methods of attack
 - Worms are self executing and self replicating. 
 - Viruses are self executing and infect other programs or data files with the users help.
 - A Trojan requires user help to install and cannot self-replicate.
+- DDOS overloads a sever with traffic
+- Spyware and keyloggers can record and send out users credentials, even ones saved in browser cache
+
+### Denial of Service
+DoS or Distributed Dos
