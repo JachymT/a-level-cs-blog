@@ -41,7 +41,7 @@ AI is used in:
   - surveilance and object recognision
   - pretty much anything execpt the things it can't do which is a lot of them
 
-Generative AI is anything that produces new content, for example ChatGPT, and DALL-E 2.
+Generative AI is anything that produces new content, for example ChatGPT, and DALL-E 2. Current geenrative AI does not have the nuance or understanding for tasks such as a writing high quality essays, or giving advice to medical patients or potentially vunerable people. In the past, generative AI has given out of date information and dangerous advice when used as a medical chatbot.
 
 ## AI law
 Whilst the AI industry is self regulating to some extent, they are also putting more pressure on law makers (governments) to take AI safety seriously. With the current growth of the field, new laws and regulations are constantly being proposed and implemented to keep pace with technological advancements and address emerging challenges.
