@@ -24,20 +24,32 @@ AI is beign invested it in at a faster rate than ever before because of its abil
 - Requires an even geater amount of proccessing power,
   - which is increadibly harmful to the planet, wasting heat and using fossil fuels
   - and also is limited by the hardware the creator has access to
-- Cognitive biases that people have can appear in AI too. AI has been know to perpetuate existing prejudices.
+- Bias is easy to introduce and hard to spot and remove
 
-Bias is any kind of **systematic error**, it doesnt just have to be bigotry or prejudice. It could be **misreprentation** of reality in a set of data or just that the data set is too small (**insufficient**), or not properly formatted. **Prediction bias** is when the predicted output of an algorithm is far enough away from the actual real world output (a significant **algorithmic bias**). This means one output is favoured over another.
+### Bias
+Bias is any kind of **systematic error**, it doesnt just have to be bigotry or prejudice. **Algorithmic bias** is when some error in an algorithm causes it incorrectly favour one output over another. This leads to unfair, unintended outputs. The significance of an **algorithmic bias** can be quantified by looking at **prediction bias** - the error between a prediction and the real world output.
 
-An algorithm with an **algorithmic bias** (has some error between it and the real world), can also produce an **ethical bias**. Training data or algorithms can be ethically removed from a problem, but still lead to this bias, affecting important desicions. Problems arise when a decision is morally ambigous or an input is too varied (from a not diverse enough data set) for it to handle.
+Causes of algorithmic bias. The most obvious cause of algorithmic bias is data. When ML algorithms are trained on data, they will be fine tuned to that set of dat. Even if the training data is ethically removed from a problem (which it ussually is), it could lead to a bias. Furthermore an AI is not alwasy looking for a objective answer, and a decision could be morally ambigious or hard to calssiffy.
 
-When AI is explainable - developed in a way that lets you see how an AI comes to the decision it makes, it can be hugely beneficial, and can be used collaborativly with people.
+The data set could be
+- not diverse enough (does not represents all subsets of the data equally)
+- insufficient (too small)
+- be not properly formated / cleaned
+- have a pre-existing bias (is a misrepesent of reality)
 
+This all makes an AI inaccurate
+
+The consequences of bias in AI
+An algorithm with an **algorithmic bias** can produce an **ethical bias** or **social bias**. Cognitive biases that people have can appear in AI too. AI has been know to perpetuate existing prejudices.
+
+### Uses
 AI is used in:
   - Medical research
   - More efficient medical diagnosis
   - Every day use - chat bots, spellcheck
   - voice recognision
   - navigation
+  - search engines
   - surveilance and object recognision
   - pretty much anything execpt the things it can't do which is a lot of them
 
@@ -55,6 +67,8 @@ The current goals of AI laws are:
 - slow down AI development slightly, despite the short term benefits
 - avoid an existential catastrophy pretty much (unlikly, but its heading in that direction)
 - prevent unregulated use of AI on the internet to create disinformation
+
+When AI is **explainable** - developed in a way that lets you see how an AI comes to the decision it makes, it can be hugely beneficial, and can be used collaborativly with people.
 
 Current laws in place
 - General Data Protection Act of 2018 builds on the Data Protection Act of 1998. It includes a clause about AI - 'Right to explaination'.
