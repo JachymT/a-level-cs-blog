@@ -32,15 +32,17 @@ Bias is any kind of **systematic error**, it doesnt just have to be bigotry or p
 Causes of algorithmic bias. The most obvious cause of algorithmic bias is data. When ML algorithms are trained on data, they will be fine tuned to that set of dat. Even if the training data is ethically removed from a problem (which it ussually is), it could lead to a bias. Furthermore an AI is not alwasy looking for a objective answer, and a decision could be morally ambigious or hard to calssiffy.
 
 The data set could be
-- not diverse enough (does not represents all subsets of the data equally)
-- insufficient (too small)
-- be not properly formated / cleaned
-- have a pre-existing bias (is a misrepesent of reality)
+- **imblanaced** - not representing all subsets of the data equally
+- **insufficient** or not diverse enough - too small
+- not properly formated / cleaned
+- incorrect / have a pre-existing bias - be misrepesenting reality
+- using data that is categorised and sorted either by people or for people.
 
-This all makes an AI inaccurate
+These make an AI inaccurate
 
-The consequences of bias in AI
-An algorithm with an **algorithmic bias** can produce an **ethical bias** or **social bias**. Cognitive biases that people have can appear in AI too. AI has been know to perpetuate existing prejudices.
+An algorithm with an **algorithmic bias** can produce an **ethical bias** or **social bias**. Bias can enter into systems from pre-existing social, cultural and insitutional expectations, as well as from technical design flaws, or when the AI is used for a purpose outside what it was made for. When AI categories information in new ways it can lead to unexpected correlations and outcomes, (see automation in decision making). Cognitive biases in people have can appear in AI that they create, for example when choosing data , which is why it is important for people to take responsibilty and accountability for AI. Most commenly systematic and unfair discrimination is caused by an AI learning innacurate steriotypes about often already discriminted groups and perpetuating social and economic biases that it sees. For example, oftering single mothers higher interst rates based on credit card scores (again, see automation in decision making). When a group is underrepresned or represnted poorly in data, a biased algorthim could disregard data from that group, sucha as creating criteria that remove certain results. For example bias towards bananas could show them at the top of list of results for the search "fuits", and not show any oranges at all.
+
+Adidtionally, finding a bias is hard because algorithms are often propreitary and kept under warps and are often very complex, and take into account multiple inputs often processed by other algorithms (see explainable AI). Other than handing the training data better, bias can be removed throught the use of filters, however if these are not used correctly they could either be bypassed or introduce further bias.
 
 ### Uses
 AI is used in:
@@ -67,6 +69,7 @@ The current goals of AI laws are:
 - slow down AI development slightly, despite the short term benefits
 - avoid an existential catastrophy pretty much (unlikly, but its heading in that direction)
 - prevent unregulated use of AI on the internet to create disinformation
+- tackle algorithmic bias in AI, esspecially where it leads to prejudice
 
 When AI is **explainable** - developed in a way that lets you see how an AI comes to the decision it makes, it can be hugely beneficial, and can be used collaborativly with people.
 
