@@ -1,5 +1,5 @@
 # Software methodologies
-There are 5 main approaches when working on a software development project, aslso know as **Software Development Life Cycles**. The lifecycle of software development can be partitioned into phases, which together lead to a well thought out, functional and maintained solution.
+There are 5 main approaches when working on a software development project, also know as **Software Development Life Cycles**. The lifecycle of software development can be partitioned into phases, which together lead to a well thought out, functional and maintained solution.
 
 <img src="https://raw.githubusercontent.com/JachymT/a-level-cs-blog/main/Computer%20Systems/1.2/1.2.3/images/phases.png" height="500">
 
