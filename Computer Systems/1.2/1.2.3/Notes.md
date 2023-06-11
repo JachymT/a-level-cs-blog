@@ -11,6 +11,7 @@ Advantages
 - Easy to manage the projects because of the rigidity of the model
 - Timescales are easy to keep to - easy to know if you are ahead or behind
 - Saves time over the other methods
+- produces detailed documentation
 
 Disadvantages
 - Not applicable to projects that demand continuous maintenance
