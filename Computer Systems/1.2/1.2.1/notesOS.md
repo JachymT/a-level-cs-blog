@@ -12,7 +12,7 @@ Operating systems are an example of systems software
 ### Managing Peripherals
 Device drivers are used to communicate with and control hardware. Inputs and outputs are translated by the driver so that the OS can process requests from the device and so the OS can send commands as specific instructions, by having the device driver acts as an interface between the two. For example keyboards and mice need to give inputs to the computer and have custom settings to do so.
 
-The peripheral management software calls a device driver, which manages the specific device.
+The peripheral management software calls a device driver, which manages the specific device. Give printers as an example
 
 ### Utility programs
 Background and active helper programs that run on the software. Some utilities are key, and are loaded right away. Examples of Utility programs are:
