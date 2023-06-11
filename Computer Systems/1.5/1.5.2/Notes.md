@@ -19,7 +19,7 @@ AI is beign invested it in at a faster rate than ever before because of its abil
 - It can easily deceive, sounding confident when it knows very little.
   - This leads to missinformation being spread or people being convinved to do things the AI is making up.
 - Requires an increadible amount of data (**Big Data** keyword)
-  - This data can be stolen, unavailiable, incomplete
+  - This data can be inaccurate, unavailiable, incomplete
   - Not to mention the potential copyright infringement of using this data (copyright designs and patents act 1988)
 - Requires an even geater amount of proccessing power,
   - which is increadibly harmful to the planet, wasting heat and using fossil fuels
