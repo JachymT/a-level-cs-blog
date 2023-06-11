@@ -29,7 +29,7 @@ AI is beign invested it in at a faster rate than ever before because of its abil
 ### Bias
 Bias is any kind of **systematic error**, it doesnt just have to be bigotry or prejudice. **Algorithmic bias** is when some error in an algorithm causes it incorrectly favour one output over another. This leads to unfair, unintended outputs. The significance of an **algorithmic bias** can be quantified by looking at **prediction bias** - the error between a prediction and the real world output.
 
-Causes of algorithmic bias. The most obvious cause of algorithmic bias is data. When ML algorithms are trained on data, they will be fine tuned to that set of dat. Even if the training data is ethically removed from a problem (which it ussually is), it could lead to a bias. Furthermore an AI is not alwasy looking for a objective answer, and a decision could be morally ambigious or hard to calssiffy.
+The most obvious cause of algorithmic bias is data. When ML algorithms are trained on data, they will be fine tuned to that set of dat. Even if the training data is ethically removed from a problem (which it ussually is), it could lead to a bias. Furthermore an AI is not alwasy looking for a objective answer, and a decision could be morally ambigious or hard to classify.
 
 The data set could be
 - **imblanaced** - not representing all subsets of the data equally
