@@ -10,7 +10,7 @@ Computers are used to increase efficiency in the work force, mainly in manufactu
 - removes chance of human error
 - contributes to structural unemployment
 - leads to reduced income for people whose skills become less useful
-- Luddite Fallacy - in the long term technology lead to more new jobs being created than jobs lost
+- Luddite Fallacy - in the long term technology leads to more new jobs being created than jobs lost
 
 ## AI
 AI is beign invested it in at a faster rate than ever before because of its ability to replicate human learning, and to act autonomously (without human intervention). However, AI has some major pitfalls, which without understanding, can lead people into the trap of thinking it can replace human intelligence.
