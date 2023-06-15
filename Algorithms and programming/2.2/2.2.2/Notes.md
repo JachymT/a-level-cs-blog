@@ -36,9 +36,9 @@ Data mining is used for identifying patterns in large sets of data. Reveals unde
 Examples are: Neural networks, statistics and data science.
 
 ## Pipelining
-Pipelinig Breaks down a process into a series of subtasks. Output of one task feeds into the input of another task. Subtasks are dependent on each other, which can be a disadavantage. Pipelining also happens in multi core processors when using parallel processing (kind of idk, might be the same thing).
+Pipelinig Breaks down a process into a series of subtasks. Output of one task feeds into the input of another task. Subtasks are dependent on each other, which can be a disadavantage. Different from pipelining in multi core processors but based on the same concept.
 
-Examples are: Blocked, running and waiting states in a processor queue.
+Example: calculation 2 uses data from calculation 1.
 
 ## Backtracking
 Backtracking is used to move between options in a problem, going down decision routes. It works by backtracking if you reach a dead end to the last decision made. Uses recursive methods, and will methodically find all valid  / invalid options. Recursion, however, is slow for large problems.
